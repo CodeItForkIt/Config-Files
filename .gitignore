@@ -26,3 +26,5 @@ discord/*/modules/
 heroic/tools/eos_overlay/Win32/libcef.dll
 heroic/tools/eos_overlay/Win32/libcef.dll
 heroic/tools/eos_overlay/Win64/libcef.dll
+# Don't track nested git repos
+**/.git/
