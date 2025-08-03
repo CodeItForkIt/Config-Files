@@ -1,0 +1,35 @@
+{
+  "4ad17ed617f44a4dbf7e8a960484c619": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "enableWineWayland": false,
+    "enableHDR": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "verboseLogs": true,
+    "advertiseAvxForRosetta": false,
+    "wineVersion": {
+      "bin": "/usr/bin/wine",
+      "name": "Wine Default - wine-10.12 (Staging)",
+      "type": "wine",
+      "wineserver": "/usr/bin/wineserver"
+    },
+    "winePrefix": "/home/autometalogolex/Games/Heroic/Prefixes/default/Two Point Hospital",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

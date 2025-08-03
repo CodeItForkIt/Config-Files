@@ -1,0 +1,119 @@
+{
+  "app_name": "8f679cb5684c44b1aa3c45cd2a213fa2",
+  "app_title": "Twinmotion 2025.1.1",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "8f679cb5684c44b1aa3c45cd2a213fa2",
+      "asset_id": "8f679cb5684c44b1aa3c45cd2a213fa2",
+      "build_version": "RELEASE_WINDOWS_2025.1.42588035",
+      "catalog_item_id": "22b3fe13958b41a8b8c60d1d1a2d43f4",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "poodle",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "software"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2024-11-04T13:58:31.509Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "Twinmotion2025.1"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "false"
+      },
+      "PresenceID": {
+        "type": "STRING",
+        "value": "Twinmotion"
+      },
+      "SupportedPlatforms": {
+        "type": "STRING",
+        "value": "Windows, Mac"
+      },
+      "com.epicgames.app.developerName": {
+        "type": "STRING",
+        "value": "Epic Games"
+      },
+      "egs.library.display_version": {
+        "type": "STRING",
+        "value": "2025.1"
+      },
+      "notarizedandsigned": {
+        "type": "STRING",
+        "value": "true"
+      }
+    },
+    "description": "Twinmotion 2025.1",
+    "developer": "Epic Games",
+    "developerId": "o-aa83a0a9bc45e98c80c1b1c9d92e9e",
+    "endOfSupport": false,
+    "entitlementName": "22b3fe13958b41a8b8c60d1d1a2d43f4",
+    "entitlementStartDate": "2021-10-04T17:04:58.306Z",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "twin2"
+    ],
+    "id": "22b3fe13958b41a8b8c60d1d1a2d43f4",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1080,
+        "md5": "b8207b589015d291b065379b5c32d6b3",
+        "size": 1226547,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-02-18T13:51:41.342Z",
+        "url": "https://cdn1.epicgames.com/item/poodle/TM-dieselGameBox-1920x1080logo_1920x1080-c85752a35ef8f9f7f49d8eb5249991b95_1920x1080-b8207b589015d291b065379b5c32d6b3",
+        "width": 1920
+      },
+      {
+        "height": 1600,
+        "md5": "a75485ef338b2e9e587a59a7e7815161",
+        "size": 931968,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-02-18T13:52:26.182Z",
+        "url": "https://cdn1.epicgames.com/item/poodle/TM-DieselGameBoxTall-1200x1600logo_1200x1600-8ef8e0f3c9bc1c2ea60f4b2bd77351515_1200x1600-a75485ef338b2e9e587a59a7e7815161",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-04-15T13:05:17.858Z",
+    "mainGameItemList": [],
+    "namespace": "poodle",
+    "releaseInfo": [
+      {
+        "appId": "8f679cb5684c44b1aa3c45cd2a213fa2",
+        "compatibleApps": [],
+        "id": "a5ba5bb9495f44c09f306523d589611f",
+        "platform": [
+          "Windows",
+          "Mac"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Twinmotion 2025.1.1",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

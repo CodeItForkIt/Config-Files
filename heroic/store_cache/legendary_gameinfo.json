@@ -1,0 +1,112 @@
+{
+	"cd14dcaa4f3443f19f7169a980559c62": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fsid-meiers-civilization-vl%2Fhome%2FEGS_SidMeiersCivilizationVI_FiraxisGames_S2-860x1148-61e11c241a0ace459d14df2d7a4f2d9dc67ab8d7.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Firaxis Games",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "2K",
+			"description": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.\n\n# EXPANSIVE EMPIRES\n\nSee the marvels of your empire spread across the map like never before. Each city spans multiple tiles so you can custom build your cities to take full advantage of the local terrain.\n\n#  ACTIVE RESEARCH\n\nUnlock boosts that speed your civilization’s progress through history. To advance more quickly, use your units to actively explore, develop your environment, and discover new cultures.\n\n#  DYNAMIC DIPLOMACY\n\nInteractions with other civilizations change over the course of the game, from primitive first interactions where conflict is a fact of life, to late game alliances and negotiations.\n\n#  COMBINED ARMS\n\nExpanding on the “one unit per tile” design, support units can now be embedded with other units, like anti-tank support with infantry, or a warrior with settlers. Similar units can also be combined to form powerful “Corps” units.\n\n#  ENHANCED MULTIPLAYER\n\nIn addition to traditional multiplayer modes, cooperate and compete with your friends in a wide variety of situations all designed to be easily completed in a single session.\n\n#  A CIV FOR ALL PLAYERS\n\nCivilization VI provides veteran players new ways to build and tune their civilization for the greatest chance of success. New tutorial systems introduce new players to the underlying concepts so they can easily get started.\n",
+			"shortDescription": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.",
+			"title": "Sid Meier’s Civilization® VI",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "64bit: Win7 / Win8.1 / Win10",
+				"recommended": "64bit: Win7 / Win8.1 / Win10"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core i3 2.5 GHz or AMD Phenom II 2.6",
+				"recommended": "Fourth generation Intel Core i5 2.5 GHz or AMD FX8350 4.0 GHz or greater"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "4GB",
+				"recommended": "8GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "17 GB",
+				"recommended": "23 GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "DirectX",
+				"minimum": "11",
+				"recommended": "11"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "1GB DirectX 11 Video Card (AMD 5570, NVIDIA 450 or Intel Integrated Graphics 530",
+				"recommended": "2GB DirectX 11 Video Card (AMD 7970 or NVIDIA 770 or greater)"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/sid-meiers-civilization-vi"
+	},
+	"__timestamp": {
+		"cd14dcaa4f3443f19f7169a980559c62": "Fri Jul 25 2025 18:30:44 GMT-0700 (Pacific Daylight Time)",
+		"0f4a572a3c1541319db70c3737d3a123": "Wed Jul 30 2025 16:51:09 GMT-0700 (Pacific Daylight Time)"
+	},
+	"0f4a572a3c1541319db70c3737d3a123": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-twopointhospital-twopointstudios-s2-1200x1600-1a7b451c0213.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Two Point Studios",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "SEGA",
+			"description": "# Design and build your own hospital!\n\nBuild up a hospital from nothing to a masterpiece as you design the most beautiful – or functional – healthcare operation in the whole of Two Point County. \n\nOptimise your hospital design to increase patient (and cash) flow, arranging corridors, rooms and waiting areas to your exact specifications. Expand your hospital to multiple buildings as you look to get as many patients through the door as possible.\n\nPlace decorative and functional items around your hospital to improve its prestige, lower patient boredom, increase happiness and keep those end of year awards flowing in.\n\n# Cure unusual illnesses\n\nDon’t expect Two Point County to be populated with your usual types of patients. In this world, you’ll experience all kinds of unusual illnesses; from Light-headedness to Cubism – each requiring their very own special type of treatment machine. \n\nDiagnose illnesses, build the right rooms to handle them, hire the right staff, and then get ready, because curing just one of these illnesses is just the beginning. You can handle a single patient – but can you handle a Pandemic? \n\n# Improve and expand your hospital horizons!\n\nYour first hospital is where it begins, but what next? \n\nOnce you’ve cured the residents of a small harbour village, can you take on a bigger challenge in a busier hospital? \n\nImprove your facilities, upgrade machines, staff and layouts to make more money, more quickly. \n\nTrain and improve your staff, levelling them up with new skills and abilities to make your hospital even more efficient. \n\nMake use of the extensive statistic and information screens to analyse your strengths and weaknesses, and make rapid alterations. ",
+			"shortDescription": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.",
+			"title": "Two Point Hospital",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 7 64-bit",
+				"recommended": "Windows 10  64-bit"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core i3 6100 or AMD FX-4350",
+				"recommended": "Intel Core i5 6600 or AMD Ryzen 1600x"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "4GB",
+				"recommended": "8GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "6GB",
+				"recommended": "6GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Direct X",
+				"minimum": "11",
+				"recommended": "11"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/two-point-hospital"
+	}
+}

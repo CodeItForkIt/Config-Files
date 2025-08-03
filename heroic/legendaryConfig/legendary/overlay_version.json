@@ -1,0 +1,48 @@
+{
+  "data": {
+    "appName": "98bc04bc842e4906993fd6d6644ffb8d",
+    "buildVersion": "1.3.1++EOSSDK+Release-Overlay-CL-41331449-Windows",
+    "hash": "ae2c12ea53b4328aee0cb40f609f408219ef70e4",
+    "labelName": "Live-Windows",
+    "manifests": [
+      {
+        "queryParams": [
+          {
+            "name": "f_token",
+            "value": "1753919767_02143198312086ff76374127ef524ed9406b7c1f"
+          }
+        ],
+        "uri": "https://fastly-download.epicgames.com/Builds/EOS/OverlayCloudDir/x7pGnF2dOohMAgBCTkOU1BZ72V9mIw.manifest"
+      },
+      {
+        "queryParams": [
+          {
+            "name": "ak_token",
+            "value": "exp=1753919767~hmac=65ac8c7713fba2ba4ef1d7e36fe8e969c4fc6817facc1180eb44ae23084bedfe"
+          }
+        ],
+        "uri": "https://epicgames-download1.akamaized.net/Builds/EOS/OverlayCloudDir/x7pGnF2dOohMAgBCTkOU1BZ72V9mIw.manifest"
+      },
+      {
+        "queryParams": [
+          {
+            "name": "cf_token",
+            "value": "1753919767_0cf8d0dd0568b95e81f98da5c8f6d1caa294b695"
+          }
+        ],
+        "uri": "https://download.epicgames.com/Builds/EOS/OverlayCloudDir/x7pGnF2dOohMAgBCTkOU1BZ72V9mIw.manifest"
+      },
+      {
+        "queryParams": [
+          {
+            "name": "cfl_token",
+            "value": "1753919767-c%2FNH%2FQNYxe%2FXNjcZhTQj12dZ0hY7DDn2X4I86m8%2BQls%3D"
+          }
+        ],
+        "uri": "https://cloudflare.epicgamescdn.com/Builds/EOS/OverlayCloudDir/x7pGnF2dOohMAgBCTkOU1BZ72V9mIw.manifest"
+      }
+    ],
+    "useSignedUrl": false
+  },
+  "last_update": 1753919467.1903598
+}

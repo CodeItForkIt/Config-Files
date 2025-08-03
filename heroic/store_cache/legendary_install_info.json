@@ -1,0 +1,612 @@
+{
+	"Kinglet": {
+		"game": {
+			"app_name": "Kinglet",
+			"title": "Sid Meier's Civilization VI",
+			"version": "1.0.12.951533_nebraska_launcher_removal_Kinglet",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_launcher_removal_Kinglet"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": [
+				{
+					"app_name": "KingletAztec",
+					"title": "Civilization VI : Aztec DLC",
+					"installable": [
+						{
+							"id": "ed7d946319cb4a10a4574f47b5ff4029",
+							"appId": "KingletAztec",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "cd9e44a9d1b14b8d84923bb985bc1636"
+				},
+				{
+					"app_name": "KingletKhmerIndonesia",
+					"title": "Civilization VI : Khmer and Indonesia Civilization & Scenario Pack",
+					"installable": [
+						{
+							"id": "82bd0a6caf234cb6a2b2dc1746402474",
+							"appId": "KingletKhmerIndonesia",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "c107772e143246a3bca7b2a77f4b2d92"
+				},
+				{
+					"app_name": "KingletNubia",
+					"title": "Civilization VI : Nubia Civilization & Scenario Pack",
+					"installable": [
+						{
+							"id": "c9af5e883f5a49189d87fe666e353cb7",
+							"appId": "KingletNubia",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "5ee819c6403f417b8cc763c0b72e2c45"
+				},
+				{
+					"app_name": "KingletRiseAndFall",
+					"title": "Civilization VI : Rise and Fall",
+					"installable": [
+						{
+							"id": "7f1b610bb2ed4cdeb4a204fdabfdec81",
+							"appId": "KingletRiseAndFall",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "279c2ab64eb54a8d812b0c78198a382c"
+				},
+				{
+					"app_name": "KingletPoland",
+					"title": "Civilization VI : Poland Civilization & Scenario Pack",
+					"installable": [
+						{
+							"id": "4bcac51f13994a9fb4391416b298ef85",
+							"appId": "KingletPoland",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "2b2d819381174b5b8f0d51ff3fab34a5"
+				},
+				{
+					"app_name": "KingletVikingsScenario",
+					"title": "Civilization VI : Vikings Scenario Pack",
+					"installable": [
+						{
+							"id": "182d077fb5a54e779de49eec9ae37b7b",
+							"appId": "KingletVikingsScenario",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "f8fd3d710f494c9db50cb6fc35159ab0"
+				},
+				{
+					"app_name": "KingletGatheringStorm",
+					"title": "Civilization VI : Gathering Storm",
+					"installable": [
+						{
+							"id": "a047f2873e964be8b738c4ecf381f08d",
+							"appId": "KingletGatheringStorm",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "4736907992b24277b6444f7ad46cba6b"
+				},
+				{
+					"app_name": "KingletAustralia",
+					"title": "Civilization VI : Australia Civilization & Scenario Pack",
+					"installable": [
+						{
+							"id": "d5f81c5aa42843589647f21d276c2974",
+							"appId": "KingletAustralia",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "95f0590433f54febbb3ca6355dedc070"
+				},
+				{
+					"app_name": "KingletPersiaMacedon",
+					"title": "Civilization VI : Persia and Macedon Civilization & Scenario Pack",
+					"installable": [
+						{
+							"id": "e6a8f1ef80d44168b51469bc13b6cd09",
+							"appId": "KingletPersiaMacedon",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "6efd99a68c87411593bdde83dc559230"
+				}
+			]
+		},
+		"install": null,
+		"manifest": {
+			"size": 2472946,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "Kinglet",
+			"launch_exe": "Base/Binaries/Win64EOS/Civ6_Launcher.exe",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_launcher_removal_Kinglet",
+			"build_id": "_QogcxNAGSjlernvuGolJcQidPM",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 42065,
+			"num_chunks": 15914,
+			"disk_size": 19668360225,
+			"download_size": 10688502746,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"__timestamp": {
+		"Kinglet": "Fri Jul 25 2025 18:30:45 GMT-0700 (Pacific Daylight Time)",
+		"KingletAztec": "Fri Jul 25 2025 18:30:54 GMT-0700 (Pacific Daylight Time)",
+		"KingletKhmerIndonesia": "Fri Jul 25 2025 18:30:56 GMT-0700 (Pacific Daylight Time)",
+		"KingletNubia": "Fri Jul 25 2025 18:30:58 GMT-0700 (Pacific Daylight Time)",
+		"KingletRiseAndFall": "Fri Jul 25 2025 18:31:00 GMT-0700 (Pacific Daylight Time)",
+		"KingletPoland": "Fri Jul 25 2025 18:31:02 GMT-0700 (Pacific Daylight Time)",
+		"KingletVikingsScenario": "Fri Jul 25 2025 18:31:04 GMT-0700 (Pacific Daylight Time)",
+		"KingletGatheringStorm": "Fri Jul 25 2025 18:31:06 GMT-0700 (Pacific Daylight Time)",
+		"KingletAustralia": "Fri Jul 25 2025 18:31:07 GMT-0700 (Pacific Daylight Time)",
+		"KingletPersiaMacedon": "Fri Jul 25 2025 18:31:09 GMT-0700 (Pacific Daylight Time)",
+		"4ad17ed617f44a4dbf7e8a960484c619": "Wed Jul 30 2025 16:51:10 GMT-0700 (Pacific Daylight Time)"
+	},
+	"KingletAztec": {
+		"game": {
+			"app_name": "KingletAztec",
+			"title": "Civilization VI : Aztec DLC",
+			"version": "1.0.12.951533_nebraska_update1_KingletAztec",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletAztec"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 247,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletAztec",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletAztec",
+			"build_id": "Qm4WtUpzqZebQnH-pySO8HBUYcE",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 1,
+			"num_chunks": 1,
+			"disk_size": 233,
+			"download_size": 1287,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletKhmerIndonesia": {
+		"game": {
+			"app_name": "KingletKhmerIndonesia",
+			"title": "Civilization VI : Khmer and Indonesia Civilization & Scenario Pack",
+			"version": "1.0.12.951533_nebraska_update1_KingletKhmerIndonesia",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletKhmerIndonesia"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 17138,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletKhmerIndonesia",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletKhmerIndonesia",
+			"build_id": "lzILN3ilz0b9Cl7RN4owSsTXwM8",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 163,
+			"num_chunks": 167,
+			"disk_size": 174820405,
+			"download_size": 133478012,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletNubia": {
+		"game": {
+			"app_name": "KingletNubia",
+			"title": "Civilization VI : Nubia Civilization & Scenario Pack",
+			"version": "1.0.12.951533_nebraska_update1_KingletNubia",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletNubia"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 8191,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletNubia",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletNubia",
+			"build_id": "wHceRMN7outRL21WS8jjWhABgu0",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 122,
+			"num_chunks": 54,
+			"disk_size": 56176084,
+			"download_size": 34450337,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletRiseAndFall": {
+		"game": {
+			"app_name": "KingletRiseAndFall",
+			"title": "Civilization VI : Rise and Fall",
+			"version": "1.0.12.951533_nebraska_update1_KingletRiseAndFall",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletRiseAndFall"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 421039,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletRiseAndFall",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletRiseAndFall",
+			"build_id": "ckQqVktACRZo7xb92TG2FLlD_zM",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 5736,
+			"num_chunks": 3205,
+			"disk_size": 3553450990,
+			"download_size": 2042324262,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletPoland": {
+		"game": {
+			"app_name": "KingletPoland",
+			"title": "Civilization VI : Poland Civilization & Scenario Pack",
+			"version": "1.0.12.951533_nebraska_update1_KingletPoland",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletPoland"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 4559,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletPoland",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletPoland",
+			"build_id": "nUvt-UZKjQJQlSIWWthOCtA8HMA",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 59,
+			"num_chunks": 34,
+			"disk_size": 45853102,
+			"download_size": 18471874,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletVikingsScenario": {
+		"game": {
+			"app_name": "KingletVikingsScenario",
+			"title": "Civilization VI : Vikings Scenario Pack",
+			"version": "1.0.12.951533_nebraska_update1_KingletVikingsScenario",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletVikingsScenario"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 16523,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletVikingsScenario",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletVikingsScenario",
+			"build_id": "fGzBdaJv5tHSrewTrMkvvDqvrHA",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 283,
+			"num_chunks": 79,
+			"disk_size": 81929888,
+			"download_size": 42667509,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletGatheringStorm": {
+		"game": {
+			"app_name": "KingletGatheringStorm",
+			"title": "Civilization VI : Gathering Storm",
+			"version": "1.0.12.951533_nebraska_update1_KingletGatheringStorm",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletGatheringStorm"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 476355,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletGatheringStorm",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletGatheringStorm",
+			"build_id": "Yemg8xe6GaQ_nwV8-EBOloZ4ew0",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 6326,
+			"num_chunks": 3774,
+			"disk_size": 4203791833,
+			"download_size": 2493116541,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletAustralia": {
+		"game": {
+			"app_name": "KingletAustralia",
+			"title": "Civilization VI : Australia Civilization & Scenario Pack",
+			"version": "1.0.12.951533_nebraska_update1_KingletAustralia",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletAustralia"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 5120,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletAustralia",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletAustralia",
+			"build_id": "LqyNU2HeRdRWiOPcXdhCQfwyc4Y",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 62,
+			"num_chunks": 40,
+			"disk_size": 44107502,
+			"download_size": 17605676,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletPersiaMacedon": {
+		"game": {
+			"app_name": "KingletPersiaMacedon",
+			"title": "Civilization VI : Persia and Macedon Civilization & Scenario Pack",
+			"version": "1.0.12.951533_nebraska_update1_KingletPersiaMacedon",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletPersiaMacedon"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 2331,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletPersiaMacedon",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletPersiaMacedon",
+			"build_id": "i4Gg9NZhrE0cZZK2cupkwax8-X8",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 46,
+			"num_chunks": 3,
+			"disk_size": 2796839,
+			"download_size": 816804,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"4ad17ed617f44a4dbf7e8a960484c619": {
+		"game": {
+			"app_name": "4ad17ed617f44a4dbf7e8a960484c619",
+			"title": "Two Point Hospital",
+			"version": "1.3",
+			"platform_versions": {
+				"Windows": "1.3"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": {
+			"platform": "Windows",
+			"version": "1.3",
+			"disk_size": 9149099456,
+			"install_path": "/home/autometalogolex/Games/Heroic/twopointhospital",
+			"save_path": null,
+			"synced_egl_guid": "",
+			"install_tags": [],
+			"requires_ovt": false,
+			"installed_dlc": []
+		},
+		"manifest": {
+			"size": 605511,
+			"type": "binary",
+			"version": 21,
+			"feature_level": 21,
+			"app_name": "3fb5debcfbf14fb7a0749515b2ccd49f",
+			"launch_exe": "TPH.exe",
+			"launch_command": "",
+			"build_version": "1.3",
+			"build_id": "TlVO8n7uQEisGuoryfjqsg",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 360,
+			"num_chunks": 8709,
+			"disk_size": 9149099456,
+			"download_size": 4522427817,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	}
+}

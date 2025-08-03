@@ -1,0 +1,126 @@
+
+# █░█ █▀ █▀▀ █▀█   █▀█ █▀█ █▀▀ █▀▀ █▀
+# █▄█ ▄█ ██▄ █▀▄   █▀▀ █▀▄ ██▄ █▀░ ▄█
+
+# Set your personal hyprland configuration here
+# See https://wiki.hyprland.org/Configuring for more information
+
+# // █ █▄░█ █▀█ █░█ ▀█▀
+# // █ █░▀█ █▀▀ █▄█ ░█░
+
+
+#  Uncomment to enable // change to a preferred value
+# 🔗 See https://wiki.hyprland.org/Configuring/Variables/#input
+input {
+    # kb_layout = us
+    # follow_mouse = 1
+    # sensitivity = 0
+    # force_no_accel = 0
+    # accel_profile = flat 
+    # numlock_by_default = true
+
+    # 🔗 See https://wiki.hyprland.org/Configuring/Variables/#touchpad
+    touchpad {
+        natural_scroll = no
+    }
+
+}
+
+
+
+# 🔗 See https://wiki .hyprland.org/Configuring/Variables/#gestures
+gestures {
+#     workspace_swipe = true
+#     workspace_swipe_fingers = 3
+}
+exec-once = mpvpaper -o "loop --no-audio --vo=gpu-next" '*' "/home/autometalogolex/Documents/Cosmere Star Chart.mp4"
+# Make all fullscreen windows allow global keybinds
+exec-once = hyprctl reload
+exec-once = hyprctl setcursor Nordzy-hyprcursors-catppuccin-frappe-dark 24
+exec-once = sunshine
+exec-once = hyprpm reload
+env = HYPRCURSOR_THEME,Nordzy
+env = HYPRCURSOR_SIZE,24
+exec-once = ~/.config/hypr/scripts/hyprpanel.sh
+exec-once = nvidia-modprobe
+general {
+    border_size = 0
+}
+exec-once = systemctl --user start hyprpolkitagent
+windowrulev2 = noborder, class:.*
+# exec-once = gamemode.sh
+decoration:blur {
+    enabled = false
+}
+
+# Move Steam games to a special workspace named 'games'
+windowrulev2 = workspace special:games, class:^(steam_app_.*)$
+windowrulev2 = workspace special:games, class:^(Minecraft|minecraft)$, title:^(Minecraft)(.*)$
+windowrulev2 = workspace special:games, initialTitle:^(Minecraft)(.*)$
+# Optional polish: full screen and borderless for games
+windowrulev2 = fullscreen, class:^(steam_app_.*)$
+windowrulev2 = noborder, class:^(steam_app_.*)$
+windowrulev2 = float, title:^(Console window for .+ — Prism Launcher 9\.4)$
+windowrulev2 = float, title:^(Download mods — Prism Launcher.*)$
+windowrulev2 = noborder, title:^(Download mods — Prism Launcher.*)$
+windowrulev2 = move 0 0, title:^(Download mods — Prism Launcher.*)$
+windowrulev2 = size 1920 1000, title:^(Download mods — Prism Launcher.*)$
+windowrulev2 = opacity 1, title:^(Download mods — Prism Launcher.*)$
+windowrulev2 = opacity 1, class:.*
+windowrulev2 = opacity 1.0, class:.*
+windowrulev2 = opacity 1.0, class:.*
+windowrulev2 = opacity 1.0, title:^(Picture-in-Picture)$
+# Add to ~/.config/hypr/hyprland.conf
+misc {
+    enable_swallow = true
+}
+
+# And make sure XWayland is enabled
+xwayland {
+    use_nearest_neighbor = false
+}
+env = LIBVA_DRIVER_NAME,nvidia
+env = __GLX_VENDOR_LIBRARY_NAME,nvidia
+env = ELECTRON_OZONE_PLATFORM_HINT,auto
+exec-once = sleep 5 & pkill dunst
+# Steam to special games workspace
+windowrulev2 = workspace special:games, class:^(steam)$
+windowrulev2 = workspace special:games, class:^(steamwebhelper)$
+
+# Workspace 1 applications
+windowrulev2 = workspace 1, class:^(Pcmanfm)$
+windowrulev2 = workspace 1, class:^(kitty)$
+windowrulev2 = workspace 1, class:^(floorp)$
+
+# Workspace 2 applications  
+windowrulev2 = workspace 2, class:^(Spotify)$
+windowrulev2 = workspace 2, class:^(discord)$
+windowrulev2 = workspace 2, class:^(Discord)$
+
+# Position rules for workspace 1 - CORRECTED
+windowrulev2 = move 960 540, class:^(kitty)$              # top left (correct)
+windowrulev2 = move 960 0, class:^(Pcmanfm)$          # bottom left (but it's going top left)
+windowrulev2 = move 0 0, class:^(floorp)$           # right side (but it's going bottom left)
+
+# Size rules (these might be interfering)
+windowrulev2 = size 50% 50%, class:^(kitty)$          # quarter screen
+windowrulev2 = size 50% 50%, class:^(Pcmanfm)$        # quarter screen  
+windowrulev2 = size 50% 100%, class:^(floorp)$        # half screen
+# Position rules for workspace 2
+windowrulev2 = move 0 0, class:^(Spotify)$            # left side
+windowrulev2 = move 50% 0, class:^(discord)$          # right side
+windowrulev2 = move 50% 0, class:^(Discord)$          # right side (backup)
+
+# Size rules (optional but recommended)
+windowrulev2 = size 50% 50%, class:^(kitty)$          # quarter screen
+windowrulev2 = size 50% 50%, class:^(pcmanfm)$        # quarter screen
+windowrulev2 = size 50% 100%, class:^(floorp)$        # half screen
+windowrulev2 = size 50% 100%, class:^(Spotify)$       # half screen
+windowrulev2 = size 50% 100%, class:^(discord)$       # half screen
+# In your exec-once section
+exec-once = steam
+exec-once = pcmanfm
+exec-once = kitty
+exec-once = floorp
+exec-once = flatpak run com.spotify.Client
+exec-once = discord

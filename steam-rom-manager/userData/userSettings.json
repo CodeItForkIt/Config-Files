@@ -1,0 +1,43 @@
+{
+	"fuzzyMatcher": {
+		"timestamps": {
+			"check": 1750789362370,
+			"download": 1750789362370
+		},
+		"verbose": false,
+		"filterProviders": true
+	},
+	"environmentVariables": {
+		"steamDirectory": "/home/autometalogolex/.steam/steam",
+		"romsDirectory": "/home/autometalogolex/Emulation/roms",
+		"retroarchPath": "/home/autometalogolex/Emulation/tools/launchers/retroarch.sh",
+		"raCoresDirectory": "",
+		"localImagesDirectory": "",
+		"userAccounts": [
+			"rabidrapids"
+		]
+	},
+	"previewSettings": {
+		"imageLoadStrategy": "loadLazy",
+		"retrieveCurrentSteamImages": true,
+		"disableCategories": false,
+		"deleteDisabledShortcuts": false,
+		"imageZoomPercentage": 30,
+		"hideUserAccount": false
+	},
+	"enabledProviders": [
+		"sgdb"
+	],
+	"language": "en-US",
+	"offlineMode": false,
+	"navigationWidth": 256,
+	"clearLogOnTest": false,
+	"version": 10,
+	"theme": "EmuDeck",
+	"dnsServers": [],
+	"batchDownloadSize": 50,
+	"emudeckInstall": false,
+	"autoUpdate": true,
+	"autoKillSteam": true,
+	"autoRestartSteam": true
+}

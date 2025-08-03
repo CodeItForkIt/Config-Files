@@ -1,0 +1,2 @@
+[warning]	2025-07-19 11:34:40.716410[Thread 0x00007f964070acc0]:Failed to load to hints.cereal. File does not exists. /home/autometalogolex/.config/OrcaSlicer/user/hints.cereal
+[error]	2025-07-19 11:34:41.968603[Thread 0x00007f964070acc0]:calc_exclude_triangles:Unable to create exclude triangles

@@ -1,0 +1,17 @@
+# Cache files that constantly change
+**/cache/
+**/Cache/
+**/.cache/
+**/GPUCache/
+**/DawnGraphiteCache/
+**/DawnWebGPUCache/
+**/TransportSecurity
+**/logs/
+**/*.log
+**/*.lock
+
+# Shared Dictionary caches (Electron apps love these)
+**/Shared Dictionary/cache/
+
+# Don't track nested git repos
+**/.git/

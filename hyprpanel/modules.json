@@ -1,0 +1,10 @@
+{
+  "buttons": [
+    {
+      "name": "Keybindings",
+      "icon": "",
+      "command": "hyde-shell keybinds_hint"
+    }
+  ]
+}
+

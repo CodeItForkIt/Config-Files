@@ -1,0 +1,20 @@
+{
+  "disabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "enabled_plugins": {
+    "__class__": "set",
+    "__value__": [
+      "Goodreads"
+    ]
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
+  "plugins": {
+    "Goodreads": "/home/autometalogolex/.config/calibre/plugins/Goodreads.zip",
+    "Kobo Metadata": "/home/autometalogolex/.config/calibre/plugins/Kobo Metadata.zip",
+    "Kobo Utilities": "/home/autometalogolex/.config/calibre/plugins/Kobo Utilities.zip",
+    "KoboTouchExtended": "/home/autometalogolex/.config/calibre/plugins/KoboTouchExtended.zip"
+  }
+}

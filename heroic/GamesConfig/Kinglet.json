@@ -1,0 +1,36 @@
+{
+  "Kinglet": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFSR": false,
+    "enableFsync": true,
+    "enableWineWayland": true,
+    "enableHDR": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "verboseLogs": true,
+    "advertiseAvxForRosetta": false,
+    "wineVersion": {
+      "bin": "/usr/bin/wine",
+      "name": "Wine Default - wine-10.12 (Staging)",
+      "type": "wine",
+      "wineserver": "/usr/bin/wineserver"
+    },
+    "winePrefix": "/home/autometalogolex/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

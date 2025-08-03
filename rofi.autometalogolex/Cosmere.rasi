@@ -1,0 +1,20 @@
+* {
+    background: #0B1C3F;
+    foreground: #C0C0C0;
+    border-color: #40E0D0;
+    border-radius: 10px;
+    opacity: 0.85;
+}
+
+window {
+    background-color: rgba(11, 28, 63, 0.85);
+}
+
+element selected {
+    background-color: #4B367C;
+    color: #FFFFFF;
+}
+
+element {
+    border-color: #40E0D0;
+}

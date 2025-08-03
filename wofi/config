@@ -1,0 +1,8 @@
+width=500
+height=300
+prompt=Search:
+show=drun
+insensitive=true
+term=kitty
+no-actions=true
+allow-markup=true

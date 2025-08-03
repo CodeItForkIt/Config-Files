@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="font-use-system" type="bool" value="true"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="background-darkness" type="double" value="1"/>
+  <property name="color-use-theme" type="bool" value="true"/>
+  <property name="color-background-vary" type="bool" value="true"/>
+  <property name="color-cursor-use-default" type="bool" value="false"/>
+  <property name="color-selection-use-default" type="bool" value="false"/>
+  <property name="color-bold-use-default" type="bool" value="false"/>
+  <property name="font-name" type="string" value="Noto Color Emoji 6"/>
+</channel>

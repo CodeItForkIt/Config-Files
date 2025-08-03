@@ -1,0 +1,75 @@
+{
+	"Sid Meiers Civilization VI": {
+		"pcgamingwiki": null,
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"mainStory": 24,
+			"mainExtra": 93,
+			"completionist": 363,
+			"gameId": 37867,
+			"gameName": "Sid Meier's Civilization VI",
+			"gameImageUrl": "https://howlongtobeat.com/games/37867_Sid_Meiers_Civilization_VI.jpg",
+			"gameWebLink": "https://howlongtobeat.com/game/37867"
+		},
+		"gamesdb": {
+			"steamID": "289070"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 2
+		},
+		"umuId": null
+	},
+	"__timestamp": {
+		"Sid Meiers Civilization VI": "Fri Jul 25 2025 18:30:44 GMT-0700 (Pacific Daylight Time)",
+		"Two Point Hospital": "Fri Jul 25 2025 18:31:02 GMT-0700 (Pacific Daylight Time)"
+	},
+	"Two Point Hospital": {
+		"pcgamingwiki": {
+			"steamID": "535930",
+			"howLongToBeatID": "60043",
+			"metacritic": {
+				"score": "83",
+				"urlid": "two-point-hospital"
+			},
+			"opencritic": {
+				"score": "84",
+				"urlid": "6530/two-point-hospital"
+			},
+			"igdb": {
+				"score": "87",
+				"urlid": "two-point-hospital"
+			},
+			"direct3DVersions": [
+				"11.0"
+			],
+			"genres": [
+				"Building",
+				"Simulation"
+			],
+			"releaseDate": [
+				"Windows: August 30, 2018",
+				"OS X: August 30, 2018",
+				"Linux: August 30, 2018"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"mainStory": 39,
+			"mainExtra": 73,
+			"completionist": 123,
+			"gameId": 60043,
+			"gameName": "Two Point Hospital",
+			"gameImageUrl": "https://howlongtobeat.com/games/60043_two_point_hospital.jpg",
+			"gameWebLink": "https://howlongtobeat.com/game/60043"
+		},
+		"gamesdb": {
+			"steamID": "535930"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 2
+		},
+		"umuId": null
+	}
+}

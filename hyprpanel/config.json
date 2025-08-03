@@ -1,0 +1,112 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.bar.floating": false,
+  "bar.autoHide": "never",
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.enableShadow": false,
+  "theme.bar.buttons.volume.enableBorder": false,
+  "wallpaper.pywal": true,
+  "theme.bar.menus.monochrome": false,
+  "wallpaper.image": "/home/autometalogolex/Documents/Constelaciones-mundos-cosmere.jpg",
+  "theme.bar.menus.opacity": 85,
+  "theme.bar.transparent": true,
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "floorp",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Floorp",
+  "menus.dashboard.stats.enable_gpu": true,
+  "menus.dashboard.powermenu.avatar.image": "/home/autometalogolex/Pictures/Screenshots/Cosmere.png",
+  "bar.customModules.microphone.label": true,
+  "tear": true,
+  "menus.transition": "crossfade",
+  "theme.bar.menus.enableShadow": false,
+  "scalingPriority": "hyprland",
+  "theme.bar.menus.menu.battery.scaling": 100,
+  "theme.bar.border.location": "none",
+  "bar.launcher.autoDetectIcon": true,
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": true,
+  "theme.bar.buttons.windowtitle.enableBorder": false,
+  "bar.battery.label": false,
+  "bar.media.show_label": false,
+  "bar.media.truncation": false,
+  "bar.media.format": "",
+  "menus.clock.time.military": false,
+  "menus.clock.time.hideSeconds": false,
+  "menus.power.lowBatteryNotification": false,
+  "menus.media.hideAuthor": false,
+  "menus.media.hideAlbum": false,
+  "menus.media.displayTimeTooltip": false,
+  "menus.media.displayTime": false,
+  "theme.matugen": true,
+  "theme.matugen_settings.scheme_type": "expressive",
+  "theme.matugen_settings.variation": "standard_2",
+  "terminal": "kitty",
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.numbered_active_indicator": "highlight",
+  "menus.dashboard.directories.enabled": false,
+  "menus.dashboard.shortcuts.right.shortcut1.command": "sleep 0.5 && hyprpicker",
+  "theme.bar.menus.menu.media.scaling": 100,
+  "theme.bar.location": "top",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard"
+      ],
+      "middle": [
+        "workspaces",
+        "windowtitle"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.bar.layer": "top",
+  "bar.notifications.show_total": true,
+  "bar.notifications.hideCountWhenZero": true,
+  "notifications.position": "top right",
+  "theme.notification.enableShadow": false,
+  "notifications.autoDismiss": true,
+  "theme.osd.enableShadow": false,
+  "theme.matugen_settings.mode": "dark"
+}

@@ -1,0 +1,128 @@
+{
+  "app_name": "SafePawn024a05f6ef47V5",
+  "app_title": "Safe Pawn",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "SafePawn024a05f6ef47V5",
+      "asset_id": "SafePawn024a05f6ef47V5",
+      "build_version": "5.6.0-43528832+++UE5+Dev-Marketplace-Windows",
+      "catalog_item_id": "f968a2e794d14a6a80ca82a390ff3e0f",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "categories": [
+      {
+        "path": "plugins/engine"
+      },
+      {
+        "path": "plugins"
+      },
+      {
+        "path": "asset-format/game-engine"
+      },
+      {
+        "path": "type/format-item"
+      },
+      {
+        "path": "asset-format/game-engine/unreal-engine"
+      },
+      {
+        "path": "type"
+      },
+      {
+        "path": "asset-format"
+      }
+    ],
+    "creationDate": "2024-09-18T21:33:28.905Z",
+    "customAttributes": {
+      "ListingIdentifier": {
+        "type": "STRING",
+        "value": "35bb7f60-9a23-4948-80aa-dbf6f088aa08"
+      }
+    },
+    "description": "Safe Pawn",
+    "developer": "Risecode",
+    "developerId": "o-xf7qvjstbew57ea5bz9fgeqqc3d8ae",
+    "endOfSupport": false,
+    "entitlementName": "f968a2e794d14a6a80ca82a390ff3e0f",
+    "entitlementType": "AUDIENCE",
+    "id": "f968a2e794d14a6a80ca82a390ff3e0f",
+    "itemType": "DURABLE",
+    "keyImages": [],
+    "lastModifiedDate": "2025-06-15T09:06:28.894Z",
+    "mainGameItemList": [],
+    "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+    "releaseInfo": [
+      {
+        "appId": "SafePawn_5.2",
+        "compatibleApps": [
+          "UE_5.2"
+        ],
+        "dateAdded": "2025-06-14T17:28:25.909Z",
+        "id": "99e650d70eff4c2488864523bbbb4f85",
+        "platform": [
+          "Windows"
+        ],
+        "versionTitle": "SafePawn52"
+      },
+      {
+        "appId": "SafePawn_5.3",
+        "compatibleApps": [
+          "UE_5.3"
+        ],
+        "dateAdded": "2025-06-14T17:28:25.909Z",
+        "id": "29de9421036f46a0b01ba2f1f0eaffdd",
+        "platform": [
+          "Windows"
+        ],
+        "versionTitle": "SafePawn53"
+      },
+      {
+        "appId": "SafePawn_5.4",
+        "compatibleApps": [
+          "UE_5.4"
+        ],
+        "dateAdded": "2025-06-14T17:28:25.909Z",
+        "id": "6f62e335cb424d798c7440ec1d1efbcf",
+        "platform": [
+          "Windows"
+        ],
+        "versionTitle": "SafePawn54"
+      },
+      {
+        "appId": "SafePawn1d1dc40d2015V4",
+        "compatibleApps": [
+          "UE_5.5"
+        ],
+        "dateAdded": "2025-06-14T17:28:25.909Z",
+        "id": "648e84cb26ab49399630b80b2932e7a9",
+        "platform": [
+          "Windows"
+        ],
+        "versionTitle": "SafePawn55"
+      },
+      {
+        "appId": "SafePawn024a05f6ef47V5",
+        "compatibleApps": [
+          "UE_5.6"
+        ],
+        "dateAdded": "2025-06-14T17:28:25.909Z",
+        "id": "7b6d140b98b445f2818d9253f15f1cac",
+        "platform": [
+          "Windows"
+        ],
+        "versionTitle": "SafePawn56"
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Safe Pawn",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

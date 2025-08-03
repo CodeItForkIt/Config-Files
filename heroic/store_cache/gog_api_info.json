@@ -1,0 +1,1251 @@
+{
+	"epic_Kinglet": {
+		"id": "53354003710610111",
+		"game_id": "51154196357364953",
+		"platform_id": "epic",
+		"external_id": "Kinglet",
+		"dlcs_ids": [
+			"53405389786941086",
+			"53608644093224430"
+		],
+		"dlcs": [
+			{
+				"id": "53405389786941086",
+				"platform_id": "epic",
+				"external_id": "KingletSoundtrack",
+				"release_per_platform_id": "epic_KingletSoundtrack",
+				"availability": 0
+			},
+			{
+				"id": "53608644093224430",
+				"platform_id": "epic",
+				"external_id": "KingletVikingsScenario",
+				"release_per_platform_id": "epic_KingletVikingsScenario",
+				"availability": 0
+			}
+		],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "linux",
+				"name": "Linux"
+			},
+			{
+				"slug": "osx",
+				"name": "macOS"
+			},
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "51154196357364953",
+			"parent_id": null,
+			"dlcs_ids": [
+				"51154196381937222",
+				"51836747801758538",
+				"52675267181409037",
+				"52857878764679549",
+				"52858115651403503",
+				"52881138999879626",
+				"52947346942435517",
+				"53011268024691782",
+				"53020180869403081",
+				"53072120033996827",
+				"53101192166596061",
+				"53283650677835255",
+				"53370441159996608",
+				"53405389786905268",
+				"53533247812452002",
+				"53548921465926386",
+				"53608644096994432",
+				"53779752946875493",
+				"53893702083081941",
+				"53921996702748595",
+				"53921996856085199",
+				"53921997389216000",
+				"54096283031908055",
+				"54280810317141128",
+				"54321425558798083",
+				"54654982985032645",
+				"54654997931694950",
+				"54654998331604789",
+				"54654998692952232",
+				"54654999072706517",
+				"54655001701810043",
+				"54655002387616974",
+				"54655003031534941",
+				"54655003440437890",
+				"56898207209314583",
+				"58587357932119655"
+			],
+			"first_release_date": "2016-10-20T00:00:00+0000",
+			"releases": [
+				{
+					"id": "51154196352524520",
+					"platform_id": "steam",
+					"external_id": "289070",
+					"release_per_platform_id": "steam_289070",
+					"availability": 0
+				},
+				{
+					"id": "52098685097905472",
+					"platform_id": "steam",
+					"external_id": "537570",
+					"release_per_platform_id": "steam_537570",
+					"availability": 0
+				},
+				{
+					"id": "52579177344762733",
+					"platform_id": "humble",
+					"external_id": "civilization6_eu_monthly_steam",
+					"release_per_platform_id": "humble_civilization6_eu_monthly_steam",
+					"availability": 0
+				},
+				{
+					"id": "52686773182779865",
+					"platform_id": "humble",
+					"external_id": "civilization6_row_monthly_steam",
+					"release_per_platform_id": "humble_civilization6_row_monthly_steam",
+					"availability": 0
+				},
+				{
+					"id": "52745686133776111",
+					"platform_id": "humble",
+					"external_id": "civilization6_br_monthly_steam",
+					"release_per_platform_id": "humble_civilization6_br_monthly_steam",
+					"availability": 0
+				},
+				{
+					"id": "52763154482171064",
+					"platform_id": "humble",
+					"external_id": "civilization6_eu_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_eu_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "52794978831848435",
+					"platform_id": "psn",
+					"external_id": "CUSA15322_00",
+					"release_per_platform_id": "psn_CUSA15322_00",
+					"availability": 0
+				},
+				{
+					"id": "52828544919880116",
+					"platform_id": "psn",
+					"external_id": "CUSA15381_00",
+					"release_per_platform_id": "psn_CUSA15381_00",
+					"availability": 0
+				},
+				{
+					"id": "52829904532380587",
+					"platform_id": "xboxone",
+					"external_id": "1989106096",
+					"release_per_platform_id": "xboxone_1989106096",
+					"availability": 0
+				},
+				{
+					"id": "52830055435944463",
+					"platform_id": "humble",
+					"external_id": "civilization6_rucis_monthly_steam",
+					"release_per_platform_id": "humble_civilization6_rucis_monthly_steam",
+					"availability": 0
+				},
+				{
+					"id": "52854272631512109",
+					"platform_id": "humble",
+					"external_id": "civilization6_row_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_row_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "52887717291081350",
+					"platform_id": "humble",
+					"external_id": "civilization6_asia_monthly_steam",
+					"release_per_platform_id": "humble_civilization6_asia_monthly_steam",
+					"availability": 0
+				},
+				{
+					"id": "52972307412278868",
+					"platform_id": "nswitch",
+					"external_id": "010044500C182000",
+					"release_per_platform_id": "nswitch_010044500C182000",
+					"availability": 0
+				},
+				{
+					"id": "53013431195079397",
+					"platform_id": "humble",
+					"external_id": "civilization6_row_steam",
+					"release_per_platform_id": "humble_civilization6_row_steam",
+					"availability": 0
+				},
+				{
+					"id": "53017253353321546",
+					"platform_id": "humble",
+					"external_id": "civilization6_rucis_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_rucis_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "53020225713917750",
+					"platform_id": "humble",
+					"external_id": "civilization6_digitaldeluxe_row_steam",
+					"release_per_platform_id": "humble_civilization6_digitaldeluxe_row_steam",
+					"availability": 0
+				},
+				{
+					"id": "53031773227162972",
+					"platform_id": "humble",
+					"external_id": "civilization6_digitaldeluxe_eu_steam",
+					"release_per_platform_id": "humble_civilization6_digitaldeluxe_eu_steam",
+					"availability": 0
+				},
+				{
+					"id": "53046284646778507",
+					"platform_id": "humble",
+					"external_id": "civilization6_platinum_row_steam",
+					"release_per_platform_id": "humble_civilization6_platinum_row_steam",
+					"availability": 0
+				},
+				{
+					"id": "53056249724295009",
+					"platform_id": "humble",
+					"external_id": "civilization6_eu_steam",
+					"release_per_platform_id": "humble_civilization6_eu_steam",
+					"availability": 0
+				},
+				{
+					"id": "53072586662788787",
+					"platform_id": "humble",
+					"external_id": "civilization6_gold_eu_steam",
+					"release_per_platform_id": "humble_civilization6_gold_eu_steam",
+					"availability": 0
+				},
+				{
+					"id": "53081355872305853",
+					"platform_id": "humble",
+					"external_id": "civilization6_gold_row_steam",
+					"release_per_platform_id": "humble_civilization6_gold_row_steam",
+					"availability": 0
+				},
+				{
+					"id": "53101185373583796",
+					"platform_id": "humble",
+					"external_id": "civilization6_platinum_eu_steam",
+					"release_per_platform_id": "humble_civilization6_platinum_eu_steam",
+					"availability": 0
+				},
+				{
+					"id": "53104661395760726",
+					"platform_id": "humble",
+					"external_id": "civilization6_in_monthly_steam",
+					"release_per_platform_id": "humble_civilization6_in_monthly_steam",
+					"availability": 0
+				},
+				{
+					"id": "53117287152945391",
+					"platform_id": "humble",
+					"external_id": "civilization6_asia_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_asia_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "53121475206477962",
+					"platform_id": "humble",
+					"external_id": "civilization6_in_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_in_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "53177844778815407",
+					"platform_id": "humble",
+					"external_id": "civilization6_eu_aspyr_steam",
+					"release_per_platform_id": "humble_civilization6_eu_aspyr_steam",
+					"availability": 0
+				},
+				{
+					"id": "53182376596875106",
+					"platform_id": "humble",
+					"external_id": "civilization6_digitaldeluxe_row_aspyr_steam",
+					"release_per_platform_id": "humble_civilization6_digitaldeluxe_row_aspyr_steam",
+					"availability": 0
+				},
+				{
+					"id": "53209071686400149",
+					"platform_id": "humble",
+					"external_id": "civilization6_br_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_br_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "53236254545301143",
+					"platform_id": "itch",
+					"external_id": "ff022ca89ecbcbe9d6352d4b8d025483fbdb5d93fc3f60e1caeb24a4",
+					"release_per_platform_id": "itch_ff022ca89ecbcbe9d6352d4b8d025483fbdb5d93fc3f60e1caeb24a4",
+					"availability": 0
+				},
+				{
+					"id": "53257652340070082",
+					"platform_id": "origin",
+					"external_id": "e313335447e5ace4223e82bb03799cac02a926b3",
+					"release_per_platform_id": "origin_e313335447e5ace4223e82bb03799cac02a926b3",
+					"availability": 0
+				},
+				{
+					"id": "53257744750200527",
+					"platform_id": "origin",
+					"external_id": "1ced556e09bed84dd741272ef1004b4eedea10a09ff29ade03f2739181727162",
+					"release_per_platform_id": "origin_1ced556e09bed84dd741272ef1004b4eedea10a09ff29ade03f2739181727162",
+					"availability": 0
+				},
+				{
+					"id": "53283674784362008",
+					"platform_id": "humble",
+					"external_id": "civilization6_digitaldeluxe_eu_aspyr_steam",
+					"release_per_platform_id": "humble_civilization6_digitaldeluxe_eu_aspyr_steam",
+					"availability": 0
+				},
+				{
+					"id": "53327216817594763",
+					"platform_id": "humble",
+					"external_id": "civilization6_row_aspyr_steam",
+					"release_per_platform_id": "humble_civilization6_row_aspyr_steam",
+					"availability": 0
+				},
+				{
+					"id": "53354003710610111",
+					"platform_id": "epic",
+					"external_id": "Kinglet",
+					"release_per_platform_id": "epic_Kinglet",
+					"availability": 0
+				},
+				{
+					"id": "53355976096159926",
+					"platform_id": "humble",
+					"external_id": "civilization6_digitaldeluxe_asia_steam",
+					"release_per_platform_id": "humble_civilization6_digitaldeluxe_asia_steam",
+					"availability": 0
+				},
+				{
+					"id": "53414763681719999",
+					"platform_id": "snes",
+					"external_id": "53696",
+					"release_per_platform_id": "snes_53696",
+					"availability": 0
+				},
+				{
+					"id": "53496528327366530",
+					"platform_id": "test",
+					"external_id": "Kinglet",
+					"release_per_platform_id": "test_Kinglet",
+					"availability": 0
+				},
+				{
+					"id": "53776177588285896",
+					"platform_id": "test",
+					"external_id": "289070",
+					"release_per_platform_id": "test_289070",
+					"availability": 0
+				},
+				{
+					"id": "54024451469123871",
+					"platform_id": "test",
+					"external_id": "sid-meier-s-civilization-vi",
+					"release_per_platform_id": "test_sid-meier-s-civilization-vi",
+					"availability": 0
+				},
+				{
+					"id": "54027325919392729",
+					"platform_id": "playfire",
+					"external_id": "sid-meier-s-civilization-vi",
+					"release_per_platform_id": "playfire_sid-meier-s-civilization-vi",
+					"availability": 0
+				},
+				{
+					"id": "55403729347731565",
+					"platform_id": "beamdog",
+					"external_id": "00000000-0000-0000-0000-000000007256",
+					"release_per_platform_id": "beamdog_00000000-0000-0000-0000-000000007256",
+					"availability": 0
+				},
+				{
+					"id": "55458708043920264",
+					"platform_id": "humble",
+					"external_id": "Kinglet",
+					"release_per_platform_id": "humble_Kinglet",
+					"availability": 0
+				},
+				{
+					"id": "55786812102693702",
+					"platform_id": "humble",
+					"external_id": "civilization6_row_2kmegahits_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_row_2kmegahits_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "55803695835253527",
+					"platform_id": "beamdog",
+					"external_id": "Kinglet",
+					"release_per_platform_id": "beamdog_Kinglet",
+					"availability": 0
+				},
+				{
+					"id": "56054462868899503",
+					"platform_id": "humble",
+					"external_id": "civilization6_latam_bundle_steam",
+					"release_per_platform_id": "humble_civilization6_latam_bundle_steam",
+					"availability": 0
+				},
+				{
+					"id": "51154196357364953",
+					"platform_id": "generic",
+					"external_id": "51154196357364953",
+					"release_per_platform_id": "generic_51154196357364953",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "Sid Meier's Civilization VI",
+				"en-US": "Sid Meier's Civilization VI"
+			},
+			"sorting_title": {
+				"*": "Sid Meiers Civilization 6",
+				"en-US": "Sid Meiers Civilization 6"
+			},
+			"type": "game",
+			"developers_ids": [
+				"51142050362828973"
+			],
+			"developers": [
+				{
+					"id": "51142050362828973",
+					"name": "Firaxis Games",
+					"slug": "firaxis-games"
+				}
+			],
+			"publishers_ids": [
+				"51141231110368142",
+				"51141420693962850"
+			],
+			"publishers": [
+				{
+					"id": "51141231110368142",
+					"name": "2K Games",
+					"slug": "2k-games"
+				},
+				{
+					"id": "51141420693962850",
+					"name": "Aspyr Media",
+					"slug": "aspyr-media"
+				}
+			],
+			"genres_ids": [
+				"51071904337940794",
+				"51141224846123521"
+			],
+			"genres": [
+				{
+					"id": "51071904337940794",
+					"name": {
+						"*": "Strategy",
+						"en-US": "Strategy"
+					},
+					"slug": "strategy"
+				},
+				{
+					"id": "51141224846123521",
+					"name": {
+						"*": "Simulator",
+						"en-US": "Simulator"
+					},
+					"slug": "simulator"
+				}
+			],
+			"themes_ids": [
+				"51071842246739768",
+				"51071842249505927",
+				"51141225621119374"
+			],
+			"themes": [
+				{
+					"id": "51071842246739768",
+					"name": {
+						"*": "Fantasy",
+						"en-US": "Fantasy"
+					},
+					"slug": "fantasy"
+				},
+				{
+					"id": "51071842249505927",
+					"name": {
+						"*": "Historical",
+						"en-US": "Historical"
+					},
+					"slug": "historical"
+				},
+				{
+					"id": "51141225621119374",
+					"name": {
+						"*": "4X (explore, expand, exploit, and exterminate)",
+						"en-US": "4X (explore, expand, exploit, and exterminate)"
+					},
+					"slug": "4x-explore-expand-exploit-and-exterminate"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/c40f025ffe67937240cdae25ebf8e07918b25cfd2bcf4ba1cf9296ac010bc622{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/29f587e80ccd5a7c493c92dcd4c0a06ccd1ae30571e7de8449bb6841fb89b0c0{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/1ec70862609c805542aa457b0cf6161d8be86089f87b37c6b26ec46952e68198{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/f17ea75210b19a2cc41af85b8a6e3ed87a28b75d7d8194f955fd316905bb10a4{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/16e6225412ccfa9e9efd30fdd9a23b4478ab405f5bb03281d2e48400ab6feff2{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "yKUFvo3_FYQ",
+					"thumbnail_id": "yKUFvo3_FYQ",
+					"name": "Gameplay video"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "9vVGQThK01M",
+					"thumbnail_id": "9vVGQThK01M",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "FkIT6iMeYjE",
+					"thumbnail_id": "FkIT6iMeYjE",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "0YFh38ImZ58",
+					"thumbnail_id": "0YFh38ImZ58",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "ZHgVlRdO72U",
+					"thumbnail_id": "ZHgVlRdO72U",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "ENMzcvQVvzA",
+					"thumbnail_id": "ENMzcvQVvzA",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "Iw79o14yj6E",
+					"thumbnail_id": "Iw79o14yj6E",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "5KdE0p2joJw",
+					"thumbnail_id": "5KdE0p2joJw",
+					"name": "Trailer"
+				}
+			],
+			"artworks": [],
+			"summary": {
+				"*": "Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders as you attempt to build the greatest civilization the world has ever known.\r\n\r\nCivilization VI offers new ways to engage with your world: cities now physically expand across the map, active research in technology and culture unlocks new potential, and competing leaders will pursue their own agendas based on their historical traits as you race for one of five ways to achieve victory in the game.",
+				"en-US": "Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders as you attempt to build the greatest civilization the world has ever known."
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 87.4,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				},
+				{
+					"id": "53051908711988230",
+					"name": "Multiplayer",
+					"slug": "multiplayer"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/e46fae0485ced9ad33cfdea0531f59313a786793f2c85dd1978b10af1ee6fa08{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/e46fae0485ced9ad33cfdea0531f59313a786793f2c85dd1978b10af1ee6fa08{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/ddae044b3dc291e15f4d4b06286da6057514cfdc61a958afbb33bab04a805fd5{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/ddae044b3dc291e15f4d4b06286da6057514cfdc61a958afbb33bab04a805fd5{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/4798010d6562e4ca35eb108228ed2480920f656b427d538825e5d8f0a0249139{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/18d95bbd1690461bd3820e0064a23db72dce383a4fcb1cbc2c049913bc0a9f58{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"series": {
+				"id": "53028479794096295",
+				"name": "Civilization",
+				"slug": "civilization"
+			},
+			"slug": "sid-meier-s-civilization-vi"
+		},
+		"title": {
+			"*": "Sid Meier's Civilization VI",
+			"en-US": "Sid Meier's Civilization VI"
+		},
+		"sorting_title": {
+			"*": "Sid Meiers Civilization 6",
+			"en-US": "Sid Meiers Civilization 6"
+		},
+		"type": "game",
+		"summary": {
+			"*": "Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders as you attempt to build the greatest civilization the world has ever known.\r\n\r\nCivilization VI offers new ways to engage with your world: cities now physically expand across the map, active research in technology and culture unlocks new potential, and competing leaders will pursue their own agendas based on their historical traits as you race for one of five ways to achieve victory in the game.",
+			"en-US": "Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders as you attempt to build the greatest civilization the world has ever known."
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			},
+			{
+				"id": "53051908711988230",
+				"name": "Multiplayer",
+				"slug": "multiplayer"
+			}
+		],
+		"logo": {
+			"url_format": "https://images.gog.com/4798010d6562e4ca35eb108228ed2480920f656b427d538825e5d8f0a0249139{formatter}.{ext}?namespace=gamesdb"
+		},
+		"series": {
+			"id": "53028479794096295",
+			"name": "Civilization",
+			"slug": "civilization"
+		},
+		"etag": "W/\"8edc296a1f749c425796eadf2cd11693\""
+	},
+	"__timestamp": {
+		"epic_Kinglet": "Fri Jul 25 2025 18:30:43 GMT-0700 (Pacific Daylight Time)",
+		"epic_4ad17ed617f44a4dbf7e8a960484c619": "Fri Jul 25 2025 18:31:00 GMT-0700 (Pacific Daylight Time)"
+	},
+	"epic_4ad17ed617f44a4dbf7e8a960484c619": {
+		"id": "58711546602622308",
+		"game_id": "51295416081026117",
+		"platform_id": "epic",
+		"external_id": "4ad17ed617f44a4dbf7e8a960484c619",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "linux",
+				"name": "Linux"
+			},
+			{
+				"slug": "osx",
+				"name": "macOS"
+			},
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "51295416081026117",
+			"parent_id": null,
+			"dlcs_ids": [
+				"52081256494328307",
+				"52866201074966845",
+				"52999901936382578",
+				"53046278175495065",
+				"53060760844870527",
+				"53150567910044494",
+				"53228571041740900",
+				"53384909093403390",
+				"53469264251519467",
+				"53506850491219917",
+				"53800169002294461",
+				"54078091812526888",
+				"54223250758452883",
+				"54238698800091192",
+				"54238700344268958",
+				"54238703544360790",
+				"54834733853350657",
+				"54834735455012789",
+				"55243693218499777"
+			],
+			"first_release_date": "2018-08-29T00:00:00+0000",
+			"releases": [
+				{
+					"id": "51295416110171550",
+					"platform_id": "steam",
+					"external_id": "535930",
+					"release_per_platform_id": "steam_535930",
+					"availability": 0
+				},
+				{
+					"id": "52649206411728721",
+					"platform_id": "xboxone",
+					"external_id": "2050010864",
+					"release_per_platform_id": "xboxone_2050010864",
+					"availability": 0
+				},
+				{
+					"id": "52864415645663256",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_eu_steam",
+					"release_per_platform_id": "humble_twopointhospital_eu_steam",
+					"availability": 0
+				},
+				{
+					"id": "52871859098555442",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_row_steam",
+					"release_per_platform_id": "humble_twopointhospital_row_steam",
+					"availability": 0
+				},
+				{
+					"id": "52919647959749398",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_rucis_steam",
+					"release_per_platform_id": "humble_twopointhospital_rucis_steam",
+					"availability": 0
+				},
+				{
+					"id": "52951842335529153",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_monthly_steam",
+					"release_per_platform_id": "humble_twopointhospital_monthly_steam",
+					"availability": 0
+				},
+				{
+					"id": "53064711554468736",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_preorder_eu_steam",
+					"release_per_platform_id": "humble_twopointhospital_preorder_eu_steam",
+					"availability": 0
+				},
+				{
+					"id": "53103772282031540",
+					"platform_id": "xboxone",
+					"external_id": "1692546142",
+					"release_per_platform_id": "xboxone_1692546142",
+					"availability": 0
+				},
+				{
+					"id": "53104263915230855",
+					"platform_id": "psn",
+					"external_id": "CUSA15884_00",
+					"release_per_platform_id": "psn_CUSA15884_00",
+					"availability": 0
+				},
+				{
+					"id": "53111850197581391",
+					"platform_id": "psn",
+					"external_id": "CUSA16081_00",
+					"release_per_platform_id": "psn_CUSA16081_00",
+					"availability": 0
+				},
+				{
+					"id": "53178155777996164",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_preorder_row_steam",
+					"release_per_platform_id": "humble_twopointhospital_preorder_row_steam",
+					"availability": 0
+				},
+				{
+					"id": "53220659097207059",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_tr_steam",
+					"release_per_platform_id": "humble_twopointhospital_tr_steam",
+					"availability": 0
+				},
+				{
+					"id": "53235487842211491",
+					"platform_id": "winstore",
+					"external_id": "9n08s5vpc4sx",
+					"release_per_platform_id": "winstore_9n08s5vpc4sx",
+					"availability": 0
+				},
+				{
+					"id": "53236254671608714",
+					"platform_id": "itch",
+					"external_id": "9d23bdad22e8c991eec1c40aaa5b8f10b1f86dde315604587bf124f6",
+					"release_per_platform_id": "itch_9d23bdad22e8c991eec1c40aaa5b8f10b1f86dde315604587bf124f6",
+					"availability": 0
+				},
+				{
+					"id": "53236432776123901",
+					"platform_id": "itch",
+					"external_id": "XFxSYWlkc2VydmVyXGdcTXkgRHJpdmVcRml0R2lybCBHYW1lc1xUd28gUG9pbnQgSG9zcGl0YWwgW0ZpdEdpcmwgUmVwYWNrXQ==",
+					"release_per_platform_id": "itch_XFxSYWlkc2VydmVyXGdcTXkgRHJpdmVcRml0R2lybCBHYW1lc1xUd28gUG9pbnQgSG9zcGl0YWwgW0ZpdEdpcmwgUmVwYWNrXQ==",
+					"availability": 0
+				},
+				{
+					"id": "53257652461205832",
+					"platform_id": "origin",
+					"external_id": "e86bf29460fc74f7c647ba0ab2d2e842a5f39a6e",
+					"release_per_platform_id": "origin_e86bf29460fc74f7c647ba0ab2d2e842a5f39a6e",
+					"availability": 0
+				},
+				{
+					"id": "53257744894139819",
+					"platform_id": "origin",
+					"external_id": "8eb09a87eb29cfa202414f88b2e2dba53ab79570b69c42b16709efed36fe4607",
+					"release_per_platform_id": "origin_8eb09a87eb29cfa202414f88b2e2dba53ab79570b69c42b16709efed36fe4607",
+					"availability": 0
+				},
+				{
+					"id": "53326945563881818",
+					"platform_id": "humble",
+					"external_id": "twopointhospital",
+					"release_per_platform_id": "humble_twopointhospital",
+					"availability": 0
+				},
+				{
+					"id": "53349200286881644",
+					"platform_id": "test",
+					"external_id": "291a1f52a6979958982b2b7c8db5e6511588661b",
+					"release_per_platform_id": "test_291a1f52a6979958982b2b7c8db5e6511588661b",
+					"availability": 0
+				},
+				{
+					"id": "53349215749692242",
+					"platform_id": "test",
+					"external_id": "5139eb4119788930ef667b6df5d7f43600f55ada",
+					"release_per_platform_id": "test_5139eb4119788930ef667b6df5d7f43600f55ada",
+					"availability": 0
+				},
+				{
+					"id": "53349339077819119",
+					"platform_id": "test",
+					"external_id": "a582443c46b17857374139a0405dcf85109f57a5",
+					"release_per_platform_id": "test_a582443c46b17857374139a0405dcf85109f57a5",
+					"availability": 0
+				},
+				{
+					"id": "53582445025840038",
+					"platform_id": "origin",
+					"external_id": "Origin.OFR.50.0004243",
+					"release_per_platform_id": "origin_Origin.OFR.50.0004243",
+					"availability": 0
+				},
+				{
+					"id": "53853605889490530",
+					"platform_id": "humble",
+					"external_id": "twopointhospital_sa_steam",
+					"release_per_platform_id": "humble_twopointhospital_sa_steam",
+					"availability": 0
+				},
+				{
+					"id": "53992081604757688",
+					"platform_id": "test",
+					"external_id": "/two-point-hospital-free-download/",
+					"release_per_platform_id": "test_/two-point-hospital-free-download/",
+					"availability": 0
+				},
+				{
+					"id": "54024444453722946",
+					"platform_id": "test",
+					"external_id": "two-point-hospital",
+					"release_per_platform_id": "test_two-point-hospital",
+					"availability": 0
+				},
+				{
+					"id": "54027325500227181",
+					"platform_id": "playfire",
+					"external_id": "two-point-hospital",
+					"release_per_platform_id": "playfire_two-point-hospital",
+					"availability": 0
+				},
+				{
+					"id": "54083715651284533",
+					"platform_id": "nswitch",
+					"external_id": "010031200E044000",
+					"release_per_platform_id": "nswitch_010031200E044000",
+					"availability": 0
+				},
+				{
+					"id": "54240857344638931",
+					"platform_id": "origin",
+					"external_id": "Origin.OFR.50.0004243@subscription",
+					"release_per_platform_id": "origin_Origin.OFR.50.0004243@subscription",
+					"availability": 0
+				},
+				{
+					"id": "54636390773649504",
+					"platform_id": "test",
+					"external_id": "steam_twopointhospital",
+					"release_per_platform_id": "test_steam_twopointhospital",
+					"availability": 0
+				},
+				{
+					"id": "54640360000324208",
+					"platform_id": "test",
+					"external_id": "gfn_535930",
+					"release_per_platform_id": "test_gfn_535930",
+					"availability": 0
+				},
+				{
+					"id": "55070526304582275",
+					"platform_id": "amazon",
+					"external_id": "amzn1.adg.product.d14f6257-7fa1-4887-a09a-666a6f051a6f",
+					"release_per_platform_id": "amazon_amzn1.adg.product.d14f6257-7fa1-4887-a09a-666a6f051a6f",
+					"availability": 0
+				},
+				{
+					"id": "55071723149701545",
+					"platform_id": "test",
+					"external_id": "2a0edda0e5ab9ad8cdd1eaaee3dc6d4fed1de873",
+					"release_per_platform_id": "test_2a0edda0e5ab9ad8cdd1eaaee3dc6d4fed1de873",
+					"availability": 0
+				},
+				{
+					"id": "55079553118218914",
+					"platform_id": "twitch",
+					"external_id": "amzn1.adg.product.d14f6257-7fa1-4887-a09a-666a6f051a6f",
+					"release_per_platform_id": "twitch_amzn1.adg.product.d14f6257-7fa1-4887-a09a-666a6f051a6f",
+					"availability": 0
+				},
+				{
+					"id": "55276082026915864",
+					"platform_id": "gog",
+					"external_id": "1940028140",
+					"release_per_platform_id": "gog_1940028140",
+					"availability": 1
+				},
+				{
+					"id": "55392019045165486",
+					"platform_id": "test",
+					"external_id": "gfn_100234411",
+					"release_per_platform_id": "test_gfn_100234411",
+					"availability": 0
+				},
+				{
+					"id": "55522075207598773",
+					"platform_id": "test",
+					"external_id": "CUSA15884_00",
+					"release_per_platform_id": "test_CUSA15884_00",
+					"availability": 0
+				},
+				{
+					"id": "56129127489557882",
+					"platform_id": "test",
+					"external_id": "b4ba4c229cae8d516548c288d2fe395d3799e17a",
+					"release_per_platform_id": "test_b4ba4c229cae8d516548c288d2fe395d3799e17a",
+					"availability": 0
+				},
+				{
+					"id": "56129127498991051",
+					"platform_id": "test",
+					"external_id": "480319d0bddb09f3fee1fa31e508d2257c9a6721",
+					"release_per_platform_id": "test_480319d0bddb09f3fee1fa31e508d2257c9a6721",
+					"availability": 0
+				},
+				{
+					"id": "56129127501246319",
+					"platform_id": "test",
+					"external_id": "4ff5afc0a90e0d4253b919688e7d4f0a574b0c4d",
+					"release_per_platform_id": "test_4ff5afc0a90e0d4253b919688e7d4f0a574b0c4d",
+					"availability": 0
+				},
+				{
+					"id": "56454260134637999",
+					"platform_id": "test",
+					"external_id": "535930",
+					"release_per_platform_id": "test_535930",
+					"availability": 0
+				},
+				{
+					"id": "56622623615587303",
+					"platform_id": "test",
+					"external_id": "8d6db5fed3a1c879b82f7715905597e85f47b843",
+					"release_per_platform_id": "test_8d6db5fed3a1c879b82f7715905597e85f47b843",
+					"availability": 0
+				},
+				{
+					"id": "56744262524262993",
+					"platform_id": "test",
+					"external_id": "e85ce2ac20b78f7bc9bef2435222b5fa93d7b493",
+					"release_per_platform_id": "test_e85ce2ac20b78f7bc9bef2435222b5fa93d7b493",
+					"availability": 0
+				},
+				{
+					"id": "56744262525883406",
+					"platform_id": "test",
+					"external_id": "f8140d7687684d49c834027f96b155b0d523b54d",
+					"release_per_platform_id": "test_f8140d7687684d49c834027f96b155b0d523b54d",
+					"availability": 0
+				},
+				{
+					"id": "58711546602622308",
+					"platform_id": "epic",
+					"external_id": "4ad17ed617f44a4dbf7e8a960484c619",
+					"release_per_platform_id": "epic_4ad17ed617f44a4dbf7e8a960484c619",
+					"availability": 0
+				},
+				{
+					"id": "51295416081026117",
+					"platform_id": "generic",
+					"external_id": "51295416081026117",
+					"release_per_platform_id": "generic_51295416081026117",
+					"availability": 1
+				}
+			],
+			"title": {
+				"*": "Two Point Hospital",
+				"en-US": "Two Point Hospital"
+			},
+			"sorting_title": {
+				"*": "Two Point Hospital",
+				"en-US": "Two Point Hospital"
+			},
+			"type": "game",
+			"developers_ids": [
+				"51295416085373482"
+			],
+			"developers": [
+				{
+					"id": "51295416085373482",
+					"name": "Two Point Studios",
+					"slug": "two-point-studios"
+				}
+			],
+			"publishers_ids": [
+				"51141228401665124"
+			],
+			"publishers": [
+				{
+					"id": "51141228401665124",
+					"name": "Sega",
+					"slug": "sega"
+				}
+			],
+			"genres_ids": [
+				"51071904337940794",
+				"51121492616405278",
+				"51141224846123521"
+			],
+			"genres": [
+				{
+					"id": "51071904337940794",
+					"name": {
+						"*": "Strategy",
+						"en-US": "Strategy"
+					},
+					"slug": "strategy"
+				},
+				{
+					"id": "51121492616405278",
+					"name": {
+						"*": "Indie",
+						"en-US": "Indie"
+					},
+					"slug": "indie"
+				},
+				{
+					"id": "51141224846123521",
+					"name": {
+						"*": "Simulator",
+						"en-US": "Simulator"
+					},
+					"slug": "simulator"
+				}
+			],
+			"themes_ids": [
+				"51141228273355505"
+			],
+			"themes": [
+				{
+					"id": "51141228273355505",
+					"name": {
+						"*": "Business",
+						"en-US": "Business"
+					},
+					"slug": "business"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/a7472c25bbc14038493347e0c046869bc3b1f6996737723da0e8a1b9bf0d2901{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/c31449f22bd83774c6147c97efc476e39343e4967877fc8273f84c58ac189774{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/3442ad995815d46b7d0b75efb7d9a7be7fe1b25d624c66bd166455f923115c19{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/2c1a730e06c010c7d0f95df972f1ca42f492743ec125be4dc905b24634987af0{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/bcaade940463f67fe5eb1cf06e51c817a77fc7b83bdb20ee67d4fae7263da420{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/7ec4e2501742c839cf00c034a0022731d54ab815799fec65e60fc3d11f8352a1{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/c090b5c4c3d154abff98fe87d498085a9d24fe2378b8583da734aca9ce1090d4{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/19efe62f9bef9de74b0f59dfc8715387b5461fa222ac13d268981d74abf1cdf4{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/d98bc94c075782305ba92776c9fd0fa599a7a9bb9d3afcc0ce2752e63ab1779e{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/0f8324327427ffa139c4d7671e35c86193694d9f337a6b9ff6a35ac137eb6e07{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/52d57b05074305c1853624e2a81c7b4a3c992d1aee882aa255e58bd139127cdb{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/d8b106738eb7dd470264ca72c71c03dd1ee387fcefe9af3af4fbe01ef148f620{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/2d5317ba9c1aed94217345d44a2fd0a6da38e55d99b19a612ff939104ee76d9e{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/6899b06aa59cc205fcb341afbb08fa25dc13d2514a39f1a26a8330e5f13387fc{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/f7658882a5bccfa7942dc973c4f4c8397b4a697cd6791b79e07d4715c0327cea{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/837f8c43f8bdc4d6fa4d3c906a46fd5244d64e79248304aa44e48256c18a1b4a{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/7364c59dbd19d976d6e3eb6260d8727491ca8bbfceaae1dda70ba066e371f5c5{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "udp7pfHuzF0",
+					"thumbnail_id": "udp7pfHuzF0",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "MaXUtUjba7A",
+					"thumbnail_id": "MaXUtUjba7A",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "VXE5a1Pv2qM",
+					"thumbnail_id": "VXE5a1Pv2qM",
+					"name": "Development Diary"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "KAnjiwdxEoI",
+					"thumbnail_id": "KAnjiwdxEoI",
+					"name": "Announcement Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "R-ITW-jjRdY",
+					"thumbnail_id": "R-ITW-jjRdY",
+					"name": "Developer Vision Trailer"
+				}
+			],
+			"artworks": [],
+			"summary": {
+				"*": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County. \r\n \r\nDesign Your Hospital \r\nBuild and customise your hospital - it is yours after all - with specialist diagnosis and treatment facilities, as well as the very latest in ornamental technology! \r\n \r\nCure Your Patients \r\nFeeling light-headed? Just wait until you see the other unusual illnesses afflicting the people of Two Point County. Care for, and profit from, the ill: that seems like it’s probably a win-win. They’ll need feeding, entertaining and curing if they’re going to recommend you to all their equally unwell friends! That cash isn’t going to make itself, now. \r\n \r\nManage Your Staff \r\nHire your staff, juggle their demands and cater to their personalities. Train a crack team that can handle every sickly challenge that’s thrown at it, and fire anyone that can’t. \r\n \r\nExpand Your Organisation \r\nGrow the sickness business across the beautiful Two Point County. Research illnesses and develop new inventions to compete with rival healthcare companies. \r\n \r\nCollaborate and Compete with Friends \r\nOnce you’ve conquered the world with your medical empire, contribute to Two Point County’s global medical community with collaborative research projects, or demonstrate your medical prowess in competitive multiplayer challenges.",
+				"en-US": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.\nBuild and customise your hospital - it is yours after all - with specialist diagnosis and treatment facilities, as well as the very latest in ornamental technology!"
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 86.9,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/de8d34e084799165a8b2156990d02884ef93d66bd694c0d0bd8b1731fb5a8ccb{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/de8d34e084799165a8b2156990d02884ef93d66bd694c0d0bd8b1731fb5a8ccb{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/9e9d090973a43b0cbb69c5f49a57086a051047f0549ee3b286f763919f655e6d{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/9e9d090973a43b0cbb69c5f49a57086a051047f0549ee3b286f763919f655e6d{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/c223be023abc3b63521d47d578d5792729de26434ebd677a4bd72e1a7e91b27d{formatter}.{ext}?namespace=gamesdb"
+			},
+			"icon": {
+				"url_format": "https://images.gog.com/f49fb06b1b7aef91a9b69b6ac66d1029db94ae5a18d47f790ce44eb132258921{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/e2442af4ebc2e005933d85fe5ef12d25a497b6568ac0584438fbd4292b2ac2c2{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"slug": "two-point-hospital"
+		},
+		"title": {
+			"*": "Two Point Hospital",
+			"en-US": "Two Point Hospital"
+		},
+		"sorting_title": {
+			"*": "Two Point Hospital",
+			"en-US": "Two Point Hospital"
+		},
+		"type": "game",
+		"summary": {
+			"*": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County. \r\n \r\nDesign Your Hospital \r\nBuild and customise your hospital - it is yours after all - with specialist diagnosis and treatment facilities, as well as the very latest in ornamental technology! \r\n \r\nCure Your Patients \r\nFeeling light-headed? Just wait until you see the other unusual illnesses afflicting the people of Two Point County. Care for, and profit from, the ill: that seems like it’s probably a win-win. They’ll need feeding, entertaining and curing if they’re going to recommend you to all their equally unwell friends! That cash isn’t going to make itself, now. \r\n \r\nManage Your Staff \r\nHire your staff, juggle their demands and cater to their personalities. Train a crack team that can handle every sickly challenge that’s thrown at it, and fire anyone that can’t. \r\n \r\nExpand Your Organisation \r\nGrow the sickness business across the beautiful Two Point County. Research illnesses and develop new inventions to compete with rival healthcare companies. \r\n \r\nCollaborate and Compete with Friends \r\nOnce you’ve conquered the world with your medical empire, contribute to Two Point County’s global medical community with collaborative research projects, or demonstrate your medical prowess in competitive multiplayer challenges.",
+			"en-US": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.\nBuild and customise your hospital - it is yours after all - with specialist diagnosis and treatment facilities, as well as the very latest in ornamental technology!"
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			}
+		],
+		"icon": {
+			"url_format": "https://images.gog.com/f49fb06b1b7aef91a9b69b6ac66d1029db94ae5a18d47f790ce44eb132258921{formatter}.{ext}?namespace=gamesdb"
+		},
+		"logo": {
+			"url_format": "https://images.gog.com/c223be023abc3b63521d47d578d5792729de26434ebd677a4bd72e1a7e91b27d{formatter}.{ext}?namespace=gamesdb"
+		},
+		"etag": "W/\"e11959005e1d581a0fc8adfdc45591b4\""
+	}
+}

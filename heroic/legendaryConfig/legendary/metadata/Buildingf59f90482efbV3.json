@@ -1,0 +1,107 @@
+{
+  "app_name": "Buildingf59f90482efbV3",
+  "app_title": "BuildingGenerator",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Buildingf59f90482efbV3",
+      "asset_id": "Buildingf59f90482efbV3",
+      "build_version": "5.5.0-39859626+++UE5+Dev-Marketplace-Windows",
+      "catalog_item_id": "58481b3319254a41bc0fcead39c12798",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "categories": [
+      {
+        "path": "plugins/engine"
+      },
+      {
+        "path": "plugins"
+      },
+      {
+        "path": "asset-format/game-engine"
+      },
+      {
+        "path": "type/format-item"
+      },
+      {
+        "path": "asset-format/game-engine/unreal-engine"
+      },
+      {
+        "path": "type"
+      },
+      {
+        "path": "asset-format"
+      }
+    ],
+    "creationDate": "2024-10-06T13:14:36.337Z",
+    "customAttributes": {
+      "ListingIdentifier": {
+        "type": "STRING",
+        "value": "4e41edc7-d005-4fac-9486-524183b1b2c7"
+      }
+    },
+    "description": "BuildingGenerator",
+    "developer": "Stoner Games",
+    "developerId": "o-aj7guk6qdxtt5jp9xmjsnx4bj6t5al",
+    "endOfSupport": false,
+    "entitlementName": "58481b3319254a41bc0fcead39c12798",
+    "entitlementType": "AUDIENCE",
+    "id": "58481b3319254a41bc0fcead39c12798",
+    "itemType": "DURABLE",
+    "keyImages": [],
+    "lastModifiedDate": "2025-02-10T12:10:24.882Z",
+    "mainGameItemList": [],
+    "namespace": "89efe5924d3d467c839449ab6ab52e7f",
+    "releaseInfo": [
+      {
+        "appId": "BuildingGenerator_5.3",
+        "compatibleApps": [
+          "UE_5.3"
+        ],
+        "dateAdded": "2025-02-10T11:38:25.121Z",
+        "id": "3db0df6f22da408a879d9efebdd24511",
+        "platform": [
+          "Windows"
+        ],
+        "releaseNote": "5.3",
+        "versionTitle": "5.3"
+      },
+      {
+        "appId": "BuildingGenerator_5.4",
+        "compatibleApps": [
+          "UE_5.4"
+        ],
+        "dateAdded": "2025-02-10T11:38:25.121Z",
+        "id": "b3426f96c1e04d6a8600b8f8622b0ba0",
+        "platform": [
+          "Windows"
+        ],
+        "releaseNote": "5.4",
+        "versionTitle": "5.4"
+      },
+      {
+        "appId": "Buildingf59f90482efbV3",
+        "compatibleApps": [
+          "UE_5.5"
+        ],
+        "dateAdded": "2025-02-10T11:38:25.121Z",
+        "id": "06fc7552c9774d9589ffc12100ed9513",
+        "platform": [
+          "Windows"
+        ],
+        "releaseNote": "version 5.5",
+        "versionTitle": "5.5"
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "BuildingGenerator",
+    "unsearchable": false
+  },
+  "sidecar": null
+}
