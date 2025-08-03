@@ -21,3 +21,5 @@
 **/*.node
 **/modules/discord_*/
 **/eos_overlay/
+heroic/tools/
+discord/*/modules/
