@@ -15,3 +15,9 @@
 
 # Don't track nested git repos
 **/.git/
+
+# Binary modules that don't belong in config
+**/*.dll
+**/*.node
+**/modules/discord_*/
+**/eos_overlay/
