@@ -10,7 +10,7 @@
   "wallpaper.pywal": true,
   "theme.bar.menus.monochrome": false,
   "wallpaper.image": "/home/autometalogolex/Documents/Constelaciones-mundos-cosmere.jpg",
-  "theme.bar.menus.opacity": 85,
+  "theme.bar.menus.opacity": 100,
   "theme.bar.transparent": true,
   "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
   "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun",
@@ -34,16 +34,16 @@
   "bar.workspaces.showApplicationIcons": true,
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "bar.battery.label": false,
-  "bar.media.show_label": false,
-  "bar.media.truncation": false,
-  "bar.media.format": "",
+  "bar.media.show_label": true,
+  "bar.media.truncation": true,
+  "bar.media.format": "{title}, by {artist} from {identity}",
   "menus.clock.time.military": false,
-  "menus.clock.time.hideSeconds": false,
+  "menus.clock.time.hideSeconds": true,
   "menus.power.lowBatteryNotification": false,
   "menus.media.hideAuthor": false,
   "menus.media.hideAlbum": false,
-  "menus.media.displayTimeTooltip": false,
-  "menus.media.displayTime": false,
+  "menus.media.displayTimeTooltip": true,
+  "menus.media.displayTime": true,
   "theme.matugen": true,
   "theme.matugen_settings.scheme_type": "expressive",
   "theme.matugen_settings.variation": "standard_2",
@@ -57,17 +57,20 @@
   "bar.layouts": {
     "0": {
       "left": [
-        "dashboard"
+        "dashboard",
+        "clock",
+        "separator",
+        "media",
+        "cava"
       ],
       "middle": [
         "workspaces",
         "windowtitle"
       ],
       "right": [
-        "volume",
-        "network",
-        "bluetooth",
         "systray",
+        "volume",
+        "bluetooth",
         "notifications"
       ]
     },
@@ -101,12 +104,39 @@
       ]
     }
   },
-  "theme.bar.layer": "top",
+  "theme.bar.layer": "overlay",
   "bar.notifications.show_total": true,
   "bar.notifications.hideCountWhenZero": true,
   "notifications.position": "top right",
   "theme.notification.enableShadow": false,
   "notifications.autoDismiss": true,
   "theme.osd.enableShadow": false,
-  "theme.matugen_settings.mode": "dark"
+  "theme.matugen_settings.mode": "dark",
+  "notifications.showActionsOnHover": true,
+  "menus.clock.weather.key": "1ea1441533124eb1be3210118251801",
+  "theme.bar.outer_spacing": "0em",
+  "theme.bar.buttons.y_margins": "0em",
+  "bar.workspaces.showAllActive": true,
+  "theme.bar.buttons.workspaces.smartHighlight": true,
+  "bar.workspaces.reverse_scroll": false,
+  "bar.windowtitle.class_name": true,
+  "bar.windowtitle.custom_title": true,
+  "bar.windowtitle.label": true,
+  "bar.windowtitle.icon": true,
+  "bar.windowtitle.truncation": true,
+  "bar.network.showWifiInfo": true,
+  "bar.systray.ignore": [
+    "udiskie",
+    "nm-applet",
+    "blueman"
+  ],
+  "bar.clock.showIcon": true,
+  "bar.clock.format": "%d/%m/%y %I:%M %p",
+  "bar.media.show_active_only": true,
+  "bar.media.truncation_size": 50,
+  "theme.bar.buttons.style": "wave2",
+  "theme.bar.opacity": 0,
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.buttons.background_opacity": 0,
+  "theme.bar.buttons.background_hover_opacity": 100
 }
