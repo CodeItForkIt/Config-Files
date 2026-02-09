@@ -1,0 +1,48 @@
+/* monitor, using css vars */
+.monitor {
+    padding: var(--window-padding, 2px);
+
+    border-radius: var(--border-radius, 12px);
+    background-color: var(--bg-color, rgba(20, 20, 20, 0));
+    border: var(--border-size, 3px) var(--border-style, solid) var(--border-color, rgba(90, 90, 120, 0));
+}
+.monitor:hover {
+    background-color: var(--bg-color-hover, rgba(40, 40, 50, 0));
+}
+
+/* workspace, using css vars */
+.workspace {
+    font-size: 2rem;
+    font-weight: bolder;
+
+    border-radius: var(--border-radius, 12px);
+    background-color: var(--bg-color, rgba(20, 20, 20, 0));
+    border: var(--border-size, 3px) var(--border-style, solid) var(--border-color, rgba(90, 90, 120, 0));
+}
+.workspace:hover {
+    background-color: var(--bg-color-hover, rgba(40, 40, 50, 0.5));
+}
+.workspace.active {
+    border: var(--border-size, 3px) var(--border-style, solid) var(--border-color-active, rgba(239, 9, 9, 0));
+}
+
+/* client, using css vars */
+.client {
+    font-size: 1.2rem;
+    font-weight: normal;
+
+    border-radius: var(--border-radius, 12px);
+    background-color: var(--bg-color, rgba(20, 20, 20, 0));
+    border: var(--border-size, 3px) var(--border-style, solid) var(--border-color, rgba(90, 90, 120, 0));
+}
+.client:hover {
+    background-color: var(--bg-color-hover, rgba(40, 40, 50, 0));
+}
+.client.active {
+    border: var(--border-size, 3px) var(--border-style, solid) var(--border-color-active, rgba(128, 128, 128, 1));
+}
+
+.client-image {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
