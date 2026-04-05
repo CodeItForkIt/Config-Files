@@ -605,7 +605,7 @@ scroll-down = ""
 [wallpaper]
 engine-enabled = true
 transition-type = "simple"
-transition-duration = 0.7
+transition-duration = 0.1
 transition-fps = 60
 cycling-enabled = false
 cycling-directory = ""
