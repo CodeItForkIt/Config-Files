@@ -1,5 +1,3 @@
-#:schema /home/autometalogolex/.config/wayle/schema.json
-
 imports = []
 
 [general]
@@ -8,7 +6,7 @@ font-mono = "JetBrains Mono"
 tearing-mode = false
 
 [bar]
-scale = 0.9
+scale = 1.0
 inset-edge = 0.0
 inset-ends = 0.0
 padding = 0.35
@@ -16,30 +14,30 @@ padding-ends = 0.5
 module-gap = 0.5
 location = "top"
 bg = "bg-surface"
-background-opacity = 0
-border-location = "all"
-border-width = 0
+background-opacity = 100
+border-location = "none"
+border-width = 1
 border-color = "border-accent"
-rounding = "full"
+rounding = "none"
 shadow = "none"
 button-variant = "block-prefix"
 button-opacity = 100
-button-bg-opacity = 0
+button-bg-opacity = 100
 button-icon-size = 1.0
 button-icon-padding = 1.0
 button-label-size = 1.0
-button-label-weight = "bold"
+button-label-weight = "semibold"
 button-label-padding = 1.0
-button-rounding = "full"
+button-rounding = "sm"
 button-gap = 1.0
 button-icon-position = "start"
-button-border-location = "none"
+button-border-location = "all"
 button-border-width = 1
 button-group-border-location = "none"
 button-group-border-width = 1
 button-group-padding = 0.0
 button-group-module-gap = 0.25
-button-group-background = "transparent"
+button-group-background = "bg-elevated"
 button-group-opacity = 100
 button-group-border-color = "border-accent"
 button-group-rounding = "sm"
@@ -49,18 +47,24 @@ dropdown-autohide = true
 
 [[bar.layout]]
 monitor = "*"
-left = ["dashboard", "clock", "weather", "separator", "media", "cava"]
-center = ["hyprland-workspaces", "window-title"]
-right = ["bluetooth", "microphone", "volume", "notifications"]
+left = ["media"]
+center = ["clock"]
+right = [
+    "battery",
+    "bluetooth",
+    "network",
+    "microphone",
+    "volume",
+]
 
 [styling]
-scale = 1.0
-rounding = "full"
-theme-provider = "matugen"
+scale = 1.01
+rounding = "sm"
+theme-provider = "wayle"
 theming-monitor = ""
 matugen-scheme = "tonal-spot"
 matugen-contrast = 0.0
-matugen-source-color = 1
+matugen-source-color = 0
 matugen-light = false
 wallust-palette = "dark16"
 wallust-saturation = 0
@@ -74,7 +78,7 @@ pywal-light = false
 pywal-apply-globally = true
 
 [styling.palette]
-bg = "transparent"
+bg = "#141420"
 surface = "#1c1c2c"
 elevated = "#262638"
 fg = "#d4d6e8"
@@ -90,14 +94,14 @@ custom = []
 
 [modules.battery]
 level-icons = [
-  "md-battery_android_0-symbolic",
-  "md-battery_android_frame_1-symbolic",
-  "md-battery_android_frame_2-symbolic",
-  "md-battery_android_frame_3-symbolic",
-  "md-battery_android_frame_4-symbolic",
-  "md-battery_android_frame_5-symbolic",
-  "md-battery_android_frame_6-symbolic",
-  "md-battery_android_frame_full-symbolic",
+    "md-battery_android_0-symbolic",
+    "md-battery_android_frame_1-symbolic",
+    "md-battery_android_frame_2-symbolic",
+    "md-battery_android_frame_3-symbolic",
+    "md-battery_android_frame_4-symbolic",
+    "md-battery_android_frame_5-symbolic",
+    "md-battery_android_frame_6-symbolic",
+    "md-battery_android_frame_full-symbolic",
 ]
 charging-icon = "md-battery_android_frame_bolt-symbolic"
 alert-icon = "md-battery_android_alert-symbolic"
@@ -105,7 +109,7 @@ border-show = false
 border-color = "yellow"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "yellow"
 label-show = true
 label-color = "yellow"
 label-max-length = 0
@@ -125,7 +129,7 @@ border-show = false
 border-color = "blue"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "blue"
 label-show = true
 label-color = "blue"
 label-max-length = 15
@@ -142,12 +146,12 @@ framerate = 60
 stereo = false
 noise-reduction = 0.65
 monstercat = 0.0
-waves = 1
+waves = 0
 low-cutoff = 50
 high-cutoff = 17000
 input = "pipe-wire"
 source = "auto"
-style = "wave"
+style = "bars"
 direction = "normal"
 color = "accent"
 button-bg-color = "bg-surface-elevated"
@@ -169,7 +173,7 @@ border-show = false
 border-color = "border-accent"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "accent"
 label-show = true
 label-color = "accent"
 label-max-length = 0
@@ -190,7 +194,7 @@ border-show = false
 border-color = "blue"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "blue"
 label-show = true
 label-color = "blue"
 label-max-length = 0
@@ -204,15 +208,15 @@ scroll-down = ""
 [modules.dashboard]
 icon-override = ""
 border-show = false
-border-color = "transparent"
+border-color = "yellow"
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "yellow"
 right-click = ""
 middle-click = ""
 scroll-up = ""
 scroll-down = ""
 left-click = "dropdown:dashboard"
-dropdown-lock-command = "hyprlock"
+dropdown-lock-command = "loginctl lock-session"
 dropdown-logout-command = "loginctl terminate-session $XDG_SESSION_ID"
 dropdown-reboot-command = "systemctl reboot"
 dropdown-poweroff-command = "systemctl poweroff"
@@ -222,25 +226,25 @@ min-workspace-count = 0
 monitor-specific = true
 show-special = true
 urgent-show = true
-urgent-mode = "application"
-display-mode = "none"
+urgent-mode = "workspace"
+display-mode = "label"
 label-use-name = false
 numbering = "absolute"
 divider = " "
-app-icons-show = true
+app-icons-show = false
 app-icons-dedupe = true
 app-icons-fallback = "ld-app-window-symbolic"
 app-icons-empty = "tb-minus-symbolic"
 icon-gap = 0.3
 workspace-padding = 0.5
-icon-size = 0.9
+icon-size = 1.0
 label-size = 1.0
 workspace-ignore = []
 active-indicator = "background"
 active-color = "accent"
 occupied-color = "fg-muted"
 empty-color = "fg-subtle"
-container-bg-color = "transparent"
+container-bg-color = "bg-surface-elevated"
 border-show = false
 border-color = "border-default"
 
@@ -262,7 +266,7 @@ icon-bg-color = "yellow"
 label-show = true
 label-color = "yellow"
 label-max-length = 0
-button-bg-color = "transparent"
+button-bg-color = "bg-surface-elevated"
 left-click = ":toggle"
 right-click = ""
 middle-click = ""
@@ -278,7 +282,7 @@ border-show = false
 border-color = "green"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "green"
 label-show = true
 label-color = "green"
 label-max-length = 0
@@ -297,7 +301,7 @@ border-show = false
 border-color = "blue"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "blue"
 label-show = true
 label-color = "blue"
 label-max-length = 0
@@ -315,7 +319,7 @@ border-show = false
 border-color = "yellow"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "yellow"
 label-show = true
 label-color = "yellow"
 label-max-length = 0
@@ -339,7 +343,7 @@ border-show = false
 border-color = "blue"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "blue"
 label-show = true
 label-color = "blue"
 label-max-length = 35
@@ -359,7 +363,7 @@ border-show = false
 border-color = "red"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "red"
 label-show = true
 label-color = "red"
 label-max-length = 0
@@ -376,10 +380,10 @@ wifi-acquiring-icon = "cm-wireless-acquiring-symbolic"
 wifi-offline-icon = "cm-wireless-offline-symbolic"
 wifi-connected-icon = "cm-wireless-connected-symbolic"
 wifi-signal-icons = [
-  "cm-wireless-signal-weak-symbolic",
-  "cm-wireless-signal-ok-symbolic",
-  "cm-wireless-signal-good-symbolic",
-  "cm-wireless-signal-excellent-symbolic",
+    "cm-wireless-signal-weak-symbolic",
+    "cm-wireless-signal-ok-symbolic",
+    "cm-wireless-signal-good-symbolic",
+    "cm-wireless-signal-excellent-symbolic",
 ]
 wired-connected-icon = "cm-wired-symbolic"
 wired-acquiring-icon = "cm-wired-acquiring-symbolic"
@@ -388,7 +392,7 @@ border-show = false
 border-color = "accent"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "accent"
 label-show = true
 label-color = "accent"
 label-max-length = 15
@@ -408,7 +412,7 @@ border-show = false
 border-color = "red"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "red"
 label-show = true
 label-color = "red"
 label-max-length = 0
@@ -427,7 +431,7 @@ border-show = false
 border-color = "green"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "green"
 label-show = true
 label-color = "green"
 label-max-length = 0
@@ -492,7 +496,7 @@ border-show = false
 border-color = "yellow"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "yellow"
 label-show = true
 label-color = "yellow"
 label-max-length = 0
@@ -520,16 +524,16 @@ button-bg-color = "bg-surface-elevated"
 
 [modules.volume]
 level-icons = [
-  "ld-volume-symbolic",
-  "ld-volume-1-symbolic",
-  "ld-volume-2-symbolic",
+    "ld-volume-symbolic",
+    "ld-volume-1-symbolic",
+    "ld-volume-2-symbolic",
 ]
 icon-muted = "ld-volume-x-symbolic"
 border-show = false
 border-color = "red"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "red"
 label-show = true
 label-color = "red"
 label-max-length = 0
@@ -543,8 +547,8 @@ dropdown-app-icons = "mapped"
 
 [modules.weather]
 provider = "open-meteo"
-location = "Eugene"
-units = "imperial"
+location = "San Francisco"
+units = "metric"
 format = "{{ temp }}{{ temp_unit }}"
 time-format = "12h"
 refresh-interval-seconds = 1800
@@ -553,7 +557,7 @@ border-show = false
 border-color = "border-accent"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "accent"
 label-show = true
 label-color = "accent"
 label-max-length = 0
@@ -565,13 +569,13 @@ scroll-up = ""
 scroll-down = ""
 
 [modules.window-title]
-format = "{{ app }}"
+format = "{{ title }}"
 icon-name = "ld-app-window-symbolic"
 border-show = false
 border-color = "blue"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "blue"
 label-show = true
 label-color = "blue"
 label-max-length = 50
@@ -591,7 +595,7 @@ border-show = false
 border-color = "yellow"
 icon-show = true
 icon-color = "auto"
-icon-bg-color = "transparent"
+icon-bg-color = "yellow"
 label-show = true
 label-color = "yellow"
 label-max-length = 0
