@@ -1,55 +1,131 @@
-# Cache files that constantly change
+# ============================================================
+# ~/.config dotfiles gitignore
+# Strategy: ignore app runtime data, track actual configs
+# ============================================================
+
+# ── Caches (universal) ──────────────────────────────────────
 **/cache/
 **/Cache/
 **/.cache/
 **/GPUCache/
+**/DawnCache/
 **/DawnGraphiteCache/
 **/DawnWebGPUCache/
+**/Code Cache/
+**/Shared Dictionary/
+**/*.count
+
+# ── Electron/Chromium runtime data ──────────────────────────
+**/Local Storage/
+**/Session Storage/
+**/IndexedDB/
+**/Network Persistent State
 **/TransportSecurity
+**/Cookies
+**/DIPS
+**/Partitions/
+**/Preferences
+**/LOG
+**/LOG.old
+
+# ── Logs & locks ────────────────────────────────────────────
 **/logs/
 **/*.log
 **/*.lock
 
-# Shared Dictionary caches (Electron apps love these)
-**/Shared Dictionary/cache/
-# Don't track nested git repos
+# ── Nested git repos ────────────────────────────────────────
 **/.git/
-# Binary modules that don't belong in config
+
+# ── Binary blobs ────────────────────────────────────────────
 **/*.dll
 **/*.node
-**/modules/discord_*/
-**/eos_overlay/
-heroic/tools/
-discord/*/modules/
-heroic/tools/eos_overlay/Win32/libcef.dll
-heroic/tools/eos_overlay/Win64/libcef.dll
-1Password
-alvr
-azahar-emu
-balenaEtcher
-cairo-dock
-calibre
-cava
-chromium
-citra-emu
-discord
+**/*.count
+
+# ── App data dirs (not configs) ─────────────────────────────
+1Password/
+alvr/
+azahar-emu/
+balenaEtcher/
+BraveSoftware/
+cairo-dock/
+calibre/
+cava/
+Cemu/
+chromium/
+citra-emu/
+dconf/
+discord/
 discoverrc
 drkonqirc
 electron-builder.json
-EmuDeck
-evince
-fluent-reader
-Foundry Virtual Tabletop
-GIMP
-gnome-builder
-go
-godot
+EmuDeck/
+evince/
+fish/
+fluent-reader/
+Foundry Virtual Tabletop/
+GIMP/
+gnome-builder/
+go/
+godot/
+google-chrome*/
 gtkrc
 gtkrc-2.0
-heroic
-ibus
+heroic/
+ibus/
+libreoffice/
+libaccounts-glib/
+matugen/
+menus/
+microsoft-edge-dev/
+ModrinthApp/
+obsidian/
+opencode/
+openvr/
+openxr/
+OrcaSlicer/
+PCSX2/
+pegasus-frontend/
+pipewire/
+pupgui/
+rpcs3/
+Ryujinx/
+session/
+settings/
+spicetify/
+spotify/Users/
+steam-rom-manager/Crashpad/
+steamtinkerlaunch/
+sublime-text/Installed Packages/
+sublime-text/Lib/
+sublime-text/Local/
+sunshine/
+tool_state
+Trolltech.conf
+UNDERTALE/
+unity3d/
+Unknown Organization/
+uv/
+Valve/
+Vampire_Survivors/
+Vampire_Survivors_1342618662/
+Vampire_Survivors_Data/
+vermilion/
+vesktop/
+VirtualBox/
+Vita3K/
+vivaldi*/
+.vscode/
+VSCodium/
+wayvr/
+xdg-desktop-portal/
+xfce4/
+xfce4-dict/
+
+# ── KDE runtime state (not portable configs) ────────────────
 kactivitymanagerd-statsrc
+kactivitymanagerdrc
 kcminputrc
+kconf_updaterc
 kded5rc
 kdedefaults
 kglobalshortcutsrc
@@ -58,81 +134,18 @@ ksplashrc
 ktimezonedrc
 kwinoutputconfig.json
 kwinrc
-libaccounts-glib
-libreoffice
-.luarc.json
-menus
-obsidian
 okularpartrc
 okularrc
-opencode
-openvr
-openxr
-pegasus-frontend
 plasma-localerc
-plasma-mobile
+plasma-mobile/
 plasmamobilerc
-plasma-nm
+plasma-nm/
 plasmanotifyrc
 plasma-org.kde.plasma.desktop-appletsrc
 plasma-org.kde.plasma.mobileshell-appletsrc
 plasmashellrc
 plasma-welcomerc
 powermanagementprofilesrc
-pupgui
-rpcs3
-Ryujinx
-session
-settings
-steam-rom-manager
-steamtinkerlaunch
-sunshine
-tool_state
-Trolltech.conf
-UNDERTALE
-unity3d
-uv
-Valve
-Vampire_Survivors
-Vampire_Survivors_1342618662
-Vampire_Survivors_Data
-vermilion
-vesktop
-.vscode
-VSCodium
-wayvr
-xdg-desktop-portal
-xfce4
-xfce4-dict
-EmuDeck/
-Foundry Virtual Tabletop/
-**/Code Cache/
-**/DawnCache/
-**/Network Persistent State
-**/Session Storage/
-**/Local Storage/
-**/Cookies
-**/Preferences
-balenaEtcher/
-heroic/store_cache/
-heroic/areweanticheatyet.json
-heroic/legendaryConfig/legendary/user.json
-dconf/
-go/
-**/*.count
-kconf_updaterc
-kactivitymanagerdrc
-heroic/legendaryConfig/
-heroic/store/
-obsidian/
-libreoffice/
-heroic/DIPS
-heroic/Code Cache/
-heroic/Local Storage/
-heroic/Session Storage/
-heroic/Network Persistent State
-spotify/Users/
-steam-rom-manager/Crashpad/
-sublime-text/Installed Packages/
-sublime-text/Lib/
-sublime-text/Local/
+
+# ── Misc runtime/generated ──────────────────────────────────
+.luarc.json
