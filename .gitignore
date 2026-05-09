@@ -132,3 +132,12 @@ Foundry Virtual Tabletop/
 **/Local Storage/
 **/Cookies
 **/Preferences
+balenaEtcher/
+heroic/store_cache/
+heroic/areweanticheatyet.json
+heroic/legendaryConfig/legendary/user.json
+dconf/
+go/
+**/*.count
+kconf_updaterc
+kactivitymanagerdrc
