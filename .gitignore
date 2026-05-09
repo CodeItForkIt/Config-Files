@@ -123,3 +123,12 @@ wayvr
 xdg-desktop-portal
 xfce4
 xfce4-dict
+EmuDeck/
+Foundry Virtual Tabletop/
+**/Code Cache/
+**/DawnCache/
+**/Network Persistent State
+**/Session Storage/
+**/Local Storage/
+**/Cookies
+**/Preferences

@@ -1,4 +1,0 @@
-collection: Emulators
-shortname: emulators
-extensions: sh
-launch:  {file.path}
