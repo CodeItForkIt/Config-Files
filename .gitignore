@@ -141,3 +141,9 @@ go/
 **/*.count
 kconf_updaterc
 kactivitymanagerdrc
+heroic/legendaryConfig/
+heroic/store/
+obsidian/
+libreoffice/
+kactivitymanagerdrc
+kconf_updaterc
