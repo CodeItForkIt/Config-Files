@@ -1,0 +1,12 @@
+[Unit]
+Description=Hyprshell
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/hyprshell run
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=default.target
+

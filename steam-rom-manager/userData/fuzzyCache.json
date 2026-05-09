@@ -1,0 +1,350 @@
+{
+	"{\"0\":[\"xenia\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Xenia",
+		"matched": true
+	},
+	"{\"0\":[\"xemu-emu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "xemu (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"vita3k\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Vita3K (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"supermodel\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Supermodel (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"shadps4\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "shadPS4 (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"scummvm\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ScummVM",
+		"matched": true
+	},
+	"{\"0\":[\"ryujinx\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Ryujinx (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"rpcs3\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "RPCS3 (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"retroarch\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "RetroArch",
+		"matched": true
+	},
+	"{\"0\":[\"primehack\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PrimeHack",
+		"matched": true
+	},
+	"{\"0\":[\"ppsspp\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "PPSSPP (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"pcsx2-qt\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "pcsx2qt",
+		"matched": false
+	},
+	"{\"0\":[\"model-2-emulator\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Model 2 (emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"mgba\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "mGBA (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"melonds\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "melonDS (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"lime3ds\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lime3DS (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"duckstation\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "DuckStation (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"dolphin-emu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Dolphin (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"citra\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Citra Enhanced",
+		"matched": true
+	},
+	"{\"0\":[\"cemu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Cemu (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"bigpemu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BigPEmu",
+		"matched": true
+	},
+	"{\"0\":[\"azahar\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Azahar (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"ares-emu\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "ares (Emulator)",
+		"matched": true
+	},
+	"{\"0\":[\"The Legend of Zelda - Triforce Heroes (USA)-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda Triforce Heroes decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda - Oracle of Seasons (USA) VC-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda Oracle of Seasons VCdecrypted",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda - Oracle of Ages (USA) VC-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda Oracle of Ages VCdecrypted",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda - Ocarina of Time 3D (USA)-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda Ocarina of Time 3D decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda - Majora's Mask 3D (USA)-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda Majoras Mask 3D decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda - A Link to the Past ALL (RF) VC-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda A Link to the Past ALL VCdecrypted",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda - A Link Between Worlds (USA)-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda A Link Between Worlds decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Y",
+		"matched": true
+	},
+	"{\"0\":[\"Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon X",
+		"matched": true
+	},
+	"{\"0\":[\"Pokemon Ultra Sun-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Ultra Sundecrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Pokemon Ultra Moon-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Ultra Moondecrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Hyrule Warriors Legends (USA)-decrypted\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Hyrule Warriors Legends decrypted",
+		"matched": false
+	},
+	"{\"0\":[\"Super Mario 64 U ok\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario 64 U ok",
+		"matched": false
+	},
+	"{\"0\":[\"Legend of Zelda, The - Twilight Princess (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Twilight Princess",
+		"matched": true
+	},
+	"{\"0\":[\"Legend of Zelda, The - The Wind Waker (USA)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: The Wind Waker",
+		"matched": true
+	},
+	"{\"0\":[\"Zelda - Spirit Train - Cracked\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Zelda Spirit Train Cracked",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda Spirit Tracks\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Spirit Tracks",
+		"matched": true
+	},
+	"{\"0\":[\"Tetris DS\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Tetris DS",
+		"matched": true
+	},
+	"{\"0\":[\"Star Wars The Force Unleashed\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Star Wars: The Force Unleashed II",
+		"matched": true
+	},
+	"{\"0\":[\"Scribblenauts\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Scribblenauts",
+		"matched": true
+	},
+	"{\"0\":[\"Pokemon Diamond\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Diamond Version",
+		"matched": true
+	},
+	"{\"0\":[\"Pokemon - Black Version 2 (USA, Europe) (NDSi Enhanced)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Black Version 2",
+		"matched": true
+	},
+	"{\"0\":[\"New Super Mario Brothers\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "New Super Mario Brothers",
+		"matched": false
+	},
+	"{\"0\":[\"Mario and Luigi - Partners in Time\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Partners In Time",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Party\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Party",
+		"matched": true
+	},
+	"{\"0\":[\"Lego Star Wars 2\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Lego Star Wars 2",
+		"matched": false
+	},
+	"{\"0\":[\"Lego Star Wars - The Complete Saga\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "LEGO Star Wars: The Complete Saga",
+		"matched": true
+	},
+	"{\"0\":[\"Lego Indiana Jones - The Original Adventures\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "LEGO Indiana Jones: The Original Adventures",
+		"matched": true
+	},
+	"{\"0\":[\"5864 - Professor Layton and the Last Specter (US)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "5864 Professor Layton and the Last Specter",
+		"matched": false
+	},
+	"{\"0\":[\"5585 - Pokemon - Black Version (DSi Enhanced)(USA) (E)(SweeTnDs)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "5585 Pokemon Black Version",
+		"matched": false
+	},
+	"{\"0\":[\"5200 - Professor Layton and the Unwound Future (U)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "5200 Professor Layton and the Unwound Future",
+		"matched": false
+	},
+	"{\"0\":[\"4527 - Legend of Zelda - Spirit Tracks, The (US)(M3)(XenoPhobia)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "4527 Legend of Zelda Spirit Tracks The",
+		"matched": false
+	},
+	"{\"0\":[\"2787 - Nancy Drew - The Hidden Staircase (U)(Micronauts)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "2787 Nancy Drew The Hidden Staircase",
+		"matched": false
+	},
+	"{\"0\":[\"2481 - Nancy Drew - The Mystery of the Clue Bender Society (U)(SQUiRE)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "2481 Nancy Drew The Mystery of the Clue Bender Society",
+		"matched": false
+	},
+	"{\"0\":[\"1456 - Legend of Zelda - Phantom Hourglass, The (U)(Independent)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "1456 Legend of Zelda Phantom Hourglass The",
+		"matched": false
+	},
+	"{\"0\":[\"1429 - Nancy Drew - The Deadly Secret of Olde World Park (U)(XenoPhobia)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "1429 Nancy Drew The Deadly Secret of Olde World Park",
+		"matched": false
+	},
+	"{\"0\":[\"1016 - Pokemon Pearl (v05) (U)(Legacy)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "1016 Pokemon Pearl",
+		"matched": false
+	},
+	"{\"0\":[\"1015 - Pokemon Diamond (v05) (U)(Legacy)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "1015 Pokemon Diamond",
+		"matched": false
+	},
+	"{\"0\":[\"0566 - Pokemon Mystery Dungeon - Blue Rescue Team (U)(Legacy)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "0566 Pokemon Mystery Dungeon Blue Rescue Team",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda Echoes of Wisdom [01008CF01BAAC000][v0][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Echoes of Wisdom",
+		"matched": true
+	},
+	"{\"0\":[\"Super Smash Bros Ultimate [01006A800016E000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Smash Bros. Ultimate",
+		"matched": true
+	},
+	"{\"0\":[\"Super Mario Bros. Wonder[010015100B514000][1.0.0][0][16.0.3]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Super Mario Bros. Wonder",
+		"matched": true
+	},
+	"{\"0\":[\"Pokemon Violet [01008F6008C5E000][v0][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Violet",
+		"matched": true
+	},
+	"{\"0\":[\"Pokemon Sword [0100ABF008968000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Sword",
+		"matched": true
+	},
+	"{\"0\":[\"Pokemon Legends Arceus\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Legends Arceus (GBA)",
+		"matched": true
+	},
+	"{\"0\":[\"Metroid Dread [010093801237C000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Metroid Dread",
+		"matched": true
+	},
+	"{\"0\":[\"Mario and Luigi Brothership [01006D0017F7A000][v0][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario & Luigi: Brothership",
+		"matched": true
+	},
+	"{\"0\":[\"Mario Kart 8 Deluxe [0100152000022000][v0]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Mario Kart 8 Deluxe",
+		"matched": true
+	},
+	"{\"0\":[\"sxs-the_legend_of_zelda_tears_of_the_kingdom_v393216\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "sxsthe legend of zelda tears of the kingdom v393216",
+		"matched": false
+	},
+	"{\"0\":[\"sxs-the_legend_of_zelda_tears_of_the_kingdom_v196608\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "sxsthe legend of zelda tears of the kingdom v196608",
+		"matched": false
+	},
+	"{\"0\":[\"The_Legend_Of_Zelda_Tears_Of_The_Kingdom_NSW-NiiNTENDO\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend Of Zelda Tears Of The Kingdom NSWNiiNTENDO",
+		"matched": false
+	},
+	"{\"0\":[\"The Legend of Zelda Tears of the Kingdom [0100F2C0115B6000][v0][US]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "The Legend of Zelda: Tears of the Kingdom",
+		"matched": true
+	},
+	"{\"0\":[\"Pokémon Legends Z-A v1.0.0[0100F43008C44000][v0][APP]\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Pokemon Legends ZA v100",
+		"matched": false
+	},
+	"{\"0\":[\"Final Fantasy VI\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy VI",
+		"matched": true
+	},
+	"{\"0\":[\"Final Fantasy V\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy V",
+		"matched": true
+	},
+	"{\"0\":[\"Final Fantasy Tactics\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy Tactics",
+		"matched": true
+	},
+	"{\"0\":[\"Final Fantasy Origins\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy Origins",
+		"matched": true
+	},
+	"{\"0\":[\"BLUS31606\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "BLUS31606",
+		"matched": false
+	},
+	"{\"0\":[\"FINAL FANTASY VI [0100AA001415E800][v458752] (0.18 GB)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy VI",
+		"matched": true
+	},
+	"{\"0\":[\"FINAL FANTASY V [0100AA201415C800][v393216] (0.12 GB)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy V",
+		"matched": true
+	},
+	"{\"0\":[\"FINAL FANTASY IV [01004B301415A800][v327680] (0.14 GB)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy IV",
+		"matched": true
+	},
+	"{\"0\":[\"FINAL FANTASY III [01002E2014158800][v262144] (0.10 GB)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy III",
+		"matched": true
+	},
+	"{\"0\":[\"FINAL FANTASY II [01006B7014156800][v262144] (0.10 GB)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy II",
+		"matched": true
+	},
+	"{\"0\":[\"FINAL FANTASY I [01000EA014150800][v262144] (0.09 GB)\",{\"replaceDiacritics\":true,\"removeCharacters\":true,\"removeBrackets\":true}]}": {
+		"output": "Final Fantasy IX",
+		"matched": true
+	}
+}

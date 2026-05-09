@@ -1,0 +1,245 @@
+{
+	"titles": {
+		"Pokemon Ultra Moon-decrypted ${id:3709699313}": {
+			"newTitle": "Pokémon Ultra Moon",
+			"searchTitle": "${gameid:5245274}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"Pokemon Ultra Sun-decrypted ${id:3427098901}": {
+			"newTitle": "Pokémon Ultra Sun",
+			"searchTitle": "${gameid:5245263}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"Pokemon X (USA) (En,Ja,Fr,De,Es,It,Ko) ${id:2571064826}": {
+			"newTitle": "Pokémon X",
+			"searchTitle": "${gameid:5245290}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"Pokemon Y (USA) (En,Ja,Fr,De,Es,It,Ko) ${id:3532909308}": {
+			"newTitle": "Pokémon Y",
+			"searchTitle": "${gameid:36245}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"The Legend of Zelda - A Link Between Worlds (USA)-decrypted ${id:3987576889}": {
+			"newTitle": "The Legend of Zelda: A Link Between Worlds",
+			"searchTitle": "${gameid:5209446}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"The Legend of Zelda - A Link to the Past ALL (RF) VC-decrypted ${id:3097432766}": {
+			"newTitle": "The Legend of Zelda: A Link to the Past",
+			"searchTitle": "${gameid:38124}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"The Legend of Zelda - Majora's Mask 3D (USA)-decrypted ${id:3445052682}": {
+			"newTitle": "The Legend of Zelda: Majora's Mask 3D",
+			"searchTitle": "${gameid:5246697}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"The Legend of Zelda - Ocarina of Time 3D (USA)-decrypted ${id:4075933854}": {
+			"newTitle": "The Legend of Zelda: Ocarina of Time 3D",
+			"searchTitle": "${gameid:36271}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"The Legend of Zelda - Oracle of Ages (USA) VC-decrypted ${id:2950393438}": {
+			"newTitle": "The Legend of Zelda: Oracle of Ages",
+			"searchTitle": "${gameid:35190}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"The Legend of Zelda - Oracle of Seasons (USA) VC-decrypted ${id:3918250874}": {
+			"newTitle": "The Legend of Zelda: Oracle of Seasons",
+			"searchTitle": "${gameid:38450}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"The Legend of Zelda - Triforce Heroes (USA)-decrypted ${id:4102935719}": {
+			"newTitle": "The Legend of Zelda: Tri Force Heroes",
+			"searchTitle": "${gameid:5250216}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"Hyrule Warriors Legends (USA)-decrypted ${id:2784053521}": {
+			"newTitle": "Hyrule Warriors: Legends",
+			"searchTitle": "${gameid:5267606}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"5585 - Pokemon - Black Version (DSi Enhanced)(USA) (E)(SweeTnDs) ${id:2675828406}": {
+			"newTitle": "Pokémon Black Version",
+			"searchTitle": "${gameid:35622}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"5864 - Professor Layton and the Last Specter (US) ${id:2484818373}": {
+			"newTitle": "Professor Layton and the Last Specter",
+			"searchTitle": "${gameid:5245789}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"4527 - Legend of Zelda - Spirit Tracks, The (US)(M3)(XenoPhobia) ${id:3664079147}": {
+			"newTitle": "The Legend of Zelda: Spirit Tracks",
+			"searchTitle": "${gameid:37859}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"2787 - Nancy Drew - The Hidden Staircase (U)(Micronauts) ${id:3427925125}": {
+			"newTitle": "Nancy Drew: The Hidden Staircase",
+			"searchTitle": "${gameid:5333525}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"2481 - Nancy Drew - The Mystery of the Clue Bender Society (U)(SQUiRE) ${id:2839124759}": {
+			"newTitle": "Nancy Drew: The Mystery of the Clue Bender Society",
+			"searchTitle": "${gameid:5333527}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"1456 - Legend of Zelda - Phantom Hourglass, The (U)(Independent) ${id:4082090227}": {
+			"newTitle": "The Legend of Zelda: Phantom Hourglass",
+			"searchTitle": "${gameid:38076}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"1429 - Nancy Drew - The Deadly Secret of Olde World Park (U)(XenoPhobia) ${id:2211662652}": {
+			"newTitle": "Nancy Drew: The Deadly Secret of Olde World Park",
+			"searchTitle": "${gameid:5333524}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"1016 - Pokemon Pearl (v05) (U)(Legacy) ${id:3717956570}": {
+			"newTitle": "Pokémon Pearl Version",
+			"searchTitle": "${gameid:5245254}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"1015 - Pokemon Diamond (v05) (U)(Legacy) ${id:2522563545}": {
+			"newTitle": "Pokémon Diamond Version",
+			"searchTitle": "${gameid:5245253}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"0566 - Pokemon Mystery Dungeon - Blue Rescue Team (U)(Legacy) ${id:2887639467}": {
+			"newTitle": "Pokémon Mystery Dungeon: Blue Rescue Team",
+			"searchTitle": "${gameid:5245280}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"5200 - Professor Layton and the Unwound Future (U) ${id:3681815414}": {
+			"newTitle": "Professor Layton and the Unwound Future",
+			"searchTitle": "${gameid:38016}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"bigpemu ${id:2907517616}": {
+			"newTitle": "BigPEmu (Emulator)",
+			"searchTitle": "${gameid:5431829}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"xenia ${id:2998692023}": {
+			"newTitle": "Xenia (Emulator)",
+			"searchTitle": "${gameid:5245877}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1766427502075
+		},
+		"sxs-the_legend_of_zelda_tears_of_the_kingdom_v393216 ${id:3871009796}": {
+			"newTitle": "",
+			"searchTitle": "",
+			"timeStamp": 1766427502075,
+			"commandLineArguments": "",
+			"exclude": true,
+			"excludeArtwork": false
+		},
+		"sxs-the_legend_of_zelda_tears_of_the_kingdom_v196608 ${id:3825427632}": {
+			"newTitle": "",
+			"searchTitle": "",
+			"timeStamp": 1766427502075,
+			"commandLineArguments": "",
+			"exclude": true,
+			"excludeArtwork": false
+		},
+		"Final Fantasy Tactics ${id:3814272735}": {
+			"newTitle": "",
+			"searchTitle": "",
+			"timeStamp": 1766427643980,
+			"commandLineArguments": "",
+			"exclude": true,
+			"excludeArtwork": false
+		},
+		"Mario and Luigi Brothership [01006D0017F7A000][v0][US] ${id:3020002712}": {
+			"newTitle": "",
+			"searchTitle": "",
+			"timeStamp": 1766427643980,
+			"commandLineArguments": "",
+			"exclude": true,
+			"excludeArtwork": false
+		},
+		"The_Legend_Of_Zelda_Tears_Of_The_Kingdom_NSW-NiiNTENDO ${id:4043780081}": {
+			"newTitle": "",
+			"searchTitle": "",
+			"timeStamp": 1766427643984,
+			"commandLineArguments": "",
+			"exclude": true,
+			"excludeArtwork": false
+		}
+	},
+	"exceptionsVersion": 2
+}
