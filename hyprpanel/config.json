@@ -7,16 +7,16 @@
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.enableShadow": false,
   "theme.bar.buttons.volume.enableBorder": false,
-  "wallpaper.pywal": true,
+  "wallpaper.pywal": false,
   "theme.bar.menus.monochrome": false,
-  "wallpaper.image": "/home/autometalogolex/Documents/Constelaciones-mundos-cosmere.jpg",
+  "wallpaper.image": "/home/autometalogolex/Documents/Wallpapers/Way-of-Kings.jpg",
   "theme.bar.menus.opacity": 100,
   "theme.bar.transparent": true,
   "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
   "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun",
   "menus.dashboard.shortcuts.left.shortcut1.command": "floorp",
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Floorp",
-  "menus.dashboard.stats.enable_gpu": true,
+  "menus.dashboard.stats.enable_gpu": false,
   "menus.dashboard.powermenu.avatar.image": "/home/autometalogolex/Pictures/Screenshots/Cosmere.png",
   "bar.customModules.microphone.label": true,
   "tear": true,
@@ -60,8 +60,7 @@
         "dashboard",
         "clock",
         "separator",
-        "media",
-        "cava"
+        "media"
       ],
       "middle": [
         "workspaces",
@@ -138,5 +137,7 @@
   "theme.bar.opacity": 0,
   "theme.bar.buttons.opacity": 100,
   "theme.bar.buttons.background_opacity": 0,
-  "theme.bar.buttons.background_hover_opacity": 100
+  "theme.bar.buttons.background_hover_opacity": 100,
+  "wallpaper.enable": false,
+  "theme.bar.menus.background": "#000000"
 }

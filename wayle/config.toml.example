@@ -44,9 +44,11 @@ button-group-rounding = "sm"
 dropdown-shadow = true
 dropdown-opacity = 100
 dropdown-autohide = true
+dropdown-freeze-label = true
 
 [[bar.layout]]
 monitor = "*"
+show = true
 left = ["media"]
 center = ["clock"]
 right = [
@@ -112,6 +114,7 @@ icon-color = "auto"
 icon-bg-color = "yellow"
 label-show = true
 label-color = "yellow"
+format = "{{ percent }}%"
 label-max-length = 0
 button-bg-color = "bg-surface-elevated"
 left-click = "dropdown:battery"
@@ -119,6 +122,7 @@ right-click = ""
 middle-click = ""
 scroll-up = ""
 scroll-down = ""
+thresholds = []
 
 [modules.bluetooth]
 disabled-icon = "ld-bluetooth-off-symbolic"
@@ -204,6 +208,7 @@ right-click = ""
 middle-click = ""
 scroll-up = ""
 scroll-down = ""
+thresholds = []
 
 [modules.dashboard]
 icon-override = ""
@@ -373,6 +378,7 @@ right-click = ""
 middle-click = "wayle audio input-mute"
 scroll-up = ""
 scroll-down = ""
+thresholds = []
 
 [modules.network]
 wifi-disabled-icon = "cm-wireless-disabled-symbolic"
@@ -455,6 +461,7 @@ popup-monitor = "primary"
 popup-close-behavior = "dismiss"
 popup-shadow = true
 popup-urgency-bar = "low"
+thresholds = []
 
 [modules.power]
 icon-name = "ld-power-symbolic"
@@ -486,6 +493,7 @@ right-click = ""
 middle-click = ""
 scroll-up = ""
 scroll-down = ""
+thresholds = []
 
 [modules.storage]
 poll-interval-ms = 30000
@@ -506,6 +514,7 @@ right-click = ""
 middle-click = ""
 scroll-up = ""
 scroll-down = ""
+thresholds = []
 
 [modules.separator]
 size = 1
@@ -536,6 +545,7 @@ icon-color = "auto"
 icon-bg-color = "red"
 label-show = true
 label-color = "red"
+format = "{{ percent }}%"
 label-max-length = 0
 button-bg-color = "bg-surface-elevated"
 left-click = "dropdown:audio"
@@ -544,6 +554,7 @@ middle-click = "wayle audio output-mute"
 scroll-up = ""
 scroll-down = ""
 dropdown-app-icons = "mapped"
+thresholds = []
 
 [modules.weather]
 provider = "open-meteo"
@@ -605,6 +616,14 @@ right-click = ""
 middle-click = ""
 scroll-up = ""
 scroll-down = ""
+
+[osd]
+enabled = true
+position = "bottom"
+duration = 2500
+monitor = "primary"
+margin = 150.0
+border = true
 
 [wallpaper]
 engine-enabled = true

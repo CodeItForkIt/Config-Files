@@ -15,15 +15,13 @@ tab_title_template          {title}{' :{}:'.format(num_windows) if num_windows >
 # sync_to_monitor no
 # wayland_enable_ime no
 background_opacity 0.1
-font_family FiraCode
 font_size 10.0
 letter_spacing 0
 line_height 1.0
-font_family Meslo LG S for Powerline
-
-
+font_family MesloLGS NF
+window_padding_width 15
 # BEGIN_KITTY_THEME
-# Alabaster
+# Matugen
 include current-theme.conf
 # END_KITTY_THEME
 # Remap green → teal/cyan to avoid clashing with storm colors

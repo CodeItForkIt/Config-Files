@@ -1,2 +1,2 @@
-[styling.palette]
-bg = "#00000000"
+[bar]
+button-rounding = "lg"

@@ -51,7 +51,7 @@ dropdown-autohide = true
 monitor = "*"
 left = ["dashboard", "clock", "weather", "separator", "media", "cava"]
 center = ["hyprland-workspaces", "window-title"]
-right = ["bluetooth", "microphone", "volume", "notifications"]
+right = ["bluetooth", "volume", "notifications"]
 
 [styling]
 scale = 1.0

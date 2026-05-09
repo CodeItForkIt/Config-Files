@@ -4,4 +4,6 @@
 		"Vintage",
 	],
 	"index_files": true,
+	"font_face": "Times New Roman",
+	"font_size": 10,
 }
