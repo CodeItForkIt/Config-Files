@@ -12,10 +12,8 @@
 
 # Shared Dictionary caches (Electron apps love these)
 **/Shared Dictionary/cache/
-
 # Don't track nested git repos
 **/.git/
-
 # Binary modules that don't belong in config
 **/*.dll
 **/*.node
@@ -24,10 +22,7 @@
 heroic/tools/
 discord/*/modules/
 heroic/tools/eos_overlay/Win32/libcef.dll
-heroic/tools/eos_overlay/Win32/libcef.dll
 heroic/tools/eos_overlay/Win64/libcef.dll
-# Don't track nested git repos
-**/.git/
 1Password
 alvr
 azahar-emu
@@ -43,18 +38,15 @@ drkonqirc
 electron-builder.json
 EmuDeck
 evince
-fish
 fluent-reader
 Foundry Virtual Tabletop
 GIMP
 gnome-builder
 go
 godot
-gtk-3.0
 gtkrc
 gtkrc-2.0
 heroic
-hyde
 ibus
 kactivitymanagerd-statsrc
 kcminputrc
@@ -69,9 +61,7 @@ kwinrc
 libaccounts-glib
 libreoffice
 .luarc.json
-matugen
 menus
-nvim
 obsidian
 okularpartrc
 okularrc
@@ -79,7 +69,6 @@ opencode
 openvr
 openxr
 pegasus-frontend
-pipewire
 plasma-localerc
 plasma-mobile
 plasmamobilerc
@@ -95,13 +84,9 @@ rpcs3
 Ryujinx
 session
 settings
-spicetify
-spotify
 steam-rom-manager
 steamtinkerlaunch
-sublime-text
 sunshine
-systemd
 tool_state
 Trolltech.conf
 UNDERTALE
@@ -115,7 +100,6 @@ vermilion
 vesktop
 .vscode
 VSCodium
-waybar
 wayvr
 xdg-desktop-portal
 xfce4
@@ -142,8 +126,6 @@ heroic/legendaryConfig/
 heroic/store/
 obsidian/
 libreoffice/
-kactivitymanagerdrc
-kconf_updaterc
 heroic/DIPS
 heroic/Code Cache/
 heroic/Local Storage/
