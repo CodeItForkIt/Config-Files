@@ -43,6 +43,9 @@ direction = "mirror"
 [modules.clock]
 dropdown-show-seconds = true
 
+[modules.hyprland-workspaces]
+display-mode = "icon"
+
 [modules.notification]
 blocklist = ["HyDE Notify"]
 popup-urgency-bar = "critical"
