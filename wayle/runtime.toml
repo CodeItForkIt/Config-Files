@@ -25,6 +25,8 @@ right = [
     { name = "group0:right:0", modules = [
     "systray",
     "storage",
+    "cpu",
+    "ram",
 ] },
     "bluetooth",
     "volume",
