@@ -16,9 +16,8 @@ left = [
     "cava",
 ]
 center = [
-    "hyprland-workspaces",
     "window-title",
-    { name = "group", modules = [] },
+    { name = "group", modules = ["hyprland-workspaces"] },
 ]
 right = [
     "bluetooth",
