@@ -29,3 +29,6 @@ modules = [
     "hyprland-workspaces",
     "window-title",
 ]
+
+[styling]
+theming-monitor = "DLP-1"
