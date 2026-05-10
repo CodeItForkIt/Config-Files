@@ -22,5 +22,8 @@ right = [
 ]
 
 [[bar.layout.center]]
-name = "group"
-modules = ["hyprland-workspaces"]
+name = "W"
+modules = [
+    "hyprland-workspaces",
+    "window-title",
+]
