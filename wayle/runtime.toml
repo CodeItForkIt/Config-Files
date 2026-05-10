@@ -1,4 +1,5 @@
 [bar]
 bg = "transparent"
 border-color = "bg-active"
+button-variant = "icon-square"
 button-rounding = "lg"
