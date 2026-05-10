@@ -22,7 +22,7 @@ right = [
 ]
 
 [[bar.layout.center]]
-name = "W"
+name = "Workspaces"
 modules = [
     "hyprland-workspaces",
     "window-title",
