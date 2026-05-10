@@ -1,4 +1,4 @@
 [bar]
 bg = "transparent"
 border-color = "bg-active"
-button-label-weight = "medium"
+button-label-weight = "semibold"
