@@ -22,14 +22,15 @@ left = [
     "cava",
 ]
 right = [
-    "bluetooth",
-    "volume",
-    "notifications",
     { name = "group", modules = [
     "cpu",
     "ram",
     "systray",
+    "storage",
 ] },
+    "bluetooth",
+    "volume",
+    "notifications",
 ]
 
 [[bar.layout.center]]
