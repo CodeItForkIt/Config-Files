@@ -41,6 +41,7 @@ theming-monitor = "DLP-1"
 direction = "mirror"
 
 [modules.clock]
+border-show = true
 dropdown-show-seconds = true
 
 [modules.notification]
