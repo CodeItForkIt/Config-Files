@@ -50,6 +50,5 @@ label-use-name = true
 icon-type = "spinning-disc"
 
 [modules.notification]
-border-show = true
 blocklist = ["HyDE Notify"]
 popup-urgency-bar = "critical"
