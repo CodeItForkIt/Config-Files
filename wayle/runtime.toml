@@ -22,7 +22,7 @@ left = [
     "cava",
 ]
 right = [
-    { name = "group", modules = [
+    { name = "group0:right:0", modules = [
     "cpu",
     "ram",
     "systray",
