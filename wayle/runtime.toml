@@ -1,4 +1,4 @@
 [bar]
 bg = "transparent"
-rounding = "lg"
+shadow = "drop"
 button-rounding = "lg"
