@@ -38,7 +38,7 @@ modules = [
 theming-monitor = "DLP-1"
 
 [modules.cava]
-stereo = true
+border-show = true
 
 [modules.notification]
 blocklist = ["HyDE Notify"]
