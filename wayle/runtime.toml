@@ -22,8 +22,6 @@ left = [
     "cava",
 ]
 right = [
-    "ram",
-    "cpu",
     "bluetooth",
     "volume",
     "notifications",
