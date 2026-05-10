@@ -3,3 +3,25 @@ bg = "transparent"
 border-color = "bg-active"
 button-border-location = "top"
 button-border-width = 0
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "dashboard",
+    "clock",
+    "weather",
+    "separator",
+    "media",
+    "cava",
+    { name = "group", modules = [] },
+]
+center = [
+    "hyprland-workspaces",
+    "window-title",
+]
+right = [
+    "bluetooth",
+    "volume",
+    "notifications",
+]
