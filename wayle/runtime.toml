@@ -22,7 +22,7 @@ right = [
 ]
 
 [[bar.layout.center]]
-name = "Wi"
+name = "Windows"
 modules = [
     "hyprland-workspaces",
     "window-title",
