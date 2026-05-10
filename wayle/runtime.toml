@@ -37,6 +37,9 @@ modules = [
 [styling]
 theming-monitor = "DLP-1"
 
+[modules.cava]
+stereo = true
+
 [modules.notification]
 blocklist = ["HyDE Notify"]
 popup-urgency-bar = "critical"
