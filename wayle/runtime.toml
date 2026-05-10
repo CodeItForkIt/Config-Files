@@ -46,6 +46,9 @@ dropdown-show-seconds = true
 [modules.hyprland-workspaces]
 label-use-name = true
 
+[modules.media]
+icon-type = "spinning-disc"
+
 [modules.notification]
 blocklist = ["HyDE Notify"]
 popup-urgency-bar = "critical"
