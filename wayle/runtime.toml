@@ -4,3 +4,4 @@ border-color = "bg-active"
 button-variant = "icon-square"
 button-rounding = "md"
 button-gap = 0.3499999940395355
+button-icon-position = "end"
