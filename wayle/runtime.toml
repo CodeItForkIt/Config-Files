@@ -32,3 +32,6 @@ modules = [
 
 [styling]
 theming-monitor = "DLP-1"
+
+[wallpaper]
+transition-type = "fade"
