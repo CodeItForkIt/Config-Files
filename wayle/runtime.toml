@@ -32,7 +32,3 @@ modules = [
 
 [styling]
 theming-monitor = "DLP-1"
-
-[wallpaper]
-transition-type = "left"
-transition-duration = 0.5
