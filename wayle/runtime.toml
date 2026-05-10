@@ -3,5 +3,5 @@ bg = "transparent"
 border-color = "bg-active"
 button-variant = "icon-square"
 button-icon-size = 1.0499999523162842
-button-rounding = "md"
+button-rounding = "sm"
 button-gap = 0.3499999940395355
