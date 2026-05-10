@@ -149,3 +149,6 @@ powermanagementprofilesrc
 
 # ── Misc runtime/generated ──────────────────────────────────
 .luarc.json
+**/*~
+**/*.swp
+**/*.swx
