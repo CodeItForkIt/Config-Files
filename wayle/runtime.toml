@@ -52,3 +52,6 @@ icon-type = "spinning-disc"
 [modules.notification]
 blocklist = ["HyDE Notify"]
 popup-urgency-bar = "critical"
+
+[modules.separator]
+color = "fg-default"
