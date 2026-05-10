@@ -34,4 +34,5 @@ modules = [
 theming-monitor = "DLP-1"
 
 [wallpaper]
-transition-type = "left"
+transition-type = "wave"
+transition-duration = 0.5
