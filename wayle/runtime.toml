@@ -1,5 +1,4 @@
 [bar]
 bg = "transparent"
 border-color = "bg-active"
-shadow = "floating"
 button-rounding = "lg"
