@@ -15,12 +15,12 @@ left = [
     "media",
     "cava",
 ]
-center = [
-    "window-title",
-    { name = "group", modules = ["hyprland-workspaces"] },
-]
 right = [
     "bluetooth",
     "volume",
     "notifications",
 ]
+
+[[bar.layout.center]]
+name = "group"
+modules = ["hyprland-workspaces"]
