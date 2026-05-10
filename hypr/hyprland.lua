@@ -149,7 +149,6 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("sleep 5 && pkill dunst")
 	hl.exec_cmd("sudo systemctl restart systemd-resolved")
 	hl.exec_cmd("sunshine")
-	hl.exec_cmd("~/HyprTile/start-launcher.sh &")
 	-- Workspace startup apps — dispatch rule prefix syntax confirmed from wiki
 	hl.exec_cmd("[workspace 1 silent] kitty")
 	hl.exec_cmd("[workspace 1 silent] vivaldi")
