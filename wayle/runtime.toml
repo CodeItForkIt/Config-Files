@@ -14,11 +14,11 @@ left = [
     "separator",
     "media",
     "cava",
-    { name = "group", modules = [] },
 ]
 center = [
     "hyprland-workspaces",
     "window-title",
+    { name = "group", modules = [] },
 ]
 right = [
     "bluetooth",
