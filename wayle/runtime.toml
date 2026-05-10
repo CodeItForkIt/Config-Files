@@ -44,6 +44,7 @@ direction = "mirror"
 dropdown-show-seconds = true
 
 [modules.hyprland-workspaces]
+display-mode = "icon"
 label-use-name = true
 
 [modules.notification]
