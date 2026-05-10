@@ -36,3 +36,6 @@ modules = [
 
 [styling]
 theming-monitor = "DLP-1"
+
+[modules.notification]
+popup-urgency-bar = "critical"
