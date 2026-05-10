@@ -40,6 +40,9 @@ theming-monitor = "DLP-1"
 [modules.cava]
 direction = "mirror"
 
+[modules.clock]
+dropdown-show-seconds = true
+
 [modules.notification]
 blocklist = ["HyDE Notify"]
 popup-urgency-bar = "critical"
