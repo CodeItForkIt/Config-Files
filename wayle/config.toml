@@ -201,21 +201,6 @@ middle-click = ""
 scroll-up = ""
 scroll-down = ""
 
-[[modules.custom]]
-id = "gpu"
-command = "~/.config/wayle/scripts/gpu-stats.sh"
-mode = "poll"
-interval-ms = 2000
-format = "{{ util }}% {{ vram_used }}GiB {{ temp }}°C"
-tooltip-format = "GPU: {{ util }}% · {{ vram_used }}/{{ vram_total }}GiB VRAM · {{ temp }}°C"
-icon-name = "ld-gpu-symbolic"
-icon-show = true
-icon-bg-color = "transparent"
-label-show = true
-label-color = "primary"
-button-bg-color = "bg-surface-elevated"
-left-click = "kitty -e btop"
-
 [modules.dashboard]
 icon-override = ""
 border-show = false
