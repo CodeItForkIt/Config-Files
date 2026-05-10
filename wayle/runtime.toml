@@ -1,4 +1,5 @@
 [bar]
+location = "bottom"
 bg = "transparent"
-shadow = "drop"
+shadow = "floating"
 button-rounding = "lg"
