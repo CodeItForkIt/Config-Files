@@ -25,6 +25,7 @@ right = [
     "bluetooth",
     "volume",
     "notifications",
+    { name = "group", modules = [] },
 ]
 
 [[bar.layout.center]]
