@@ -1,2 +1,4 @@
 [bar]
+bg = "transparent"
+rounding = "lg"
 button-rounding = "lg"
