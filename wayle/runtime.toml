@@ -2,4 +2,5 @@
 bg = "transparent"
 border-color = "bg-active"
 button-variant = "icon-square"
+button-opacity = 2
 button-rounding = "lg"
