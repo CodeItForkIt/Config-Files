@@ -23,8 +23,6 @@ left = [
 ]
 right = [
     { name = "group0:right:0", modules = [
-    "cpu",
-    "ram",
     "systray",
     "storage",
 ] },
