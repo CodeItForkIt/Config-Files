@@ -26,6 +26,7 @@ right = [
     "bluetooth",
     "volume",
     "notifications",
+    "ram",
 ]
 
 [[bar.layout.center]]
