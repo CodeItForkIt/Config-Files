@@ -1,0 +1,107 @@
+{
+  "sets": [
+    {
+      "name": "",
+      "overlays": {
+        "kbd": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        },
+        "DP-2": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        }
+      },
+      "hidden_overlays": {
+        "DP-2": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Static",
+          "curvature": null,
+          "additive": false,
+          "saved_transform": [
+            1.4938216,
+            0.13192062,
+            -0.033082485,
+            -0.06685346,
+            1.029975,
+            1.0884317,
+            0.11844069,
+            -1.0824738,
+            1.0316122,
+            -0.04022789,
+            -0.018756747,
+            -1.8012285
+          ],
+          "block_input": true,
+          "angle_fade": false
+        }
+      }
+    }
+  ],
+  "global_set": {
+    "watch": {
+      "alpha": 0.0,
+      "grabbable": true,
+      "interactable": true,
+      "positioning": {
+        "FollowHand": {
+          "hand": "Left",
+          "lerp": 1.0,
+          "align_to_hmd": false
+        }
+      },
+      "curvature": null,
+      "additive": false,
+      "saved_transform": null,
+      "block_input": true,
+      "angle_fade": true
+    }
+  },
+  "last_set": 0,
+  "attribs": [
+    [
+      "DP-2",
+      []
+    ],
+    [
+      "kbd",
+      []
+    ],
+    [
+      "anchor",
+      []
+    ],
+    [
+      "watch",
+      []
+    ],
+    [
+      "Dashboard",
+      []
+    ],
+    [
+      "grab-help",
+      []
+    ],
+    [
+      "toast",
+      []
+    ]
+  ]
+}
