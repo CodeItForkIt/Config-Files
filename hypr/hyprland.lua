@@ -50,6 +50,7 @@ hl.env("HYDE_CACHE_HOME", xdgCache .. "/hyde")
 hl.env("HYDE_DATA_HOME", xdgData .. "/hyde")
 hl.env("HYDE_STATE_HOME", xdgState .. "/hyde")
 hl.env("PATH", home .. "/.local/bin:" .. scrPath .. ":" .. (os.getenv("PATH") or ""))
+hl.env("WLR_DRM_NO_ATOMIC", "1")
 
 -- ============================================================
 --  CORE CONFIGURATION
