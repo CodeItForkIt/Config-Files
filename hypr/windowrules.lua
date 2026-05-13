@@ -215,7 +215,11 @@ hl.window_rule({
 	move = { "(monitor_w*0.5)", "0" },
 	size = { "(monitor_w*0.5)", "(monitor_h*1)" },
 })
-
+hl.window_rule({
+	name = "ws2-google",
+	match = { title = "Sign in - Google Accounts - Vivaldi" },
+	float = true,
+})
 -- Empty workspace
 hl.window_rule({ name = "foundry-fs", match = { class = "^(foundry)$" }, workspace = "empty", fullscreen = true })
 
