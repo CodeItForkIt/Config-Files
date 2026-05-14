@@ -150,9 +150,6 @@ end
 --  Wiki: no_border and no_rounding belong in workspace_rule
 -- ============================================================
 
-hl.workspace_rule({ workspace = "w[tv1]", gaps_out = 0, gaps_in = 0, no_border = true, no_rounding = true })
-hl.workspace_rule({ workspace = "f[1]", gaps_out = 0, gaps_in = 0, no_border = true, no_rounding = true })
-
 -- Games → special workspace
 hl.window_rule({
 	name = "games-steam-app",
