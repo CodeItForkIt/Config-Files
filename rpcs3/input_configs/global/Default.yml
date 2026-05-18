@@ -1,38 +1,38 @@
 Player 1 Input:
-  Handler: SDL
-  Device: 8BitDo Pro 3 1
+  Handler: Evdev
+  Device: Keychron Keychron Q1 System Control
   Config:
-    Left Stick Left: LS X-
-    Left Stick Down: LS Y-
-    Left Stick Right: LS X+
-    Left Stick Up: LS Y+
-    Right Stick Left: RS X-
-    Right Stick Down: RS Y-
-    Right Stick Right: RS X+
-    Right Stick Up: RS Y+
+    Left Stick Left: LX-
+    Left Stick Down: LY+
+    Left Stick Right: LX+
+    Left Stick Up: LY-
+    Right Stick Left: RX-
+    Right Stick Down: RY+
+    Right Stick Right: RX+
+    Right Stick Up: RY-
     Start: Start
-    Select: Back
-    PS Button: Guide
-    Square: West
-    Cross: South
-    Circle: East
-    Triangle: North
-    Left: Left
-    Down: Down
-    Right: Right
-    Up: Up
-    R1: RB
-    R2: RT
-    R3: RS
-    L1: LB
-    L2: LT
-    L3: LS
-    IR Nose: ""
-    IR Tail: ""
-    IR Left: ""
-    IR Right: ""
-    Tilt Left: ""
-    Tilt Right: ""
+    Select: Select
+    PS Button: Mode
+    Square: X
+    Cross: A
+    Circle: B
+    Triangle: Y
+    Left: Hat0 X-
+    Down: Hat0 Y+
+    Right: Hat0 X+
+    Up: Hat0 Y-
+    R1: TR
+    R2: RZ+
+    R3: Thumb R
+    L1: TL
+    L2: LZ+
+    L3: Thumb L
+    IR Nose: IR Nose
+    IR Tail: IR Tail
+    IR Left: IR Left
+    IR Right: IR Right
+    Tilt Left: Tilt Left
+    Tilt Right: Tilt Right
     Motion Sensor X:
       Axis: X
       Mirrored: false
@@ -59,10 +59,10 @@ Player 1 Input:
     Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
-    Left Stick Deadzone: 8000
-    Right Stick Deadzone: 8000
-    Left Stick Anti-Deadzone: 4259
-    Right Stick Anti-Deadzone: 4259
+    Left Stick Deadzone: 30
+    Right Stick Deadzone: 30
+    Left Stick Anti-Deadzone: 33
+    Right Stick Anti-Deadzone: 33
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
     Left Pad Squircling Factor: 8000
