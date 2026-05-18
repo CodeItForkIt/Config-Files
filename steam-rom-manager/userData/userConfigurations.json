@@ -7373,7 +7373,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7549,7 +7549,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": true,
+        "disabled": false,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
