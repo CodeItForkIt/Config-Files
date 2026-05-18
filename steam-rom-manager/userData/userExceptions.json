@@ -239,6 +239,14 @@
 			"commandLineArguments": "",
 			"exclude": true,
 			"excludeArtwork": false
+		},
+		"BLUS31606 ${id:2745017375}": {
+			"newTitle": "Minecraft: Story Mode - A Telltale Games Series",
+			"searchTitle": "${gameid:7979}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1779076745687
 		}
 	},
 	"exceptionsVersion": 2
