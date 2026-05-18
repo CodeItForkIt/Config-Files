@@ -1,32 +1,38 @@
 Player 1 Input:
-  Handler: Evdev
-  Device: Microsoft X-Box 360 pad 0
+  Handler: SDL
+  Device: 8BitDo Pro 3 1
   Config:
-    Left Stick Left: LX-
-    Left Stick Down: LY+
-    Left Stick Right: LX+
-    Left Stick Up: LY-
-    Right Stick Left: RX-
-    Right Stick Down: RY+
-    Right Stick Right: RX+
-    Right Stick Up: RY-
+    Left Stick Left: LS X-
+    Left Stick Down: LS Y-
+    Left Stick Right: LS X+
+    Left Stick Up: LS Y+
+    Right Stick Left: RS X-
+    Right Stick Down: RS Y-
+    Right Stick Right: RS X+
+    Right Stick Up: RS Y+
     Start: Start
-    Select: Select
-    PS Button: Mode
-    Square: X
-    Cross: A
-    Circle: B
-    Triangle: Y
-    Left: Hat0 X-
-    Down: Hat0 Y+
-    Right: Hat0 X+
-    Up: Hat0 Y-
-    R1: TR
-    R2: RZ+
-    R3: Thumb R
-    L1: TL
-    L2: LZ+
-    L3: Thumb L
+    Select: Back
+    PS Button: Guide
+    Square: West
+    Cross: South
+    Circle: East
+    Triangle: North
+    Left: Left
+    Down: Down
+    Right: Right
+    Up: Up
+    R1: RB
+    R2: RT
+    R3: RS
+    L1: LB
+    L2: LT
+    L3: LS
+    IR Nose: ""
+    IR Tail: ""
+    IR Left: ""
+    IR Right: ""
+    Tilt Left: ""
+    Tilt Right: ""
     Motion Sensor X:
       Axis: X
       Mirrored: false
@@ -40,27 +46,36 @@ Player 1 Input:
       Mirrored: false
       Shift: 0
     Motion Sensor G:
-      Axis: RX
+      Axis: RY
       Mirrored: false
       Shift: 0
+    Orientation Reset Button: ""
+    Orientation Enabled: false
     Pressure Intensity Button: ""
     Pressure Intensity Percent: 50
+    Pressure Intensity Toggle Mode: false
+    Pressure Intensity Deadzone: 0
+    Analog Limiter Button: ""
+    Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
-    Left Stick Deadzone: 30
-    Right Stick Deadzone: 30
+    Left Stick Deadzone: 8000
+    Right Stick Deadzone: 8000
+    Left Stick Anti-Deadzone: 4259
+    Right Stick Anti-Deadzone: 4259
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
-    Left Pad Squircling Factor: 5000
-    Right Pad Squircling Factor: 5000
+    Left Pad Squircling Factor: 8000
+    Right Pad Squircling Factor: 8000
     Color Value R: 0
     Color Value G: 0
     Color Value B: 20
     Blink LED when battery is below 20%: true
     Use LED as a battery indicator: false
     LED battery indicator brightness: 10
-    Enable Large Vibration Motor: true
-    Enable Small Vibration Motor: true
+    Player LED enabled: true
+    Large Vibration Motor Multiplier: 100
+    Small Vibration Motor Multiplier: 100
     Switch Vibration Motors: false
     Mouse Movement Mode: Relative
     Mouse Deadzone X Axis: 60
@@ -104,6 +119,12 @@ Player 2 Input:
     L1: TL
     L2: LZ+
     L3: Thumb L
+    IR Nose: ""
+    IR Tail: ""
+    IR Left: ""
+    IR Right: ""
+    Tilt Left: ""
+    Tilt Right: ""
     Motion Sensor X:
       Axis: X
       Mirrored: false
@@ -120,12 +141,20 @@ Player 2 Input:
       Axis: RX
       Mirrored: false
       Shift: 0
+    Orientation Reset Button: ""
+    Orientation Enabled: false
     Pressure Intensity Button: ""
     Pressure Intensity Percent: 50
+    Pressure Intensity Toggle Mode: false
+    Pressure Intensity Deadzone: 0
+    Analog Limiter Button: ""
+    Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
     Left Stick Deadzone: 30
     Right Stick Deadzone: 30
+    Left Stick Anti-Deadzone: 33
+    Right Stick Anti-Deadzone: 33
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
     Left Pad Squircling Factor: 5000
@@ -136,8 +165,9 @@ Player 2 Input:
     Blink LED when battery is below 20%: true
     Use LED as a battery indicator: false
     LED battery indicator brightness: 10
-    Enable Large Vibration Motor: true
-    Enable Small Vibration Motor: true
+    Player LED enabled: true
+    Large Vibration Motor Multiplier: 100
+    Small Vibration Motor Multiplier: 100
     Switch Vibration Motors: false
     Mouse Movement Mode: Relative
     Mouse Deadzone X Axis: 60
@@ -181,6 +211,12 @@ Player 3 Input:
     L1: TL
     L2: LZ+
     L3: Thumb L
+    IR Nose: ""
+    IR Tail: ""
+    IR Left: ""
+    IR Right: ""
+    Tilt Left: ""
+    Tilt Right: ""
     Motion Sensor X:
       Axis: X
       Mirrored: false
@@ -197,12 +233,20 @@ Player 3 Input:
       Axis: RX
       Mirrored: false
       Shift: 0
+    Orientation Reset Button: ""
+    Orientation Enabled: false
     Pressure Intensity Button: ""
     Pressure Intensity Percent: 50
+    Pressure Intensity Toggle Mode: false
+    Pressure Intensity Deadzone: 0
+    Analog Limiter Button: ""
+    Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
     Left Stick Deadzone: 30
     Right Stick Deadzone: 30
+    Left Stick Anti-Deadzone: 33
+    Right Stick Anti-Deadzone: 33
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
     Left Pad Squircling Factor: 5000
@@ -213,8 +257,9 @@ Player 3 Input:
     Blink LED when battery is below 20%: true
     Use LED as a battery indicator: false
     LED battery indicator brightness: 10
-    Enable Large Vibration Motor: true
-    Enable Small Vibration Motor: true
+    Player LED enabled: true
+    Large Vibration Motor Multiplier: 100
+    Small Vibration Motor Multiplier: 100
     Switch Vibration Motors: false
     Mouse Movement Mode: Relative
     Mouse Deadzone X Axis: 60
@@ -258,6 +303,12 @@ Player 4 Input:
     L1: TL
     L2: LZ+
     L3: Thumb L
+    IR Nose: ""
+    IR Tail: ""
+    IR Left: ""
+    IR Right: ""
+    Tilt Left: ""
+    Tilt Right: ""
     Motion Sensor X:
       Axis: X
       Mirrored: false
@@ -274,12 +325,20 @@ Player 4 Input:
       Axis: RX
       Mirrored: false
       Shift: 0
+    Orientation Reset Button: ""
+    Orientation Enabled: false
     Pressure Intensity Button: ""
     Pressure Intensity Percent: 50
+    Pressure Intensity Toggle Mode: false
+    Pressure Intensity Deadzone: 0
+    Analog Limiter Button: ""
+    Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
     Left Stick Deadzone: 30
     Right Stick Deadzone: 30
+    Left Stick Anti-Deadzone: 33
+    Right Stick Anti-Deadzone: 33
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
     Left Pad Squircling Factor: 5000
@@ -290,8 +349,9 @@ Player 4 Input:
     Blink LED when battery is below 20%: true
     Use LED as a battery indicator: false
     LED battery indicator brightness: 50
-    Enable Large Vibration Motor: true
-    Enable Small Vibration Motor: true
+    Player LED enabled: true
+    Large Vibration Motor Multiplier: 100
+    Small Vibration Motor Multiplier: 100
     Switch Vibration Motors: false
     Mouse Movement Mode: Relative
     Mouse Deadzone X Axis: 60
@@ -335,6 +395,12 @@ Player 5 Input:
     L1: ""
     L2: ""
     L3: ""
+    IR Nose: ""
+    IR Tail: ""
+    IR Left: ""
+    IR Right: ""
+    Tilt Left: ""
+    Tilt Right: ""
     Motion Sensor X:
       Axis: ""
       Mirrored: false
@@ -351,12 +417,20 @@ Player 5 Input:
       Axis: ""
       Mirrored: false
       Shift: 0
+    Orientation Reset Button: ""
+    Orientation Enabled: false
     Pressure Intensity Button: ""
     Pressure Intensity Percent: 50
+    Pressure Intensity Toggle Mode: false
+    Pressure Intensity Deadzone: 0
+    Analog Limiter Button: ""
+    Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
     Left Stick Deadzone: 0
     Right Stick Deadzone: 0
+    Left Stick Anti-Deadzone: 0
+    Right Stick Anti-Deadzone: 0
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
     Left Pad Squircling Factor: 0
@@ -367,8 +441,9 @@ Player 5 Input:
     Blink LED when battery is below 20%: true
     Use LED as a battery indicator: false
     LED battery indicator brightness: 50
-    Enable Large Vibration Motor: true
-    Enable Small Vibration Motor: true
+    Player LED enabled: true
+    Large Vibration Motor Multiplier: 100
+    Small Vibration Motor Multiplier: 100
     Switch Vibration Motors: false
     Mouse Movement Mode: Relative
     Mouse Deadzone X Axis: 60
@@ -412,6 +487,12 @@ Player 6 Input:
     L1: ""
     L2: ""
     L3: ""
+    IR Nose: ""
+    IR Tail: ""
+    IR Left: ""
+    IR Right: ""
+    Tilt Left: ""
+    Tilt Right: ""
     Motion Sensor X:
       Axis: ""
       Mirrored: false
@@ -428,12 +509,20 @@ Player 6 Input:
       Axis: ""
       Mirrored: false
       Shift: 0
+    Orientation Reset Button: ""
+    Orientation Enabled: false
     Pressure Intensity Button: ""
     Pressure Intensity Percent: 50
+    Pressure Intensity Toggle Mode: false
+    Pressure Intensity Deadzone: 0
+    Analog Limiter Button: ""
+    Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
     Left Stick Deadzone: 0
     Right Stick Deadzone: 0
+    Left Stick Anti-Deadzone: 0
+    Right Stick Anti-Deadzone: 0
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
     Left Pad Squircling Factor: 0
@@ -444,8 +533,9 @@ Player 6 Input:
     Blink LED when battery is below 20%: true
     Use LED as a battery indicator: false
     LED battery indicator brightness: 50
-    Enable Large Vibration Motor: true
-    Enable Small Vibration Motor: true
+    Player LED enabled: true
+    Large Vibration Motor Multiplier: 100
+    Small Vibration Motor Multiplier: 100
     Switch Vibration Motors: false
     Mouse Movement Mode: Relative
     Mouse Deadzone X Axis: 60
@@ -489,6 +579,12 @@ Player 7 Input:
     L1: ""
     L2: ""
     L3: ""
+    IR Nose: ""
+    IR Tail: ""
+    IR Left: ""
+    IR Right: ""
+    Tilt Left: ""
+    Tilt Right: ""
     Motion Sensor X:
       Axis: ""
       Mirrored: false
@@ -505,12 +601,20 @@ Player 7 Input:
       Axis: ""
       Mirrored: false
       Shift: 0
+    Orientation Reset Button: ""
+    Orientation Enabled: false
     Pressure Intensity Button: ""
     Pressure Intensity Percent: 50
+    Pressure Intensity Toggle Mode: false
+    Pressure Intensity Deadzone: 0
+    Analog Limiter Button: ""
+    Analog Limiter Toggle Mode: false
     Left Stick Multiplier: 100
     Right Stick Multiplier: 100
     Left Stick Deadzone: 0
     Right Stick Deadzone: 0
+    Left Stick Anti-Deadzone: 0
+    Right Stick Anti-Deadzone: 0
     Left Trigger Threshold: 0
     Right Trigger Threshold: 0
     Left Pad Squircling Factor: 0
@@ -521,8 +625,9 @@ Player 7 Input:
     Blink LED when battery is below 20%: true
     Use LED as a battery indicator: false
     LED battery indicator brightness: 50
-    Enable Large Vibration Motor: true
-    Enable Small Vibration Motor: true
+    Player LED enabled: true
+    Large Vibration Motor Multiplier: 100
+    Small Vibration Motor Multiplier: 100
     Switch Vibration Motors: false
     Mouse Movement Mode: Relative
     Mouse Deadzone X Axis: 60
