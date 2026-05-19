@@ -1343,7 +1343,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -1790,7 +1790,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -2007,7 +2007,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -2023,7 +2023,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -2836,7 +2836,7 @@
         },
         "parserId": "16478559884003905",
         "version": 25,
-        "disabled": false,
+        "disabled": true,
         "onlineImageQueries": [
             "fuzzyTitle"
         ]
@@ -2855,7 +2855,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3017,7 +3017,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -3684,7 +3684,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -3971,7 +3971,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -4517,7 +4517,7 @@
                 "Global"
             ]
         },
-        "disabled": false,
+        "disabled": true,
         "executable": {
             "path": "/home/autometalogolex/Emulation/tools/launchers/ryujinx.sh",
             "shortcutPassthrough": false,
@@ -4889,7 +4889,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5017,7 +5017,7 @@
         "onlineImageQueries": [
             "${fuzzyTitle}"
         ],
-        "disabled": false
+        "disabled": true
     },
     {
         "parserType": "Glob",
@@ -5482,7 +5482,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7201,7 +7201,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7373,7 +7373,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7461,7 +7461,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -7549,7 +7549,7 @@
             "steamCDN"
         ],
         "imagePool": "${fuzzyTitle}",
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
