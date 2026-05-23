@@ -1,9 +1,10 @@
 {
 	"ignored_packages":
 	[
+		"LSP-json",
 		"Vintage",
 	],
-	"index_files": true,
+	"index_files": false,
 	"font_face": "Times New Roman",
 	"font_size": 10,
 }
