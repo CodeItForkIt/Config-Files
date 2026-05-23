@@ -64,7 +64,7 @@
         <DownscaleFilter>0</DownscaleFilter>
         <FullscreenScaling>0</FullscreenScaling>
         <AsyncCompile>true</AsyncCompile>
-        <vkAccurateBarriers>true</vkAccurateBarriers>
+        <vkAccurateBarriers>false</vkAccurateBarriers>
         <Overlay>
             <Position>0</Position>
             <TextColor>4294967295</TextColor>
