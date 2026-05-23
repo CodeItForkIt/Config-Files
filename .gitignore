@@ -149,6 +149,7 @@ powermanagementprofilesrc
 
 # ── Misc runtime/generated ──────────────────────────────────
 .luarc.json
+hypr/colors.conf
 **/*~
 **/*.swp
 **/*.swx
