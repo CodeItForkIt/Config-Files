@@ -93,14 +93,6 @@
       [
         "timestamp",
         false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
-      [
-        "timestamp",
-        false
       ]
     ]
   },
@@ -132,14 +124,6 @@
     "last_modified_injected": true,
     "path_injected": true,
     "sort_history": [
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "timestamp",
         false
@@ -697,14 +681,6 @@
     "last_modified_injected": true,
     "path_injected": true,
     "sort_history": [
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "timestamp",
         false
