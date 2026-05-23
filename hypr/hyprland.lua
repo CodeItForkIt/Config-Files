@@ -80,10 +80,6 @@ hl.config({
 		},
 	},
 
-	cursor = {
-		zoom_factor = 1.5,
-	},
-
 	dwindle = {
 		preserve_split = true,
 	},
