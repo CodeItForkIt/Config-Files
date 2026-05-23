@@ -1,0 +1,1 @@
+{"source":"builtin","applications":[{"app_key":"wlx-team.wayvr","launch_type":"binary","binary_path_linux":"/usr/bin/wayvr","is_dashboard_overlay":true,"strings":{"en_us":{"name":"WayVR","description":"A lightweight Wayland desktop overlay for OpenVR/OpenXR"}}}]}
