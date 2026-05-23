@@ -418,28 +418,28 @@
   },
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 1039,
-      "width": 1920,
+      "height": 514,
+      "width": 955,
       "x": 2,
       "y": 4
     },
     "full_screened": false,
     "geometry": {
-      "height": 1039,
-      "width": 1920,
+      "height": 514,
+      "width": 955,
       "x": 2,
       "y": 4
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 1039,
-      "width": 1920,
+      "height": 514,
+      "width": 955,
       "x": 2,
       "y": 4
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAACAAAABAAAB4EAAAQSAAAAAgAAAAQAAAeBAAAEEgAAAAACAAAAB4AAAAACAAAABAAAB4EAAAQS"
+      "__value__": "AdnQywADAAAAAAACAAAABAAAA7wAAAIFAAAAAgAAAAQAAAO8AAACBQAAAAACAAAAB4AAAAACAAAABAAAA7wAAAIF"
     },
     "screen": {
       "depth": 32,
