@@ -1,4 +1,6 @@
 {
+  "add books dialog dir": "/home/autometalogolex/Downloads",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
   "catalogs_to_be_synced": {
     "__class__": "set",
     "__value__": []
