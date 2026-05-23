@@ -570,26 +570,26 @@
     "frame_geometry": {
       "height": 566,
       "width": 532,
-      "x": 696,
-      "y": 261
+      "x": 2,
+      "y": 4
     },
     "full_screened": false,
     "geometry": {
       "height": 566,
       "width": 532,
-      "x": 696,
-      "y": 261
+      "x": 2,
+      "y": 4
     },
     "maximized": true,
     "normal_geometry": {
       "height": 566,
       "width": 532,
-      "x": 696,
-      "y": 261
+      "x": 2,
+      "y": 4
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAK4AAABBQAABMsAAAM6AAACuAAAAQUAAATLAAADOgAAAAACAAAAB4AAAAK4AAABBQAABMsAAAM6"
+      "__value__": "AdnQywADAAAAAAACAAAABAAAAhUAAAI5AAAAAgAAAAQAAAIVAAACOQAAAAACAAAAB4AAAAACAAAABAAAAhUAAAI5"
     },
     "screen": {
       "depth": 32,
@@ -671,7 +671,7 @@
   "grid view visible": false,
   "jobs view column layout3": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfQAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=="
   },
   "library_usage_stats": {
     "/home/autometalogolex/Calibre Library": 12
