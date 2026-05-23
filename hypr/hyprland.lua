@@ -153,7 +153,6 @@ hl.on("hyprland.start", function()
 	-- Workspace startup apps — dispatch rule prefix syntax confirmed from wiki
 	hl.exec_cmd("[workspace 1 silent] kitty")
 	hl.exec_cmd("[workspace 1 silent] vivaldi")
-	hl.exec_cmd("[workspace 2 silent] flatpak run com.spotify.Client")
 	hl.exec_cmd("WAYLAND_DISPLAY=wayland-1 steam")
 	hl.exec_cmd("~/.config/scripts/cfg-watch.sh > /tmp/cfg-watch.log 2>&1 &")
 	hl.exec_cmd("wayle panel start")
