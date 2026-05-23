@@ -50,6 +50,7 @@
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
+  "bookshelf view visible": false,
   "bulk_metadata_window_tab": 0,
   "card_a_view books view state": {
     "column_alignment": {
@@ -80,6 +81,14 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "timestamp",
         false
@@ -131,6 +140,14 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "timestamp",
         false
@@ -416,13 +433,13 @@
     "maximized": true,
     "normal_geometry": {
       "height": 1039,
-      "width": 960,
+      "width": 1920,
       "x": 2,
       "y": 4
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAACAAAABAAAB4EAAAQSAAAAAgAAAAQAAAPBAAAEEgAAAAACAAAAB4AAAAACAAAABAAAB4EAAAQS"
+      "__value__": "AdnQywADAAAAAAACAAAABAAAB4EAAAQSAAAAAgAAAAQAAAeBAAAEEgAAAAACAAAAB4AAAAACAAAABAAAB4EAAAQS"
     },
     "screen": {
       "depth": 32,
@@ -858,6 +875,57 @@
       }
     }
   },
+  "geometry-of-plugin config dialog:User interface action:Kobo Utilities": {
+    "frame_geometry": {
+      "height": 561,
+      "width": 579,
+      "x": 2,
+      "y": 4
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 561,
+      "width": 579,
+      "x": 2,
+      "y": 4
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 561,
+      "width": 579,
+      "x": 2,
+      "y": 4
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAACAAAABAAAAkQAAAI0AAAAAgAAAAQAAAJEAAACNAAAAAACAAAAB4AAAAACAAAABAAAAkQAAAI0"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 2,
+        "y": 4
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Acer Technologies",
+      "model": "XF243Y P",
+      "name": "DP-2",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 2,
+        "y": 4
+      }
+    }
+  },
   "geometry-of-preferences dialog geometry": {
     "frame_geometry": {
       "height": 720,
@@ -1058,6 +1126,14 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "timestamp",
         false
