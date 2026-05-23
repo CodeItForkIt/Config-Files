@@ -812,6 +812,9 @@
   },
   "quick_start_guide_added": true,
   "qv_open_at_shutdown": false,
+  "recently_used_languages": [
+    "English"
+  ],
   "replace_scene_breaks_history": [
     "",
     "<hr />",
