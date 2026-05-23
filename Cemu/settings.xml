@@ -7,7 +7,9 @@
     <language>0</language>
     <use_discord_presence>false</use_discord_presence>
     <fullscreen_menubar>false</fullscreen_menubar>
+    <feral_gamemode>false</feral_gamemode>
     <check_update>true</check_update>
+    <receive_untested_updates>false</receive_untested_updates>
     <save_screenshot>true</save_screenshot>
     <vk_warning>false</vk_warning>
     <gp_download>true</gp_download>
@@ -15,6 +17,7 @@
     <fullscreen>false</fullscreen>
     <proxy_server></proxy_server>
     <disable_screensaver>true</disable_screensaver>
+    <play_boot_sound>false</play_boot_sound>
     <console_language>1</console_language>
     <window_position>
         <x>-1</x>
@@ -35,6 +38,7 @@
         <y>207</y>
     </pad_size>
     <pad_maximized>false</pad_maximized>
+    <show_icon_column>true</show_icon_column>
     <GameList>
         <style>0</style>
         <order>{0, 1, 2, 3, 4, 5, 6, 7}</order>
@@ -44,11 +48,11 @@
         <game_time_width>140</game_time_width>
         <game_started_width>160</game_started_width>
         <region_width>300</region_width>
+        <title_id>500</title_id>
     </GameList>
     <RecentLaunchFiles/>
     <RecentNFCFiles/>
-    <GamePaths>
-    </GamePaths>
+    <GamePaths/>
     <GameCache/>
     <GraphicPack/>
     <Graphic>
@@ -56,7 +60,6 @@
         <device>00000000040000000000000000000000</device>
         <VSync>0</VSync>
         <GX2DrawdoneSync>true</GX2DrawdoneSync>
-        <vertex_cache_accuary>0</vertex_cache_accuary>
         <UpscaleFilter>0</UpscaleFilter>
         <DownscaleFilter>0</DownscaleFilter>
         <FullscreenScaling>0</FullscreenScaling>
@@ -102,6 +105,7 @@
         <OnlineEnabled>false</OnlineEnabled>
         <ActiveService>0</ActiveService>
     </Account>
+    <AccountService/>
     <Debug>
         <CrashDumpUnix>0</CrashDumpUnix>
         <GDBPort>1337</GDBPort>
@@ -109,4 +113,9 @@
     <Input>
         <DSUC host="127.0.0.1" port="26760"/>
     </Input>
+    <EmulatedUsbDevices>
+        <EmulateSkylanderPortal>false</EmulateSkylanderPortal>
+        <EmulateInfinityBase>false</EmulateInfinityBase>
+        <EmulateDimensionsToypad>false</EmulateDimensionsToypad>
+    </EmulatedUsbDevices>
 </content>
