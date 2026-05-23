@@ -154,6 +154,7 @@
     ]
   },
   "color_palette": "system",
+  "cover_corner_radius": 5,
   "cover_grid_background": {
     "dark": [
       45,
@@ -295,6 +296,7 @@
       "WindowText-disabled": "#dddddd"
     }
   },
+  "emblem_style": "none",
   "geometry-of-Plugin Updater plugin:plugin updater dialog": {
     "frame_geometry": {
       "height": 486,
