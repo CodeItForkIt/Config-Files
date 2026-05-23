@@ -3,6 +3,12 @@
     "__class__": "set",
     "__value__": []
   },
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "9.8"
+    ]
+  },
   "sort_history": [
     [
       "timestamp",
