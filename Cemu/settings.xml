@@ -57,7 +57,7 @@
     <GraphicPack/>
     <Graphic>
         <api>1</api>
-        <device>00000000040000000000000000000000</device>
+        <device>79dce790241e44055af6c0508e6dbbf6</device>
         <VSync>0</VSync>
         <GX2DrawdoneSync>true</GX2DrawdoneSync>
         <UpscaleFilter>0</UpscaleFilter>
