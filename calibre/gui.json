@@ -519,6 +519,57 @@
       }
     }
   },
+  "geometry-of-diff_dialog_geom": {
+    "frame_geometry": {
+      "height": 444,
+      "width": 558,
+      "x": 2,
+      "y": 4
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 444,
+      "width": 558,
+      "x": 2,
+      "y": 4
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 444,
+      "width": 558,
+      "x": 2,
+      "y": 4
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAACAAAABAAAAi8AAAG/AAAAAgAAAAQAAAIvAAABvwAAAAACAAAAB4AAAAACAAAABAAAAi8AAAG/"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 2,
+        "y": 4
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Acer Technologies",
+      "model": "XF243Y P",
+      "name": "DP-2",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 2,
+        "y": 4
+      }
+    }
+  },
   "geometry-of-job-detail-view-dialog-geometry": {
     "frame_geometry": {
       "height": 500,
