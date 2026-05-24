@@ -316,7 +316,7 @@ plugin = {
 		hide_overlay_layers = false,
 	},
 }
-plugin = {
+Plugin = {
 	hyprspace = {
 		panel_height = 200,
 		reserved_area = 0,
