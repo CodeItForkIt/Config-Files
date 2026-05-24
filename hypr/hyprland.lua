@@ -72,7 +72,7 @@ hl.config({
 	},
 
 	input = {
-		accel_profile = "adaptive",
+		accel_profile = "flat",
 		numlock_by_default = true,
 		focus_on_close = 1,
 		touchpad = {
