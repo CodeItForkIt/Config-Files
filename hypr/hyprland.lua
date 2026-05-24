@@ -309,3 +309,10 @@ hl.config({
 	},
 })
 hl.permission({ binary = "/usr/(bin|local/bin)/hyprpm", type = "plugin", mode = "allow" })
+plugin = {
+	hyprspace = {
+		hide_real_layers = false,
+		hide_top_layers = false,
+		hide_overlay_layers = false,
+	},
+}
