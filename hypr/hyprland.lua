@@ -316,3 +316,15 @@ plugin = {
 		hide_overlay_layers = false,
 	},
 }
+plugin = {
+	hyprspace = {
+		panel_height = 200,
+		reserved_area = 0,
+		affect_strut = false,
+		on_bottom = false,
+		center_aligned = true,
+		hide_real_layers = false,
+		hide_top_layers = false,
+		hide_overlay_layers = false,
+	},
+}
