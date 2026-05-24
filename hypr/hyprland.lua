@@ -11,7 +11,6 @@ require("userprefs")
 -- ============================================================
 --  VARIABLES
 -- ============================================================
-require("edit_here.Hyprspace.Hyprspace").setup("auto")
 local home = os.getenv("HOME")
 local scrPath = home .. "/.local/lib/hyde"
 local FONT = "Cantarell"
