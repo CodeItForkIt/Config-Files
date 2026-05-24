@@ -1,7 +1,7 @@
 -- ============================================================
 --  hyprland.lua  —  Hyprland 0.55+ Lua config
 -- ============================================================
-
+require("plugins")
 require("monitors")
 require("animations")
 require("windowrules")
