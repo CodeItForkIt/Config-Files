@@ -37,6 +37,18 @@ modules = [
 [styling]
 theming-monitor = "DLP-1"
 
+[styling.palette]
+bg = "#11111b"
+surface = "#181825"
+elevated = "#1e1e2e"
+fg = "#cdd6f4"
+fg-muted = "#bac2de"
+primary = "#b4befe"
+red = "#f38ba8"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+blue = "#74c7ec"
+
 [modules.cava]
 direction = "mirror"
 
@@ -49,7 +61,7 @@ label-use-name = true
 [modules.media]
 icon-type = "spinning-disc"
 
-[modules.notification]
+[modules.notifications]
 blocklist = ["HyDE Notify"]
 popup-urgency-bar = "critical"
 
