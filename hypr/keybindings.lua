@@ -23,7 +23,7 @@ local home = os.getenv("HOME")
 local scrPath = home .. "/.local/lib/hyde"
 
 local TERMINAL = "kitty"
-local EDITOR = "nvim"
+local EDITOR = "kitty nvim"
 local EXPLORER = "nautilus"
 local BROWSER = "vivaldi"
 
