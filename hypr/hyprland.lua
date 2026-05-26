@@ -118,9 +118,6 @@ hl.config({
 		},
 	},
 })
-hl.input({
-	mouse_refocus = false,
-})
 -- ============================================================
 --  EXEC-ONCE  (hyprland.start fires exactly once at startup)
 -- ============================================================
