@@ -28,10 +28,11 @@ hl.window_rule({
 	},
 	idle_inhibit = "fullscreen",
 })
-hl.window_rule({
-	match = { class = "steam" },
-	focus_on_activate = false,
-	no_focus = true,
+hl.config({
+	input = {
+		follow_mouse = 1,
+		mouse_refocus = false,
+	},
 })
 -- ============================================================
 --  PICTURE-IN-PICTURE
