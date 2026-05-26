@@ -12,7 +12,7 @@ require("userprefs")
 -- ============================================================
 local home = os.getenv("HOME")
 local scrPath = home .. "/.local/lib/hyde"
-local FONT = "Cantarell"
+local FONT = "Times New Roman"
 
 local xdgConfig = os.getenv("XDG_CONFIG_HOME") or (home .. "/.config")
 local xdgCache = os.getenv("XDG_CACHE_HOME") or (home .. "/.cache")
@@ -49,7 +49,7 @@ hl.env("HYDE_DATA_HOME", xdgData .. "/hyde")
 hl.env("HYDE_STATE_HOME", xdgState .. "/hyde")
 hl.env("PATH", home .. "/.local/bin:" .. scrPath .. ":" .. (os.getenv("PATH") or ""))
 hl.env("WLR_DRM_NO_ATOMIC", "1")
-
+hl.env("AQ_DRM_DEVICES", "/dev/dri/card1:/dev/dri/card0")
 -- ============================================================
 --  CORE CONFIGURATION
 -- ============================================================
