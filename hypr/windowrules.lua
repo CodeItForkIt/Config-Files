@@ -39,7 +39,6 @@ hl.window_rule({
 	match = { class = "^(bg3)$" },
 	workspace = "special",
 	fullscreen = true,
-	suppress_events = true,
 })
 -- ============================================================
 --  PICTURE-IN-PICTURE
