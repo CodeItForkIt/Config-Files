@@ -88,33 +88,33 @@ blue = "#78a0e0"
 [modules]
 
 
-[modules.battery]
-level-icons = [
-  "md-battery_android_0-symbolic",
-  "md-battery_android_frame_1-symbolic",
-  "md-battery_android_frame_2-symbolic",
-  "md-battery_android_frame_3-symbolic",
-  "md-battery_android_frame_4-symbolic",
-  "md-battery_android_frame_5-symbolic",
-  "md-battery_android_frame_6-symbolic",
-  "md-battery_android_frame_full-symbolic",
-]
-charging-icon = "md-battery_android_frame_bolt-symbolic"
-alert-icon = "md-battery_android_alert-symbolic"
-border-show = false
-border-color = "yellow"
-icon-show = true
-icon-color = "auto"
-icon-bg-color = "transparent"
-label-show = true
-label-color = "yellow"
-label-max-length = 0
-button-bg-color = "bg-surface-elevated"
-left-click = "dropdown:battery"
-right-click = ""
-middle-click = ""
-scroll-up = ""
-scroll-down = ""
+#[modules.battery]
+#level-icons = [
+#  "md-battery_android_0-symbolic",
+#  "md-battery_android_frame_1-symbolic",
+#  "md-battery_android_frame_2-symbolic",
+#  "md-battery_android_frame_3-symbolic",
+#  "md-battery_android_frame_4-symbolic",
+#  "md-battery_android_frame_5-symbolic",
+#  "md-battery_android_frame_6-symbolic",
+#  "md-battery_android_frame_full-symbolic",
+#]
+#charging-icon = "md-battery_android_frame_bolt-symbolic"
+#alert-icon = "md-battery_android_alert-symbolic"
+#border-show = false
+#border-color = "yellow"
+#icon-show = true
+#icon-color = "auto"
+#icon-bg-color = "transparent"
+#label-show = true
+#label-color = "yellow"
+#label-max-length = 0
+#button-bg-color = "bg-surface-elevated"
+#left-click = "dropdown:battery"
+#right-click = ""
+#middle-click = ""
+#scroll-up = ""
+#scroll-down = ""
 
 [modules.bluetooth]
 disabled-icon = "ld-bluetooth-off-symbolic"
