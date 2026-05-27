@@ -34,6 +34,13 @@ hl.config({
 		mouse_refocus = false,
 	},
 })
+-- In windowrules.lua
+hl.window_rule({
+	match = { class = "^(bg3)$" },
+	workspace = "special",
+	fullscreen = true,
+	suppress_events = true,
+})
 -- ============================================================
 --  PICTURE-IN-PICTURE
 -- ============================================================
