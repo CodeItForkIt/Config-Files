@@ -13,7 +13,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
@@ -102,7 +102,7 @@
             "sgdb",
             "steamCDN"
         ],
-        "disabled": false,
+        "disabled": true,
         "userAccounts": {
             "specifiedAccounts": [
                 "Global"
