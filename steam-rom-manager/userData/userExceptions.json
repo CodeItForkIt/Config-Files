@@ -247,6 +247,14 @@
 			"excludeArtwork": false,
 			"exclude": false,
 			"timeStamp": 1779076745687
+		},
+		"1016 - Pokemon Pearl (v05) (U)(Legacy) ${id:4255105644}": {
+			"newTitle": "Pokémon Pearl Version",
+			"searchTitle": "${gameid:5245254}",
+			"commandLineArguments": "",
+			"excludeArtwork": false,
+			"exclude": false,
+			"timeStamp": 1780354069670
 		}
 	},
 	"exceptionsVersion": 2
