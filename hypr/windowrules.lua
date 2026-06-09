@@ -40,6 +40,12 @@ hl.window_rule({
 	workspace = "special",
 	fullscreen = true,
 })
+layerrule = blur, hyprshell_overview
+layerrule = ignorezero, hyprshell_overview
+layerrule = blur, hyprshell_switch
+layerrule = ignorezero, hyprshell_switch
+layerrule = blur, hyprshell_launcher
+layerrule = ignorezero, hyprshell_launcher
 -- ============================================================
 --  PICTURE-IN-PICTURE
 -- ============================================================
