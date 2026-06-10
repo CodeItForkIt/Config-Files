@@ -180,6 +180,96 @@
 			"cssSelectors": [],
 			"htmlPatterns": [],
 			"favicon": null
+		},
+		{
+			"id": "f-1781128156309-zosq",
+			"name": "Elder Dragon Hijinks – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCW8G9RUYzzepznBq5Cn_3Bg",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-08b5",
+			"name": "Brandon Sanderson – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3g-w83Cb5pEAu5UmRrge-A",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-zazj",
+			"name": "Commander At Home – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK05AM3Ed_ckARsrWdQhzig",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-d87c",
+			"name": "Tolarian Community College – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7-hR5EfgpM6oHfiGDkxfMA",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-582x",
+			"name": "Extra History – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCODtTcd5M1JavPCOr_Uydg",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-8u2q",
+			"name": "Linus Tech Tips – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-lcys",
+			"name": "Rhystic Studies – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8e0Sg8TmRRFJytjEGhmVTg",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-y1zs",
+			"name": "Extra Credits – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVzt0Ltq6VNKRqRMrry3OIA",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
+		},
+		{
+			"id": "f-1781128156309-xxc4",
+			"name": "The Command Zone – YouTube",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLsiaNUb42gRAP7ewbJ0ecQ",
+			"folder": null,
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"cssSelectors": [],
+			"htmlPatterns": []
 		}
 	],
 	"readArticles": [
