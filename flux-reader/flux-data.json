@@ -160,7 +160,8 @@
 			"isYoutube": false,
 			"cssSelectors": [],
 			"htmlPatterns": [],
-			"favicon": null
+			"favicon": null,
+			"inlineBrowser": true
 		},
 		{
 			"id": "f-1781048344814-rjkc",
