@@ -20,8 +20,11 @@
         <Key Name="Window Positions 96">
           <Value Name="Comments Position" Type="2">9B010000180300004F01000001010000</Value>
           <Value Name="AdvancedOptions Position" Type="2">380100001502000056030000C7010000</Value>
+          <Value Name="frmLuaTableScript Position" Type="2">7F010000E8020000AF01000039010000</Value>
         </Key>
+        <Key Name="Ignored Exceptions"/>
       </Key>
     </Key>
+    <Key Name="Cookies"/>
   </Key>
 </XMLReg>
