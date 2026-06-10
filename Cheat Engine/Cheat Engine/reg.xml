@@ -16,6 +16,11 @@
           <Value Name="EnableAITools" Type="1">1</Value>
         </Key>
         <Value Name="First Time User" Type="1">0</Value>
+        <Value Name="LuaEngine.showOnPrint" Type="1">1</Value>
+        <Key Name="Window Positions 96">
+          <Value Name="Comments Position" Type="2">9B010000180300004F01000001010000</Value>
+          <Value Name="AdvancedOptions Position" Type="2">380100001502000056030000C7010000</Value>
+        </Key>
       </Key>
     </Key>
   </Key>
