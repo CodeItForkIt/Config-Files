@@ -15,6 +15,7 @@
         <Key Name="AI Tools">
           <Value Name="EnableAITools" Type="1">1</Value>
         </Key>
+        <Value Name="First Time User" Type="1">0</Value>
       </Key>
     </Key>
   </Key>
