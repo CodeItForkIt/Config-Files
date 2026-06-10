@@ -4,6 +4,17 @@
     <Key Name="Software">
       <Key Name="Cheat Engine">
         <Value Name="Init" Type="2">123</Value>
+        <Key Name="Hexview"/>
+        <Key Name="dotnetinfo"/>
+        <Key Name="VersionCheck"/>
+        <Key Name="MonoExtension">
+          <Value Name="EnableUsesMonoOptionOnAttach" Type="1">1</Value>
+        </Key>
+        <Key Name="Java"/>
+        <Key Name="AITOOLS"/>
+        <Key Name="AI Tools">
+          <Value Name="EnableAITools" Type="1">1</Value>
+        </Key>
       </Key>
     </Key>
   </Key>
