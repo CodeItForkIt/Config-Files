@@ -202,7 +202,7 @@
 			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCW8G9RUYzzepznBq5Cn_3Bg",
 			"folder": null,
 			"isYoutube": true,
-			"inlineBrowser": false,
+			"inlineBrowser": true,
 			"cssSelectors": [],
 			"htmlPatterns": [],
 			"hideShorts": true
