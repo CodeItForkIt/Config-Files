@@ -62,7 +62,9 @@
 			"isYoutube": false,
 			"cssSelectors": [],
 			"htmlPatterns": [],
-			"favicon": null
+			"favicon": null,
+			"inlineBrowser": false,
+			"hideShorts": false
 		},
 		{
 			"id": "f-1781048344814-o18q",
@@ -102,7 +104,9 @@
 			"isYoutube": false,
 			"cssSelectors": [],
 			"htmlPatterns": [],
-			"favicon": null
+			"favicon": null,
+			"inlineBrowser": true,
+			"hideShorts": false
 		},
 		{
 			"id": "f-1781048344814-mnbz",
@@ -202,7 +206,7 @@
 			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCW8G9RUYzzepznBq5Cn_3Bg",
 			"folder": null,
 			"isYoutube": true,
-			"inlineBrowser": true,
+			"inlineBrowser": false,
 			"cssSelectors": [],
 			"htmlPatterns": [],
 			"hideShorts": true
@@ -346,6 +350,13 @@
 		"f-1781048344814-rjkc:f-1781048344814-rjkc-3-1781138969662",
 		"f-1781048344814-ijqz:f-1781048344814-ijqz-0-1781138965755",
 		"f-1781048344814-6bg7:f-1781048344814-6bg7-6-1781138964036",
-		"f-1781048344814-6bg7:f-1781048344814-6bg7-0-1781219419296"
+		"f-1781048344814-6bg7:f-1781048344814-6bg7-0-1781219419296",
+		"f-1781048344814-q4w3:f-1781048344814-q4w3-0-1781219423048",
+		"f-1781048344814-sv6m:f-1781048344814-sv6m-0-1781219423661",
+		"f-1781048344814-nls5:f-1781048344814-nls5-0-1781219420079",
+		"f-1781048344814-nls5:f-1781048344814-nls5-1-1781219420079",
+		"f-1781048344814-40jh:f-1781048344814-40jh-0-1781219423753",
+		"f-1781048344814-6bg7:f-1781048344814-6bg7-1-1781219419296",
+		"f-1781048344814-sv6m:f-1781048344814-sv6m-1-1781219423661"
 	]
 }
