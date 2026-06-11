@@ -193,7 +193,8 @@
 			"isYoutube": true,
 			"inlineBrowser": false,
 			"cssSelectors": [],
-			"htmlPatterns": []
+			"htmlPatterns": [],
+			"hideShorts": true
 		},
 		{
 			"id": "f-1781128156309-08b5",
