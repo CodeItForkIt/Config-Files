@@ -1,5 +1,11 @@
 {
-	"folders": [],
+	"folders": [
+		{
+			"id": "folder-1781219511529",
+			"name": "Youtube",
+			"icon": "◈"
+		}
+	],
 	"feeds": [
 		{
 			"id": "f-1781048344814-umkj",
