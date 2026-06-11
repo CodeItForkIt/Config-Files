@@ -29,7 +29,9 @@
 			"isYoutube": false,
 			"cssSelectors": [],
 			"htmlPatterns": [],
-			"favicon": null
+			"favicon": null,
+			"inlineBrowser": false,
+			"hideShorts": false
 		},
 		{
 			"id": "f-1781048344814-el8h",
