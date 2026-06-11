@@ -289,9 +289,10 @@
 			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLsiaNUb42gRAP7ewbJ0ecQ",
 			"folder": null,
 			"isYoutube": true,
-			"inlineBrowser": false,
+			"inlineBrowser": true,
 			"cssSelectors": [],
-			"htmlPatterns": []
+			"htmlPatterns": [],
+			"hideShorts": false
 		}
 	],
 	"readArticles": [
@@ -358,6 +359,9 @@
 		"f-1781048344814-40jh:f-1781048344814-40jh-0-1781219423753",
 		"f-1781048344814-6bg7:f-1781048344814-6bg7-1-1781219419296",
 		"f-1781048344814-sv6m:f-1781048344814-sv6m-1-1781219423661",
-		"f-1781048344814-6bg7:f-1781048344814-6bg7-2-1781219419296"
+		"f-1781048344814-6bg7:f-1781048344814-6bg7-2-1781219419296",
+		"f-1781048344814-40jh:f-1781048344814-40jh-1-1781219423753",
+		"f-1781048344814-sv6m:f-1781048344814-sv6m-4-1781219423661",
+		"f-1781048344814-sv6m:f-1781048344814-sv6m-5-1781219423661"
 	]
 }
