@@ -100,14 +100,6 @@
       [
         "timestamp",
         false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
-      [
-        "timestamp",
-        false
       ]
     ]
   },
@@ -140,14 +132,6 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "timestamp",
         false
@@ -418,28 +402,28 @@
   },
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 514,
-      "width": 955,
-      "x": 2,
-      "y": 4
+      "height": 1039,
+      "width": 1920,
+      "x": 482,
+      "y": 283
     },
     "full_screened": false,
     "geometry": {
-      "height": 514,
-      "width": 955,
-      "x": 2,
-      "y": 4
+      "height": 1039,
+      "width": 1920,
+      "x": 482,
+      "y": 283
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 514,
-      "width": 955,
-      "x": 2,
-      "y": 4
+      "height": 1039,
+      "width": 1920,
+      "x": 482,
+      "y": 283
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAACAAAABAAAA7wAAAIFAAAAAgAAAAQAAAO8AAACBQAAAAACAAAAB4AAAAACAAAABAAAA7wAAAIF"
+      "__value__": "AdnQywADAAAAAAHiAAABGwAACWEAAAUpAAAB4gAAARsAAAlhAAAFKQAAAAACAAAAB4AAAAHiAAABGwAACWEAAAUp"
     },
     "screen": {
       "depth": 32,
@@ -447,13 +431,13 @@
       "geometry_in_logical_pixels": {
         "height": 1080,
         "width": 1920,
-        "x": 2,
-        "y": 4
+        "x": 0,
+        "y": 0
       },
       "index_in_screens_list": 0,
       "manufacturer": "Acer Technologies",
       "model": "XF243Y P",
-      "name": "DP-2",
+      "name": "DP-5",
       "serial": "",
       "size_in_logical_pixels": {
         "height": 1080,
@@ -462,8 +446,8 @@
       "virtual_geometry": {
         "height": 1080,
         "width": 1920,
-        "x": 2,
-        "y": 4
+        "x": 0,
+        "y": 0
       }
     }
   },
@@ -1126,14 +1110,6 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
-      [
-        "timestamp",
-        false
-      ],
-      [
-        "inlibrary",
-        false
-      ],
       [
         "timestamp",
         false
