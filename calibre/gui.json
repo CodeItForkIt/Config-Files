@@ -761,26 +761,26 @@
     "frame_geometry": {
       "height": 566,
       "width": 532,
-      "x": 2,
-      "y": 4
+      "x": 694,
+      "y": 257
     },
     "full_screened": false,
     "geometry": {
       "height": 566,
       "width": 532,
-      "x": 2,
-      "y": 4
+      "x": 694,
+      "y": 257
     },
     "maximized": true,
     "normal_geometry": {
       "height": 566,
       "width": 532,
-      "x": 2,
-      "y": 4
+      "x": 694,
+      "y": 257
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAACAAAABAAAAhUAAAI5AAAAAgAAAAQAAAIVAAACOQAAAAACAAAAB4AAAAACAAAABAAAAhUAAAI5"
+      "__value__": "AdnQywADAAAAAAK2AAABAQAABMkAAAM2AAACtgAAAQEAAATJAAADNgAAAAACAAAAB4AAAAK2AAABAQAABMkAAAM2"
     },
     "screen": {
       "depth": 32,
@@ -788,13 +788,13 @@
       "geometry_in_logical_pixels": {
         "height": 1080,
         "width": 1920,
-        "x": 2,
-        "y": 4
+        "x": 0,
+        "y": 0
       },
       "index_in_screens_list": 0,
       "manufacturer": "Acer Technologies",
       "model": "XF243Y P",
-      "name": "DP-2",
+      "name": "DP-5",
       "serial": "",
       "size_in_logical_pixels": {
         "height": 1080,
@@ -803,8 +803,8 @@
       "virtual_geometry": {
         "height": 1080,
         "width": 1920,
-        "x": 2,
-        "y": 4
+        "x": 0,
+        "y": 0
       }
     }
   },
