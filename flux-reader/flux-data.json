@@ -250,11 +250,12 @@
 			"id": "f-1781128156309-582x",
 			"name": "Extra History – YouTube",
 			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCODtTcd5M1JavPCOr_Uydg",
-			"folder": null,
+			"folder": "folder-1781219511529",
 			"isYoutube": true,
 			"inlineBrowser": false,
 			"cssSelectors": [],
-			"htmlPatterns": []
+			"htmlPatterns": [],
+			"hideShorts": true
 		},
 		{
 			"id": "f-1781128156309-8u2q",
