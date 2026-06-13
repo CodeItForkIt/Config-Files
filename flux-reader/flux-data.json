@@ -294,12 +294,12 @@
 			"id": "f-1781128156309-xxc4",
 			"name": "The Command Zone – YouTube",
 			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLsiaNUb42gRAP7ewbJ0ecQ",
-			"folder": null,
+			"folder": "folder-1781219511529",
 			"isYoutube": true,
-			"inlineBrowser": true,
+			"inlineBrowser": false,
 			"cssSelectors": [],
 			"htmlPatterns": [],
-			"hideShorts": false
+			"hideShorts": true
 		}
 	],
 	"readArticles": [
