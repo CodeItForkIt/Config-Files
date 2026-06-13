@@ -301,4 +301,4 @@ hl.window_rule({ match = { float = false, workspace = "f[1]s[false]" }, border_s
 hl.window_rule({ match = { float = false, workspace = "f[1]s[false]" }, rounding = 0 })
 hl.window_rule({ match = { focus = false }, opacity = "0.8 override" })
 hl.window_rule({ match = { focus = true }, opacity = "0.9 override" })
-hl.window_rule({ match = { class = "kitty" }, rounding = 10 })
+hl.window_rule({ match = { class = "kitty" }, rounding = 100 })
