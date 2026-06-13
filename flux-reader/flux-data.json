@@ -41,7 +41,7 @@
 			"cssSelectors": [],
 			"htmlPatterns": [],
 			"favicon": null,
-			"inlineBrowser": true,
+			"inlineBrowser": false,
 			"hideShorts": false
 		},
 		{
