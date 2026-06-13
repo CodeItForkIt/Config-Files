@@ -308,7 +308,7 @@
 			"folder": "folder-1781219511529",
 			"isYoutube": true,
 			"inlineBrowser": false,
-			"hideShorts": false,
+			"hideShorts": true,
 			"cssSelectors": [],
 			"htmlPatterns": [],
 			"favicon": null
