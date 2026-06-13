@@ -272,11 +272,12 @@
 			"id": "f-1781128156309-lcys",
 			"name": "Rhystic Studies – YouTube",
 			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8e0Sg8TmRRFJytjEGhmVTg",
-			"folder": null,
+			"folder": "folder-1781219511529",
 			"isYoutube": true,
 			"inlineBrowser": false,
 			"cssSelectors": [],
-			"htmlPatterns": []
+			"htmlPatterns": [],
+			"hideShorts": true
 		},
 		{
 			"id": "f-1781128156309-y1zs",
