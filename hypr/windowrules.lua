@@ -302,3 +302,4 @@ hl.window_rule({ match = { float = false, workspace = "f[1]s[false]" }, rounding
 hl.window_rule({ match = { focus = false }, opacity = "0.8 override" })
 hl.window_rule({ match = { focus = true }, opacity = "0.9 override" })
 hl.window_rule({ match = { class = ".*" }, rounding = 20 })
+hl.window_rule({ match = { fullscreen = true }, opaque = true })
