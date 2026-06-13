@@ -300,6 +300,18 @@
 			"cssSelectors": [],
 			"htmlPatterns": [],
 			"hideShorts": true
+		},
+		{
+			"id": "f-1781322502090",
+			"name": "XKCD's What If?",
+			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6IxnFzHofFJ5X2PycSMsww",
+			"folder": "folder-1781219511529",
+			"isYoutube": true,
+			"inlineBrowser": false,
+			"hideShorts": false,
+			"cssSelectors": [],
+			"htmlPatterns": [],
+			"favicon": null
 		}
 	],
 	"readArticles": [
