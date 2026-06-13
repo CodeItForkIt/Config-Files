@@ -283,11 +283,12 @@
 			"id": "f-1781128156309-y1zs",
 			"name": "Extra Credits – YouTube",
 			"url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVzt0Ltq6VNKRqRMrry3OIA",
-			"folder": null,
+			"folder": "folder-1781219511529",
 			"isYoutube": true,
 			"inlineBrowser": false,
 			"cssSelectors": [],
-			"htmlPatterns": []
+			"htmlPatterns": [],
+			"hideShorts": true
 		},
 		{
 			"id": "f-1781128156309-xxc4",
