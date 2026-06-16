@@ -135,8 +135,6 @@ hl.monitor({
 	sdrbrightness = 1.2,
 	sdrsaturation = 1.0,
 })
-hl.config.set("render:cm_enabled", true)
-hl.config.set("render:cm_auto_hdr", true)
 -- ============================================================
 --  EXEC-ONCE  (hyprland.start fires exactly once at startup)
 -- ============================================================
