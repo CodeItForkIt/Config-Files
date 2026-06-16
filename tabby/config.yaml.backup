@@ -206,6 +206,28 @@ terminal:
   paletteGenerate: true
   paletteHarmonious: true
   showTabProfileIcon: true
+  lightColorScheme:
+    name: Tabby Default Light
+    foreground: '#4d4d4c'
+    background: '#ffffff'
+    cursor: '#4d4d4c'
+    colors:
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
+      - '#000000'
+      - '#c82829'
+      - '#718c00'
+      - '#eab700'
+      - '#4271ae'
+      - '#8959a8'
+      - '#3e999f'
+      - '#ffffff'
 ssh: {}
 clickableLinks: {}
 accessibility: {}
@@ -213,8 +235,25 @@ appearance:
   frame: native
   flexTabs: true
   tabsInFullscreen: true
-  css: |
+  css: |-
     /* * { color: blue !important; } */
+    :root {
+        --theme-bg: transparent !important;
+        --background: transparent !important;
+        --terminal-background: transparent !important;
+    }
+
+    body,
+    #root,
+    app-root,
+    .terminal,
+    .xterm,
+    .xterm-screen,
+    .xterm-viewport,
+    .tab-content {
+        background: transparent !important;
+        background-color: transparent !important;
+    }
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
