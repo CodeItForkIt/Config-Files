@@ -122,7 +122,7 @@ hl.config({
 hl.monitor({
 	output = "STREAM",
 	mode = "2560x1664@120",
-	position = "1x0",
+	position = "2560x0",
 	scale = 1,
 
 	bitdepth = 10,
