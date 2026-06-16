@@ -43,3 +43,14 @@ info: CLI arguments received: {"argv":{"$0":"tabby","_":[],"sandbox":false},"cwd
 info: CLI handler matched:
 info: Starting profile User default {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"","id":"local:default","isBuiltin":true,"isTemplate":false,"name":"User default","options":{"args":["--login"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"shellType":"unix","width":null},"terminalColorScheme":null,"type":"local","weight":0}
 debug: Resizing to 114x53
+debug: Setting language to
+debug: Setting language to
+info: Destroying
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"tabby","_":[],"sandbox":false},"cwd":"/home/autometalogolex","secondInstance":false}
+info: CLI handler matched:
+debug: Resizing to 114x53
+info: Starting profile User default {"behaviorOnSessionEnd":"auto","color":"","disableDynamicTitle":false,"group":"","icon":"","id":"local:default","isBuiltin":true,"isTemplate":false,"name":"User default","options":{"args":["--login"],"command":"/usr/bin/zsh","cwd":null,"env":{},"height":null,"pauseAfterExit":false,"restoreFromPTYID":null,"runAsAdministrator":false,"shellType":"unix","width":null},"terminalColorScheme":null,"type":"local","weight":0}
+debug: Resizing to 114x53
+info: Destroying
