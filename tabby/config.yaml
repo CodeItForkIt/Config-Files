@@ -206,7 +206,8 @@ terminal:
 ssh: {}
 clickableLinks: {}
 accessibility: {}
-appearance: {}
+appearance:
+  opacity: 0.4
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
