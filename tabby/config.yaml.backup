@@ -204,8 +204,6 @@ terminal:
   paletteGenerate: true
   paletteHarmonious: true
   showTabProfileIcon: true
-  hideCloseButton: true
-  hideTabOptionsButton: true
 ssh: {}
 clickableLinks: {}
 accessibility: {}
@@ -213,6 +211,15 @@ appearance:
   frame: native
   flexTabs: true
   tabsInFullscreen: true
+  css: |-
+    /* * { color: blue !important; } */
+    body,
+    #root,
+    .xterm,
+    .xterm-viewport,
+    .xterm-screen {
+        background-color: transparent !important;
+    }
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
