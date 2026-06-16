@@ -118,6 +118,23 @@ hl.config({
 		},
 	},
 })
+
+hl.monitor({
+	output = "STREAM",
+	mode = "2560x1664@120",
+	position = "0x0",
+	scale = 1,
+
+	bitdepth = 10,
+
+	supports_wide_color = 1,
+	supports_hdr = 1,
+
+	cm = "hdr",
+
+	sdrbrightness = 1.2,
+	sdrsaturation = 1.0,
+})
 -- ============================================================
 --  EXEC-ONCE  (hyprland.start fires exactly once at startup)
 -- ============================================================
