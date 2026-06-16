@@ -118,7 +118,11 @@ hl.config({
 		},
 	},
 })
-
+hl.config({
+	monitor = {
+		"VKMS-1, 2560x1440@144, 1920x0, 1",
+	},
+})
 hl.monitor({
 	output = "STREAM",
 	mode = "2560x1664@120",
