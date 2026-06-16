@@ -215,14 +215,20 @@ appearance:
   tabsInFullscreen: true
   css: |-
     /* * { color: blue !important; } */
+    :root {
+        --theme-bg: transparent !important;
+        --background: transparent !important;
+        --terminal-background: transparent !important;
+    }
+
     body,
     #root,
     app-root,
+    .terminal,
     .xterm,
     .xterm-screen,
     .xterm-viewport,
-    .tab-content,
-    .terminal {
+    .tab-content {
         background: transparent !important;
         background-color: transparent !important;
     }
