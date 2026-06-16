@@ -203,12 +203,16 @@ terminal:
   customColorSchemes: []
   paletteGenerate: true
   paletteHarmonious: true
+  showTabProfileIcon: true
+  hideCloseButton: true
+  hideTabOptionsButton: true
 ssh: {}
 clickableLinks: {}
 accessibility: {}
 appearance:
   frame: native
   flexTabs: true
+  tabsInFullscreen: true
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
