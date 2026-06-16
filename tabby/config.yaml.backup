@@ -71,6 +71,7 @@ hotkeys:
     - Ctrl-Shift-T
   new-window:
     - Ctrl-Shift-N
+    - Ctrl-T
   profile: {}
   profile-selectors: {}
   group-selectors: {}
@@ -78,6 +79,7 @@ hotkeys:
     - F11
   close-tab:
     - Ctrl-Shift-W
+    - Ctrl-W
   reopen-tab:
     - Ctrl-Shift-Z
   toggle-last-tab: []
@@ -211,15 +213,8 @@ appearance:
   frame: native
   flexTabs: true
   tabsInFullscreen: true
-  css: |-
+  css: |
     /* * { color: blue !important; } */
-    body,
-    #root,
-    .xterm,
-    .xterm-viewport,
-    .xterm-screen {
-        background-color: transparent !important;
-    }
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
