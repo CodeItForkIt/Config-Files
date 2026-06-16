@@ -180,7 +180,7 @@ terminal:
   colorScheme:
     name: Tabby Default
     foreground: "#cacaca"
-    background: "#00000000"
+    background: "#00000001"
     cursor: "#bbbbbb"
     colors:
       - "#000000"
