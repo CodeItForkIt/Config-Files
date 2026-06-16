@@ -207,7 +207,7 @@ ssh: {}
 clickableLinks: {}
 accessibility: {}
 appearance:
-  opacity: 0.4
+  frame: full
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
