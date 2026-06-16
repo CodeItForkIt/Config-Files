@@ -127,3 +127,22 @@ info: Starting profile User default {"behaviorOnSessionEnd":"auto","color":"","d
 debug: Resizing to 114x24
 info: Destroying
 debug: Resizing to 114x53
+info: CLI arguments received: {"argv":{"$0":"tabby","_":[],"allow-file-access-from-files":true,"allowFileAccessFromFiles":true,"disable-http-cache":true,"disableHttpCache":true,"force_discrete_gpu":0,"lang":"EN","max-active-webgl-contexts":9000,"maxActiveWebglContexts":9000,"ozone-platform":"wayland","ozonePlatform":"wayland","sandbox":false},"cwd":"/home/autometalogolex/.config/tabby","secondInstance":true}
+info: CLI handler matched:
+debug: Resizing to 114x24
+info: v
+debug: Setting language to
+debug: Resizing to 114x53
+info: CLI arguments received: {"argv":{"$0":"tabby","_":[],"allow-file-access-from-files":true,"allowFileAccessFromFiles":true,"disable-http-cache":true,"disableHttpCache":true,"force_discrete_gpu":0,"lang":"EN","max-active-webgl-contexts":9000,"maxActiveWebglContexts":9000,"ozone-platform":"wayland","ozonePlatform":"wayland","sandbox":false},"cwd":"/home/autometalogolex/.config/tabby","secondInstance":true}
+info: CLI handler matched:
+debug: Resizing to 114x24
+info: v
+debug: Setting language to
+debug: Resizing to 114x53
+info: CLI arguments received: {"argv":{"$0":"tabby","_":[],"allow-file-access-from-files":true,"allowFileAccessFromFiles":true,"disable-http-cache":true,"disableHttpCache":true,"force_discrete_gpu":0,"lang":"EN","max-active-webgl-contexts":9000,"maxActiveWebglContexts":9000,"ozone-platform":"wayland","ozonePlatform":"wayland","sandbox":false},"cwd":"/home/autometalogolex/.config/tabby","secondInstance":true}
+info: CLI handler matched:
+debug: Resizing to 114x24
+info: v
+debug: Setting language to
+debug: Resizing to 114x53
+info: Destroying
