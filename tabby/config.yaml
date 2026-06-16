@@ -204,8 +204,6 @@ terminal:
   paletteGenerate: true
   paletteHarmonious: true
   showTabProfileIcon: true
-  hideCloseButton: true
-  hideTabOptionsButton: true
 ssh: {}
 clickableLinks: {}
 accessibility: {}
