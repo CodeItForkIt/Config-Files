@@ -1,0 +1,14 @@
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"tabby","_":[]},"cwd":"/home/autometalogolex/Downloads/aur-malware-check June 2026/aur-malware-check-master","secondInstance":false}
+info: v
+debug: Setting language to
+info: CLI arguments received: {"argv":{"$0":"tabby","_":[],"sandbox":false},"cwd":"/home/autometalogolex","secondInstance":false}
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
+debug: Setting language to
