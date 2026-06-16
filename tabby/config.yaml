@@ -213,19 +213,8 @@ appearance:
   frame: native
   flexTabs: true
   tabsInFullscreen: true
-  css: |-
+  css: |
     /* * { color: blue !important; } */
-    body,
-    #root,
-    app-root,
-    .xterm,
-    .xterm-screen,
-    .xterm-viewport,
-    .tab-content,
-    .terminal {
-        background: transparent !important;
-        background-color: transparent !important;
-    }
 hacks: {}
 providerBlacklist: []
 commandBlacklist: []
