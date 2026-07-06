@@ -24,7 +24,8 @@
   },
   "plugins": {
     "enabledPlugins": [
-      "extendium"
+      "extendium",
+      "steam-easygrid"
     ]
   },
   "themes": {
