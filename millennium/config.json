@@ -22,6 +22,11 @@
     "showPluginNotifications": true,
     "showUpdateNotifications": true
   },
+  "plugins": {
+    "enabledPlugins": [
+      "extendium"
+    ]
+  },
   "themes": {
     "activeTheme": "Steam",
     "allowedScripts": true,
