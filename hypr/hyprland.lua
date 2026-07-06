@@ -123,6 +123,7 @@ hl.config({
 		"VKMS-1, 2560x1440@144, 1920x0, 1",
 	},
 })
+hl.config({ cursor = { no_hardware_cursors = true } })
 hl.monitor({
 	output = "STREAM",
 	mode = "2560x1664@120",
