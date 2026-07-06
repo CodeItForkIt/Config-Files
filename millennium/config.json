@@ -10,7 +10,7 @@
     "shouldShowThemePluginUpdateNotifications": true
   },
   "misc": {
-    "hasShownWelcomeModal": false
+    "hasShownWelcomeModal": true
   },
   "network": {
     "proxy": "",
