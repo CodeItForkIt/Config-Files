@@ -32,7 +32,7 @@
         "Always show download bar": "no",
         "Always show game infos": "no",
         "Always show sidebar": "yes",
-        "Banner Infos": "no",
+        "Banner Infos": "yes",
         "Banner position": "Middle (default)",
         "Big Picture Mode button": "yes",
         "Bigger banner": "yes",
