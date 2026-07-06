@@ -58,7 +58,7 @@
         "Navigation buttons": "no",
         "News button": "no",
         "Notification button": "no",
-        "Playbar in Banner": "no",
+        "Playbar in Banner": "yes",
         "Playbar play button center": "no",
         "Playbar play button only icon": "no",
         "Profile pages header": "no",
