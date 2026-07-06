@@ -47,7 +47,7 @@
         "Friend icon": "no",
         "Friend list button": "no",
         "Game Overlay": "yes",
-        "Game cover shiny effect": "no",
+        "Game cover shiny effect": "yes",
         "Game info box artwork": "no",
         "Hide group chat": "no",
         "Info sidebar on right": "no",
