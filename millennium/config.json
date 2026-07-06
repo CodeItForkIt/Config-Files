@@ -63,7 +63,7 @@
         "Playbar play button only icon": "no",
         "Profile pages header": "no",
         "Recommendations": "no",
-        "Scrollbars": "no",
+        "Scrollbars": "yes",
         "Sidebar on left": "no",
         "Sidebar on right": "no",
         "Sidebar only on hover": "yes",
