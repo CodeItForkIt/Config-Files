@@ -30,7 +30,7 @@
       "Steam": {
         "Add shelf button": "no",
         "Always show download bar": "no",
-        "Always show game infos": "no",
+        "Always show game infos": "yes",
         "Always show sidebar": "yes",
         "Banner Infos": "yes",
         "Banner position": "Middle (default)",
@@ -48,7 +48,7 @@
         "Friend list button": "no",
         "Game Overlay": "yes",
         "Game cover shiny effect": "yes",
-        "Game info box artwork": "no",
+        "Game info box artwork": "yes",
         "Hide group chat": "no",
         "Info sidebar on right": "no",
         "Landing Header": "no",
