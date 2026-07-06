@@ -66,7 +66,7 @@
         "Scrollbars": "no",
         "Sidebar on left": "no",
         "Sidebar on right": "no",
-        "Sidebar only on hover": "no",
+        "Sidebar only on hover": "yes",
         "Steam VR button": "no",
         "Steam-Custom-Artworks Support": "no",
         "System accent colors": "no",
