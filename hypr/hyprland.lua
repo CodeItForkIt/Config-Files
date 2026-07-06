@@ -54,7 +54,6 @@ hl.env("AQ_DRM_DEVICES", "/dev/dri/amd-igpu:/dev/dri/nvidia-dgpu")
 -- ============================================================
 --  CORE CONFIGURATION
 -- ============================================================
-
 hl.config({
 	general = {
 		snap = { enabled = true },
