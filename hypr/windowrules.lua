@@ -170,6 +170,12 @@ hl.window_rule({
 	fullscreen = true,
 })
 hl.window_rule({
+	name = "steam-popup",
+	match = { initial_class = "steam" },
+	workspace = "special",
+	opaque = true,
+})
+hl.window_rule({
 	name = "games-minecraft",
 	match = { class = "^(Minecraft|minecraft)$", title = "^(Minecraft)(.*)$" },
 	workspace = "special",
