@@ -171,7 +171,7 @@ hl.window_rule({
 })
 hl.window_rule({
 	name = "steam-popup",
-	match = { initial_class = "steam" },
+	match = { class = "steam" },
 	workspace = "special",
 	opaque = true,
 })
