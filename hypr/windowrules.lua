@@ -176,6 +176,12 @@ hl.window_rule({
 	opaque = true,
 })
 hl.window_rule({
+	name = "steam-popup-title",
+	match = { title = "" },
+	workspace = "special",
+	opaque = true,
+})
+hl.window_rule({
 	name = "games-minecraft",
 	match = { class = "^(Minecraft|minecraft)$", title = "^(Minecraft)(.*)$" },
 	workspace = "special",
