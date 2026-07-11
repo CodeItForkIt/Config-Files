@@ -13,7 +13,7 @@
     /* Modified by Hyde */
 
     /* Modify/add style in ~/.config/waybar/styles/ */
-    @import "/home/autometalogolex/.local/share/waybar/styles/defaults.css";
+    @import "/home/autometalogolex/.local/share/waybar/styles/macos.css";
 
     /* Imports wallbash colors */
     @import "/home/autometalogolex/.cache/hyde/wallbash/gtk.css";
