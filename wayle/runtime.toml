@@ -22,10 +22,10 @@ left = [
     "cava",
 ]
 right = [
+    "network",
     "bluetooth",
     "volume",
     "notifications",
-    "network",
 ]
 
 [[bar.layout.center]]
