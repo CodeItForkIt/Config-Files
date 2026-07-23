@@ -3,7 +3,6 @@ font-sans = "Times New Roman"
 font-mono = "JetBrains Mono NL"
 
 [bar]
-exclusive = false
 bg = "transparent"
 border-color = "bg-active"
 button-border-location = "top"
