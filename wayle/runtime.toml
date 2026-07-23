@@ -76,4 +76,4 @@ popup-urgency-bar = "critical"
 color = "fg-default"
 
 [wallpaper]
-transition-type = "left"
+transition-type = "wipe"
