@@ -74,3 +74,6 @@ popup-urgency-bar = "critical"
 
 [modules.separator]
 color = "fg-default"
+
+[wallpaper]
+transition-type = "left"
