@@ -1,6 +1,7 @@
 [general]
 font-sans = "Times New Roman"
 font-mono = "JetBrains Mono NL"
+tearing-mode = true
 
 [bar]
 scale = 1.0
@@ -42,6 +43,7 @@ modules = [
 ]
 
 [styling]
+rounding = "lg"
 theming-monitor = "DLP-1"
 
 [styling.palette]
