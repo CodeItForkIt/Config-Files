@@ -76,5 +76,5 @@ popup-urgency-bar = "critical"
 color = "fg-default"
 
 [wallpaper]
-transition-type = "any"
-transition-duration = 0.5
+transition-type = "center"
+transition-duration = 0.4000000059604645
