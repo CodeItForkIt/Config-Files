@@ -243,7 +243,14 @@ hl.window_rule({
 })
 -- Empty workspace
 hl.window_rule({ name = "foundry-fs", match = { class = "^(foundry)$" }, workspace = "empty", fullscreen = true })
-
+hl.window_rule({
+	name = "Prism Launcher Console Float",
+	match = {
+		class = "^org%.prismlauncher%.PrismLauncher$",
+		title = "^Console window for.*",
+	},
+	float = true,
+})
 -- QEMU VMs
 hl.window_rule({
 	name = "qemu-class",
