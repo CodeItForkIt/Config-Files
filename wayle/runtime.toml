@@ -72,6 +72,7 @@ icon-type = "spinning-disc"
 
 [modules.notifications]
 blocklist = ["HyDE Notify"]
+popup-close-behavior = "remove"
 popup-urgency-bar = "critical"
 
 [modules.separator]
