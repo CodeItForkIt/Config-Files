@@ -6,7 +6,8 @@ require("animations")
 require("windowrules")
 require("keybindings")
 require("userprefs")
-
+hl.env("AQ_MGPU_NO_EXPLICIT", "1") -- disables explicit sync specifically on multi-GPU buffers
+hl.env("AQ_FORCE_LINEAR_BLIT", "0") -- workaround for Nvidia issues with multi-GPU buffer modifiers
 -- ============================================================
 --  VARIABLES
 -- ============================================================
@@ -23,8 +24,6 @@ local xdgRuntime = os.getenv("XDG_RUNTIME_DIR") or "/run/user/1000"
 -- ============================================================
 --  ENVIRONMENT VARIABLES
 -- ============================================================
-hl.env("AQ_MGPU_NO_EXPLICIT", "1") -- disables explicit sync specifically on multi-GPU buffers
-hl.env("AQ_FORCE_LINEAR_BLIT", "0") -- workaround for Nvidia issues with multi-GPU buffer modifiers
 hl.env("GDK_BACKEND", "wayland,x11,*")
 hl.env("SDL_VIDEODRIVER", "wayland")
 hl.env("CLUTTER_BACKEND", "wayland")
