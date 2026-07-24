@@ -23,8 +23,10 @@ local xdgRuntime = os.getenv("XDG_RUNTIME_DIR") or "/run/user/1000"
 -- ============================================================
 --  ENVIRONMENT VARIABLES
 -- ============================================================
-render({
-	explicit_sync = false,
+hl.config({
+	render = {
+		explicit_sync = false,
+	},
 })
 hl.env("GDK_BACKEND", "wayland,x11,*")
 hl.env("SDL_VIDEODRIVER", "wayland")
