@@ -1,10 +1,10 @@
 {
-  "ActiveOperation": 0,
-  "InstallationPath": null,
+  "ActiveOperation": 1,
+  "InstallationPath": "/home/autometalogolex/Documents/Elden Ring: Convergence/ConvergenceER",
   "IsFirstLaunch": false,
   "LauncherLanguage": "en",
   "MustUseAdminLaunch": false,
   "UUID": "8234648e-3fd6-47cd-991e-7f63a9556d3e",
-  "HasActiveOperation": false,
+  "HasActiveOperation": true,
   "IsInstallationComplete": false
 }
