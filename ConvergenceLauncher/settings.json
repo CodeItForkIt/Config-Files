@@ -1,10 +1,10 @@
 {
-  "ActiveOperation": 1,
-  "InstallationPath": "/home/autometalogolex/.local/share/Steam/steamapps/common/ELDEN RING/Game",
+  "ActiveOperation": 0,
+  "InstallationPath": null,
   "IsFirstLaunch": false,
   "LauncherLanguage": "en",
   "MustUseAdminLaunch": false,
   "UUID": "8234648e-3fd6-47cd-991e-7f63a9556d3e",
-  "HasActiveOperation": true,
+  "HasActiveOperation": false,
   "IsInstallationComplete": false
 }
