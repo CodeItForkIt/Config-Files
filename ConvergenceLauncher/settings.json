@@ -3,7 +3,7 @@
   "InstallationPath": "/home/autometalogolex/Documents/Elden Ring: Convergence/ConvergenceER",
   "IsFirstLaunch": false,
   "LauncherLanguage": "en",
-  "MustUseAdminLaunch": false,
+  "MustUseAdminLaunch": true,
   "UUID": "8234648e-3fd6-47cd-991e-7f63a9556d3e",
   "HasActiveOperation": false,
   "IsInstallationComplete": true
