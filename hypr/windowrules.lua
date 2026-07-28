@@ -318,8 +318,6 @@ hl.window_rule({ match = { float = false, workspace = "w[tv1]s[false]" }, border
 hl.window_rule({ match = { float = false, workspace = "w[tv1]s[false]" }, rounding = 0 })
 hl.window_rule({ match = { float = false, workspace = "f[1]s[false]" }, border_size = 0 })
 hl.window_rule({ match = { float = false, workspace = "f[1]s[false]" }, rounding = 0 })
-hl.window_rule({ match = { focus = false }, opacity = "0.8 override" })
-hl.window_rule({ match = { focus = true }, opacity = "0.9 override" })
 hl.window_rule({ match = { class = ".*" }, rounding = 20 })
 hl.window_rule({ match = { fullscreen = true }, opaque = true })
 hl.window_rule({ match = { class = "steam" }, opaque = true })
