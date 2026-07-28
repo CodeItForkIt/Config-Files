@@ -31,7 +31,6 @@ export ROFI_THEME="$HOME/.config/rofi/cosmere-theme.rasi"
 export PATH=$PATH:/home/autometalogolex/.spicetify
 
 # Add JBang to environment
-alias ls="ls --si -f"
 alias j!=jbang
 export PATH="$HOME/.jbang/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
