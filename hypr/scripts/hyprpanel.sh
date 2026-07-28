@@ -6,4 +6,3 @@ killall -q waybar
 
 sleep 1
 hyprpanel &
-
