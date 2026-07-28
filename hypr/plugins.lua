@@ -1,4 +1,3 @@
-require("edit_here.Hyprspace.Hyprspace").setup("auto")
 hl.config({
 	plugin = {
 		dynamic_cursors = {
