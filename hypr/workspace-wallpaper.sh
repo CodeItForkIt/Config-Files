@@ -1,4 +1,5 @@
 #!/bin/bash
+
 MONITOR="DP-2"
 WALLPAPERS=(
   [1]="$HOME/Documents/Wallpapers/Way-of-Kings.jpg"
@@ -11,7 +12,7 @@ FALLBACK="$HOME/Documents/Wallpapers/stormlight-archives-wallpaper-v2.png"
 
 set_wallpaper() {
   local wall="$1"
-  wayle wallpaper set "$wall"
+  noctalia msg wallpaper-set "$MONITOR" "$wall"
 }
 
 socat - "UNIX-CONNECT:$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock" | while read -r line; do
