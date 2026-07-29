@@ -162,7 +162,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("[workspace 1 silent] vivaldi")
 	hl.exec_cmd("WAYLAND_DISPLAY=wayland-1 steam")
 	hl.exec_cmd("~/.config/scripts/cfg-watch.sh > /tmp/cfg-watch.log 2>&1 &")
-	hl.exec_cmd("wayle panel start")
+	hl.exec_cmd("noctalia")
 	hl.exec_cmd(home .. "/.config/hypr/workspace-wallpaper.sh")
 end)
 
