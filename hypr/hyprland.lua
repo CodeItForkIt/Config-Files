@@ -328,3 +328,6 @@ Plugin = {
 		hide_overlay_layers = false,
 	},
 }
+
+-- For Noctalia Color templates
+require("noctalia").apply_theme()
