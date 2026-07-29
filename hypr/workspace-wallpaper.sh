@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MONITOR="DP-2"
+MONITOR="DP-5"
 WALLPAPERS=(
   [1]="$HOME/Documents/Wallpapers/Way-of-Kings.jpg"
   [2]="$HOME/Documents/Wallpapers/Words-of-Radiance.jpg"
