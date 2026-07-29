@@ -30,7 +30,6 @@ local BROWSER = "vivaldi"
 -- ============================================================
 --  WINDOW MANAGEMENT
 -- ============================================================
-hl.bind("SUPER + Tab", hl.dsp.exec_cmd("rofi -show drun"))
 hl.bind("SUPER + Q", hl.dsp.exec_cmd(scrPath .. "/dontkillsteam.sh"), { desc = "close focused window" })
 hl.bind("ALT + F4", hl.dsp.exec_cmd(scrPath .. "/dontkillsteam.sh"), { desc = "close focused window" })
 hl.bind("SUPER + Delete", hl.dsp.exit(), { desc = "kill hyprland session" })
