@@ -1,34 +1,49 @@
 #!/bin/zsh
 # ~/.config/scripts/cfg-watch.sh
-
 CONFIG_DIR="$HOME/.config"
-SCRIPT_DIR="$(dirname "$0")"
+LOCKFILE="/tmp/cfg-watch.lock"
 
 echo "👀 Watching ~/.config for changes..."
-
-inotifywait -m -r -e close_write,moved_to,create,delete \
-  --exclude '\.git' \
+inotifywait -m -r -e close_write,moved_to,create \
+  --exclude '(\.git/|\.swp$|~$|/4913$)' \
   --format '%w%f' \
   "$CONFIG_DIR" | while read -r filepath; do
 
-  # Get relative path
   relpath="${filepath#$CONFIG_DIR/}"
 
-  # Skip gitignored files
-  if git -C "$CONFIG_DIR" check-ignore -q "$relpath" 2>/dev/null; then
-    continue
-  fi
+  # Skip if the file is already gone (vim temp files, editor swap churn, etc.)
+  [[ ! -e "$filepath" ]] && continue
 
-  # Skip .git internals
+  # Skip gitignored files
+  git -C "$CONFIG_DIR" check-ignore -q "$relpath" 2>/dev/null && continue
   [[ "$relpath" == .git/* ]] && continue
 
   echo ""
   echo "📝 Changed: $relpath"
   read "msg?   Commit message (blank to skip): "
-
   [[ -z "$msg" ]] && continue
 
-  git -C "$CONFIG_DIR" add "$filepath"
-  git -C "$CONFIG_DIR" commit -m "$msg"
-  git -C "$CONFIG_DIR" push
+  (
+    flock -w 10 200 || { echo "   ⚠️  Could not acquire lock, skipping"; exit 1; }
+
+    # Retry add/commit a few times in case gitstatusd is holding index.lock
+    for i in 1 2 3 4 5; do
+      if git -C "$CONFIG_DIR" add "$filepath" 2>/tmp/gitadd.err; then
+        break
+      fi
+      grep -q "index.lock" /tmp/gitadd.err && sleep 0.5 || break
+    done
+
+    git -C "$CONFIG_DIR" commit -m "$msg"
+
+    # Retry push with rebase in case remote moved under us
+    for i in 1 2 3; do
+      if git -C "$CONFIG_DIR" push; then
+        break
+      fi
+      echo "   ↻ Push rejected, fetching + rebasing and retrying..."
+      git -C "$CONFIG_DIR" fetch
+      git -C "$CONFIG_DIR" rebase "@{u}" || { echo "   ⚠️ Rebase conflict, resolve manually"; break; }
+    done
+  ) 200>"$LOCKFILE"
 done
