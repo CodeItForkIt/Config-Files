@@ -6,7 +6,7 @@ require("animations")
 require("windowrules")
 require("keybindings")
 require("userprefs")
-require("plugins")
+-- require("plugins")
 hl.env("AQ_MGPU_NO_EXPLICIT", "1") -- disables explicit sync specifically on multi-GPU buffers
 hl.env("AQ_FORCE_LINEAR_BLIT", "0") -- workaround for Nvidia issues with multi-GPU buffer modifiers
 -- ============================================================
@@ -173,6 +173,11 @@ end)
 hl.on("config.reloaded", function()
 	hl.exec_cmd(scrPath .. "/keybinds.hint.py --format rofi > " .. xdgRuntime .. "/hyde/keybinds_hint.rofi")
 end)
+hl.config({
+	general = {
+		resize_on_border = true,
+	},
+})
 
 -- ============================================================
 --  PERMISSIONS

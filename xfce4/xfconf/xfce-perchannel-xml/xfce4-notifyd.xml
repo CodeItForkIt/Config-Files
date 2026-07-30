@@ -6,7 +6,9 @@
     <property name="known_applications" type="array">
       <value type="string" value="blueman"/>
       <value type="string" value="HyDE Notify"/>
+      <value type="string" value="notify-send"/>
       <value type="string" value="tray-icon"/>
+      <value type="string" value="UWSM"/>
       <value type="string" value="vivaldi-stable"/>
     </property>
   </property>
