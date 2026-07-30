@@ -164,6 +164,11 @@ end
 
 -- Games → special workspace
 hl.window_rule({
+	match = { class = "steam", title = "notification.*" },
+	no_initial_focus = true,
+	suppress_event = "activate",
+})
+hl.window_rule({
 	name = "games-steam-app",
 	match = { class = "^(steam_app_.*)$" },
 	workspace = "special",
@@ -220,15 +225,12 @@ hl.window_rule({
 	move = { "0", "0" },
 	size = { "1920", "1000" },
 })
-
+hl.workspace_rule({ workspace = "1", monitor = "DP-5", persistent = true })
+hl.workspace_rule({ workspace = "2", monitor = "DP-5", persistent = true })
+hl.workspace_rule({ workspace = "3", monitor = "DP-5", persistent = true })
+hl.workspace_rule({ workspace = "4", monitor = "DP-5", persistent = true })
+hl.workspace_rule({ workspace = "5", monitor = "DP-5", persistent = true })
 -- Workspace 2: Spotify + Vesktop side by side
-hl.window_rule({
-	name = "ws2-spotify",
-	match = { class = "^(spotify)$" },
-	workspace = "2",
-	move = { "0", "0" },
-	size = { "(monitor_w*0.5)", "(monitor_h*1)" },
-})
 hl.window_rule({
 	name = "ws2-vesktop",
 	match = { class = "^(vesktop)$" },

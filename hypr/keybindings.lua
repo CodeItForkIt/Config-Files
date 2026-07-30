@@ -24,13 +24,37 @@ local scrPath = home .. "/.local/lib/hyde"
 
 local TERMINAL = "kitty"
 local EDITOR = "kitty nvim"
-local EXPLORER = "nautilus"
+local EXPLORER = "thunar"
 local BROWSER = "vivaldi"
+local mainMod = "SUPER"
+local ipc = "noctalia msg "
 
+-- Core binds
+hl.bind(mainMod .. "+Space", hl.dsp.exec_cmd(ipc .. "panel-toggle launcher"))
+hl.bind(mainMod .. "+S", hl.dsp.exec_cmd(ipc .. "panel-toggle control-center"))
+hl.bind(mainMod .. "+comma", hl.dsp.exec_cmd(ipc .. "settings-toggle"))
+hl.bind("ALT + Tab", hl.dsp.exec_cmd(ipc .. "window-switcher"))
+
+-- Media keys
+
+-- Noctalia Settings
+hl.window_rule({
+	match = { class = "dev.noctalia.Noctalia" },
+	float = true,
+	size = { 1080, 920 },
+})
 -- ============================================================
 --  WINDOW MANAGEMENT
 -- ============================================================
-hl.bind("SUPER + Tab", hl.dsp.exec_cmd("noctalia msg panel-toggle launcher"))
+hl.bind("SUPER + X", function()
+	if hl.get_workspace("special:minimized") then
+		hl.dispatch(hl.dsp.window.move({ workspace = hl.get_active_workspace(), window = "tag:minimized" }))
+		hl.dispatch(hl.dsp.window.clear_tags({ window = "tag:minimized" }))
+	else
+		hl.dispatch(hl.dsp.window.tag({ tag = "minimized", window = hl.get_active_window() }))
+		hl.dispatch(hl.dsp.window.move({ workspace = "special:minimized", follow = false }))
+	end
+end)
 hl.bind("SUPER + Q", hl.dsp.exec_cmd(scrPath .. "/dontkillsteam.sh"), { desc = "close focused window" })
 hl.bind("ALT + F4", hl.dsp.exec_cmd(scrPath .. "/dontkillsteam.sh"), { desc = "close focused window" })
 hl.bind("SUPER + Delete", hl.dsp.exit(), { desc = "kill hyprland session" })
@@ -112,10 +136,6 @@ hl.bind("SUPER + E", hl.dsp.exec_cmd(EXPLORER), { desc = "file explorer" })
 hl.bind("SUPER + C", hl.dsp.exec_cmd(EDITOR), { desc = "text editor" })
 hl.bind("SUPER + B", hl.dsp.exec_cmd(BROWSER), { desc = "web browser" })
 hl.bind("CTRL + SHIFT + Escape", hl.dsp.exec_cmd(scrPath .. "/sysmonlaunch.sh"), { desc = "system monitor" })
-hl.bind("SUPER + D", hl.dsp.exec_cmd("discord"), { desc = "discord" })
-hl.bind("SUPER + R", hl.dsp.exec_cmd("steam"), { desc = "steam" })
-hl.bind("SUPER + M", hl.dsp.exec_cmd("thunderbird"), { desc = "thunderbird" })
-hl.bind("SUPER + A", hl.dsp.exec_cmd("spotify"), { desc = "spotify" })
 
 -- ============================================================
 --  HARDWARE CONTROLS
@@ -151,8 +171,7 @@ hl.bind(
 	hl.dsp.exec_cmd(scrPath .. "/volumecontrol.sh -o i"),
 	{ locked = true, repeating = true, desc = "increase volume" }
 )
-hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true, desc = "play/pause" })
-hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true, desc = "pause" })
+hl.bind("F8", hl.dsp.exec_cmd("playerctl play-pause"))
 hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true, desc = "next track" })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true, desc = "prev track" })
 hl.bind(
