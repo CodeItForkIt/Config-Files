@@ -5,6 +5,7 @@ hl.monitor({
   mode = "1920x1080@165.003",
   position = "0x0",
   scale = 1,
+  bitdepth = 10,
   vrr = 1,
   cm = "hdr",
   sdrbrightness = 2,
@@ -15,9 +16,11 @@ hl.monitor({
 hl.monitor({
   output = "SUNSHINE",
   mode = "2560x1664@60",
-  position = "-2560x1080",
-  scale = 1,
-  cm = "srgb",
+  position = "-1280x1080",
+  scale = 2,
+  bitdepth = 10,
+  vrr = 1,
+  cm = "hdr",
   sdr_min_luminance = 0.2,
   sdr_max_luminance = 80,
 })
