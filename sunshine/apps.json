@@ -5,8 +5,8 @@
       "output": "",
       "prep-cmd": [
         {
-          "do": "hyprctl output create headless SUNSHINE",
-          "undo": "hyprctl output remove SUNSHINE",
+          "do": "hyprctl --instance 0 output create headless SUNSHINE",
+          "undo": "hyprctl --instance 0 output remove SUNSHINE",
           "elevated": "false"
         }
       ]
