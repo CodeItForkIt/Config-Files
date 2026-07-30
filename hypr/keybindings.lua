@@ -249,33 +249,41 @@ for i = 1, 10 do
 	local key = tostring(i % 10)
 	local ws = tostring(i)
 
-	-- Switch to workspace
-	hl.bind("SUPER + " .. key, hl.dsp.focus({ workspace = ws }), { desc = "workspace " .. ws })
+	hl.bind(
+		"SUPER + " .. key,
+		hl.dsp.focus({ workspace = ws, on_current_monitor = true }),
+		{ desc = "workspace " .. ws .. " (current monitor)" }
+	)
 
-	-- Move active window to workspace (focus follows)
 	hl.bind("SUPER + SHIFT + " .. key, hl.dsp.window.move({ workspace = ws }), { desc = "move to workspace " .. ws })
 
-	-- Move active window to workspace silently (no focus follow)
-	-- silent is not a table field — use exec dispatch rule prefix
 	hl.bind(
 		"SUPER + ALT + " .. key,
-		hl.dsp.exec_cmd("hyprctl dispatch movetoworkspacesilent " .. ws),
+		hl.dsp.exec_cmd("hyprctl dispatch 'hl.dsp.window.move({ workspace = \"" .. ws .. "\", follow = false })'"),
 		{ desc = "move to workspace " .. ws .. " silent" }
 	)
 end
-
 -- Relative workspace navigation
-hl.bind("SUPER + CTRL + Right", hl.dsp.focus({ workspace = "r+1" }), { desc = "next workspace" })
-hl.bind("SUPER + CTRL + Left", hl.dsp.focus({ workspace = "r-1" }), { desc = "prev workspace" })
-hl.bind("SUPER + CTRL + Down", hl.dsp.focus({ workspace = "empty" }), { desc = "empty workspace" })
-hl.bind("SUPER + CTRL + ALT + Right", hl.dsp.window.move({ workspace = "r+1" }), { desc = "move window forward" })
-hl.bind("SUPER + CTRL + ALT + Left", hl.dsp.window.move({ workspace = "r-1" }), { desc = "move window back" })
-
--- Mouse scroll workspaces
-hl.bind("SUPER + mouse_down", hl.dsp.focus({ workspace = "e+1" }), { desc = "scroll workspace fwd" })
-hl.bind("SUPER + mouse_up", hl.dsp.focus({ workspace = "e-1" }), { desc = "scroll workspace bck" })
-
--- Special / scratchpad
+hl.bind(
+	"SUPER + mouse_down",
+	hl.dsp.focus({ workspace = "e+1", on_current_monitor = true }),
+	{ desc = "scroll workspace fwd" }
+)
+hl.bind(
+	"SUPER + mouse_up",
+	hl.dsp.focus({ workspace = "e-1", on_current_monitor = true }),
+	{ desc = "scroll workspace bck" }
+)
+hl.bind(
+	"SUPER + CTRL + Right",
+	hl.dsp.focus({ workspace = "r+1", on_current_monitor = true }),
+	{ desc = "next workspace" }
+)
+hl.bind(
+	"SUPER + CTRL + Left",
+	hl.dsp.focus({ workspace = "r-1", on_current_monitor = true }),
+	{ desc = "prev workspace" }
+) -- Special / scratchpad
 hl.bind("SUPER + G", hl.dsp.workspace.toggle_special(), { desc = "toggle scratchpad" })
 
 hl.bind("SUPER + SHIFT + G", hl.dsp.window.move({ workspace = "special" }), { desc = "move to scratchpad" })

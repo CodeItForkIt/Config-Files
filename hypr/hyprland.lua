@@ -76,8 +76,8 @@ hl.config({
 		blur = {
 			enabled = true,
 			size = 3,
-			passes = 1,
-			vibrancy = 0,
+			passes = 2,
+			vibrancy = 0.1696,
 		},
 	},
 })
@@ -158,36 +158,19 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd(
 		"uwsm app -- systemctl --user import-environment QT_QPA_PLATFORMTHEME WAYLAND_DISPLAY XDG_CURRENT_DESKTOP || systemctl --user import-environment QT_QPA_PLATFORMTHEME WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
 	)
-	hl.exec_cmd(
-		"uwsm app -t service -s s -- " .. scrPath .. "/waybar.py --watch || " .. scrPath .. "/waybar.py --watch"
-	)
-	hl.exec_cmd("uwsm app -t service -s s -- dunst || dunst")
 	hl.exec_cmd("uwsm app -t service -s a -- blueman-applet || blueman-applet")
-	hl.exec_cmd(
-		"uwsm app -t service -s b -- " .. scrPath .. "/wallpaper.sh --global || " .. scrPath .. "/wallpaper.sh --global"
-	)
 	hl.exec_cmd("uwsm app -t service -s s -- wl-paste --type text --watch cliphist store")
 	hl.exec_cmd("uwsm app -t service -s s -- wl-paste --type image --watch cliphist store")
 	hl.exec_cmd("uwsm app -t service -s s -- wl-clip-persist --clipboard regular")
-	hl.exec_cmd("uwsm app -t service -s a -- " .. scrPath .. "/batterynotify.sh")
-	hl.exec_cmd("uwsm app -t service -s a -- nm-applet --indicator")
 	hl.exec_cmd("uwsm app -t service -s a -- udiskie --no-automount --smart-tray")
-	hl.exec_cmd("uwsm app -t service -s s -- " .. scrPath .. "/polkitkdeauth.sh")
-	hl.exec_cmd("uwsm app -t service -s s -- hypridle")
-	hl.exec_cmd("systemctl --user start hyde-config.service")
 	hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
 	hl.exec_cmd("hyprpm reload")
 	hl.exec_cmd("hyprctl setcursor Nordzy-hyprcursors-catppuccin-frappe-dark 23")
-	hl.exec_cmd(home .. "/.config/hypr/scripts/hyprpanel.sh")
 	hl.exec_cmd("nvidia-modprobe")
 	hl.exec_cmd("systemctl --user start hyprpolkitagent")
-	hl.exec_cmd("sleep 5 && pkill dunst")
 	hl.exec_cmd("sudo systemctl restart systemd-resolved")
 	hl.exec_cmd("sunshine")
 	-- Workspace startup apps — dispatch rule prefix syntax confirmed from wiki
-	hl.exec_cmd("[workspace 1 silent] kitty")
-	hl.exec_cmd("[workspace 1 silent] vivaldi")
-	hl.exec_cmd("WAYLAND_DISPLAY=wayland-1 steam")
 	hl.exec_cmd("~/.config/scripts/cfg-watch.sh > /tmp/cfg-watch.log 2>&1 &")
 	hl.exec_cmd("noctalia")
 	hl.exec_cmd(home .. "/.config/hypr/workspace-wallpaper.sh")
@@ -197,9 +180,6 @@ end)
 --  EXEC on every reload
 -- ============================================================
 
-hl.on("config.reloaded", function()
-	hl.exec_cmd(scrPath .. "/keybinds.hint.py --format rofi > " .. xdgRuntime .. "/hyde/keybinds_hint.rofi")
-end)
 hl.config({
 	general = {
 		resize_on_border = true,

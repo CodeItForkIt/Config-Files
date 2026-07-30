@@ -1,3 +1,5 @@
-2025/07/02-19:37:05.522 25a9 Reusing MANIFEST /home/autometalogolex/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2025/07/02-19:37:05.524 25a9 Recovering log #3
-2025/07/02-19:37:05.524 25a9 Reusing old log /home/autometalogolex/.config/chromium/Default/Local Storage/leveldb/000003.log 
+2026/07/30-12:40:06.085 5 Reusing MANIFEST /home/autometalogolex/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/30-12:40:06.088 5 Recovering log #6
+2026/07/30-12:40:06.089 5 Reusing old log /home/autometalogolex/.config/chromium/Default/Local Storage/leveldb/000006.log 
+2026/07/30-12:40:06.089 5 Delete type=2 #5
+2026/07/30-12:40:06.089 5 Delete type=2 #7

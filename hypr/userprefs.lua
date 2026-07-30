@@ -11,12 +11,7 @@ hl.config({
 		gaps_out = 0,
 	},
 
-	decoration = {
-		-- opacity intentionally NOT overridden — keeping slight transparency
-		blur = {
-			enabled = false,
-		},
-	},
+	-- opacity intentionally NOT overridden — keeping slight transparency
 
 	input = {
 		touchpad = {
@@ -32,12 +27,6 @@ hl.config({
 		use_nearest_neighbor = false,
 	},
 })
-layerrule = blur, hyprshell_overview
-layerrule = ignorezero, hyprshell_overview
-layerrule = blur, hyprshell_switch
-layerrule = ignorezero, hyprshell_switch
-layerrule = blur, hyprshell_launcher
-layerrule = ignorezero, hyprshell_launcher
 hl.env("HYPRCURSOR_THEME", "Nordzy")
 hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("LIBVA_DRIVER_NAME", "nvidia")

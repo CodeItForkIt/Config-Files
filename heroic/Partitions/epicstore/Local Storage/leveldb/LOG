@@ -1,2 +1,6 @@
-2025/07/25-18:29:52.221 15dc7 Creating DB /home/autometalogolex/.config/heroic/Partitions/epicstore/Local Storage/leveldb since it was missing.
-2025/07/25-18:29:52.259 15dc7 Reusing MANIFEST /home/autometalogolex/.config/heroic/Partitions/epicstore/Local Storage/leveldb/MANIFEST-000001
+2026/07/30-11:08:17.952 8f7d Reusing MANIFEST /home/autometalogolex/.config/heroic/Partitions/epicstore/Local Storage/leveldb/MANIFEST-000001
+2026/07/30-11:08:17.952 8f7d Recovering log #3
+2026/07/30-11:08:17.952 8f7d Reusing old log /home/autometalogolex/.config/heroic/Partitions/epicstore/Local Storage/leveldb/000003.log 
+2026/07/30-11:08:31.704 8f7e Level-0 table #5: started
+2026/07/30-11:08:31.710 8f7e Level-0 table #5: 23713 bytes OK
+2026/07/30-11:08:31.718 8f7e Delete type=0 #3
