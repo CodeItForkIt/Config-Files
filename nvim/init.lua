@@ -8,3 +8,4 @@ vim.api.nvim_create_autocmd("ColorScheme", {
   end,
 })
 require("lspconfig").taplo.setup({})
+require("matugen").setup()
