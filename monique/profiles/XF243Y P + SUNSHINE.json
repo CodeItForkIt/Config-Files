@@ -58,17 +58,17 @@
       "scale_mode": "explicit",
       "transform": 0,
       "mirror_of": "",
-      "bitdepth": 10,
-      "vrr": 1,
-      "color_management": "hdr",
-      "sdr_brightness": 2.0,
+      "bitdepth": 8,
+      "vrr": 0,
+      "color_management": "srgb",
+      "sdr_brightness": 1.0,
       "sdr_saturation": 1.0,
       "hdr": false,
       "sdr_eotf": 0,
       "supports_hdr": 0,
       "supports_wide_color": 0,
       "sdr_min_luminance": 0.2,
-      "sdr_max_luminance": 80.0,
+      "sdr_max_luminance": 80,
       "min_luminance": 0.0,
       "max_luminance": 0.0,
       "max_avg_luminance": 0.0,
@@ -91,10 +91,10 @@
       "available_modes": [
         "1920x1080@60.00Hz"
       ],
-      "x": -1280,
-      "y": 1080,
+      "x": 1920,
+      "y": 0,
       "position_mode": "explicit",
-      "scale": 2.0,
+      "scale": 1.6,
       "scale_mode": "explicit",
       "transform": 0,
       "mirror_of": "",
@@ -120,5 +120,5 @@
     }
   ],
   "workspace_rules": [],
-  "last_applied_time": 1785447499.086204
+  "last_applied_time": 1785728452.7092736
 }
