@@ -28,6 +28,7 @@ image/jpeg=org.gimp.GIMP.desktop;
 application/x-shellscript=nvim.desktop;
 inode/directory=xfce4-file-manager.desktop;
 x-scheme-handler/trash=xfce4-file-manager.desktop;
+application/zip=org.gnome.FileRoller.desktop;
 
 [Default Applications]
 application/rss+xml=userapp-Thunderbird-QM9D82.desktop

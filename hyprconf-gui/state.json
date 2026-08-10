@@ -1,0 +1,31 @@
+{
+  "animations": [
+    {
+      "enabled": true,
+      "leaf": "border",
+      "speed": 1
+    }
+  ],
+  "config": {
+    "decoration": {
+      "active_opacity": 1.0,
+      "blur": {
+        "enabled": true
+      },
+      "inactive_opacity": 1.0,
+      "rounding": 20
+    },
+    "general": {
+      "border_size": 1,
+      "gaps_in": 1,
+      "snap": {
+        "enabled": true
+      }
+    }
+  },
+  "config_dir": "",
+  "env": {},
+  "keybinds": [],
+  "monitors": [],
+  "window_rules": []
+}

@@ -344,3 +344,7 @@ Plugin = {
 
 -- For Noctalia Color templates
 require("noctalia").apply_theme()
+
+-- Added by HyprConf GUI: loads GUI-managed overrides last, so
+-- changes made in the app take priority over the files above.
+require("overrides")
