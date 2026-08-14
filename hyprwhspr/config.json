@@ -1,4 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/goodroot/hyprwhspr/main/share/config.schema.json",
-  "transcription_backend": "cohere-transcribe"
+  "use_hypr_bindings": true,
+  "keyboard_device_names": [
+    "Keyboard passthrough",
+    "Keychron Keychron Q1",
+    "Keychron Keychron Q1 Keyboard",
+    "keyd virtual keyboard"
+  ],
+  "transcription_backend": "cohere-transcribe",
+  "audio_ducking": true
 }
