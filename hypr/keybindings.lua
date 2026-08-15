@@ -167,6 +167,11 @@ hl.bind(
 	{ locked = true, repeating = true, desc = "decrease volume" }
 )
 hl.bind(
+	"SUPER + ALT + D",
+	hl.dsp.exec_cmd("/usr/lib/hyprwhspr/config/hyprland/hyprwhspr-tray.sh record"),
+	{ desc = "Hyprwhspr enable" }
+)
+hl.bind(
 	"XF86AudioRaiseVolume",
 	hl.dsp.exec_cmd(scrPath .. "/volumecontrol.sh -o i"),
 	{ locked = true, repeating = true, desc = "increase volume" }
