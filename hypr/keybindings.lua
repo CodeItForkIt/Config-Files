@@ -172,6 +172,11 @@ hl.bind(
 	{ desc = "Hyprwhspr enable" }
 )
 hl.bind(
+	"SUPER + ALT + A",
+	hl.dsp.exec_cmd(home .. "/.local/bin/hyprwhspr-assistant.sh"),
+	{ desc = "Voice assistant (commands + local chat)" }
+)
+hl.bind(
 	"XF86AudioRaiseVolume",
 	hl.dsp.exec_cmd(scrPath .. "/volumecontrol.sh -o i"),
 	{ locked = true, repeating = true, desc = "increase volume" }
