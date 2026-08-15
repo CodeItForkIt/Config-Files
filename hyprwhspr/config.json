@@ -8,5 +8,6 @@
     "keyd virtual keyboard"
   ],
   "transcription_backend": "cohere-transcribe",
-  "audio_ducking": true
+  "audio_ducking": true,
+  "mic_osd_style": "pill"
 }
