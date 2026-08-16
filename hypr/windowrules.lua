@@ -182,7 +182,7 @@ hl.window_rule({
 })
 hl.window_rule({
 	name = "steam-popup-title",
-	match = { title = "" },
+	match = { class = "^(steam)$", title = "" },
 	workspace = "special",
 	opaque = true,
 })
@@ -327,3 +327,12 @@ hl.window_rule({ match = { float = false, workspace = "f[1]s[false]" }, rounding
 hl.window_rule({ match = { class = ".*" }, rounding = 20 })
 hl.window_rule({ match = { fullscreen = true }, opaque = true })
 hl.window_rule({ match = { class = "steam" }, opaque = true })
+hl.window_rule({
+	name = "float-thunar-popups",
+	match = {
+		class = "thunar",
+		title = "^(?!.*- Thunar$).+$",
+	},
+	float = true,
+	center = true,
+})

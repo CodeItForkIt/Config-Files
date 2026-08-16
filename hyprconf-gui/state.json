@@ -1,26 +1,52 @@
 {
   "animations": [
     {
-      "enabled": true,
+      "bezier": "liner",
+      "enabled": false,
       "leaf": "border",
       "speed": 1
     }
   ],
   "config": {
+    "animations": {
+      "enabled": true
+    },
     "decoration": {
       "active_opacity": 1.0,
       "blur": {
         "enabled": true
       },
+      "dim_modal": true,
+      "glow": {
+        "color": "#",
+        "color_inactive": "",
+        "enabled": false,
+        "range": 4,
+        "render_power": 4
+      },
       "inactive_opacity": 1.0,
-      "rounding": 20
+      "rounding": 20,
+      "rounding_power": 0.44999999999999873,
+      "shadow": {
+        "range": 3,
+        "sharp": false
+      }
     },
     "general": {
       "border_size": 1,
-      "gaps_in": 1,
+      "float_gaps": 0,
+      "gaps_in": 2,
+      "gaps_workspaces": false,
+      "layout": "dwindle",
+      "modal_parent_blocking": false,
       "snap": {
-        "enabled": true
+        "border_overlap": false,
+        "enabled": true,
+        "window_gap": false
       }
+    },
+    "gestures": {
+      "workspace_swipe_distance": false
     }
   },
   "config_dir": "",

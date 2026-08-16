@@ -20,11 +20,11 @@ inotifywait -m -r -e close_write,moved_to,create \
 
   echo ""
   echo "📝 Changed: $relpath"
-  read "msg?   Commit message (blank to skip): "
-  [[ -z "$msg" ]] && continue
+  msg="cfg-watch: update $relpath ($(date '+%Y-%m-%d %H:%M:%S'))"
 
   (
-    flock -w 10 200 || { echo "   ⚠️  Could not acquire lock, skipping"; exit 1; }
+    exec {lock_fd}>"$LOCKFILE"
+    flock -w 10 "$lock_fd" || { echo "   ⚠️  Could not acquire lock, skipping"; exit 1; }
 
     # Retry add/commit a few times in case gitstatusd is holding index.lock
     for i in 1 2 3 4 5; do
@@ -45,5 +45,5 @@ inotifywait -m -r -e close_write,moved_to,create \
       git -C "$CONFIG_DIR" fetch
       git -C "$CONFIG_DIR" rebase "@{u}" || { echo "   ⚠️ Rebase conflict, resolve manually"; break; }
     done
-  ) 200>"$LOCKFILE"
+  )
 done
