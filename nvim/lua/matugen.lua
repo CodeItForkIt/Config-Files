@@ -17,7 +17,7 @@ function M.setup()
     base0C = '#cc96e9',
     base0D = '#93b1ec',
     base0E = '#a396e9',
-    base0F = '#910017',
+    base0F = '#8f0118',
   })
 
   local hi = function(group, opts)
