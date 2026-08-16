@@ -14,34 +14,34 @@
 @define-color error_bg_color #fd4663;
 @define-color error_fg_color #181d25;
 
-@define-color window_bg_color #131b2a;
+@define-color window_bg_color #000000;
 @define-color window_fg_color #f2f2f3;
 
-@define-color view_bg_color #131b2a;
+@define-color view_bg_color #000000;
 @define-color view_fg_color #f2f2f3;
 
-@define-color headerbar_bg_color #202d46;
+@define-color headerbar_bg_color #0b1931;
 @define-color headerbar_fg_color #f2f2f3;
 @define-color headerbar_backdrop_color @window_bg_color;
 
-@define-color popover_bg_color #202d46;
+@define-color popover_bg_color #0b1931;
 @define-color popover_fg_color #f2f2f3;
 
-@define-color card_bg_color #202d46;
+@define-color card_bg_color #0b1931;
 @define-color card_fg_color #f2f2f3;
 
-@define-color dialog_bg_color #131b2a;
+@define-color dialog_bg_color #000000;
 @define-color dialog_fg_color #f2f2f3;
 
-@define-color overview_bg_color #202d46;
+@define-color overview_bg_color #0b1931;
 @define-color overview_fg_color #f2f2f3;
 
-@define-color sidebar_bg_color #202d46;
+@define-color sidebar_bg_color #0b1931;
 @define-color sidebar_fg_color #f2f2f3;
 @define-color sidebar_backdrop_color @window_bg_color;
 @define-color sidebar_border_color @window_bg_color;
 
-@define-color secondary_sidebar_bg_color #131b2a;
+@define-color secondary_sidebar_bg_color #000000;
 @define-color secondary_sidebar_fg_color #f2f2f3;
 
 /* Focused selection states */
