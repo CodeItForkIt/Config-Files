@@ -127,6 +127,7 @@ hl.config({
 		animate_mouse_windowdragging = true,
 		font_family = FONT,
 		enable_swallow = true,
+		focus_on_activate = true,
 	},
 
 	xwayland = {
@@ -150,7 +151,9 @@ hl.config({ cursor = { no_hardware_cursors = true } })
 -- ============================================================
 
 hl.on("hyprland.start", function()
-	hl.exec_cmd("gnome-keyring-daemon --start --components=secrets,ssh")
+	hl.exec_cmd(
+		"uwsm app -t service -s s -- gnome-keyring-daemon --start --components=secrets,ssh || gnome-keyring-daemon --start --components=secrets,ssh"
+	)
 	hl.exec_cmd("uwsm app -- " .. scrPath .. "/resetxdgportal.sh || " .. scrPath .. "/resetxdgportal.sh")
 	hl.exec_cmd(
 		"uwsm app -- dbus-update-activation-environment --systemd --all || dbus-update-activation-environment --systemd --all"
@@ -163,17 +166,18 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("uwsm app -t service -s s -- wl-paste --type image --watch cliphist store")
 	hl.exec_cmd("uwsm app -t service -s s -- wl-clip-persist --clipboard regular")
 	hl.exec_cmd("uwsm app -t service -s a -- udiskie --no-automount --smart-tray")
-	hl.exec_cmd("dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP")
 	hl.exec_cmd("hyprpm reload")
 	hl.exec_cmd("hyprctl setcursor Nordzy-hyprcursors-catppuccin-frappe-dark 23")
 	hl.exec_cmd("nvidia-modprobe")
 	hl.exec_cmd("systemctl --user start hyprpolkitagent")
 	hl.exec_cmd("sudo systemctl restart systemd-resolved")
-	hl.exec_cmd("sunshine")
+	hl.exec_cmd("uwsm app -t service -s b -- sunshine || sunshine")
 	-- Workspace startup apps — dispatch rule prefix syntax confirmed from wiki
-	hl.exec_cmd("~/.config/scripts/cfg-watch.sh > /tmp/cfg-watch.log 2>&1 &")
-	hl.exec_cmd("noctalia")
-	hl.exec_cmd(home .. "/.config/hypr/workspace-wallpaper.sh")
+	hl.exec_cmd("uwsm app -t service -s b -- ~/.config/scripts/cfg-watch.sh")
+	hl.exec_cmd("uwsm app -t service -s a -- noctalia || noctalia")
+	hl.exec_cmd(
+		"uwsm app -- " .. home .. "/.config/hypr/workspace-wallpaper.sh || " .. home .. "/.config/hypr/workspace-wallpaper.sh"
+	)
 end)
 
 -- ============================================================
@@ -345,6 +349,5 @@ Plugin = {
 -- For Noctalia Color templates
 require("noctalia").apply_theme()
 
--- Added by HyprConf GUI: loads GUI-managed overrides last, so
--- changes made in the app take priority over the files above.
-require("overrides")
+-- [hyprconf-gui] load GUI-managed overrides last, every reload
+dofile("/home/autometalogolex/.config/hypr/overrides.lua")
