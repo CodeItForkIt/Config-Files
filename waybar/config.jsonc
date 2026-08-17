@@ -1,13 +1,13 @@
 {
-  // General Waybar configuration
   "layer": "top",
   "margin": 0,
   "position": "top",
   "spacing": 10,
   "border-size": 1,
   "padding": 1,
-  "include": ["$XDG_CONFIG_HOME/waybar/includes/includes.json"],
-  // Modules configuration
+  "include": [
+    "$XDG_CONFIG_HOME/waybar/includes/includes.json"
+  ],
   "modules-left": [
     "custom/launcher",
     "hyprland/window",
@@ -16,8 +16,11 @@
     "custom/text#four",
     "custom/help#macos"
   ],
-  "modules-right": ["image#wallpaper", "clock#date", "clock"],
-  // Module-specific configurations
+  "modules-right": [
+    "image#wallpaper",
+    "clock#date",
+    "clock"
+  ],
   "clock#12": {
     "format": "{:%H:%M %p}",
     "tooltip-format": "{:%A, %B %d, %Y}"
@@ -29,7 +32,6 @@
   "clock#date": {
     "format": "{:%a %b %d}",
     "rotate": 0,
-    // "format-alt": "{:%R \udb80\udced %d\u00b7%m\u00b7%y}",
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
       "mode": "month",
@@ -54,25 +56,24 @@
     "format": "{class}",
     "max-length": 20,
     "rewrite": {
-      // if any window is focused display Finder
       "^(?!.*\\S).*": "Finder"
     }
   },
   "custom/launcher": {
-    "format": "",
+    "format": "\uf31a",
     "on-click": "hyde-shell rofilaunch"
   },
   "custom/text#two": {
     "format": "File",
     "interval": 60,
     "return-type": "plain",
-    "on-click": "hyde-shell open --fall dolphin file-manager" //or you favorite Filer Explorer
+    "on-click": "hyde-shell open --fall dolphin file-manager"
   },
   "custom/text#three": {
     "format": "Edit",
     "interval": 60,
     "return-type": "plain",
-    "on-click": "krita" // or you favorite Image editor
+    "on-click": "krita"
   },
   "custom/text#four": {
     "format": "View",
