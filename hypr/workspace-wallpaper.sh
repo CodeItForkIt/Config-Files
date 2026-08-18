@@ -15,15 +15,25 @@ set_wallpaper() {
   noctalia msg wallpaper-set "$MONITOR" "$wall"
 }
 
-socat - "UNIX-CONNECT:$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock" | while read -r line; do
-  case $line in
-  workspace\>\>*)
-    WS="${line#workspace>>}"
-    if [[ -n "${WALLPAPERS[$WS]}" ]]; then
-      set_wallpaper "${WALLPAPERS[$WS]}"
-    elif [[ "$WS" -ge 6 ]]; then
-      set_wallpaper "$FALLBACK"
-    fi
-    ;;
-  esac
+SOCK="$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock"
+
+while true; do
+  while [ ! -S "$SOCK" ]; do
+    sleep 1
+  done
+
+  socat -u "UNIX-CONNECT:$SOCK" - | while read -r line; do
+    case $line in
+    workspace\>\>*)
+      WS="${line#workspace>>}"
+      if [[ -n "${WALLPAPERS[$WS]}" ]]; then
+        set_wallpaper "${WALLPAPERS[$WS]}"
+      elif [[ "$WS" -ge 6 ]]; then
+        set_wallpaper "$FALLBACK"
+      fi
+      ;;
+    esac
+  done
+
+  sleep 1
 done
