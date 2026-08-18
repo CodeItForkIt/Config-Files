@@ -2,13 +2,13 @@
 
 MONITOR="DP-5"
 WALLPAPERS=(
-  [1]="$HOME/Documents/Wallpapers/Way-of-Kings.jpg"
-  [2]="$HOME/Documents/Wallpapers/Words-of-Radiance.jpg"
-  [3]="$HOME/Documents/Wallpapers/Oathbringer.jpg"
-  [4]="$HOME/Documents/Wallpapers/Rhythm-of-War.jpg"
-  [5]="$HOME/Documents/Wallpapers/Wind-and-Truth.jpg"
+  [1]="$HOME/Documents/Wallpapers/1080p/Way-of-Kings.jpg"
+  [2]="$HOME/Documents/Wallpapers/1080p/Words-of-Radiance.jpg"
+  [3]="$HOME/Documents/Wallpapers/1080p/Oathbringer.jpg"
+  [4]="$HOME/Documents/Wallpapers/1080p/Rhythm-of-War.jpg"
+  [5]="$HOME/Documents/Wallpapers/1080p/Wind-and-Truth.jpg"
 )
-FALLBACK="$HOME/Documents/Wallpapers/stormlight-archives-fallback.jpg"
+FALLBACK="$HOME/Documents/Wallpapers/1080p/stormlight-archives-fallback.jpg"
 
 set_wallpaper() {
   local wall="$1"
