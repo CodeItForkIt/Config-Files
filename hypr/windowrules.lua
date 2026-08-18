@@ -320,6 +320,12 @@ hl.layer_rule({
 })
 hl.workspace_rule({ workspace = "w[tv1]s[false]", gaps_out = 0, gaps_in = 0 })
 hl.workspace_rule({ workspace = "f[1]s[false]", gaps_out = 0, gaps_in = 0 })
+-- Keep workspaces 1-9 alive even when empty, so hyprtasking's overview (and
+-- hyprworkwall's per-workspace wallpapers) always has a real workspace to
+-- render per tile instead of falling back for never-visited ones.
+for i = 1, 9 do
+	hl.workspace_rule({ workspace = tostring(i), persistent = true })
+end
 hl.window_rule({ match = { float = false, workspace = "w[tv1]s[false]" }, border_size = 0 })
 hl.window_rule({ match = { float = false, workspace = "w[tv1]s[false]" }, rounding = 0 })
 hl.window_rule({ match = { float = false, workspace = "f[1]s[false]" }, border_size = 0 })
