@@ -5,7 +5,7 @@
 --  app, so any manual edits here will be lost. Change your base
 --  .lua files directly for anything that should survive outside
 --  the GUI.
---  Last generated: 2026-08-18T11:03:55
+--  Last generated: 2026-08-18T11:05:06
 -- ============================================================
 
 hl.config({
@@ -52,11 +52,14 @@ hl.config({
 	ecosystem = {
 		no_donation_nag = true,
 	},
+	scrolling = {
+		follow_focus = true,
+	},
 })
 
 hl.animation({
+	bezier = "liner",
 	enabled = false,
 	leaf = "border",
 	speed = 1,
-	bezier = "liner",
 })
