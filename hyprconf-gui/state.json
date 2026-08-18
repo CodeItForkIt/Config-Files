@@ -50,6 +50,9 @@
     },
     "gestures": {
       "workspace_swipe_distance": false
+    },
+    "scrolling": {
+      "follow_focus": true
     }
   },
   "config_dir": "",
