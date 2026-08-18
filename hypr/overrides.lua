@@ -18,13 +18,6 @@ hl.config({
 			enabled = true,
 		},
 		dim_modal = true,
-		glow = {
-			color = "#",
-			color_inactive = "",
-			enabled = false,
-			range = 4,
-			render_power = 4,
-		},
 		inactive_opacity = 1.0,
 		rounding = 20,
 		rounding_power = 0.44999999999999873,
