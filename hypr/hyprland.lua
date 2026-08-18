@@ -175,7 +175,9 @@ hl.on("hyprland.start", function()
 	-- Workspace startup apps — dispatch rule prefix syntax confirmed from wiki
 	hl.exec_cmd("uwsm app -t service -s b -- ~/.config/scripts/cfg-watch.sh")
 	hl.exec_cmd("uwsm app -t service -s a -- noctalia || noctalia")
-	hl.exec_cmd("~/.config/hypr/workspace-wallpaper.sh > ~/tmp.txt")
+	hl.exec_cmd(
+		"uwsm app -t service -s b -- ~/.config/hypr/workspace-wallpaper.sh || ~/.config/hypr/workspace-wallpaper.sh"
+	)
 end)
 
 -- ============================================================
