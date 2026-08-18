@@ -153,11 +153,6 @@ hl.bind("SUPER + W", function()
 end, { desc = "toggle floating" })
 
 hl.bind("SHIFT + F11", hl.dsp.window.fullscreen(), { desc = "toggle fullscreen" })
-hl.bind(
-	"SUPER + L",
-	hl.dsp.exec_cmd("bash -c '~/.config/hypr/quotes/update_quote.sh && hyprlock'"),
-	{ desc = "lock screen" }
-)
 hl.bind("SUPER + SHIFT + F", hl.dsp.exec_cmd(scrPath .. "/windowpin.sh"), { desc = "toggle pin" })
 hl.bind("CTRL + ALT + Delete", hl.dsp.exec_cmd(scrPath .. "/logoutlaunch.sh"), { desc = "logout menu" })
 hl.bind("SUPER + SHIFT + H", hl.dsp.exec_cmd("bash -c '~/scripts/keybindings.sh'"), { desc = "show keybinds" })
@@ -285,11 +280,6 @@ hl.bind(
 --  UTILITIES
 -- ============================================================
 
-hl.bind(
-	"SUPER + K",
-	hl.dsp.exec_cmd(scrPath .. "/keyboardswitch.sh"),
-	{ locked = true, desc = "switch keyboard layout" }
-)
 hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd("hyprpicker -an"), { desc = "color picker" })
 hl.bind("SUPER + P", hl.dsp.exec_cmd(scrPath .. "/screenshot.sh s"), { desc = "snip screen" })
 hl.bind("SUPER + CTRL + P", hl.dsp.exec_cmd(scrPath .. "/screenshot.sh sf"), { desc = "freeze snip" })
