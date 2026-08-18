@@ -5,7 +5,7 @@
 --  app, so any manual edits here will be lost. Change your base
 --  .lua files directly for anything that should survive outside
 --  the GUI.
---  Last generated: 2026-08-10T18:34:13
+--  Last generated: 2026-08-18T11:02:11
 -- ============================================================
 
 hl.config({
@@ -17,27 +17,27 @@ hl.config({
 		blur = {
 			enabled = true,
 		},
+		dim_modal = true,
 		inactive_opacity = 1.0,
 		rounding = 20,
-		shadow = {
-			sharp = false,
-			range = 3,
-		},
 		rounding_power = 0.44999999999999873,
-		dim_modal = true,
+		shadow = {
+			range = 3,
+			sharp = false,
+		},
 	},
 	general = {
 		border_size = 1,
+		float_gaps = 0,
 		gaps_in = 2,
-		layout = "dwindle",
+		gaps_workspaces = false,
+		layout = "scrolling",
+		modal_parent_blocking = false,
 		snap = {
+			border_overlap = false,
 			enabled = true,
 			window_gap = false,
-			border_overlap = false,
 		},
-		float_gaps = 0,
-		gaps_workspaces = false,
-		modal_parent_blocking = false,
 	},
 	gestures = {
 		workspace_swipe_distance = false,
@@ -45,8 +45,8 @@ hl.config({
 })
 
 hl.animation({
-	speed = 1,
 	bezier = "liner",
 	enabled = false,
+	speed = 1,
 	leaf = "border",
 })
