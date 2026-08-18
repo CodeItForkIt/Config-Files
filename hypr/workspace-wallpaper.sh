@@ -8,7 +8,7 @@ WALLPAPERS=(
   [4]="$HOME/Documents/Wallpapers/Rhythm-of-War.jpg"
   [5]="$HOME/Documents/Wallpapers/Wind-and-Truth.jpg"
 )
-FALLBACK="$HOME/Documents/Wallpapers/stormlight-archives-wallpaper-v2.png"
+FALLBACK="$HOME/Documents/Wallpapers/stormlight-archives-fallback.jpg"
 
 set_wallpaper() {
   local wall="$1"
