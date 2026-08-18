@@ -5,7 +5,7 @@
 --  app, so any manual edits here will be lost. Change your base
 --  .lua files directly for anything that should survive outside
 --  the GUI.
---  Last generated: 2026-08-18T11:02:11
+--  Last generated: 2026-08-18T11:03:55
 -- ============================================================
 
 hl.config({
@@ -18,6 +18,13 @@ hl.config({
 			enabled = true,
 		},
 		dim_modal = true,
+		glow = {
+			color = "#",
+			color_inactive = "",
+			enabled = false,
+			range = 4,
+			render_power = 4,
+		},
 		inactive_opacity = 1.0,
 		rounding = 20,
 		rounding_power = 0.44999999999999873,
@@ -42,11 +49,14 @@ hl.config({
 	gestures = {
 		workspace_swipe_distance = false,
 	},
+	ecosystem = {
+		no_donation_nag = true,
+	},
 })
 
 hl.animation({
-	bezier = "liner",
 	enabled = false,
-	speed = 1,
 	leaf = "border",
+	speed = 1,
+	bezier = "liner",
 })
