@@ -168,7 +168,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("nvidia-modprobe")
 	hl.exec_cmd("systemctl --user start hyprpolkitagent")
 	hl.exec_cmd("sudo systemctl restart systemd-resolved")
-	hl.exec_cmd("uwsm app -t service -s b -- sunshine || sunshine")
+	hl.exec_cmd("uwsm app -t service -s b -- sunshine")
 	-- Workspace startup apps — dispatch rule prefix syntax confirmed from wiki
 	hl.exec_cmd("uwsm app -t service -s b -- ~/.config/scripts/cfg-watch.sh")
 	hl.exec_cmd("uwsm app -t service -s a -- noctalia || noctalia")
@@ -343,7 +343,6 @@ Plugin = {
 		hide_overlay_layers = false,
 	},
 }
-
 
 -- [hyprconf-gui] load GUI-managed overrides last, every reload
 dofile("/home/autometalogolex/.config/hypr/overrides.lua")

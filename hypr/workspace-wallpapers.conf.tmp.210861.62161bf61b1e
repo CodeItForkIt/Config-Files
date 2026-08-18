@@ -1,9 +1,0 @@
-# Workspace id -> wallpaper image, one per line: N=/absolute/or/~-path
-# "fallback" is used for any workspace with no explicit entry.
-# Edited live: `hyprctl reload` picks up changes without restarting Hyprland.
-1=~/Documents/Wallpapers/1080p/Way-of-Kings.jpg
-2=~/Documents/Wallpapers/1080p/Words-of-Radiance.jpg
-3=~/Documents/Wallpapers/1080p/Oathbringer.jpg
-4=~/Documents/Wallpapers/1080p/Rhythm-of-War.jpg
-5=~/Documents/Wallpapers/1080p/Wind-and-Truth.jpg
-fallback=~/Documents/Wallpapers/1080p/stormlight-archives-fallback.jpg
