@@ -344,8 +344,6 @@ Plugin = {
 	},
 }
 
--- For Noctalia Color templates
-require("noctalia").apply_theme()
 
 -- [hyprconf-gui] load GUI-managed overrides last, every reload
 dofile("/home/autometalogolex/.config/hypr/overrides.lua")
