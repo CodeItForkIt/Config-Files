@@ -151,9 +151,6 @@ hl.config({ cursor = { no_hardware_cursors = true } })
 -- ============================================================
 
 hl.on("hyprland.start", function()
-	hl.exec_cmd(
-		"uwsm app -t service -s s -- gnome-keyring-daemon --start --components=secrets,ssh || gnome-keyring-daemon --start --components=secrets,ssh"
-	)
 	hl.exec_cmd("uwsm app -- " .. scrPath .. "/resetxdgportal.sh || " .. scrPath .. "/resetxdgportal.sh")
 	hl.exec_cmd(
 		"uwsm app -- dbus-update-activation-environment --systemd --all || dbus-update-activation-environment --systemd --all"
