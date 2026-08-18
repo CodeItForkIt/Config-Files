@@ -36,9 +36,6 @@ hl.bind(mainMod .. "+comma", hl.dsp.exec_cmd(ipc .. "settings-toggle"))
 hl.bind("SUPER + TAB", function()
 	hl.plugin.hyprtasking.toggle("cursor")
 end)
-hl.bind("SUPER + SPACE", function()
-	hl.plugin.hyprtasking.toggle("all")
-end)
 
 -- escape closes the overview if it's open
 hl.bind("escape", function()
