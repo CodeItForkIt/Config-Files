@@ -32,6 +32,9 @@
         "sharp": false
       }
     },
+    "ecosystem": {
+      "no_donation_nag": true
+    },
     "general": {
       "border_size": 1,
       "float_gaps": 0,
