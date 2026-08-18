@@ -31,7 +31,6 @@ hl.config({
 		float_gaps = 0,
 		gaps_in = 2,
 		gaps_workspaces = false,
-		layout = "scrolling",
 		modal_parent_blocking = false,
 		snap = {
 			border_overlap = false,
