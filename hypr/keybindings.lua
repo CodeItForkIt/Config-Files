@@ -160,7 +160,7 @@ hl.bind(
 )
 hl.bind("SUPER + SHIFT + F", hl.dsp.exec_cmd(scrPath .. "/windowpin.sh"), { desc = "toggle pin" })
 hl.bind("CTRL + ALT + Delete", hl.dsp.exec_cmd(scrPath .. "/logoutlaunch.sh"), { desc = "logout menu" })
-hl.bind("SUPER + H", hl.dsp.exec_cmd("bash -c '~/scripts/keybindings.sh'"), { desc = "show keybinds" })
+hl.bind("SUPER + SHIFT + H", hl.dsp.exec_cmd("bash -c '~/scripts/keybindings.sh'"), { desc = "show keybinds" })
 hl.bind("SUPER+Q", function()
 	hl.dispatch(hl.dsp.window.close())
 end)
