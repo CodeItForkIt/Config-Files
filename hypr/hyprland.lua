@@ -176,6 +176,7 @@ hl.on("hyprland.start", function()
 		"uwsm app -t service -s b -- ~/.config/hypr/workspace-wallpaper.sh || ~/.config/hypr/workspace-wallpaper.sh"
 	)
 	hl.exec_cmd("hyprctl plugin load ~/hyprworkwall/build/libhyprworkwall.so")
+	hl.exec_cmd("hyprctl plugin load ~/hyprtasking/build/libhyprtasking.so")
 end)
 
 -- ============================================================
