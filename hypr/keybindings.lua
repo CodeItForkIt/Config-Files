@@ -78,7 +78,7 @@ end)
 hl.config({
 	plugin = {
 		hyprtasking = {
-			layout = "grid",
+			layout = "linear",
 
 			gap_size = 10,
 			bg_color = 0xff26233a,
