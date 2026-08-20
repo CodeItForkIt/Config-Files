@@ -352,12 +352,12 @@ end
 -- Relative workspace navigation
 hl.bind(
 	"SUPER + mouse_down",
-	hl.dsp.focus({ workspace = "e+1", on_current_monitor = true }),
+	hl.dsp.focus({ workspace = "e-1", on_current_monitor = true }),
 	{ desc = "scroll workspace fwd" }
 )
 hl.bind(
 	"SUPER + mouse_up",
-	hl.dsp.focus({ workspace = "e-1", on_current_monitor = true }),
+	hl.dsp.focus({ workspace = "e+1", on_current_monitor = true }),
 	{ desc = "scroll workspace bck" }
 )
 hl.bind(
