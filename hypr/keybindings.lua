@@ -88,8 +88,8 @@ hl.config({
 			close_overview_on_reload = false,
 
 			-- for other mouse buttons see <linux/input-event-codes.h>
-			drag_button = 0x110, -- left mouse button
-			select_button = 0x111, -- right mouse button
+			drag_button = 0x111, -- left mouse button
+			select_button = 0x110, -- right mouse button
 
 			jump = {
 				enabled = false,
