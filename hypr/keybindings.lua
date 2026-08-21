@@ -118,9 +118,9 @@ hl.config({
 
 			linear = {
 				top = true,
-				height = 400,
+				height = 300,
 				scroll_speed = 1.0,
-				blur = false,
+				blur = true,
 			},
 		},
 	},
