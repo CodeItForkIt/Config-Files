@@ -82,6 +82,7 @@ hl.config({
 
 			gap_size = 20,
 			border_size = 0,
+			bg_color = 0x000000FF,
 			exit_on_hovered = false,
 			warp_on_move_window = 1,
 			close_overview_on_reload = false,
