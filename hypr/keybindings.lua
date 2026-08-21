@@ -80,8 +80,8 @@ hl.config({
 		hyprtasking = {
 			layout = "linear",
 
-			gap_size = 20,
-			border_size = 0,
+			gap_size = 10,
+			border_size = 10,
 			bg_color = 0x00000000,
 			exit_on_hovered = false,
 			warp_on_move_window = 1,
