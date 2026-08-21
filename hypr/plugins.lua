@@ -10,7 +10,7 @@ hl.config({
 			-- rotate  - rotate the cursor based on movement direction
 			-- stretch - stretch the cursor shape based on direction and velocity
 			-- none    - do not change the cursor's behaviour
-			mode = "rotate",
+			mode = "stretch",
 
 			-- minimum angle difference in degrees after which the shape is changed
 			-- smaller values are smoother, but more expensive for hw cursors
