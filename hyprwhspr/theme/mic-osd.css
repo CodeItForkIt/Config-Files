@@ -10,13 +10,13 @@
  * (warning -> tertiary, success -> secondary).
  * background-color carries an alpha suffix (F2 ~ 0.95).
  */
-@define-color background-color #0d2830F2;
-@define-color border-color #67dce4;
-@define-color bar-color-left #67dce4;
-@define-color bar-color-right #5c91d6;
+@define-color background-color #141b2aF2;
+@define-color border-color #6790e4;
+@define-color bar-color-left #6790e4;
+@define-color bar-color-right #705cd6;
 @define-color recording-dot #fd4663;
-@define-color text-color #f2f3f3;
-@define-color paused-dot #675fd3;
-@define-color processing-dot #5c91d6;
+@define-color text-color #f2f2f3;
+@define-color paused-dot #ab66cc;
+@define-color processing-dot #705cd6;
 @define-color error-dot #fd4663;
-@define-color success-dot #5c91d6;
+@define-color success-dot #705cd6;
