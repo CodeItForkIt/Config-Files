@@ -81,7 +81,7 @@ hl.config({
 			layout = "linear",
 
 			gap_size = 5,
-			border_size = 10,
+			border_size = 1,
 			bg_color = 0x00000000,
 			exit_on_hovered = false,
 			warp_on_move_window = 1,
