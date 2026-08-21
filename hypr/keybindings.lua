@@ -80,7 +80,7 @@ hl.config({
 		hyprtasking = {
 			layout = "linear",
 
-			gap_size = 10,
+			gap_size = 20,
 			bg_color = 0xff26233a,
 			border_size = 2,
 			exit_on_hovered = false,
@@ -118,7 +118,7 @@ hl.config({
 
 			linear = {
 				top = true,
-				height = 300,
+				height = 400,
 				scroll_speed = 1.0,
 				blur = true,
 			},
