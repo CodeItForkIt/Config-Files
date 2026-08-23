@@ -10,10 +10,9 @@
   <PublicHttpPort>8096</PublicHttpPort>
   <PublicHttpsPort>8920</PublicHttpsPort>
   <AutoDiscovery>true</AutoDiscovery>
-  <EnableUPnP>false</EnableUPnP>
   <EnableIPv4>true</EnableIPv4>
   <EnableIPv6>false</EnableIPv6>
-  <EnableRemoteAccess>true</EnableRemoteAccess>
+  <EnableRemoteAccess>false</EnableRemoteAccess>
   <LocalNetworkSubnets />
   <LocalNetworkAddresses />
   <KnownProxies />
