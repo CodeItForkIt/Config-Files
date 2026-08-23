@@ -1,7 +1,7 @@
 [Added Associations]
 application/rss+xml=userapp-Thunderbird-QM9D82.desktop;
 application/x-extension-rss=userapp-Thunderbird-QM9D82.desktop;
-text/plain=subl-3.desktop;subl-2.desktop;subl.desktop;
+text/plain=subl-3.desktop;subl-2.desktop;subl.desktop;org.xfce.mousepad.desktop;
 x-scheme-handler/feed=userapp-Thunderbird-QM9D82.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-W56N82.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-W56N82.desktop;
@@ -74,7 +74,7 @@ text/mizar=sublime_text.desktop
 text/n3=sublime_text.desktop
 text/parameters=sublime_text.desktop
 text/parityfec=sublime_text.desktop
-text/plain=subl-3.desktop;
+text/plain=org.xfce.mousepad.desktop
 text/provenance-notation=sublime_text.desktop
 text/prs.fallenstein.rst=sublime_text.desktop
 text/prs.lines.tag=sublime_text.desktop
