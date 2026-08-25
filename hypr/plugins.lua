@@ -169,7 +169,7 @@ if hl.plugin.hyprglass then
 
 	-- Each call whitelists the namespace and optionally configures it
 	hg.layer("waybar", { preset = "subtle", mask_threshold = 0.05 })
-	hg.layer("swaync")
+	hg.layer("noctalia")
 	hg.layer("quickshell:bezel", { preset = "ui", mask_threshold = 0.3 })
 	hg.layer("debug-panel", { exclude = true })
 end
