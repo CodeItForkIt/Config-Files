@@ -142,7 +142,7 @@ hl.config({
 hl.plugin.hyprbars.add_button({
 	bg_color = "rgb(ff4040)",
 	fg_color = "rgb(ffffff)",
-	size = 10,
+	size = 15,
 	icon = "X",
 	action = "hyprctl dispatch 'hl.dsp.window.close()'",
 })
