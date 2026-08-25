@@ -130,27 +130,3 @@ hl.config({
 		},
 	},
 })
-hl.config({
-	plugin = {
-		hyprbars = {
-			bar_height = 15,
-			on_double_click = "hyprctl dispatch fullscreen 1",
-		},
-	},
-})
-
-hl.plugin.hyprbars.add_button({
-	bg_color = "rgb(ff4040)",
-	fg_color = "rgb(ffffff)",
-	size = 15,
-	icon = "X",
-	action = "hyprctl dispatch 'hl.dsp.window.close()'",
-})
-
-hl.plugin.hyprbars.add_button({
-	bg_color = "rgb(00FF00)",
-	fg_color = "rgb(000000)",
-	size = 15,
-	icon = "🗖",
-	action = [[hyprctl dispatch 'hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" })']],
-})
