@@ -132,7 +132,7 @@ hl.config({
 })
 if hl.plugin.hyprglass then
 	local hg = hl.plugin.hyprglass
-	hl.window_rule({ match = { class = "kitty" }, tag = "+hyprglass_preset_subtle" })
+	hl.window_rule({ match = { class = "kitty" }, tag = "+hyprglass_preset_clear" })
 	hg.config({
 		default_theme = "dark",
 		default_preset = "clear",
