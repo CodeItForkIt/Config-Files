@@ -146,7 +146,13 @@ if hl.plugin.hyprglass then
 	})
 
 	-- Layer surfaces: each call whitelists the namespace and configures it
-
+	hg.preset("clear", {
+		glass_opacity = 0.8,
+		blur_strength = 1.5,
+		inherits = "subtle",
+		dark = { brightness = 0.7 },
+		light = { brightness = 1.2 },
+	})
 	-- Presets
 	hg.config({ layers = { enabled = true } })
 
