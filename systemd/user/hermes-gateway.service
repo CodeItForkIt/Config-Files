@@ -1,0 +1,27 @@
+[Unit]
+Description=Hermes Agent Gateway - Messaging Platform Integration
+After=network-online.target
+Wants=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=/home/autometalogolex/.hermes/hermes-agent/venv/bin/python -m hermes_cli.main gateway run
+WorkingDirectory=/home/autometalogolex/.hermes
+Environment="PATH=/home/autometalogolex/.hermes/hermes-agent/venv/bin:/home/autometalogolex/.hermes/hermes-agent/node_modules/.bin:/usr/bin:/home/autometalogolex/.local/bin:/home/autometalogolex/.cargo/bin:/home/autometalogolex/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="VIRTUAL_ENV=/home/autometalogolex/.hermes/hermes-agent/venv"
+Environment="HERMES_HOME=/home/autometalogolex/.hermes"
+Restart=always
+RestartSec=5
+RestartForceExitStatus=75
+RestartPreventExitStatus=78
+KillMode=mixed
+KillSignal=SIGTERM
+ExecReload=/bin/kill -USR1 $MAINPID
+ExecStopPost=-/home/autometalogolex/.hermes/hermes-agent/venv/bin/python -m gateway.cgroup_cleanup
+TimeoutStopSec=60
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
