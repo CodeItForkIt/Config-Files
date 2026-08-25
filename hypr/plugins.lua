@@ -165,4 +165,11 @@ if hl.plugin.hyprglass then
 		adaptive_dim = 1.5,
 		dark = { tint_color = 0x02142aa9 },
 	})
+	hg.config({ layers = { enabled = true } })
+
+	-- Each call whitelists the namespace and optionally configures it
+	hg.layer("waybar", { preset = "subtle", mask_threshold = 0.05 })
+	hg.layer("swaync")
+	hg.layer("quickshell:bezel", { preset = "ui", mask_threshold = 0.3 })
+	hg.layer("debug-panel", { exclude = true })
 end
