@@ -1,13 +1,3 @@
 {
-  "backends": [
-    {
-      "nonce": "3039f27ec72221213da60f7fd0523466",
-      "pid": 234453,
-      "profile": "default",
-      "startMarker": "linux:2487498",
-      "command": "/home/autometalogolex/.hermes/hermes-agent/venv/bin/python -m hermes_cli.main serve --host 127.0.0.1 --port 0",
-      "parentPid": 234155,
-      "parentStartMarker": "linux:2487440"
-    }
-  ]
+  "backends": []
 }
