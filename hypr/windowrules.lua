@@ -272,7 +272,14 @@ hl.window_rule({
 	no_shadow = true,
 	border_size = 0,
 })
-
+hl.window_rule({
+	name = "prism-console-float",
+	match = {
+		class = "^(org.prismlauncher.PrismLauncher)$",
+		title = "^(Console window.*)$",
+	},
+	float = true,
+})
 -- ============================================================
 --  LAYER RULES
 -- ============================================================
