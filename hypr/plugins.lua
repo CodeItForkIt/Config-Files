@@ -132,7 +132,7 @@ hl.config({
 })
 if hl.plugin.hyprglass then
 	local hg = hl.plugin.hyprglass
-
+	hl.window_rule({ match = { class = "kitty" }, tag = "+hyprglass_preset_high_contrast" })
 	hg.config({
 		default_theme = "dark",
 		default_preset = "clear",
@@ -146,10 +146,6 @@ if hl.plugin.hyprglass then
 	})
 
 	-- Layer surfaces: each call whitelists the namespace and configures it
-	hg.layer("waybar", { preset = "subtle", mask_threshold = 0.05 })
-	hg.layer("swaync")
-	hg.layer("quickshell:bezel", { preset = "ui", mask_threshold = 0.3 })
-	hg.layer("debug-panel", { exclude = true })
 
 	-- Presets
 	hg.preset("clear", {
