@@ -135,7 +135,7 @@ if hl.plugin.hyprglass then
 	hl.window_rule({ match = { class = "kitty" }, tag = "+hyprglass_preset_clear" })
 	hl.window_rule({
 		match = { namespace = "^noctalia-(bar-.+|notification|dock|panel|attached-panel|osd|window-switcher)$" },
-		tag = "+hyprglass_preset_clear",
+		tag = "+hyprglass_preset_glass",
 	})
 	hg.config({
 		default_theme = "dark",
