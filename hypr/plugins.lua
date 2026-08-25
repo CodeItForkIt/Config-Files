@@ -148,7 +148,7 @@ hl.plugin.hyprbars.add_button({
 })
 
 hl.plugin.hyprbars.add_button({
-	bg_color = "rgb(eeee11)",
+	bg_color = "rgb(00FF00)",
 	fg_color = "rgb(000000)",
 	size = 15,
 	icon = "_",
