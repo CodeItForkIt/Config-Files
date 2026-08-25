@@ -167,7 +167,7 @@ if hl.plugin.hyprglass then
 	hg.config({ layers = { enabled = true } })
 
 	-- Each call whitelists the namespace and optionally configures it
-	hg.layer("noctalia-bar-default", { preset = "glass", mask_threshold = 0.05 })
+	hg.layer("noctalia-bar-default", { preset = "glass", mask_threshold = 0.6 })
 	hg.layer("quickshell:bezel", { preset = "ui", mask_threshold = 0.3 })
 	hg.layer("debug-panel", { exclude = true })
 end
