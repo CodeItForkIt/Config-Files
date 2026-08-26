@@ -1,0 +1,3 @@
+[filesystem "Oracle Corporation|26.0.2|/dev/nvme0n1p2"]
+	timestampResolution = 3194 nanoseconds
+	minRacyThreshold = 0 nanoseconds
