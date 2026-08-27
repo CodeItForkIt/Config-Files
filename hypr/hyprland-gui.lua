@@ -24,6 +24,9 @@ hl.config({
     input = {
         mouse_refocus = true,
     },
+    misc = {
+        vrr = 1,
+    },
 })
 
 -- Bezier curves
@@ -42,4 +45,19 @@ hl.animation({
     speed = 5.0,
     bezier = "ease",
     style = "slidevert",
+})
+
+-- Monitors
+hl.monitor({
+    output = "DP-5",
+    disabled = false,
+    mode = "1920x1080@165.00Hz",
+    position = "0x0",
+    scale = 1,
+    sdrbrightness = 0.5,
+    sdr_min_luminance = 0.05,
+    sdr_max_luminance = 409,
+    min_luminance = 0.05,
+    max_luminance = 409,
+    max_avg_luminance = 322,
 })
