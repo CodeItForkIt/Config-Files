@@ -2,12 +2,16 @@
 
 -- Settings
 hl.config({
+    decoration = {
+        dim_inactive = true,
+    },
     general = {
         allow_tearing = true,
         gaps_in = 2,
         snap = {
             border_overlap = true,
             respect_gaps = true,
+            window_gap = 1,
         },
     },
 })
