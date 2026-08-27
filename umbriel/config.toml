@@ -9,7 +9,7 @@
 # generated colors here.
 
 [include]
-files = []
+files = ["noctalia.toml"]
 
 [general]
 autostart = []
