@@ -8,3 +8,6 @@
 "Mod+Shift+P" = "spawn:noctalia msg screenshot-fullscreen"
 "Mod+Shift+W" = "spawn:noctalia msg desktop-widgets-toggle-edit"
 "Mod+Escape" = "spawn:noctalia msg panel-toggle session"
+"Mod+T" = "spawn:kitty"
+"Mod+Shift+Q" = "window-close"
+"Mod+Tab" = "overview-toggle"
