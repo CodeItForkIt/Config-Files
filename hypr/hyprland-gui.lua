@@ -16,6 +16,9 @@ hl.config({
     },
 })
 
+-- Bezier curves
+hl.curve("ease", { type = "bezier", points = { {0.25, 0.1}, {0.25, 1.0} } })
+
 -- Animations
 hl.animation({
     leaf = "border",
@@ -27,6 +30,6 @@ hl.animation({
     leaf = "workspaces",
     enabled = true,
     speed = 5.0,
-    bezier = "default",
-    style = "slide",
+    bezier = "ease",
+    style = "slidevert",
 })
