@@ -12,6 +12,9 @@ hl.config({
     decoration = {
         dim_inactive = true,
     },
+    ecosystem = {
+        enforce_permissions = true,
+    },
     general = {
         allow_tearing = true,
         gaps_in = 2,
@@ -26,6 +29,9 @@ hl.config({
     },
     misc = {
         vrr = 1,
+    },
+    xwayland = {
+        use_nearest_neighbor = true,
     },
 })
 
