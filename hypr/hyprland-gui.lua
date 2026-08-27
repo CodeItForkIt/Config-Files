@@ -15,3 +15,11 @@ hl.config({
         },
     },
 })
+
+-- Animations
+hl.animation({
+    leaf = "border",
+    enabled = true,
+    speed = 1.0,
+    bezier = "default",
+})
