@@ -21,6 +21,9 @@ hl.config({
             window_gap = 1,
         },
     },
+    input = {
+        mouse_refocus = true,
+    },
 })
 
 -- Bezier curves
