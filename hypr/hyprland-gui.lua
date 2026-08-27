@@ -23,3 +23,10 @@ hl.animation({
     speed = 1.0,
     bezier = "default",
 })
+hl.animation({
+    leaf = "workspaces",
+    enabled = true,
+    speed = 5.0,
+    bezier = "default",
+    style = "slide",
+})
