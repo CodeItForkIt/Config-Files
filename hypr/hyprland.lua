@@ -7,7 +7,9 @@ require("windowrules")
 require("keybindings")
 require("userprefs")
 require("plugins")
+require("hyprland-gui")
 -- require("plugins")
+require("scrolling-niri") -- native Niri-style scrolling layout
 hl.env("AQ_MGPU_NO_EXPLICIT", "1") -- disables explicit sync specifically on multi-GPU buffers
 hl.env("AQ_FORCE_LINEAR_BLIT", "0") -- workaround for Nvidia issues with multi-GPU buffer modifiers
 -- ============================================================
