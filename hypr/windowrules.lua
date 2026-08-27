@@ -164,9 +164,12 @@ end
 
 -- Games → special workspace
 hl.window_rule({
-	match = { class = "steam", title = "notification.*" },
+	name = "steam-notification-toast",
+	-- title is "notificationtoasts_<id>_desktop", id changes every time
+	match = { title = "^(notificationtoasts_.*_desktop)$" },
+	workspace = "special silent",
 	no_initial_focus = true,
-	suppress_event = "activate",
+	no_focus = true,
 })
 hl.window_rule({
 	name = "games-steam-app",
