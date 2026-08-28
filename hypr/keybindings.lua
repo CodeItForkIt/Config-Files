@@ -372,8 +372,6 @@ hl.bind(
 ) -- Special / scratchpad
 hl.bind("SUPER + G", hl.dsp.workspace.toggle_special(), { desc = "toggle scratchpad" })
 
-hl.bind("SUPER + SHIFT + G", hl.dsp.window.move({ workspace = "special" }), { desc = "move to scratchpad" })
-
 hl.bind(
 	"SUPER + ALT + G",
 	hl.dsp.exec_cmd("hyprctl dispatch movetoworkspacesilent special"),
