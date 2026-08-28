@@ -370,7 +370,7 @@ hl.bind(
 -- commas after statements — all of which made this file fail to load).
 hl.bind(
 	"SUPER + ALT + G",
-	hl.dsp.exec_cmd("hyprctl dispatch movetoworkspacesilent special"),
+	hl.dsp.exec_cmd("hyprctl dispatch movetoworkspacesilent special:Games"),
 	{ desc = "move to scratchpad silent" }
 )
 
