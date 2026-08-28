@@ -32,7 +32,7 @@ autostart = [
 ]
 # mod_key = "Super"            # Mod in keybinds; defaults to Super (Alt when nested)
 xwayland = true                 # requires restart to change
-focus_on_activate = false       # activation requests mark urgent without stealing focus
+focus_on_activate = true        # matches misc.focus_on_activate = true in hyprland.lua
 honor_restored_maximize = false # let apps restore their saved maximized state
 
 # [environment]
@@ -182,7 +182,7 @@ action = "spawn:notify-send 'Bottom right'"
 [layout]
 mode = "scrolling" # "scrolling", "dwindle", or "master"
 # Inspect every workspace's effective mode with `umbriel workspaces --json`.
-gap = 8 # 0-500
+gap = 2 # 0-500, matches general.gaps_in = 2 (overrides.lua, which wins over hyprland.lua's gaps_in = 5)
 width_presets = [
   1,
   0.333,
