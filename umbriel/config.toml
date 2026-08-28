@@ -133,12 +133,12 @@ drag_opacity = 0.75
 [appearance.blur]
 enabled = true
 optimized = true
-passes = 3       # 0-8
-radius = 3       # 0-100
+passes = 2       # 0-8, matches decoration.blur.passes = 2
+radius = 3       # 0-100, matches decoration.blur.size = 3
 noise = 0.02     # 0.0-1.0
 brightness = 0.9 # 0.0-2.0
 contrast = 0.9   # 0.0-2.0
-saturation = 1.1 # 0.0-2.0
+saturation = 1.17 # 0.0-2.0, approximates decoration.blur.vibrancy = 0.1696 (1 + vibrancy)
 
 [appearance.shadow]
 enabled = true
