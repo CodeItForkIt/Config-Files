@@ -70,7 +70,6 @@ end)
 hl.bind("SUPER + CTRL + 2", function()
 	hl.plugin.hyprtasking.setlayer(2)
 end)
-hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd(ipc .. "screenshot-fullscreen"))
 hl.config({
 	plugin = {
 		hyprtasking = {
