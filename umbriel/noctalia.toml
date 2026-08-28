@@ -1,5 +1,5 @@
 [colors]
-background = "#1e3648F0"
+background = "#021d2eF0"
 text_primary = "#f2f3f3FF"
 text_muted = "#afb4b6FF"
 accent_primary = "#67c5e4FF"
@@ -9,12 +9,12 @@ error = "#fd4663FF"
 
 [appearance]
 border_focused = "#67c5e4FF"
-border_unfocused = "#182c3aFF"
+border_unfocused = "#001320FF"
 scratchpad_border_focused = "#8066ccFF"
 scratchpad_border_unfocused = "#2e1b64FF"
-outer_border_color = "#12212bFF"
+outer_border_color = "#000000FF"
 insert_hint_color = "#8066cc80"
-backdrop_color = "#182c3aFF"
+backdrop_color = "#001320FF"
 
 [overview]
-background_tint = "#12212b88"
+background_tint = "#00000088"
