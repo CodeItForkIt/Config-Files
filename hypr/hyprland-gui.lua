@@ -6,51 +6,49 @@ hl.env("HYPRCURSOR_SIZE", "24")
 
 -- Settings
 hl.config({
-    cursor = {
-        no_warps = true,
-    },
-    decoration = {
-        dim_inactive = true,
-    },
-    general = {
-        allow_tearing = true,
-        gaps_in = 2,
-        snap = {
-            border_overlap = false,
-            respect_gaps = true,
-            window_gap = 0,
-        },
-    },
-    input = {
-        mouse_refocus = true,
-    },
-    misc = {
-        vrr = 0,
-    },
-    xwayland = {
-        use_nearest_neighbor = false,
-    },
+	cursor = {
+		no_warps = true,
+	},
+	decoration = {
+		dim_inactive = true,
+	},
+	general = {
+		allow_tearing = true,
+		gaps_in = 2,
+		snap = {
+			border_overlap = false,
+			respect_gaps = true,
+			window_gap = 0,
+		},
+	},
+	input = {
+		mouse_refocus = true,
+	},
+	misc = {
+		vrr = 0,
+	},
+	xwayland = {
+		use_nearest_neighbor = false,
+	},
 })
 
 -- Bezier curves
-hl.curve("ease", { type = "bezier", points = { {0.25, 0.1}, {0.25, 1.0} } })
+hl.curve("ease", { type = "bezier", points = { { 0.25, 0.1 }, { 0.25, 1.0 } } })
 
 -- Animations
 hl.animation({
-    leaf = "border",
-    enabled = false,
+	leaf = "border",
+	enabled = false,
 })
 hl.animation({
-    leaf = "workspaces",
-    enabled = true,
-    speed = 5.0,
-    bezier = "ease",
-    style = "slidevert",
+	leaf = "workspaces",
+	enabled = true,
+	speed = 5.0,
+	bezier = "ease",
+	style = "slidevert",
 })
 
 -- Keybinds
 hl.bind("SUPER + SHIFT + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle arrifat346afs/systempulse:panel"))
-hl.unbind("SUPER + G")
 hl.bind("SUPER + G", hl.dsp.focus({ workspace = "special:Games" }))
-hl.unbind("SUPER + SHIFT + grave")
 hl.bind("SUPER + SHIFT + G", hl.dsp.window.move({ workspace = "special:Games" }))
