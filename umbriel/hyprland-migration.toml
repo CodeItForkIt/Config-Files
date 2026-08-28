@@ -1,0 +1,410 @@
+# Settings translated from ~/.config/hypr/*.lua (your Hyprland Lua config:
+# hyprland.lua, keybindings.lua, windowrules.lua, monitors.lua, animations.lua,
+# overrides.lua, userprefs.lua, plugins.lua -- NOT the generated .conf files),
+# included from config.toml's [include] list.
+#
+# IMPORTANT: per docs/user/configuration.md, values set explicitly in the main
+# config.toml always win over an include, and every scalar table below
+# (general, animation, appearance, input, layout, ...) already has every key
+# spelled out in your live config.toml -- so scalar settings here are IGNORED
+# wherever config.toml already sets that same key. Only [[window_rule]],
+# [[layer_rule]], and [[input.device]] are additive across files, so those are
+# where this file actually does work. [environment] and [output.*] do take
+# effect since config.toml's copies are still commented out/absent.
+#
+# [general] autostart is now set directly in config.toml (matches the real
+# hl.on("hyprland.start", ...) block in hyprland.lua, not the old exec-once
+# list in userprefs.conf -- kitty/vivaldi/spotify/nautilus/steam/sunshine/
+# wayle were never in the actual .lua startup) plus workspace-wallpaper.sh
+# and auto-scratchpad-games.sh, both translated in this directory.
+#
+# The rest still needs manual edits directly in config.toml, since it already
+# sets every key in these tables explicitly:
+#                focus_on_activate  -> true   (hyprland.lua misc.focus_on_activate = true)
+#   [layout]     gap                -> 2      (general.gaps_in = 2 in overrides.lua; gaps_out was 0 but
+#                                               Umbriel has one shared gap value, no separate outer margin)
+#   [appearance] border_width       -> 1      (overrides.lua general.border_size = 1)
+#                corner_radius      -> 20     (decoration.rounding = 20; rounding_power has no equivalent)
+#   [appearance.blur] passes -> 2, radius -> 3, saturation -> ~1.15 (decoration:blur size/vibrancy)
+#   [appearance.shadow] color -> "#1a1a1aee"  (Hyprland 0xee1a1a1a, AARRGGBB -> RRGGBBAA)
+#   [input.cursor] theme -> "Nordzy", hardware_cursor -> false (cursor.no_hardware_cursors = true)
+#   [input.focus] follows_mouse -> true       (input.follow_mouse = 1; semantics aren't identical)
+#
+# NOT carried over anywhere (no Umbriel equivalent, tied to HyDE/Hyprland
+# plugin tooling that doesn't exist outside that ecosystem, or superseded by
+# switching to the scrolling layout):
+#   - hyprtasking plugin grid overview (Mod+H/J/K/L, Mod+A, Mod+Ctrl+1/2)
+#     -> replaced by Umbriel's native overview (Mod+Tab, already in your config).
+#   - dynamic_cursors, hyprglass, hyprworkwall Hyprland plugins, and group.groupbar
+#     tab-bar styling (no window-grouping concept in Umbriel's column model, so
+#     Mod+Ctrl+H/L "change group tab" wasn't bound either).
+#   - HyDE rofi menus: wbarconfgen.sh, wallbashtoggle.sh, themeselect.sh,
+#     animations.sh --select, hyprlock.sh --select. Wallpaper selection is
+#     replaced below with Noctalia's own wallpaper panel.
+#   - Mod+mouse:272/273 and Z/X move/resize binds -- Umbriel's Mod+drag move
+#     and Mod+Right-drag resize are already built into the compositor, not
+#     separately bindable, so no explicit bind was needed.
+#   - idle_inhibit window rules -> Umbriel grants idle inhibition
+#     automatically per app request while its surface is visible.
+#   - Super+L lock screen -> couldn't confirm Noctalia's lock/session IPC
+#     command from the docs available here; Mod+Escape (already in your
+#     config) opens the session panel, which likely covers it.
+#   - Mod+Alt+1..0 "silent" move-to-workspace and Mod+Alt+G "silent" move to
+#     the games scratchpad (movetoworkspacesilent) -> no standalone silent
+#     variant of window-move-to-workspace/window-move-to-scratchpad is
+#     documented, so these keep default_focused behavior instead.
+#   - The third, conflicting SUPER+X bind: tagging a window "minimized" and
+#     moving it to a "special:minimized" workspace -> no minimize concept
+#     exists in Umbriel's action list at all (floating/pin/fullscreen/
+#     scratchpad/maximize are the closest states); Mod+X is bound to
+#     Noctalia's bar-toggle instead, matching what's already in config.toml.
+#   - SUPER+CTRL+Down "navigate to nearest empty workspace" -> no matching
+#     action; dynamic workspaces already keep one trailing empty workspace,
+#     but there's no documented "jump to it" action.
+#   - misc.enable_swallow (terminal swallowing), xwayland.use_nearest_neighbor /
+#     force_zero_scaling, general.snap.* (edge/window snapping while dragging),
+#     decoration.dim_modal / modal_parent_blocking, general.resize_on_border
+#     (borderless edge-drag resize), ecosystem.no_donation_nag, and the
+#     Hyprland-only "scrolling.follow_focus" key -> none of these are exposed
+#     anywhere in Umbriel's documented config surface.
+#   - Per-workspace gapless/borderless mode for w[tv1]/f[1] (single tiled
+#     window fills the screen with no gap/border/rounding) and the workspaces
+#     1-5 "persistent" rule -> no per-window-count conditional rules in
+#     Umbriel, and forcing a static workspace count would break the
+#     dynamic-workspace games rule below (it targets workspace 9).
+#   - dwindle.preserve_split / master.new_status -> moot now that layout.mode
+#     is "scrolling" in your config.toml rather than dwindle/master.
+#   - `match={fullscreen=true}, opaque=true` in windowrules.lua -> Umbriel
+#     window rules only match on app_id/title/is_focused, no fullscreen
+#     selector, so there's no way to target "every fullscreen window."
+#   - Hyprland/Aquamarine backend tuning env vars (WLR_DRM_NO_ATOMIC,
+#     AQ_MGPU_NO_EXPLICIT, AQ_FORCE_LINEAR_BLIT, AQ_DRM_DEVICES,
+#     WLR_RENDERER_ALLOW_SOFTWARE, WLR_NO_HARDWARE_CURSORS) and HyDE-specific
+#     XDG_*/HYDE_*/PATH plumbing from hyprland.lua -- specific to Hyprland's
+#     own renderer and directory layout; if you hit nvidia/rendering glitches
+#     under Umbriel, check its own docs/issues for equivalent knobs.
+
+[environment]
+# App-facing toolkit/session vars, portable across compositors.
+GDK_BACKEND = "wayland,x11,*"
+SDL_VIDEODRIVER = "wayland"
+CLUTTER_BACKEND = "wayland"
+QT_QPA_PLATFORM = "wayland;xcb"
+QT_QPA_PLATFORMTHEME = "qt6ct"
+QT_WAYLAND_DISABLE_WINDOWDECORATION = "1"
+QT_AUTO_SCREEN_SCALE_FACTOR = "1"
+GDK_SCALE = "1"
+MOZ_ENABLE_WAYLAND = "1"
+ELECTRON_OZONE_PLATFORM_HINT = "auto"
+# Nvidia
+LIBVA_DRIVER_NAME = "nvidia"
+GBM_BACKEND = "nvidia-drm"
+__GLX_VENDOR_LIBRARY_NAME = "nvidia"
+
+# Per-device override — your trackball's custom libinput accel curve, ported
+# verbatim (Umbriel's "custom <step> <points...>" syntax matches Hyprland's).
+[[input.device]]
+name = "HUGE-trackball"
+accel_profile = "custom 0.2144477506 0.000 0.307 0.615 1.077 1.539 2.002 2.505 3.208 3.910 4.613 5.315 6.018 6.720 7.423 8.125 8.828 9.530 10.233 10.935 12.387"
+
+# Outputs ----------------------------------------------------------------
+# Confirmed via `umbriel outputs`: your Acer XF243Y P is DP-5 (was matched by
+# description in monitors.lua). cm/sdr_min_luminance have no Umbriel
+# equivalent for an SDR output, so they're dropped.
+[output."DP-5"]
+mode = "1920x1080@165.003"
+position = [0, 0]
+scale = 1.0
+# Static workspace count. hyprland.lua only force-kept 1-5 alive
+# (`for i = 1, 5 do hl.workspace_rule({ workspace = tostring(i), persistent
+# = true }) end`), but all 10 are made static here so every Mod+1..0 /
+# Mod+Shift+1..0 keybind below keeps resolving to a real workspace. This
+# also fixes a real bug: with dynamic workspaces (the default),
+# `umbriel workspaces` only shows workspaces that have actually been
+# visited/populated, so window-move-to-workspace:5 had no workspace named
+# "5" to resolve to and was silently falling back to "the last workspace"
+# instead (per docs/user/actions.md) -- which is why Mod+Shift+5 appeared
+# to do nothing.
+workspaces = 10
+
+# The second monitor (monitors.lua "SUNSHINE") is a virtual output created by
+# Sunshine while it's actively streaming, so it won't show up in
+# `umbriel outputs` until a stream is running. Run it again mid-stream to get
+# its real name (likely "HEADLESS-1" per docs/user/outputs.md) and add:
+# [output."HEADLESS-1"]
+# mode = "2560x1664@60"
+# position = [1920, 0]
+# scale = 1.6
+# vrr = "always"     # was vrr = 1
+# hdr = "on"          # was cm = "hdr"
+# sdr_white = 80       # was sdr_max_luminance = 80
+
+# Keybinds not already present in your config.toml ---------------------------
+#
+# UNRESOLVED CONFLICT: keybindings.lua binds Mod+Comma to
+# `spawn:noctalia msg settings-toggle`, but your live config.toml already
+# binds Mod+Comma to "workspace-previous" (Umbriel's packaged default, which
+# you kept). Main file always wins, so settings-toggle currently has NO
+# chord at all. Pick one and edit config.toml directly -- this include can't
+# override an already-set key.
+[keybinds]
+# Shell panels (keybindings.lua top-level binds; panel-toggle launcher and
+# settings-toggle are already in config.toml/see conflict note above)
+"Mod+S" = "spawn:noctalia msg panel-toggle control-center"
+
+# Keybind cheatsheet -- Umbriel has this natively; replaces the
+# ~/scripts/keybindings.sh custom script bound to SUPER+SHIFT+H
+"Mod+Shift+H" = "cheatsheet-toggle"
+
+# Directional focus / cycle (movefocus l/r/u/d, cyclenext)
+"Mod+Left" = "window-focus-left"
+"Mod+Right" = "window-focus-right"
+"Mod+Up" = "window-focus-up"
+"Mod+Down" = "window-focus-down"
+"Alt+Tab" = "window-focus-next"
+"Alt+F4" = "window-close"                        # dontkillsteam.sh's Proton-aware close logic has no
+                                                   # Umbriel equivalent; plain window-close is used instead
+"Shift+F11" = "window-toggle-fullscreen"
+"Mod+Shift+F" = "window-toggle-pinned"          # alt chord alongside Mod+P
+"Ctrl+Alt+Delete" = "spawn:noctalia msg panel-toggle session" # logoutlaunch.sh; Mod+Escape (already
+                                                                # in config.toml) opens the same panel
+
+# Resize/move (approximates resizeactive/movewindow ±30px; Umbriel has no
+# arbitrary pixel resize, so this cycles preset widths / moves columns instead.
+# There's no vertical-resize equivalent, so Mod+Shift+Up/Down from the
+# original -- resizeactive 0 ±30 -- has no bind here.)
+"Mod+Shift+Left" = "window-cycle-width-back"
+"Mod+Shift+Right" = "window-cycle-width"
+"Mod+Shift+Ctrl+Left" = "column-move-left"
+"Mod+Shift+Ctrl+Right" = "column-move-right"
+"Mod+Shift+Ctrl+Up" = "window-move-up"
+"Mod+Shift+Ctrl+Down" = "window-move-down"
+
+# Launchers
+"Mod+E" = "spawn:thunar"                        # $EXPLORER
+"Mod+Ctrl+E" = "spawn:kitty nvim"                # $EDITOR (Mod+C is already column-center)
+"Mod+Alt+T" = "spawn:kitty --class dropdown-term" # see window_rule below for float placement
+"Ctrl+Shift+Escape" = "spawn:kitty btop"          # was $scrPath/sysmonlaunch.sh
+
+# Screenshots / color picker. keybindings.lua actually had 4 modes via
+# $scrPath/screenshot.sh (snip "s", freeze-then-snip "sf", single monitor "m",
+# all monitors "p") plus a separate hyprpicker color picker -- Noctalia's
+# documented IPC only exposes screenshot-region and screenshot-fullscreen, so
+# "freeze snip" and "single monitor" fold into those two approximately.
+# Mod+Shift+P is already screenshot-region (your own edit); Mod+P is pin.
+"Print" = "spawn:noctalia msg screenshot-fullscreen" # was: bare Print, all monitors
+"Mod+Alt+P" = "spawn:hyprpicker -an"                  # was: single-monitor screenshot; repurposed for
+                                                        # the color picker since Mod+Shift+P/Mod+Ctrl+P
+                                                        # were the picker's original chords and are freed
+                                                        # up/taken elsewhere
+
+# Wallpaper (Mod+Shift+W is already desktop-widgets-toggle-edit)
+"Mod+Alt+W" = "spawn:noctalia msg panel-toggle wallpaper"
+
+# Hardware controls
+"XF86AudioMute" = { action = "spawn:wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle", allow_when_locked = true }
+"F10" = { action = "spawn:wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle", allow_when_locked = true }
+"F11" = { action = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-", allow_when_locked = true }
+"F12" = { action = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+", allow_when_locked = true }
+"XF86AudioMicMute" = { action = "spawn:wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle", allow_when_locked = true }
+"F8" = "spawn:playerctl play-pause"
+"XF86MonBrightnessUp" = "spawn:brightnessctl set +5%"
+"XF86MonBrightnessDown" = "spawn:brightnessctl set 5%-"
+"Mod+Alt+D" = "spawn:/usr/lib/hyprwhspr/config/hyprland/hyprwhspr-tray.sh record"
+"Mod+Alt+A" = "spawn:hyprwhspr-assistant.sh"
+
+# Workspaces 1-10 (mainMod + number)
+"Mod+1" = "workspace-switch:1"
+"Mod+2" = "workspace-switch:2"
+"Mod+3" = "workspace-switch:3"
+"Mod+4" = "workspace-switch:4"
+"Mod+5" = "workspace-switch:5"
+"Mod+6" = "workspace-switch:6"
+"Mod+7" = "workspace-switch:7"
+"Mod+8" = "workspace-switch:8"
+"Mod+9" = "workspace-switch:9"
+"Mod+0" = "workspace-switch:10"
+"Mod+Shift+1" = "window-move-to-workspace:1"
+"Mod+Shift+2" = "window-move-to-workspace:2"
+"Mod+Shift+3" = "window-move-to-workspace:3"
+"Mod+Shift+4" = "window-move-to-workspace:4"
+"Mod+Shift+5" = "window-move-to-workspace:5"
+"Mod+Shift+6" = "window-move-to-workspace:6"
+"Mod+Shift+7" = "window-move-to-workspace:7"
+"Mod+Shift+8" = "window-move-to-workspace:8"
+"Mod+Shift+9" = "window-move-to-workspace:9"
+"Mod+Shift+0" = "window-move-to-workspace:10"
+
+# Relative workspace nav (literal SUPER+CTRL+Right/Left chords from
+# keybindings.lua; the same function is already reachable via Mod+Comma/
+# Period in config.toml, but these are added too for exact chord parity)
+"Mod+Ctrl+Right" = "workspace-next"
+"Mod+Ctrl+Left" = "workspace-previous"
+
+# Scratchpad (SUPER+G toggle, SUPER+Shift+G move, matching keybindings.lua's
+# own mnemonic). This is also now the games/steam holding area -- see the
+# window_rule below.
+"Mod+G" = "scratchpad-toggle"                     # SUPER+G -> togglespecialworkspace
+"Mod+Ctrl+G" = "window-restore-from-scratchpad"
+#
+# window-move-to-scratchpad alone just stashes the window -- per
+# docs/user/scratchpad.md, "a window moved into a HIDDEN scratchpad fades out
+# and is removed from the scene," with no automatic show/focus. There's no
+# single action that moves AND shows (only "scratchpad-toggle" exists at the
+# IPC/action level, confirmed against src/config/keybind_parse.cpp -- no
+# "scratchpad-show"/"scratchpad-open" variant). So this chains the move with
+# a toggle via two `umbriel msg` calls, which also satisfies "focus moves to
+# the scratchpad" per docs: "Showing a scratchpad focuses the window that was
+# most recently focused there" -- i.e. the window you just moved.
+# CAVEAT: if the scratchpad is already visible when you move another window
+# in, it stays visible on its own (per docs) and this second `scratchpad-
+# toggle` call will instead HIDE it, since toggle can't distinguish "make
+# visible" from "make hidden." There's no query command to detect current
+# visibility to guard against this (checked ipc_commands.cpp/ipc.cpp), so
+# this is the closest achievable behavior, not a perfect one.
+"Mod+Shift+G" = "spawn:sh -c 'umbriel msg window-move-to-scratchpad; umbriel msg scratchpad-toggle'"
+# Overrides config.toml's own "Mod+Shift+Space" = "window-move-to-scratchpad"
+# default only by adding this chained behavior on a different chord; that
+# other bind is still a plain (unfocused) move if you want it.
+
+# Window and layer rules ------------------------------------------------------
+# These accumulate across included files, so they apply regardless of what's
+# already in config.toml.
+
+# Dropdown terminal (Mod+Alt+T), launched as `kitty --class dropdown-term`
+[[window_rule]]
+match.app_id = "^dropdown-term$"
+default_floating = true
+default_size = [1150, 650]
+default_position = { x = 0, y = 60, anchor = "top" }
+
+# Picture-in-Picture
+[[window_rule]]
+match.title = "^([Pp]icture[-\\s]?[Ii]n[-\\s]?[Pp]icture)(.*)$"
+default_floating = true
+default_pinned = true
+default_size = [480, 270]
+default_position = { x = 32, y = 32, anchor = "bottom_right" }
+
+# HyprTile app (float + centered; no_anim/no_blur have no per-window equivalent)
+[[window_rule]]
+match.app_id = "^HyprTile$"
+default_floating = true
+default_position = { x = 0, y = 0 }
+blur = false
+
+# Float by app_id (utility/dialog apps)
+[[window_rule]]
+match.app_id = "^(com\\.gabm\\.satty|vlc|kvantummanager|qt5ct|qt6ct|nwg-look|nwg-displays|org\\.kde\\.ark|org\\.pulseaudio\\.pavucontrol|blueman-manager|nm-applet|nm-connection-editor|org\\.kde\\.polkit-kde-authentication-agent-1|[Xx]dg-desktop-portal-gtk|Signal|com\\.github\\.rafostar\\.Clapper|app\\.drey\\.Warp|net\\.davidotek\\.pupgui2|yad|eog|io\\.github\\.alainm23\\.planify|io\\.gitlab\\.theevilskeleton\\.Upscaler|com\\.github\\.unrud\\.VideoDownloader|io\\.gitlab\\.adhami3310\\.Impression|io\\.missioncenter\\.MissionCenter)$"
+default_floating = true
+
+[[window_rule]]
+match.app_id = ".*[Dd]ialog.*"
+default_floating = true
+
+# Float by app_id + title
+[[window_rule]]
+match.app_id = "^org\\.kde\\.dolphin$"
+match.title = "^(Progress Dialog|Copying) — Dolphin$"
+default_floating = true
+
+[[window_rule]]
+match.app_id = "^firefox$"
+match.title = "^(Picture-in-Picture|Library)$"
+default_floating = true
+
+[[window_rule]]
+match.app_id = "^kitty$"
+match.title = "^(top|btop|htop)$"
+default_floating = true
+
+# Float by title only (common modals, plus the Vivaldi/Google sign-in popup)
+[[window_rule]]
+match.title = "^(About Mozilla Firefox|Open|Authentication Required|Add Folder to Workspace|Choose Files|Save As|Confirm to replace files|File Operation Progress|File Upload.*|Choose wallpaper.*|Library.*|Sign in - Google Accounts - Vivaldi)$"
+default_floating = true
+
+# Generic "dialog" in the title, catches anything the named rules above miss
+# (windowrules.lua's separate title-based ".*dialog.*" catch-all, distinct
+# from the class-based ".*dialog.*" rule already folded into the float-by-
+# app_id regex above)
+[[window_rule]]
+match.title = ".*dialog.*"
+default_floating = true
+
+# Prism Launcher
+[[window_rule]]
+match.title = "^Console window for .+ Prism Launcher.*$"
+default_floating = true
+
+[[window_rule]]
+match.title = "^Download mods — Prism Launcher.*$"
+default_floating = true
+default_size = [1600, 900]
+
+# Thunar's own popups (anything not the main "- Thunar" window)
+[[window_rule]]
+match.app_id = "^[Tt]hunar$"
+match.title = "^(?!.*- Thunar$).+$"
+default_floating = true
+
+# QEMU/Quickemu VMs
+[[window_rule]]
+match.app_id = "^(qemu-system-x86_64|QEMU)$"
+default_floating = true
+default_fullscreen = true
+
+[[window_rule]]
+match.title = "^QEMU.*$"
+default_floating = true
+default_fullscreen = true
+
+# Foundry VTT: fullscreen on open (Hyprland sent it to the nearest "empty"
+# workspace too, but window rules can't target a dynamic empty workspace)
+[[window_rule]]
+match.app_id = "^foundry$"
+default_fullscreen = true
+
+# Games -> Umbriel's real scratchpad, closer to Hyprland's special:games
+# workspace than a numbered workspace. Window rules can't open a window
+# directly into the scratchpad (no such key exists -- confirmed against
+# docs/user/rules.md and the source), so automatically hiding these on
+# launch is handled by ~/.config/umbriel/auto-scratchpad-games.sh, a polling
+# watcher (add it to [general] autostart in config.toml, see the checklist
+# at the top of this file) that focuses and moves each matching window into
+# the scratchpad within ~1s of it opening.
+# default_fullscreen here is mostly moot given that: scratchpad entry clears
+# fullscreen state (per docs/user/scratchpad.md) almost as soon as it's set,
+# so it only matters for the brief instant before the watcher script grabs
+# the window. To make games come back fullscreen when you later show the
+# scratchpad with Mod+G, set this directly in config.toml (animation.
+# scratchpad already has every key explicit there, so it can't be overridden
+# from this include file):
+#   [animation.scratchpad]
+#   fullscreen = true
+# Includes bg3 (Baldur's Gate 3), which had its own standalone
+# special-workspace rule in windowrules.lua.
+[[window_rule]]
+match.app_id = "^(steam|steam_app_.*|bg3|Minecraft|minecraft|HytaleClient|com\\.hypixel\\.HytaleLauncher)$"
+default_fullscreen = true
+
+# Steam notification toasts (matches your original rule almost exactly)
+[[window_rule]]
+match.title = "^notificationtoasts_.+_desktop"
+default_position = { x = 0, y = 0, anchor = "bottom_right" }
+default_focused = false
+default_pinned = true
+
+# "opaque = true" in Hyprland forced full opacity ignoring transparency
+# settings; opacity = 1.0 is the direct equivalent, but only for the steam
+# rule -- windowrules.lua's other opaque rule matched `fullscreen = true`,
+# and Umbriel window rules can only match on app_id/title/is_focused (no
+# fullscreen selector per docs/user/rules.md), so that one has no translation.
+[[window_rule]]
+match.app_id = "^steam$"
+opacity = 1.0
+
+# Oneko desktop pet
+[[window_rule]]
+match.app_id = "^oneko$"
+default_floating = true
+blur = false
