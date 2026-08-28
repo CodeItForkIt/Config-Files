@@ -370,8 +370,10 @@ hl.bind(
 	hl.dsp.focus({ workspace = "r-1", on_current_monitor = true }),
 	{ desc = "prev workspace" }
 ) -- Special / scratchpad
-hl.bind("SUPER + G", hl.dsp.workspace.toggle_special( Games ), { desc = "toggle scratchpad" }),
-hl.bind("SUPER + G", hl.dsp.move({ workspace = special:Games, follow = true, })),
+-- SUPER + G and SUPER + SHIFT + G (toggle/move to "Games" scratchpad) are
+-- already bound in hyprland-gui.lua; removed the broken duplicates that
+-- were here (unquoted `Games`, invalid `special:Games` syntax, trailing
+-- commas after statements — all of which made this file fail to load).
 hl.bind(
 	"SUPER + ALT + G",
 	hl.dsp.exec_cmd("hyprctl dispatch movetoworkspacesilent special"),
