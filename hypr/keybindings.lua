@@ -370,7 +370,7 @@ hl.bind(
 	hl.dsp.focus({ workspace = "r-1", on_current_monitor = true }),
 	{ desc = "prev workspace" }
 ) -- Special / scratchpad
-hl.bind("SUPER + G", hl.dsp.workspace.toggle_special( Games ), { desc = "toggle scratchpad" })
+hl.bind("SUPER + G", hl.dsp.workspace.toggle_special( Games ), { desc = "toggle scratchpad" }),
 hl.bind("SUPER + G", hl.dsp.move({ workspace = special:Games, follow = true, })),
 hl.bind(
 	"SUPER + ALT + G",
