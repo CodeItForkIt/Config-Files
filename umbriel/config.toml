@@ -273,14 +273,18 @@ enabled = true # false disables the tablet and its pads
 # calibration_matrix = [1.0, 0.0, 0.0, 0.0, 1.0, 0.0]  # libinput calibration, 6 numbers
 
 [input.cursor]
-theme = ""
-size = 24                # 1-512
-hardware_cursor = true   # false forces software cursor composition
+# Matches the real active cursor set at runtime by hyprland.lua's exec-once
+# (`hyprctl setcursor Nordzy-hyprcursors-catppuccin-frappe-dark 23`), not the
+# HYPRCURSOR_THEME=Nordzy / HYPRCURSOR_SIZE=24 env vars in userprefs.lua,
+# which that exec-once call overrides at runtime.
+theme = "Nordzy-hyprcursors-catppuccin-frappe-dark"
+size = 23                # 1-512
+hardware_cursor = false # matches cursor.no_hardware_cursors = true
 hide_when_typing = false # hide after typing unless a pointer button is held
 hide_timeout_ms = 0      # 0-3600000, 0 disables hiding
 
 [input.focus]
-follows_mouse = false
+follows_mouse = true # matches input.follow_mouse = 1 in windowrules.lua (semantics aren't identical)
 # Refuse hover focus when revealing the window would scroll further than this,
 # measured in viewport widths (1.0 = one full screen). Omit for no limit.
 # follows_mouse_max_scroll = 0.5
