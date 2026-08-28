@@ -139,7 +139,6 @@ hl.bind("SUPER + X", function()
 		hl.dispatch(hl.dsp.window.move({ workspace = "special:minimized", follow = false }))
 	end
 end)
-hl.bind("SUPER + Q", hl.dsp.exec_cmd(scrPath .. "/dontkillsteam.sh"), { desc = "close focused window" })
 hl.bind("ALT + F4", hl.dsp.exec_cmd(scrPath .. "/dontkillsteam.sh"), { desc = "close focused window" })
 hl.bind("SUPER + W", function()
 	hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
