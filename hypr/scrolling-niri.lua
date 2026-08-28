@@ -38,7 +38,7 @@ hl.config({
 	scrolling = {
 		-- a single column on a workspace always fills the whole screen
 		-- (this is what makes a lone window look like any other layout)
-		fullscreen_on_one_column = false,
+		fullscreen_on_one_column = true,
 
 		-- default width for a newly created column, as a fraction of the monitor
 		column_width = 0.5,
