@@ -24,7 +24,7 @@ local scrPath = home .. "/.local/lib/hyde"
 
 local TERMINAL = "kitty"
 local EDITOR = "kitty nvim"
-local EXPLORER = "thunar"
+local EXPLORER = "nemo"
 local BROWSER = "vivaldi"
 local mainMod = "SUPER"
 local ipc = "noctalia msg "
