@@ -50,3 +50,5 @@ hl.animation({
 
 -- Keybinds
 hl.bind("SUPER + SHIFT + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle arrifat346afs/systempulse:panel"))
+hl.unbind("SUPER + G")
+hl.bind("SUPER + G", hl.dsp.focus({ workspace = "special:Games" }))
