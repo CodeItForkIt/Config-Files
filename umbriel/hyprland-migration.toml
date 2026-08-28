@@ -339,7 +339,8 @@ default_floating = true
 [[window_rule]]
 match.title = "^Download mods — Prism Launcher.*$"
 default_floating = true
-default_size = [1600, 900]
+default_size = [1920, 1000]
+default_position = { x = 0, y = 0, anchor = "top_left" }
 
 # Thunar's own popups (anything not the main "- Thunar" window)
 [[window_rule]]
