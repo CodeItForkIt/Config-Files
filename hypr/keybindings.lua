@@ -44,10 +44,6 @@ end)
 --	end
 -- end, { non_consuming = true })
 
-hl.bind("SUPER + X", function()
-	hl.plugin.hyprtasking.killhovered()
-end)
-
 hl.bind("SUPER + H", function()
 	hl.plugin.hyprtasking.move("left")
 end)
