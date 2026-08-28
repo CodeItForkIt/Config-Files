@@ -24,7 +24,8 @@ hl.window_rule({
 hl.window_rule({
 	name = "idle-inhibit-browsers",
 	match = {
-		class = "^(.*LibreWolf.*)$|^(.*floorp.*)$|^(.*Brave.*)$|^(.*firefox.*)$|^(.*chromium.*)$|^(.*zen.*)$|^(.*vivaldi.*)$",
+		class =
+		"^(.*LibreWolf.*)$|^(.*floorp.*)$|^(.*Brave.*)$|^(.*firefox.*)$|^(.*chromium.*)$|^(.*zen.*)$|^(.*vivaldi.*)$",
 	},
 	idle_inhibit = "fullscreen",
 })
@@ -68,32 +69,32 @@ hl.window_rule({
 -- ============================================================
 
 local float_classes = {
-	{ name = "satty", class = "^(com.gabm.satty)$" },
-	{ name = "vlc", class = "^(vlc)$" },
-	{ name = "kvantum", class = "^(kvantummanager)$" },
-	{ name = "qt5ct", class = "^(qt5ct)$" },
-	{ name = "qt6ct", class = "^(qt6ct)$" },
-	{ name = "nwg-look", class = "^(nwg-look)$" },
-	{ name = "nwg-displays", class = "^(nwg-displays)$" },
-	{ name = "ark", class = "^(org.kde.ark)$" },
-	{ name = "pavucontrol", class = "^(org.pulseaudio.pavucontrol)$" },
-	{ name = "blueman", class = "^(blueman-manager)$" },
-	{ name = "nm-applet", class = "^(nm-applet)$" },
-	{ name = "nm-editor", class = "^(nm-connection-editor)$" },
-	{ name = "polkit-kde", class = "^(org.kde.polkit-kde-authentication-agent-1)$" },
-	{ name = "xdg-portal-gtk", class = "^([Xx]dg-desktop-portal-gtk)$" },
-	{ name = "signal", class = "^(Signal)$" },
-	{ name = "clapper", class = "^(com.github.rafostar.Clapper)$" },
-	{ name = "warp", class = "^(app.drey.Warp)$" },
-	{ name = "protonup", class = "^(net.davidotek.pupgui2)$" },
-	{ name = "yad", class = "^(yad)$" },
-	{ name = "eog", class = "^(eog)$" },
-	{ name = "planify", class = "^(io.github.alainm23.planify)$" },
-	{ name = "upscaler", class = "^(io.gitlab.theevilskeleton.Upscaler)$" },
+	{ name = "satty",           class = "^(com.gabm.satty)$" },
+	{ name = "vlc",             class = "^(vlc)$" },
+	{ name = "kvantum",         class = "^(kvantummanager)$" },
+	{ name = "qt5ct",           class = "^(qt5ct)$" },
+	{ name = "qt6ct",           class = "^(qt6ct)$" },
+	{ name = "nwg-look",        class = "^(nwg-look)$" },
+	{ name = "nwg-displays",    class = "^(nwg-displays)$" },
+	{ name = "ark",             class = "^(org.kde.ark)$" },
+	{ name = "pavucontrol",     class = "^(org.pulseaudio.pavucontrol)$" },
+	{ name = "blueman",         class = "^(blueman-manager)$" },
+	{ name = "nm-applet",       class = "^(nm-applet)$" },
+	{ name = "nm-editor",       class = "^(nm-connection-editor)$" },
+	{ name = "polkit-kde",      class = "^(org.kde.polkit-kde-authentication-agent-1)$" },
+	{ name = "xdg-portal-gtk",  class = "^([Xx]dg-desktop-portal-gtk)$" },
+	{ name = "signal",          class = "^(Signal)$" },
+	{ name = "clapper",         class = "^(com.github.rafostar.Clapper)$" },
+	{ name = "warp",            class = "^(app.drey.Warp)$" },
+	{ name = "protonup",        class = "^(net.davidotek.pupgui2)$" },
+	{ name = "yad",             class = "^(yad)$" },
+	{ name = "eog",             class = "^(eog)$" },
+	{ name = "planify",         class = "^(io.github.alainm23.planify)$" },
+	{ name = "upscaler",        class = "^(io.gitlab.theevilskeleton.Upscaler)$" },
 	{ name = "videodownloader", class = "^(com.github.unrud.VideoDownloader)$" },
-	{ name = "impression", class = "^(io.gitlab.adhami3310.Impression)$" },
-	{ name = "missioncenter", class = "^(io.missioncenter.MissionCenter)$" },
-	{ name = "dialog-class", class = "^(.*dialog.*)$" },
+	{ name = "impression",      class = "^(io.gitlab.adhami3310.Impression)$" },
+	{ name = "missioncenter",   class = "^(io.missioncenter.MissionCenter)$" },
+	{ name = "dialog-class",    class = "^(.*dialog.*)$" },
 }
 
 for _, r in ipairs(float_classes) do
@@ -139,18 +140,18 @@ hl.window_rule({
 
 -- Float — title only
 local float_titles = {
-	{ name = "about-firefox", title = "^(About Mozilla Firefox)$" },
-	{ name = "dialog-open", title = "^(Open)$" },
-	{ name = "auth-required", title = "^(Authentication Required)$" },
-	{ name = "add-folder", title = "^(Add Folder to Workspace)$" },
-	{ name = "choose-files", title = "^(Choose Files)$" },
-	{ name = "save-as", title = "^(Save As)$" },
-	{ name = "confirm-replace", title = "^(Confirm to replace files)$" },
-	{ name = "file-op-prog", title = "^(File Operation Progress)$" },
-	{ name = "file-upload", title = "^(File Upload)(.*)$" },
+	{ name = "about-firefox",    title = "^(About Mozilla Firefox)$" },
+	{ name = "dialog-open",      title = "^(Open)$" },
+	{ name = "auth-required",    title = "^(Authentication Required)$" },
+	{ name = "add-folder",       title = "^(Add Folder to Workspace)$" },
+	{ name = "choose-files",     title = "^(Choose Files)$" },
+	{ name = "save-as",          title = "^(Save As)$" },
+	{ name = "confirm-replace",  title = "^(Confirm to replace files)$" },
+	{ name = "file-op-prog",     title = "^(File Operation Progress)$" },
+	{ name = "file-upload",      title = "^(File Upload)(.*)$" },
 	{ name = "choose-wallpaper", title = "^(Choose wallpaper)(.*)$" },
-	{ name = "library", title = "^(Library)(.*)$" },
-	{ name = "dialog-title", title = "^(.*dialog.*)$" },
+	{ name = "library",          title = "^(Library)(.*)$" },
+	{ name = "dialog-title",     title = "^(.*dialog.*)$" },
 }
 
 for _, r in ipairs(float_titles) do
@@ -163,57 +164,57 @@ end
 -- ============================================================
 
 -- Games → special workspace
-hl.window_rule({
-	name = "steam-notification-toast",
-	-- title is "notificationtoasts_<id>_desktop", id changes every time
-	match = { title = "^(notificationtoasts_.*_desktop)$" },
-	workspace = "special:Games silent",
-	no_initial_focus = true,
-	no_focus = true,
-})
-hl.window_rule({
-	name = "games-steam-app",
-	match = { class = "^(steam_app_.*)$" },
-	workspace = "special:Games",
-	fullscreen = true,
-})
-hl.window_rule({
-	name = "steam-popup",
-	match = { class = "steam" },
-	workspace = "special:Games",
-	opaque = true,
-})
-hl.window_rule({
-	name = "steam-popup-title",
-	match = { class = "^(steam)$", title = "" },
-	workspace = "special:Games",
-	opaque = true,
-})
-hl.window_rule({
-	name = "games-minecraft",
-	match = { class = "^(Minecraft|minecraft)$", title = "^(Minecraft)(.*)$" },
-	workspace = "special:Games",
-})
-hl.window_rule({
-	name = "games-mc-title",
-	match = { initial_title = "^(Minecraft)(.*)$" },
-	workspace = "special:Games",
-})
-hl.window_rule({
-	name = "games-steam",
-	match = { class = "^(steam)$" },
-	workspace = "special:Games",
-})
-hl.window_rule({
-	name = "games-hytale",
-	match = { class = "^(HytaleClient)$" },
-	workspace = "special:Games",
-})
-hl.window_rule({
-	name = "games-hytale-l",
-	match = { class = "^(com.hypixel.HytaleLauncher)$" },
-	workspace = "special:Games",
-})
+-- hl.window_rule({
+-- 	name = "steam-notification-toast",
+-- 	-- title is "notificationtoasts_<id>_desktop", id changes every time
+-- 	match = { title = "^(notificationtoasts_.*_desktop)$" },
+-- 	workspace = "special:Games silent",
+-- 	no_initial_focus = true,
+-- 	no_focus = true,
+-- })
+-- hl.window_rule({
+-- 	name = "games-steam-app",
+-- 	match = { class = "^(steam_app_.*)$" },
+-- 	workspace = "special:Games",
+-- 	fullscreen = true,
+-- })
+-- hl.window_rule({
+-- 	name = "steam-popup",
+-- 	match = { class = "steam" },
+-- 	workspace = "special:Games",
+-- 	opaque = true,
+-- })
+-- hl.window_rule({
+-- 	name = "steam-popup-title",
+-- 	match = { class = "^(steam)$", title = "" },
+-- 	workspace = "special:Games",
+-- 	opaque = true,
+-- })
+-- hl.window_rule({
+-- 	name = "games-minecraft",
+-- 	match = { class = "^(Minecraft|minecraft)$", title = "^(Minecraft)(.*)$" },
+-- 	workspace = "special:Games",
+-- })
+-- hl.window_rule({
+-- 	name = "games-mc-title",
+-- 	match = { initial_title = "^(Minecraft)(.*)$" },
+-- 	workspace = "special:Games",
+-- })
+-- hl.window_rule({
+-- 	name = "games-steam",
+-- 	match = { class = "^(steam)$" },
+-- 	workspace = "special:Games",
+-- })
+-- hl.window_rule({
+-- 	name = "games-hytale",
+-- 	match = { class = "^(HytaleClient)$" },
+-- 	workspace = "special:Games",
+-- })
+-- hl.window_rule({
+-- 	name = "games-hytale-l",
+-- 	match = { class = "^(com.hypixel.HytaleLauncher)$" },
+-- 	workspace = "special:Games",
+-- })
 
 -- Prism Launcher
 hl.window_rule({
