@@ -18,17 +18,26 @@
 # wayle were never in the actual .lua startup) plus workspace-wallpaper.sh
 # and auto-scratchpad-games.sh, both translated in this directory.
 #
-# The rest still needs manual edits directly in config.toml, since it already
-# sets every key in these tables explicitly:
+# The rest was applied directly in config.toml (since it already sets every
+# key in these tables explicitly, this include file can't override them):
+#   [layout.scrolling] default_width_fraction -> 0.95
 #                focus_on_activate  -> true   (hyprland.lua misc.focus_on_activate = true)
-#   [layout]     gap                -> 2      (general.gaps_in = 2 in overrides.lua; gaps_out was 0 but
-#                                               Umbriel has one shared gap value, no separate outer margin)
-#   [appearance] border_width       -> 1      (overrides.lua general.border_size = 1)
+#   [layout]     gap                -> 2      (general.gaps_in = 2 in overrides.lua, which wins over
+#                                               hyprland.lua's gaps_in = 5; gaps_out was 0 but Umbriel
+#                                               has one shared gap value, no separate outer margin)
+#   [appearance] border_width       -> 1      (overrides.lua general.border_size = 1, wins over
+#                                               userprefs.lua's border_size = 0)
 #                corner_radius      -> 20     (decoration.rounding = 20; rounding_power has no equivalent)
-#   [appearance.blur] passes -> 2, radius -> 3, saturation -> ~1.15 (decoration:blur size/vibrancy)
-#   [appearance.shadow] color -> "#1a1a1aee"  (Hyprland 0xee1a1a1a, AARRGGBB -> RRGGBBAA)
-#   [input.cursor] theme -> "Nordzy", hardware_cursor -> false (cursor.no_hardware_cursors = true)
-#   [input.focus] follows_mouse -> true       (input.follow_mouse = 1; semantics aren't identical)
+#   [appearance.blur] passes -> 2, radius -> 3, saturation -> 1.17 (decoration.blur size/vibrancy, 1 + vibrancy)
+#   [appearance.shadow] color -> "#1a1a1aee"  (Hyprland 0xee1a1a1a, AARRGGBB -> RRGGBBAA; range/softness
+#                                               have no clean unit conversion between the two shadow models,
+#                                               left at Umbriel's packaged softness/offsets)
+#   [input.cursor] theme -> "Nordzy-hyprcursors-catppuccin-frappe-dark", size -> 23, hardware_cursor -> false
+#                  (the real runtime cursor from hyprland.lua's exec-once `hyprctl setcursor` call, which
+#                   overrides the HYPRCURSOR_THEME=Nordzy / HYPRCURSOR_SIZE=24 env vars in userprefs.lua)
+#   [input.focus] follows_mouse -> true       (input.follow_mouse = 1; semantics aren't identical;
+#                                               windowrules.lua's paired mouse_refocus = false has no
+#                                               Umbriel equivalent)
 #
 # NOT carried over anywhere (no Umbriel equivalent, tied to HyDE/Hyprland
 # plugin tooling that doesn't exist outside that ecosystem, or superseded by
