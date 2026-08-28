@@ -47,3 +47,6 @@ hl.animation({
     bezier = "ease",
     style = "slidevert",
 })
+
+-- Keybinds
+hl.bind("SUPER + SHIFT + ESC", hl.dsp.exec_cmd("noctalia msg panel-toggle arrifat346afs/systempulse:panel"))
