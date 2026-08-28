@@ -167,52 +167,52 @@ hl.window_rule({
 	name = "steam-notification-toast",
 	-- title is "notificationtoasts_<id>_desktop", id changes every time
 	match = { title = "^(notificationtoasts_.*_desktop)$" },
-	workspace = "special silent",
+	workspace = "special:Games silent",
 	no_initial_focus = true,
 	no_focus = true,
 })
 hl.window_rule({
 	name = "games-steam-app",
 	match = { class = "^(steam_app_.*)$" },
-	workspace = "special",
+	workspace = "special:Games",
 	fullscreen = true,
 })
 hl.window_rule({
 	name = "steam-popup",
 	match = { class = "steam" },
-	workspace = "special",
+	workspace = "special:Games",
 	opaque = true,
 })
 hl.window_rule({
 	name = "steam-popup-title",
 	match = { class = "^(steam)$", title = "" },
-	workspace = "special",
+	workspace = "special:Games",
 	opaque = true,
 })
 hl.window_rule({
 	name = "games-minecraft",
 	match = { class = "^(Minecraft|minecraft)$", title = "^(Minecraft)(.*)$" },
-	workspace = "special",
+	workspace = "special:Games",
 })
 hl.window_rule({
 	name = "games-mc-title",
 	match = { initial_title = "^(Minecraft)(.*)$" },
-	workspace = "special",
+	workspace = "special:Games",
 })
 hl.window_rule({
 	name = "games-steam",
 	match = { class = "^(steam)$" },
-	workspace = "special",
+	workspace = "special:Games",
 })
 hl.window_rule({
 	name = "games-hytale",
 	match = { class = "^(HytaleClient)$" },
-	workspace = "special",
+	workspace = "special:Games",
 })
 hl.window_rule({
 	name = "games-hytale-l",
 	match = { class = "^(com.hypixel.HytaleLauncher)$" },
-	workspace = "special",
+	workspace = "special:Games",
 })
 
 -- Prism Launcher
