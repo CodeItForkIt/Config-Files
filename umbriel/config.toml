@@ -118,9 +118,9 @@ curve = "easeout"
 
 [appearance]
 prefer_no_csd = true
-border_width = 2       # 0-100
+border_width = 1       # 0-100, matches general.border_size = 1 (overrides.lua wins over userprefs.lua's 0)
 outer_border_width = 0 # 0-100
-corner_radius = 10     # 0-100, radius of the final decorated outer edge
+corner_radius = 20     # 0-100, radius of the final decorated outer edge; matches decoration.rounding = 20
 drag_opacity = 0.75
 # border_focused = "#7AA3FFFF"
 # border_unfocused = "#292933FF"
