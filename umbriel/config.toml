@@ -9,10 +9,27 @@
 # generated colors here.
 
 [include]
-files = ["noctalia.toml"]
+files = ["hyprland-migration.toml", "noctalia.toml"]
 
 [general]
-autostart = ["noctalia"]
+# Matches the real hl.on("hyprland.start", ...) block in hyprland.lua (not
+# the old exec-once list in userprefs.conf -- kitty/vivaldi/spotify/nautilus/
+# steam/sunshine/wayle were never in the actual .lua startup and are
+# correctly left out), plus the two scripts translated for Umbriel.
+autostart = [
+  "noctalia",
+  "blueman-applet",
+  "wl-paste --type text --watch cliphist store",
+  "wl-paste --type image --watch cliphist store",
+  "wl-clip-persist --clipboard regular",
+  "udiskie --no-automount --smart-tray",
+  "nvidia-modprobe",
+  "systemctl --user start hyprpolkitagent",
+  "sudo systemctl restart systemd-resolved",
+  "~/.config/scripts/cfg-watch.sh",
+  "~/.config/umbriel/workspace-wallpaper.sh",
+  "~/.config/umbriel/auto-scratchpad-games.sh",
+]
 # mod_key = "Super"            # Mod in keybinds; defaults to Super (Alt when nested)
 xwayland = true                 # requires restart to change
 focus_on_activate = false       # activation requests mark urgent without stealing focus
@@ -165,13 +182,20 @@ action = "spawn:notify-send 'Bottom right'"
 [layout]
 mode = "scrolling" # "scrolling", "dwindle", or "master"
 # Inspect every workspace's effective mode with `umbriel workspaces --json`.
-gap = 8                             # 0-500
-width_presets = [0.333, 0.5, 0.667] # shared by scrolling, dwindle, and master
+gap = 8 # 0-500
+width_presets = [
+  1,
+  0.333,
+  0.5,
+  0.667,
+] # shared by scrolling, dwindle, and master
 
 [layout.scrolling]
 # Vertical workspaces stack horizontal lanes from top to bottom.
 # direction = "horizontal"
-default_width_fraction = 0.5  # remove to let clients choose their initial width
+# Solo/new columns open nearly full-width instead of the packaged 0.5.
+default_width_fraction = 0.95 # 0.1-1.0
+# between ~95%-wide columns instead of splitting side by side
 center_underfull_strip = true # center the strip whenever it is narrower than the viewport
 
 [layout.master]
@@ -266,22 +290,30 @@ follows_mouse = false
 [keybinds]
 # Runtime switchers can use `window-focus-warp:<id>` to move both focus and the
 # cursor. Window ids come from `umbriel windows`, so they are not static binds.
+# Scratchpads return to their original output and position after temporary output loss.
 "Mod+T" = "spawn:kitty"
+"Mod+B" = "spawn:vivaldi"
 "Mod+W" = "window-toggle-floating"
-"Mod+Shift+W" = "window-focus-switch-floating"
 "Mod+P" = "window-toggle-pinned"
 "Mod+M" = "window-toggle-maximize-to-edges"
-"Mod+Shift+Q" = "window-close"
-"Mod+Shift+Space" = "window-move-to-scratchpad"
-"Mod+Tab" = "scratchpad-focus-next"
-# Scratchpads return to their original output and position after temporary output loss.
+"Mod+Q" = "window-close"
+"Mod+WheelUp" = "workspace-previous"
+"Mod+WheelDown" = "workspace-next"
 # Add `:DP-1` to any scratchpad action to target that output from anywhere.
 # "Mod+0" = "scratchpad-toggle:DP-1"
 # "Mod+Shift+0" = "window-move-to-scratchpad:DP-1"
 # "Mod+Ctrl+0" = "window-restore-from-scratchpad:DP-1"
 # "Mod+Alt+0" = "scratchpad-focus-next:DP-1"
 "Mod+Space" = "spawn:noctalia msg panel-toggle launcher"
-"Mod+O" = "overview-toggle"
+"Mod+Tab" = "overview-toggle"
+"Mod+Z" = "spawn:noctalia msg panel-toggle launcher /emo"
+"Mod+V" = "spawn:noctalia msg panel-toggle clipboard"
+"Mod+N" = "spawn:noctalia msg panel-toggle noctalia/notes:panel"
+"Mod+X" = "spawn:noctalia msg bar-toggle"
+"Mod+Shift+P" = "spawn:noctalia msg screenshot-region"
+"Mod+Shift+W" = "spawn:noctalia msg desktop-widgets-toggle-edit"
+"Mod+Escape" = "spawn:noctalia msg panel-toggle session"
+"Shift+F11" = "window-toggle-fullscreen"
 # "Mod+Space" is taken above; pick a free chord for layout switching.
 # "Mod+Shift+K" = "keyboard-layout-next"
 # Submaps can nest; entry binds should not repeat. Inspect the active layer with `umbriel submap`.
@@ -295,16 +327,16 @@ follows_mouse = false
 "Mod+Shift+End" = "column-move-to-last"
 "Mod+Comma" = "workspace-previous"
 "Mod+Period" = "workspace-next"
-"Mod+Shift+Comma" = "window-move-to-workspace-previous"
-"Mod+Shift+Period" = "window-move-to-workspace-next"
+"Mod+Shift+WheelUp" = "window-move-to-workspace-previous"
+"Mod+Shift+WheelDown" = "window-move-to-workspace-next"
 "Mod+Ctrl+Page_Up" = "column-move-to-workspace-previous"
 "Mod+Ctrl+Page_Down" = "column-move-to-workspace-next"
 "Mod+Ctrl+1" = "column-move-to-workspace:1"
 "Mod+Ctrl+Comma" = "workspace-move-up"
 "Mod+Ctrl+Period" = "workspace-move-down"
 "Mod+Ctrl+H" = "output-focus-left"
-"Mod+Shift+O" = "dpms-off"                               # input activity powers displays back on
-"Mod+Ctrl+O" = "dpms-off:DP-1"                           # target one connector
+"Mod+Shift+O" = "dpms-off"                                # input activity powers displays back on
+"Mod+Ctrl+O" = "dpms-off:DP-1"                            # target one connector
 "Mod+Minus" = "window-modify-width:-0.1"
 "Mod+C" = "column-center"
 "Mod+Shift+C" = "window-center"
