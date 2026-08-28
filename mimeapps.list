@@ -26,8 +26,8 @@ application/x-msdownload=wine.desktop;
 application/json=sublime_text.desktop;
 image/jpeg=org.gnome.eog.desktop;org.gimp.GIMP.desktop;
 application/x-shellscript=nvim.desktop;
-inode/directory=xfce4-file-manager.desktop;
-x-scheme-handler/trash=xfce4-file-manager.desktop;
+inode/directory=nemo.desktop;
+x-scheme-handler/trash=nemo.desktop;
 application/zip=org.gnome.FileRoller.desktop;
 
 [Default Applications]
@@ -40,7 +40,7 @@ application/vnd.oasis.opendocument.text-web=sublime_text.desktop
 application/x-extension-ics=userapp-Thunderbird-04YE82.desktop
 application/x-extension-rss=userapp-Thunderbird-QM9D82.desktop
 image/vnd.valve.source.texture=sublime_text.desktop
-inode/directory=xfce4-file-manager.desktop
+inode/directory=nemo.desktop
 message/rfc822=userapp-Thunderbird-W56N82.desktop
 model/vnd.parasolid.transmit.text=sublime_text.desktop
 text/1d-interleaved-parityfec=sublime_text.desktop
