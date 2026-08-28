@@ -12,26 +12,23 @@ hl.config({
     decoration = {
         dim_inactive = true,
     },
-    ecosystem = {
-        enforce_permissions = true,
-    },
     general = {
         allow_tearing = true,
-        gaps_in = 5,
+        gaps_in = 2,
         snap = {
-            border_overlap = true,
+            border_overlap = false,
             respect_gaps = true,
-            window_gap = 1,
+            window_gap = 0,
         },
     },
     input = {
         mouse_refocus = true,
     },
     misc = {
-        vrr = 1,
+        vrr = 0,
     },
     xwayland = {
-        use_nearest_neighbor = true,
+        use_nearest_neighbor = false,
     },
 })
 
@@ -41,9 +38,7 @@ hl.curve("ease", { type = "bezier", points = { {0.25, 0.1}, {0.25, 1.0} } })
 -- Animations
 hl.animation({
     leaf = "border",
-    enabled = true,
-    speed = 1.0,
-    bezier = "default",
+    enabled = false,
 })
 hl.animation({
     leaf = "workspaces",
@@ -51,19 +46,4 @@ hl.animation({
     speed = 5.0,
     bezier = "ease",
     style = "slidevert",
-})
-
--- Monitors
-hl.monitor({
-    output = "DP-5",
-    disabled = false,
-    mode = "1920x1080@165.00Hz",
-    position = "0x0",
-    scale = 1,
-    sdrbrightness = 0.5,
-    sdr_min_luminance = 0.05,
-    sdr_max_luminance = 409,
-    min_luminance = 0.05,
-    max_luminance = 409,
-    max_avg_luminance = 322,
 })
