@@ -859,6 +859,57 @@
       }
     }
   },
+  "geometry-of-plugin config dialog:Device interface:KoboTouch": {
+    "frame_geometry": {
+      "height": 668,
+      "width": 890,
+      "x": 505,
+      "y": 166
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 668,
+      "width": 890,
+      "x": 505,
+      "y": 166
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 668,
+      "width": 890,
+      "x": 505,
+      "y": 166
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAH5AAAApgAABXIAAANBAAAB+QAAAKYAAAVyAAADQQAAAAACAAAAB4AAAAH5AAAApgAABXIAAANB"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Acer Technologies",
+      "model": "XF243Y P",
+      "name": "DP-2",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "geometry-of-plugin config dialog:User interface action:Kobo Utilities": {
     "frame_geometry": {
       "height": 561,
