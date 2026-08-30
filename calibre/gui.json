@@ -1111,6 +1111,10 @@
     "path_injected": true,
     "sort_history": [
       [
+        "size",
+        true
+      ],
+      [
         "timestamp",
         false
       ],
