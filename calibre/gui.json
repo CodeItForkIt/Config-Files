@@ -100,6 +100,14 @@
       [
         "timestamp",
         false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
       ]
     ]
   },
@@ -132,6 +140,14 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "timestamp",
         false
@@ -402,28 +418,28 @@
   },
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 1039,
+      "height": 1080,
       "width": 1920,
       "x": 482,
       "y": 283
     },
     "full_screened": false,
     "geometry": {
-      "height": 1039,
+      "height": 1080,
       "width": 1920,
       "x": 482,
       "y": 283
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 1039,
-      "width": 1920,
+      "height": 1078,
+      "width": 956,
       "x": 482,
       "y": 283
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAHiAAABGwAACWEAAAUpAAAB4gAAARsAAAlhAAAFKQAAAAACAAAAB4AAAAHiAAABGwAACWEAAAUp"
+      "__value__": "AdnQywADAAAAAAHiAAABGwAACWEAAAVSAAAB4gAAARsAAAWdAAAFUAAAAAACAAAAB4AAAAHiAAABGwAACWEAAAVS"
     },
     "screen": {
       "depth": 32,
@@ -437,7 +453,7 @@
       "index_in_screens_list": 0,
       "manufacturer": "Acer Technologies",
       "model": "XF243Y P",
-      "name": "DP-5",
+      "name": "DP-2",
       "serial": "",
       "size_in_logical_pixels": {
         "height": 1080,
@@ -1161,6 +1177,18 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "size",
+        true
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "size",
         true
