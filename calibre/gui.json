@@ -1135,6 +1135,9 @@
   "previous_sort_order_BooksView": {
     "series": true
   },
+  "previous_sort_order_DeviceBooksView": {
+    "size": true
+  },
   "quick_start_guide_added": true,
   "qv_open_at_shutdown": false,
   "recently_used_languages": [
