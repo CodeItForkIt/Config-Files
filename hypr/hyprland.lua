@@ -10,8 +10,6 @@ require("plugins")
 require("hyprland-gui")
 -- require("plugins")
 require("scrolling-niri") -- native Niri-style scrolling layout
-hl.env("AQ_MGPU_NO_EXPLICIT", "1") -- disables explicit sync specifically on multi-GPU buffers
-hl.env("AQ_FORCE_LINEAR_BLIT", "0") -- workaround for Nvidia issues with multi-GPU buffer modifiers
 -- ============================================================
 --  VARIABLES
 -- ============================================================
@@ -53,8 +51,8 @@ hl.env("HYDE_DATA_HOME", xdgData .. "/hyde")
 hl.env("HYDE_STATE_HOME", xdgState .. "/hyde")
 hl.env("PATH", home .. "/.local/bin:" .. scrPath .. ":" .. (os.getenv("PATH") or ""))
 hl.env("WLR_DRM_NO_ATOMIC", "1")
+hl.env("TERMINAL", "kitty")
 --hl.env("WLR_DRM_NO_MODIFIERS", "1")
-hl.env("AQ_DRM_DEVICES", "/dev/dri/amd-igpu:/dev/dri/nvidia-dgpu")
 -- ============================================================
 --  CORE CONFIGURATION
 -- ============================================================
@@ -64,7 +62,7 @@ hl.config({
 		gaps_in = 5,
 		gaps_out = 0,
 	},
-
+	hl.env("AQ_DRM_DEVICES", "/dev/dri/amd-dgpu"),
 	decoration = {
 		rounding = 20,
 		rounding_power = 2,
@@ -168,7 +166,6 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("uwsm app -t service -s a -- udiskie --no-automount --smart-tray")
 	hl.exec_cmd("hyprpm reload")
 	hl.exec_cmd("hyprctl setcursor Nordzy-hyprcursors-catppuccin-frappe-dark 23")
-	hl.exec_cmd("nvidia-modprobe")
 	hl.exec_cmd("systemctl --user start hyprpolkitagent")
 	hl.exec_cmd("sudo systemctl restart systemd-resolved")
 	-- Workspace startup apps — dispatch rule prefix syntax confirmed from wiki
