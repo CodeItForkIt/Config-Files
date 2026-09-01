@@ -429,7 +429,7 @@ end
 
 local mainMod = "SUPER" -- adjust to match your existing mainMod
 
-hl.bind(mainMod .. " SHIFT, H", resize_and_restyle("colresize -0.1"))
+hl.bind(mainMod .. "+ SHIFT + H", resize_and_restyle("colresize -0.1"))
 hl.bind(mainMod .. " SHIFT, L", resize_and_restyle("colresize +0.1"))
 hl.bind(mainMod .. ", F", resize_and_restyle("fit active"))
 
