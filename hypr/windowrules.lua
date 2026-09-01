@@ -24,8 +24,7 @@ hl.window_rule({
 hl.window_rule({
 	name = "idle-inhibit-browsers",
 	match = {
-		class =
-		"^(.*LibreWolf.*)$|^(.*floorp.*)$|^(.*Brave.*)$|^(.*firefox.*)$|^(.*chromium.*)$|^(.*zen.*)$|^(.*vivaldi.*)$",
+		class = "^(.*LibreWolf.*)$|^(.*floorp.*)$|^(.*Brave.*)$|^(.*firefox.*)$|^(.*chromium.*)$|^(.*zen.*)$|^(.*vivaldi.*)$",
 	},
 	idle_inhibit = "fullscreen",
 })
@@ -69,32 +68,32 @@ hl.window_rule({
 -- ============================================================
 
 local float_classes = {
-	{ name = "satty",           class = "^(com.gabm.satty)$" },
-	{ name = "vlc",             class = "^(vlc)$" },
-	{ name = "kvantum",         class = "^(kvantummanager)$" },
-	{ name = "qt5ct",           class = "^(qt5ct)$" },
-	{ name = "qt6ct",           class = "^(qt6ct)$" },
-	{ name = "nwg-look",        class = "^(nwg-look)$" },
-	{ name = "nwg-displays",    class = "^(nwg-displays)$" },
-	{ name = "ark",             class = "^(org.kde.ark)$" },
-	{ name = "pavucontrol",     class = "^(org.pulseaudio.pavucontrol)$" },
-	{ name = "blueman",         class = "^(blueman-manager)$" },
-	{ name = "nm-applet",       class = "^(nm-applet)$" },
-	{ name = "nm-editor",       class = "^(nm-connection-editor)$" },
-	{ name = "polkit-kde",      class = "^(org.kde.polkit-kde-authentication-agent-1)$" },
-	{ name = "xdg-portal-gtk",  class = "^([Xx]dg-desktop-portal-gtk)$" },
-	{ name = "signal",          class = "^(Signal)$" },
-	{ name = "clapper",         class = "^(com.github.rafostar.Clapper)$" },
-	{ name = "warp",            class = "^(app.drey.Warp)$" },
-	{ name = "protonup",        class = "^(net.davidotek.pupgui2)$" },
-	{ name = "yad",             class = "^(yad)$" },
-	{ name = "eog",             class = "^(eog)$" },
-	{ name = "planify",         class = "^(io.github.alainm23.planify)$" },
-	{ name = "upscaler",        class = "^(io.gitlab.theevilskeleton.Upscaler)$" },
+	{ name = "satty", class = "^(com.gabm.satty)$" },
+	{ name = "vlc", class = "^(vlc)$" },
+	{ name = "kvantum", class = "^(kvantummanager)$" },
+	{ name = "qt5ct", class = "^(qt5ct)$" },
+	{ name = "qt6ct", class = "^(qt6ct)$" },
+	{ name = "nwg-look", class = "^(nwg-look)$" },
+	{ name = "nwg-displays", class = "^(nwg-displays)$" },
+	{ name = "ark", class = "^(org.kde.ark)$" },
+	{ name = "pavucontrol", class = "^(org.pulseaudio.pavucontrol)$" },
+	{ name = "blueman", class = "^(blueman-manager)$" },
+	{ name = "nm-applet", class = "^(nm-applet)$" },
+	{ name = "nm-editor", class = "^(nm-connection-editor)$" },
+	{ name = "polkit-kde", class = "^(org.kde.polkit-kde-authentication-agent-1)$" },
+	{ name = "xdg-portal-gtk", class = "^([Xx]dg-desktop-portal-gtk)$" },
+	{ name = "signal", class = "^(Signal)$" },
+	{ name = "clapper", class = "^(com.github.rafostar.Clapper)$" },
+	{ name = "warp", class = "^(app.drey.Warp)$" },
+	{ name = "protonup", class = "^(net.davidotek.pupgui2)$" },
+	{ name = "yad", class = "^(yad)$" },
+	{ name = "eog", class = "^(eog)$" },
+	{ name = "planify", class = "^(io.github.alainm23.planify)$" },
+	{ name = "upscaler", class = "^(io.gitlab.theevilskeleton.Upscaler)$" },
 	{ name = "videodownloader", class = "^(com.github.unrud.VideoDownloader)$" },
-	{ name = "impression",      class = "^(io.gitlab.adhami3310.Impression)$" },
-	{ name = "missioncenter",   class = "^(io.missioncenter.MissionCenter)$" },
-	{ name = "dialog-class",    class = "^(.*dialog.*)$" },
+	{ name = "impression", class = "^(io.gitlab.adhami3310.Impression)$" },
+	{ name = "missioncenter", class = "^(io.missioncenter.MissionCenter)$" },
+	{ name = "dialog-class", class = "^(.*dialog.*)$" },
 }
 
 for _, r in ipairs(float_classes) do
@@ -140,18 +139,18 @@ hl.window_rule({
 
 -- Float — title only
 local float_titles = {
-	{ name = "about-firefox",    title = "^(About Mozilla Firefox)$" },
-	{ name = "dialog-open",      title = "^(Open)$" },
-	{ name = "auth-required",    title = "^(Authentication Required)$" },
-	{ name = "add-folder",       title = "^(Add Folder to Workspace)$" },
-	{ name = "choose-files",     title = "^(Choose Files)$" },
-	{ name = "save-as",          title = "^(Save As)$" },
-	{ name = "confirm-replace",  title = "^(Confirm to replace files)$" },
-	{ name = "file-op-prog",     title = "^(File Operation Progress)$" },
-	{ name = "file-upload",      title = "^(File Upload)(.*)$" },
+	{ name = "about-firefox", title = "^(About Mozilla Firefox)$" },
+	{ name = "dialog-open", title = "^(Open)$" },
+	{ name = "auth-required", title = "^(Authentication Required)$" },
+	{ name = "add-folder", title = "^(Add Folder to Workspace)$" },
+	{ name = "choose-files", title = "^(Choose Files)$" },
+	{ name = "save-as", title = "^(Save As)$" },
+	{ name = "confirm-replace", title = "^(Confirm to replace files)$" },
+	{ name = "file-op-prog", title = "^(File Operation Progress)$" },
+	{ name = "file-upload", title = "^(File Upload)(.*)$" },
 	{ name = "choose-wallpaper", title = "^(Choose wallpaper)(.*)$" },
-	{ name = "library",          title = "^(Library)(.*)$" },
-	{ name = "dialog-title",     title = "^(.*dialog.*)$" },
+	{ name = "library", title = "^(Library)(.*)$" },
+	{ name = "dialog-title", title = "^(.*dialog.*)$" },
 }
 
 for _, r in ipairs(float_titles) do
@@ -353,3 +352,87 @@ hl.window_rule({
 	float = true,
 	center = true,
 })
+-- =============================================================
+-- Borderless / square columns at full width (1.0) in the
+-- Scrolling layout. Hyprland >= 0.55 (Lua config).
+--
+-- Why this exists: window rules currently have no match key for
+-- a window's live scrolling column width, so this watches windows
+-- directly and pushes border_size/rounding with set_prop instead.
+-- See: https://github.com/hyprwm/Hyprland/discussions/13592
+-- =============================================================
+
+-- Remember your "normal" border/rounding so we can restore them
+local DEFAULT_BORDER = hl.get_config("general.border_size") or 1
+local DEFAULT_ROUNDING = hl.get_config("decoration.rounding") or 0
+
+-- How close to 100% of the monitor width counts as "width 1".
+-- Kept under 1.0 to absorb rounding slop in reported geometry.
+local FULLWIDTH_THRESHOLD = 0.98
+
+local function is_fullwidth(win)
+	if not win or win.floating then
+		return false
+	end
+	local ws = win.workspace
+	-- Only touch windows actually on a scrolling-layout workspace.
+	-- If you use the community hyprscroller plugin instead of the
+	-- built-in layout, check what string it reports and change this.
+	if not ws or ws.tiled_layout ~= "scrolling" then
+		return false
+	end
+	local mon = win.monitor
+	if not mon then
+		return false
+	end
+	return win.size.x >= mon.width * FULLWIDTH_THRESHOLD
+end
+
+local function apply_fullwidth_style(win)
+	if not win or not win.mapped then
+		return
+	end
+	if is_fullwidth(win) then
+		hl.dispatch(hl.dsp.window.set_prop({ prop = "border_size", value = "0", window = win }))
+		hl.dispatch(hl.dsp.window.set_prop({ prop = "rounding", value = "0", window = win }))
+	else
+		hl.dispatch(hl.dsp.window.set_prop({ prop = "border_size", value = tostring(DEFAULT_BORDER), window = win }))
+		hl.dispatch(hl.dsp.window.set_prop({ prop = "rounding", value = tostring(DEFAULT_ROUNDING), window = win }))
+	end
+end
+
+local function refresh_all_scrolling_windows()
+	for _, win in ipairs(hl.get_windows({})) do
+		apply_fullwidth_style(win)
+	end
+end
+
+-- Catch windows as soon as they map, and whenever focus/rules change
+hl.on("window.open", function(win)
+	apply_fullwidth_style(win)
+end)
+hl.on("window.active", function(win)
+	apply_fullwidth_style(win)
+end)
+hl.on("window.update_rules", function(win)
+	apply_fullwidth_style(win)
+end)
+
+-- Wrap your existing column-resize binds so the style updates the
+-- instant a width changes, instead of waiting for the timer below.
+local function resize_and_restyle(msg)
+	return function()
+		hl.dispatch(hl.dsp.layout(msg))
+		refresh_all_scrolling_windows()
+	end
+end
+
+local mainMod = "SUPER" -- adjust to match your existing mainMod
+
+hl.bind(mainMod .. " SHIFT, H", resize_and_restyle("colresize -0.1"))
+hl.bind(mainMod .. " SHIFT, L", resize_and_restyle("colresize +0.1"))
+hl.bind(mainMod .. ", F", resize_and_restyle("fit active"))
+
+-- Safety net: catches width changes that don't go through a bind
+-- above (fullscreen_on_one_column, fit-on-open, plugin actions, etc.)
+hl.timer(refresh_all_scrolling_windows, { timeout = 250, type = "repeat" })
