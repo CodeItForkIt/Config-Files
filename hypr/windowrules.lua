@@ -427,12 +427,6 @@ local function resize_and_restyle(msg)
 	end
 end
 
-local mainMod = "SUPER" -- adjust to match your existing mainMod
-
-hl.bind(mainMod .. "+ SHIFT + H", resize_and_restyle("colresize -0.1"))
-hl.bind(mainMod .. " SHIFT, L", resize_and_restyle("colresize +0.1"))
-hl.bind(mainMod .. ", F", resize_and_restyle("fit active"))
-
 -- Safety net: catches width changes that don't go through a bind
 -- above (fullscreen_on_one_column, fit-on-open, plugin actions, etc.)
 hl.timer(refresh_all_scrolling_windows, { timeout = 250, type = "repeat" })
