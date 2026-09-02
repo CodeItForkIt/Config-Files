@@ -100,6 +100,14 @@
       [
         "timestamp",
         false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
+      [
+        "timestamp",
+        false
       ]
     ]
   },
@@ -132,6 +140,14 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "timestamp",
         false
@@ -416,14 +432,14 @@
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 1078,
-      "width": 956,
+      "height": 1080,
+      "width": 1920,
       "x": 482,
       "y": 283
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAHiAAABGwAACWEAAAVSAAAB4gAAARsAAAWdAAAFUAAAAAACAAAAB4AAAAHiAAABGwAACWEAAAVS"
+      "__value__": "AdnQywADAAAAAAHiAAABGwAACWEAAAVSAAAB4gAAARsAAAlhAAAFUgAAAAACAAAAB4AAAAHiAAABGwAACWEAAAVS"
     },
     "screen": {
       "depth": 32,
@@ -1161,6 +1177,18 @@
     "pages_injected": true,
     "path_injected": true,
     "sort_history": [
+      [
+        "size",
+        true
+      ],
+      [
+        "timestamp",
+        false
+      ],
+      [
+        "inlibrary",
+        false
+      ],
       [
         "size",
         true
