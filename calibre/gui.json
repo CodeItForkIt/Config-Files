@@ -1079,6 +1079,57 @@
       }
     }
   },
+  "geometry-of-view-log-dialog": {
+    "frame_geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 600,
+      "y": 250
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 600,
+      "y": 250
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 500,
+      "width": 700,
+      "x": 600,
+      "y": 250
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAJYAAAA+gAABRMAAALtAAACWAAAAPoAAAUTAAAC7QAAAAACAAAAB4AAAAJYAAAA+gAABRMAAALt"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Acer Technologies",
+      "model": "XF243Y P",
+      "name": "DP-2",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
   "grid view visible": false,
   "jobs view column layout3": {
     "__class__": "bytearray",
