@@ -198,6 +198,12 @@ main() {
 
 	while [[ $# -gt 0 ]]; do
 		case "$1" in
+		-f | --file | -m | --map | -d | --delay | -w | --warmup)
+			if [[ $# -lt 2 ]]; then
+				echo "hypr-session.sh: $1 requires a value" >&2
+				exit 1
+			fi
+			;;&
 		-f | --file)
 			STATE_FILE="$2"
 			shift 2
