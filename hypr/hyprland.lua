@@ -177,6 +177,7 @@ hl.on("hyprland.start", function()
 	)
 	hl.exec_cmd("hyprctl plugin load ~/hyprworkwall/build/libhyprworkwall.so")
 	hl.exec_cmd("hyprctl plugin load ~/hyprtasking/build/libhyprtasking.so")
+	require("session").restore()
 end)
 
 -- ============================================================
