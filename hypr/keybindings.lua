@@ -21,6 +21,7 @@
 -- ============================================================
 local home = os.getenv("HOME")
 local scrPath = home .. "/.local/lib/hyde"
+local hyprScripts = home .. "/.config/hypr/scripts"
 
 local TERMINAL = "kitty"
 local EDITOR = "kitty nvim"
@@ -33,6 +34,7 @@ local ipc = "noctalia msg "
 hl.bind(mainMod .. "+Space", hl.dsp.exec_cmd(ipc .. "panel-toggle launcher"))
 hl.bind(mainMod .. "+S", hl.dsp.exec_cmd(ipc .. "panel-toggle control-center"))
 hl.bind(mainMod .. "+comma", hl.dsp.exec_cmd(ipc .. "settings-toggle"))
+hl.bind(mainMod .. "+SHIFT+S", hl.dsp.exec_cmd(hyprScripts .. "/hypr-session.sh save"), { desc = "save window session" })
 hl.bind("SUPER + TAB", function()
 	hl.plugin.hyprtasking.toggle("cursor")
 end)
