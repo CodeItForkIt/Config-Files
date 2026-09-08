@@ -77,13 +77,28 @@ local function class_of(win)
 	return win.class
 end
 
+-- Special workspaces report a negative numeric id, which the exec-rule
+-- "workspace" value doesn't accept — they need "special:<name>" instead.
+-- ws.name already comes back prefixed ("special:magic"), so strip and
+-- re-add the prefix rather than risk doubling it.
+local function workspace_rule_value(ws)
+	if not ws then
+		return "1"
+	end
+	if ws.special then
+		local name = (ws.name or ""):gsub("^special:", "")
+		return "special:" .. name
+	end
+	return tostring(ws.id)
+end
+
 local function serialize_entries(entries)
 	local lines = { "return {" }
 	for _, e in ipairs(entries) do
 		table.insert(
 			lines,
 			string.format(
-				"\t{ class = %q, cmd = %q, workspace = %d, floating = %s, fullscreen = %s, at = { %d, %d }, size = { %d, %d } },",
+				"\t{ class = %q, cmd = %q, workspace = %q, floating = %s, fullscreen = %s, at = { %d, %d }, size = { %d, %d } },",
 				e.class,
 				e.cmd,
 				e.workspace,
@@ -112,7 +127,7 @@ local function session_save()
 				table.insert(entries, {
 					class = class,
 					cmd = cmd,
-					workspace = win.workspace and win.workspace.id or 1,
+					workspace = workspace_rule_value(win.workspace),
 					floating = win.floating,
 					fullscreen = (win.fullscreen or 0) ~= 0,
 					at_x = at_x,
