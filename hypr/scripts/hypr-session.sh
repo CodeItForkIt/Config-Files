@@ -155,9 +155,9 @@ cmd_restore() {
 		dispatch_cmd="[$rules] $cmd"
 
 		if [[ "$DRY_RUN" == "1" ]]; then
-			echo "hyprctl dispatch exec -- \"$dispatch_cmd\""
+			echo "hyprctl dispatch exec \"$dispatch_cmd\""
 		else
-			hyprctl dispatch exec -- "$dispatch_cmd"
+			hyprctl dispatch exec "$dispatch_cmd"
 		fi
 		launched=$((launched + 1))
 		sleep "$DELAY"
