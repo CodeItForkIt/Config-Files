@@ -199,14 +199,8 @@ local function session_restore()
 	end, { timeout = 15000, type = "oneshot" })
 end
 
-hl.on("hyprland.start", function()
-	hl.timer(session_restore, { timeout = 1500, type = "oneshot" })
-end)
-
-hl.on("hyprland.shutdown", function()
-	session_save()
-end)
-
+-- Triggered from hyprland.lua's existing hl.on("hyprland.start", ...) block
+-- (restore) and Noctalia's [hooks] via `hyprctl dispatch` (save) — see there.
 return {
 	save = session_save,
 	restore = session_restore,
