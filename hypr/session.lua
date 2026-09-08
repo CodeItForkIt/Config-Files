@@ -187,7 +187,12 @@ local function session_restore()
 					.. " "
 					.. e.size[2]
 			end
-			hl.exec_cmd("[" .. rules .. "] " .. e.cmd)
+			-- hl.exec_cmd(cmd, rules?) takes rules as a separate table and
+			-- likely doesn't parse a bracket-prefix out of cmd itself; the
+			-- bracket-rule string form is only confirmed working through
+			-- hl.dsp.exec_cmd (see keybindings.lua's TERMINAL float bind),
+			-- fired immediately here via hl.dispatch.
+			hl.dispatch(hl.dsp.exec_cmd("[" .. rules .. "] " .. e.cmd))
 			if e.fullscreen then
 				pending_fullscreen[e.class] = (pending_fullscreen[e.class] or 0) + 1
 			end
