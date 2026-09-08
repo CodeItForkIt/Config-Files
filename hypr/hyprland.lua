@@ -10,6 +10,7 @@ require("plugins")
 require("hyprland-gui")
 -- require("plugins")
 require("scrolling-niri") -- native Niri-style scrolling layout
+require("session") -- save/restore open windows across restarts
 -- ============================================================
 --  VARIABLES
 -- ============================================================
