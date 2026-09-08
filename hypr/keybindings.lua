@@ -21,7 +21,7 @@
 -- ============================================================
 local home = os.getenv("HOME")
 local scrPath = home .. "/.local/lib/hyde"
-local hyprScripts = home .. "/.config/hypr/scripts"
+local session = require("session")
 
 local TERMINAL = "kitty"
 local EDITOR = "kitty nvim"
