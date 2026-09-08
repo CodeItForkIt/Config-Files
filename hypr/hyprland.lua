@@ -177,9 +177,6 @@ hl.on("hyprland.start", function()
 	)
 	hl.exec_cmd("hyprctl plugin load ~/hyprworkwall/build/libhyprworkwall.so")
 	hl.exec_cmd("hyprctl plugin load ~/hyprtasking/build/libhyprtasking.so")
-	hl.exec_cmd(
-		"uwsm app -t service -s b -- ~/.config/hypr/scripts/hypr-session.sh restore || ~/.config/hypr/scripts/hypr-session.sh restore"
-	)
 end)
 
 -- ============================================================
