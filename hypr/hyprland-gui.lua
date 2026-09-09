@@ -15,6 +15,7 @@ hl.config({
     },
     decoration = {
         dim_inactive = true,
+        dim_special = 0.5,
         fullscreen_opacity = 1.0,
         rounding_power = 2.0,
     },
