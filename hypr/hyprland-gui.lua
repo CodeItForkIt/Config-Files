@@ -86,12 +86,14 @@ hl.monitor({
     scale = 1,
     bitdepth = 10,
     vrr = 1,
+    cm = "hdredid",
     sdrbrightness = 0.5,
-    sdr_min_luminance = 0.05,
-    sdr_max_luminance = 409,
-    min_luminance = 0.05,
-    max_luminance = 409,
-    max_avg_luminance = 322,
+    sdrsaturation = 1,
+    sdr_min_luminance = 0.25,
+    sdr_max_luminance = 100,
+    min_luminance = 0.25,
+    max_luminance = 250,
+    max_avg_luminance = 220,
 })
 
 -- Workspaces
