@@ -18,7 +18,7 @@ hl.config({
             enabled = true,
             ignore_opacity = true,
             size = 3,
-            xray = true,
+            xray = false,
         },
         dim_inactive = true,
         dim_special = 0.2,
