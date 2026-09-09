@@ -69,6 +69,16 @@ hl.animation({
     style = "slidevert",
 })
 
+-- Monitors
+hl.monitor({
+    output = "DP-2",
+    disabled = false,
+    mode = "1920x1080@165.00Hz",
+    position = "0x0",
+    scale = 1,
+    bitdepth = 10,
+})
+
 -- Keybinds
 hl.unbind("SUPER + SHIFT + ESCAPE")
 hl.bind("SUPER + SHIFT + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle arrifat346afs/systempulse:panel"))
