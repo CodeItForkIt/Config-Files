@@ -76,6 +76,7 @@ inotifywait -m -r -e close_write,moved_to,create \
 	--exclude '(\.git/|\.swp$|~$|/4913$)' \
 	--format '%w%f' \
 	"$CONFIG_DIR" | while true; do
+	read_start=$EPOCHSECONDS
 	if read -r -t "$DEBOUNCE_SECONDS" filepath; then
 		relpath="${filepath#$CONFIG_DIR/}"
 
@@ -88,6 +89,16 @@ inotifywait -m -r -e close_write,moved_to,create \
 
 		pending[$relpath]=1
 	else
+		# `read -t` returns nonzero both on a genuine timeout and on EOF
+		# (inotifywait died/pipe closed) — zsh gives no way to tell those
+		# apart from the exit status alone. EOF returns instantly, so a
+		# much-shorter-than-expected elapsed time means the pipe closed;
+		# without this check the loop would spin at 100% CPU forever
+		# instead of exiting like the original plain `while read` did.
+		if (( EPOCHSECONDS - read_start < DEBOUNCE_SECONDS - 1 )); then
+			echo "⚠️  inotifywait pipe closed unexpectedly, exiting watcher"
+			break
+		fi
 		flush
 	fi
 done
