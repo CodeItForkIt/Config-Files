@@ -348,3 +348,8 @@ Plugin = {
 
 -- [hyprconf-gui] load GUI-managed overrides last, every reload
 dofile("/home/autometalogolex/.config/hypr/overrides.lua")
+
+
+-- >>> HYPRLAND VISUAL EDITOR (HVE) <<<
+pcall(function() dofile(os.getenv("HOME") .. "/.cache/noctalia/HVE/overlay.lua") end)
+-- <<< HYPRLAND VISUAL EDITOR (HVE) <<<
