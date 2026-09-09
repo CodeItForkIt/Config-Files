@@ -28,6 +28,7 @@ hl.config({
         mouse_refocus = true,
     },
     misc = {
+        animate_manual_resizes = false,
         vrr = 0,
     },
     xwayland = {
