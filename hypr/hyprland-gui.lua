@@ -44,7 +44,7 @@ hl.config({
     misc = {
         animate_manual_resizes = true,
         animate_mouse_windowdragging = true,
-        vrr = 0,
+        vrr = 1,
     },
     xwayland = {
         use_nearest_neighbor = false,
