@@ -1,5 +1,6 @@
 #!/bin/zsh
 # ~/.config/scripts/cfg-watch.sh
+zmodload zsh/datetime
 CONFIG_DIR="$HOME/.config"
 LOCKFILE="/tmp/cfg-watch.lock"
 DEBOUNCE_SECONDS=3
@@ -11,8 +12,17 @@ typeset -A pending # relpath -> 1; dedupes repeat writes within one batch
 flush() {
 	(( ${#pending} == 0 )) && return
 
-	local -a files=("${(@k)pending}")
+	# Re-check existence here too: a file added moments ago (e.g. an editor's
+	# atomic-write temp file) may have already been renamed away by flush
+	# time. Passing a stale path to `git add` alongside real changes would
+	# otherwise error on the whole call.
+	local -a files=()
+	for f in "${(@k)pending}"; do
+		[[ -e "$CONFIG_DIR/$f" ]] && files+=("$f")
+	done
 	pending=()
+
+	(( ${#files} == 0 )) && return
 
 	echo ""
 	echo "📝 Changed (batch of ${#files}): ${files[*]}"
