@@ -14,6 +14,9 @@ hl.config({
         zoom_factor = 1.0,
     },
     decoration = {
+        blur = {
+            enabled = false,
+        },
         dim_inactive = true,
         dim_special = 0.2,
         fullscreen_opacity = 1.0,
