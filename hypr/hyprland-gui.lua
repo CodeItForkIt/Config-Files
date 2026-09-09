@@ -10,7 +10,7 @@ hl.config({
         no_warps = true,
         persistent_warps = true,
         warp_on_change_workspace = 0,
-        zoom_factor = 1.1,
+        zoom_factor = 1.5,
     },
     decoration = {
         dim_inactive = true,
