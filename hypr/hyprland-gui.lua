@@ -37,6 +37,7 @@ hl.config({
         },
     },
     input = {
+        follow_mouse = 2,
         mouse_refocus = true,
     },
     misc = {
