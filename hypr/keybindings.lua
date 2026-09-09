@@ -48,50 +48,50 @@ end)
 --	end
 -- end, { non_consuming = true })
 
-hl.bind("SUPER + H", function()
-	hl.plugin.hyprtasking.move("left")
-end)
-hl.bind("SUPER + J", function()
-	hl.plugin.hyprtasking.move("down")
-end)
-hl.bind("SUPER + K", function()
-	hl.plugin.hyprtasking.move("up")
-end)
-hl.bind("SUPER + L", function()
-	hl.plugin.hyprtasking.move("right")
-end)
+--hl.bind("SUPER + H", function()
+	--hl.plugin.hyprtasking.move("left")
+--end)
+--hl.bind("SUPER + J", function()
+--	hl.plugin.hyprtasking.move("down")
+--end)
+--hl.bind("SUPER + K", function()
+	--hl.plugin.hyprtasking.move("up")
+--end)
+--hl.bind("SUPER + L", function()
+	--hl.plugin.hyprtasking.move("right")
+--end)
 
-hl.bind("SUPER + A", function()
-	hl.plugin.hyprtasking.move("out")
-end)
-hl.bind("SUPER + SHIFT + A", function()
-	hl.plugin.hyprtasking.movewindow("out")
-end)
+--hl.bind("SUPER + A", function()
+--	hl.plugin.hyprtasking.move("out")
+--end)
+--hl.bind("SUPER + SHIFT + A", function()
+	--hl.plugin.hyprtasking.movewindow("out")
+--end)
 
-hl.bind("SUPER + CTRL + 1", function()
-	hl.plugin.hyprtasking.setlayer(1)
-end)
-hl.bind("SUPER + CTRL + 2", function()
-	hl.plugin.hyprtasking.setlayer(2)
-end)
-hl.config({
-	plugin = {
-		hyprtasking = {
-			layout = "linear",
+--hl.bind("SUPER + CTRL + 1", function()
+	--hl.plugin.hyprtasking.setlayer(1)
+--end)
+--hl.bind("SUPER + CTRL + 2", function()
+	--hl.plugin.hyprtasking.setlayer(2)
+--end)
+--hl.config({
+	--plugin = {
+		--hyprtasking = {
+			--layout = "linear",
 
-			gap_size = 5,
-			border_size = 1,
-			bg_color = 0x00000000,
-			exit_on_hovered = false,
-			warp_on_move_window = 1,
-			close_overview_on_reload = false,
+			--gap_size = 5,
+			--border_size = 1,
+			--bg_color = 0x00000000,
+			--exit_on_hovered = false,
+			--warp_on_move_window = 1,
+			--close_overview_on_reload = false,
 
 			-- for other mouse buttons see <linux/input-event-codes.h>
-			drag_button = 0x111, -- left mouse button
-			select_button = 0x110, -- right mouse button
+			--drag_button = 0x111, -- left mouse button
+			--select_button = 0x110, -- right mouse button
 
-			jump = {
-				enabled = false,
+			--jump = {
+				--enabled = false,
 				label_color = 0xffffffff,
 				label_background = 0x000000cc,
 				label_size = 32,
