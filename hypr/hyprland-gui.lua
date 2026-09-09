@@ -7,10 +7,11 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -- Settings
 hl.config({
     cursor = {
+        inactive_timeout = 0.18,
         no_warps = true,
         persistent_warps = true,
         warp_on_change_workspace = 0,
-        zoom_factor = 1.5,
+        zoom_factor = 1.0,
     },
     decoration = {
         dim_inactive = true,
