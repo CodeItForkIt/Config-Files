@@ -26,6 +26,9 @@ hl.config({
         fullscreen_opacity = 1.0,
         rounding_power = 2.0,
     },
+    dwindle = {
+        smart_split = true,
+    },
     general = {
         allow_tearing = true,
         gaps_in = 2,
