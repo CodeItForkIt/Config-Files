@@ -43,7 +43,9 @@ hl.curve("ease", { type = "bezier", points = { {0.25, 0.1}, {0.25, 1.0} } })
 -- Animations
 hl.animation({
     leaf = "border",
-    enabled = false,
+    enabled = true,
+    speed = 1.0,
+    bezier = "default",
 })
 hl.animation({
     leaf = "workspaces",
