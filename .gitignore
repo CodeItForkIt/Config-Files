@@ -151,3 +151,44 @@ hypr/colors.conf
 **/*~
 **/*.swp
 **/*.swx
+
+# ── Noctalia/matugen generated theme outputs ────────────────
+# Rewritten on every wallpaper rotation (Material-You re-theme); derived
+# from the current wallpaper + noctalia settings, not hand-edited. Confirmed
+# via git history: some of these were committed 1000+ times.
+btop/themes/noctalia.theme
+gtk-3.0/noctalia.css
+kitty/themes/noctalia.conf
+kitty/themes/Matugen.conf
+qt5ct/colors/noctalia.conf
+qt6ct/colors/noctalia.conf
+nvim/lua/matugen.lua
+spicetify/Themes/*/color.ini
+spicetify/config-xpui.ini
+hypr/hyprtoolkit.conf
+hypr/hyprlock-colors.conf
+hypr/noctalia.lua
+papirus-folders/keep
+hyprwhspr/theme/mic-osd.css
+umbriel/noctalia.toml
+
+# ── App runtime state (regularly rewritten, not hand-authored) ─────
+spotify/prefs
+wayle/runtime.toml
+flux-reader/flux-data.json
+flux-reader/DIPS-wal
+**/sentry/
+calibre/gui.json
+calibre/dynamic.pickle.json
+xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+Thunar/accels.scm
+Hermes/backend-ownership.json
+sunshine/sunshine_state.json
+millennium/config.json
+rpcs3/GuiConfigs/CurrentSettings.ini
+steam-rom-manager/userData/userConfigurations.json
+QtProject.conf
+Deskflow/Deskflow.conf
+hypr/quotes/current.txt
+hypr/*.bak
+.wrangler/
