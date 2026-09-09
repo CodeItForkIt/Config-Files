@@ -2,12 +2,13 @@
 
 -- Environment
 hl.env("HYPRCURSOR_THEME", "Nordzy-hyprcursors-catppuccin-frappe-dark")
-hl.env("HYPRCURSOR_SIZE", "21")
+hl.env("HYPRCURSOR_SIZE", "24")
 
 -- Settings
 hl.config({
     cursor = {
         no_warps = true,
+        persistent_warps = true,
     },
     decoration = {
         dim_inactive = true,
