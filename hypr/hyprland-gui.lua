@@ -51,6 +51,9 @@ hl.config({
         mouse_move_enables_dpms = true,
         vrr = 1,
     },
+    scrolling = {
+        fullscreen_on_one_column = true,
+    },
     xwayland = {
         use_nearest_neighbor = false,
     },
