@@ -59,15 +59,21 @@ local function resolve_launch_cmd(class, pid)
 end
 
 -- win.at/win.size come back as either {x=,y=} or {1,2}-style tables
--- depending on Hyprland version; handle both.
+-- depending on Hyprland version; handle both. Values are rounded to
+-- integers since serialize_entries formats them with %d, which errors
+-- outright on a non-integer float (e.g. coordinates under fractional
+-- display scaling would otherwise abort the whole save).
 local function vec2(v)
 	if type(v) ~= "table" then
 		return 0, 0
 	end
+	local x, y
 	if v.x ~= nil and v.y ~= nil then
-		return v.x, v.y
+		x, y = v.x, v.y
+	else
+		x, y = v[1] or 0, v[2] or 0
 	end
-	return v[1] or 0, v[2] or 0
+	return math.floor(x + 0.5), math.floor(y + 0.5)
 end
 
 local function class_of(win)

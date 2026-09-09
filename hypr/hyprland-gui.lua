@@ -11,7 +11,7 @@ hl.config({
     },
     decoration = {
         dim_inactive = true,
-        fullscreen_opacity = 0.7,
+        fullscreen_opacity = 1.0,
     },
     general = {
         allow_tearing = true,
