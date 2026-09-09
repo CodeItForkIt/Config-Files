@@ -37,8 +37,9 @@ hl.config({
         },
     },
     input = {
-        follow_mouse = 2,
+        follow_mouse = 1,
         mouse_refocus = true,
+        natural_scroll = true,
     },
     misc = {
         animate_manual_resizes = true,
