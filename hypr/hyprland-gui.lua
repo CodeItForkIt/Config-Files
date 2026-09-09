@@ -16,7 +16,8 @@ hl.config({
         allow_tearing = true,
         gaps_in = 2,
         snap = {
-            border_overlap = false,
+            border_overlap = true,
+            enabled = true,
             respect_gaps = true,
             window_gap = 5,
         },
