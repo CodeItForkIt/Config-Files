@@ -82,6 +82,17 @@ hl.monitor({
     vrr = 1,
 })
 
+-- Workspaces
+hl.workspace_rule({
+    workspace = "name:Games",
+    gaps_in = 0,
+    gaps_out = 0,
+    no_border = true,
+    no_rounding = true,
+    no_shadow = true,
+    decorate = false,
+})
+
 -- Keybinds
 hl.unbind("SUPER + SHIFT + ESCAPE")
 hl.bind("SUPER + SHIFT + ESCAPE", hl.dsp.exec_cmd("noctalia msg panel-toggle arrifat346afs/systempulse:panel"))
