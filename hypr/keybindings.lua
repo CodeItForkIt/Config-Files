@@ -37,6 +37,93 @@ hl.bind(mainMod .. "+comma", hl.dsp.exec_cmd(ipc .. "settings-toggle"))
 hl.bind(mainMod .. "+SHIFT+S", function()
 	session.save()
 end, { desc = "save window session" })
+hl.bind("SUPER + TAB", function()
+	hl.plugin.hyprtasking.toggle("cursor")
+end)
+
+-- Noctalia Settings
+hl.window_rule({
+	match = { class = "dev.noctalia.Noctalia" },
+	float = true,
+	size = { 1080, 920 },
+})
+-- ============================================================
+--  WINDOW MANAGEMENT
+-- ============================================================
+hl.bind("SUPER + X", function()
+	if hl.get_workspace("special:minimized") then
+		hl.dispatch(hl.dsp.window.move({ workspace = hl.get_active_workspace(), window = "tag:minimized" }))
+		hl.dispatch(hl.dsp.window.clear_tags({ window = "tag:minimized" }))
+	else
+		hl.dispatch(hl.dsp.window.tag({ tag = "minimized", window = hl.get_active_window() }))
+		hl.dispatch(hl.dsp.window.move({ workspace = "special:minimized", follow = false }))
+	end
+end)
+hl.bind("ALT + F4", hl.dsp.exec_cmd(scrPath .. "/dontkillsteam.sh"), { desc = "close focused window" })
+hl.bind("SUPER + W", function()
+	hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
+	hl.dispatch(hl.dsp.exec_cmd("hyprctl dispatch resizeactive exact 95% 95%"))
+	hl.dispatch(hl.dsp.exec_cmd("hyprctl dispatch centerwindow"))
+end, { desc = "toggle floating" })
+
+hl.bind("SHIFT + F11", hl.dsp.window.fullscreen(), { desc = "toggle fullscreen" })
+hl.bind("SUPER + SHIFT + F", hl.dsp.exec_cmd(scrPath .. "/windowpin.sh"), { desc = "toggle pin" })
+hl.bind("CTRL + ALT + Delete", hl.dsp.exec_cmd(scrPath .. "/logoutlaunch.sh"), { desc = "logout menu" })
+hl.bind("SUPER + SHIFT + H", hl.dsp.exec_cmd("bash -c '~/scripts/keybindings.sh'"), { desc = "show keybinds" })
+hl.bind("SUPER+Q", function()
+	hl.dispatch(hl.dsp.window.close())
+end)
+
+-- Group navigation
+hl.bind("SUPER + CTRL + H", hl.dsp.group.prev(), { desc = "prev group tab" })
+hl.bind("SUPER + CTRL + L", hl.dsp.group.next(), { desc = "next group tab" })
+
+-- Directional focus
+hl.bind("SUPER + Left", hl.dsp.focus({ direction = "l" }), { desc = "focus left" })
+hl.bind("SUPER + Right", hl.dsp.focus({ direction = "r" }), { desc = "focus right" })
+hl.bind("SUPER + Up", hl.dsp.focus({ direction = "u" }), { desc = "focus up" })
+hl.bind("SUPER + Down", hl.dsp.focus({ direction = "d" }), { desc = "focus down" })
+hl.bind("ALT + Tab", hl.dsp.window.cycle_next(), { desc = "cycle focus" })
+
+-- Resize (repeating)
+local maw = 'grep -q "true" <<< $(hyprctl activewindow -j | jq -r .floating) && hyprctl dispatch moveactive'
+hl.bind(
+	"SUPER + SHIFT + CTRL + left",
+	hl.dsp.exec_cmd(maw .. " -30 0 || hyprctl dispatch movewindow l"),
+	{ repeating = true, desc = "move window left" }
+)
+hl.bind(
+	"SUPER + SHIFT + CTRL + right",
+	hl.dsp.exec_cmd(maw .. " 30 0 || hyprctl dispatch movewindow r"),
+	{ repeating = true, desc = "move window right" }
+)
+hl.bind(
+	"SUPER + SHIFT + CTRL + up",
+	hl.dsp.exec_cmd(maw .. " 0 -30 || hyprctl dispatch movewindow u"),
+	{ repeating = true, desc = "move window up" }
+)
+hl.bind(
+	"SUPER + SHIFT + CTRL + down",
+	hl.dsp.exec_cmd(maw .. " 0 30 || hyprctl dispatch movewindow d"),
+	{ repeating = true, desc = "move window down" }
+)
+
+-- Mouse move/resize
+hl.bind("SUPER + mouse:272", hl.dsp.window.drag(), { mouse = true, desc = "drag to move" })
+hl.bind("SUPER + mouse:273", hl.dsp.window.resize(), { mouse = true, desc = "drag to resize" })
+hl.bind("SUPER + Z", hl.dsp.window.drag(), { mouse = true, desc = "drag to move" })
+hl.bind("SUPER + X", hl.dsp.window.resize(), { mouse = true, desc = "drag to resize" })
+
+-- ============================================================
+--  LAUNCHERS
+-- ============================================================
+
+hl.bind("SUPER + T", hl.dsp.exec_cmd(TERMINAL), { desc = "terminal" })
+hl.bind(
+	"SUPER + ALT + T",
+	hl.dsp.exec_cmd("[float; move 20% 5%; size 60% 60%] " .. TERMINAL),
+	{ desc = "dropdown terminal" }
+)
 hl.bind("SUPER + E", hl.dsp.exec_cmd(EXPLORER), { desc = "file explorer" })
 hl.bind("SUPER + C", hl.dsp.exec_cmd(EDITOR), { desc = "text editor" })
 hl.bind("SUPER + B", hl.dsp.exec_cmd(BROWSER), { desc = "web browser" })
@@ -200,7 +287,7 @@ hl.bind(
 -- commas after statements — all of which made this file fail to load).
 hl.bind(
 	"SUPER + ALT + G",
-	hl.dsp.exec_cmd("hyprctl dispatch movetoworkspacesilent special:Games"),
+	hl.dsp.window.move({ workspace = "special:Games", follow = false }),
 	{ desc = "move to scratchpad silent" }
 )
 
