@@ -169,7 +169,7 @@ for i = 1, 10 do
 
 	hl.bind(
 		"SUPER + ALT + " .. key,
-		hl.dsp.exec_cmd("hyprctl dispatch 'hl.dsp.window.move({ workspace = \"" .. ws .. "\", follow = false })'"),
+		hl.dsp.window.move({ workspace = ws, follow = false }),
 		{ desc = "move to workspace " .. ws .. " silent" }
 	)
 end
