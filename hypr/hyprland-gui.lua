@@ -6,104 +6,116 @@ hl.env("HYPRCURSOR_SIZE", "24")
 
 -- Settings
 hl.config({
-	cursor = {
-		inactive_timeout = 5.0,
-		no_warps = true,
-		persistent_warps = true,
-		warp_on_change_workspace = 0,
-		zoom_factor = 1.0,
-	},
-	decoration = {
-		blur = {
-			enabled = true,
-			ignore_opacity = true,
-			size = 2,
-			special = true,
-			xray = false,
-		},
-		dim_inactive = true,
-		dim_special = 0.2,
-		fullscreen_opacity = 1.0,
-		rounding_power = 2.0,
-	},
-	dwindle = {
-		smart_split = true,
-	},
-	general = {
-		allow_tearing = true,
-		gaps_in = 2,
-		snap = {
-			border_overlap = true,
-			enabled = true,
-			respect_gaps = true,
-			window_gap = 5,
-		},
-	},
-	input = {
-		follow_mouse = 1,
-		mouse_refocus = false,
-		natural_scroll = true,
-	},
-	misc = {
-		animate_manual_resizes = true,
-		animate_mouse_windowdragging = true,
-		key_press_enables_dpms = true,
-		mouse_move_enables_dpms = true,
-		vrr = 1,
-	},
-	scrolling = {
-		fullscreen_on_one_column = true,
-	},
-	xwayland = {
-		use_nearest_neighbor = false,
-	},
+    cursor = {
+        inactive_timeout = 5.0,
+        no_warps = true,
+        persistent_warps = true,
+        warp_on_change_workspace = 0,
+        zoom_factor = 1.0,
+    },
+    decoration = {
+        blur = {
+            enabled = true,
+            ignore_opacity = true,
+            size = 3,
+            special = true,
+            xray = false,
+        },
+        dim_inactive = true,
+        dim_special = 0.2,
+        fullscreen_opacity = 1.0,
+        rounding_power = 0.5,
+    },
+    dwindle = {
+        smart_split = true,
+    },
+    general = {
+        allow_tearing = true,
+        gaps_in = 2,
+        snap = {
+            border_overlap = false,
+            enabled = true,
+            respect_gaps = true,
+            window_gap = 0,
+        },
+    },
+    input = {
+        follow_mouse = 1,
+        mouse_refocus = false,
+        natural_scroll = true,
+    },
+    misc = {
+        animate_manual_resizes = true,
+        animate_mouse_windowdragging = true,
+        key_press_enables_dpms = true,
+        mouse_move_enables_dpms = true,
+        vrr = 0,
+    },
+    scrolling = {
+        fullscreen_on_one_column = true,
+    },
+    xwayland = {
+        use_nearest_neighbor = false,
+    },
 })
 
 -- Bezier curves
-hl.curve("ease", { type = "bezier", points = { { 0.25, 0.1 }, { 0.25, 1.0 } } })
+hl.curve("sprout", { type = "bezier", points = { {0.25, 0.8}, {0.25, 1.0} } })
 
 -- Animations
 hl.animation({
-	leaf = "border",
-	enabled = true,
-	speed = 1.0,
-	bezier = "default",
+    leaf = "global",
+    enabled = true,
+    speed = 1.0,
+    bezier = "default",
 })
 hl.animation({
-	leaf = "workspaces",
-	enabled = true,
-	speed = 5.0,
-	bezier = "ease",
-	style = "slidevert",
+    leaf = "border",
+    enabled = true,
+    speed = 1.0,
+    bezier = "default",
+})
+hl.animation({
+    leaf = "borderangle",
+    enabled = true,
+    speed = 1.0,
+    bezier = "default",
+})
+hl.animation({
+    leaf = "workspaces",
+    enabled = true,
+    speed = 6.0,
+    bezier = "sprout",
+    style = "slide",
 })
 
 -- Monitors
 hl.monitor({
-	output = "DP-2",
-	disabled = false,
-	mode = "1920x1080@165.00Hz",
-	position = "0x0",
-	scale = 1,
-	bitdepth = 10,
-	vrr = 1,
-	sdrbrightness = 1,
-	sdrsaturation = 1,
-	sdr_min_luminance = 0.25,
-	sdr_max_luminance = 250,
-	min_luminance = 0.25,
-	max_luminance = 250,
-	max_avg_luminance = 220,
+    output = "DP-2",
+    disabled = false,
+    mode = "1920x1080@165.00Hz",
+    position = "0x0",
+    scale = 1,
+    bitdepth = 10,
+    vrr = 1,
+    sdrbrightness = 1,
+    sdrsaturation = 1,
+    sdr_min_luminance = 0.25,
+    sdr_max_luminance = 250,
+    min_luminance = 0.25,
+    max_luminance = 250,
+    max_avg_luminance = 220,
 })
 
 -- Workspaces
 hl.workspace_rule({
-	workspace = "name:Games",
-	gaps_in = 0,
-	gaps_out = 0,
-	no_border = true,
-	no_rounding = true,
-	no_shadow = true,
-	decorate = false,
+    workspace = "name:Games",
+    gaps_in = 0,
+    gaps_out = 0,
+    no_border = true,
+    no_rounding = true,
+    no_shadow = true,
+    decorate = false,
 })
 
 -- Keybinds
