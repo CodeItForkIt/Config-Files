@@ -18,8 +18,14 @@
     <e n="ShowSettings">
       <i c="1" l="1789234704792" />
     </e>
+    <e n="TrialStateWidget">
+      <i c="1" l="1789234742937" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1789234755403" />
+    </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="1" l="1789234698622" />
+      <i c="3" l="1789234737392" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
       <i c="3" l="1789234702448" />

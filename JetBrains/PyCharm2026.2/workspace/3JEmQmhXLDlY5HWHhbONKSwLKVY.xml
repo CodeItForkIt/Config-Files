@@ -8,13 +8,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf ideFingerprint="9353but4ftzs" SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file>
+      <file current-in-tab="true">
         <entry file="mock://Welcome to PyCharm" managing-fs="1789234581494">
           <provider editor-type-id="NewProjectWindowFileEditor" selected="true" />
         </entry>
         <tab><![CDATA[{"tabTitle":"Welcome to PyCharm","foregroundColor":-3025959,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,109,10,17,105,99,111,110,115,47,112,121,99,104,97,114,109,46,115,118,103,26,47,105,110,116,101,108,108,105,106,46,112,121,99,104,97,114,109,46,99,111,109,109,117,110,105,116,121,46,99,117,115,116,111,109,105,122,97,116,105,111,110,46,115,104,97,114,101,100,34,31,105,110,116,101,108,108,105,106,46,112,121,116,104,111,110,46,99,111,109,109,111,110,46,102,114,111,110,116,101,110,100,40,-109,-103,-72,-64,7,48,0]}]]></tab>
       </file>
-      <file current-in-tab="true">
+      <file>
         <entry file="file://$USER_HOME$/slope.py" file-id="424" managing-fs="1789234581494">
           <provider editor-type-id="text-editor" selected="true">
             <state>
@@ -35,6 +35,10 @@
     "Python": {
       "usageCount": 1,
       "lastUsed": 1789234659737
+    },
+    "WebPreview": {
+      "usageCount": 1,
+      "lastUsed": 1789234743227
     }
   }
 }]]></component>
@@ -59,7 +63,7 @@
     <project-root url="file://$PROJECT_DIR$" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <navigator currentView="NonModalWelcomeScreenProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane" />
       <pane id="Scope" />
@@ -68,7 +72,7 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115000" />
+    <option name="totallyTimeSpent" value="156000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
@@ -91,8 +95,8 @@
       <unified_weights bottom="0.3300926" left="0.16432291" />
     </layoutV2>
     <recentWindows>
-      <value>Python Console</value>
       <value>Project</value>
+      <value>Python Console</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
