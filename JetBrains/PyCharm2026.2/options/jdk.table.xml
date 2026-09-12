@@ -1,0 +1,28 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="~/PycharmProjects/WelcomeScreen/.venv" />
+      <type value="Python SDK" />
+      <version value="Python 3.14.7" />
+      <homePath value="$USER_HOME$/PycharmProjects/WelcomeScreen/.venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/python3.14" type="simple" />
+            <root url="file:///usr/lib/python3.14/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/WelcomeScreen/.venv/lib/python3.14/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharm2026.2/python_stubs/-734567258" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/WelcomeScreen" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/WelcomeScreen" SDK_UUID="114ea3f9-c609-4dcd-93b9-f001e7ec3d4d">
+        <setting name="FLAVOR_ID" value="VirtualEnvSdkFlavor" />
+        <setting name="FLAVOR_DATA" value="{}" />
+      </additional>
+    </jdk>
+  </component>
+</application>
