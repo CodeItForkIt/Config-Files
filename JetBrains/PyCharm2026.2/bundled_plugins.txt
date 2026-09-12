@@ -1,0 +1,114 @@
+AngularJS|JavaScript Frameworks and Tools
+Docker|Deployment
+Git4Idea|Version Controls
+HtmlTools|HTML and XML
+JSIntentionPowerPack|JavaScript Frameworks and Tools
+JavaScriptDebugger|JavaScript Frameworks and Tools
+JavaScript|JavaScript Frameworks and Tools
+Karma|JavaScript Frameworks and Tools
+NodeJS|JavaScript Frameworks and Tools
+PythonCore|Languages
+Pythonid|Languages
+com.deadlock.scsyntax|JavaScript Frameworks and Tools
+com.intellij.code.provenance|null
+com.intellij.configurationScript|IDE Settings
+com.intellij.copyright|IDE Settings
+com.intellij.css|Style Sheets
+com.intellij.dataWrangler.plugin|null
+com.intellij.database|Database
+com.intellij.dev|Platform Development
+com.intellij.diagram|Other Tools
+com.intellij.groovy.scripting|Languages
+com.intellij.ja|IDE Localization
+com.intellij.jsonpath|Languages
+com.intellij.ko|IDE Localization
+com.intellij.lang.puppet|Deployment
+com.intellij.mcpServer|AI-Powered
+com.intellij.mermaid|null
+com.intellij.microservices.ui|Microservices
+com.intellij.modules.jcef|Other Tools
+com.intellij.modules.json|Languages
+com.intellij.modules.ultimate|null
+com.intellij.notebooks.core|null
+com.intellij.platform.acp|IDE Settings
+com.intellij.platform.daemon|IDE Settings
+com.intellij.platform.images|null
+com.intellij.plugins.github.colorscheme|UI
+com.intellij.plugins.monokai.colorscheme|UI
+com.intellij.plugins.twilight.colorscheme|UI
+com.intellij.plugins.warmneon.colorscheme|UI
+com.intellij.plugins.watcher|null
+com.intellij.plugins.webcomponents|JavaScript Frameworks and Tools
+com.intellij.properties|Languages
+com.intellij.python.django|null
+com.intellij.react|JavaScript Frameworks and Tools
+com.intellij.searcheverywhere.ml|Local AI/ML Tools
+com.intellij.settingsSync|IDE Settings
+com.intellij.stylelint|JavaScript Frameworks and Tools
+com.intellij.swagger|Microservices
+com.intellij.tailwindcss|Style Sheets
+com.intellij.tasks.timeTracking|Other Tools
+com.intellij.tasks|Other Tools
+com.intellij.zh|IDE Localization
+com.intellij|null
+com.jetbrains.gateway|Remote Development
+com.jetbrains.performancePlugin|Platform Development
+com.jetbrains.plugins.ini4idea|Languages
+com.jetbrains.plugins.webDeployment|Deployment
+com.jetbrains.pycharm.pro.customization|null
+com.jetbrains.pycharm.pro.sharedIndexes.bundled|null
+com.jetbrains.python.pyscript|null
+com.jetbrains.remoteDevServer|Remote Development
+com.jetbrains.remoteDevelopment|Remote Development
+com.jetbrains.restClient|Microservices
+com.jetbrains.sh|Languages
+com.jetbrains.station|Remote Development
+intellij.bookmarks.plugin|null
+intellij.execution.serviceView.plugin|null
+intellij.git.commit.modal|Version Controls
+intellij.grid.core.plugin|null
+intellij.grid.plugin|null
+intellij.indexing.shared.core|IDE Settings
+intellij.java.aetherDependencyResolver.plugin|null
+intellij.javascript.eslint|JavaScript Frameworks and Tools
+intellij.jupyter.colab|null
+intellij.jupyter|null
+intellij.libraries.misc.plugin|null
+intellij.navbar.plugin|null
+intellij.nextjs|JavaScript Frameworks and Tools
+intellij.platform.ijent.bundledBinaries|Remote Development
+intellij.prettierJS|JavaScript Frameworks and Tools
+intellij.pycharm.community.customization.shared|null
+intellij.python.dap.plugin|null
+intellij.recentFiles.plugin|null
+intellij.ssh.plugin|null
+intellij.structuralSearch.plugin|null
+intellij.structureView.plugin|null
+intellij.testRunner.plugin|null
+intellij.todo.plugin|null
+intellij.vcs.split.plugin|null
+intellij.vitejs|JavaScript Frameworks and Tools
+intellij.webpack|JavaScript Frameworks and Tools
+jshint|JavaScript Frameworks and Tools
+org.editorconfig.editorconfigjetbrains|IDE Settings
+org.intellij.plugins.markdown|Languages
+org.intellij.plugins.postcss|Style Sheets
+org.jetbrains.completion.full.line|Local AI/ML Tools
+org.jetbrains.plugins.docker.gateway|Remote Development
+org.jetbrains.plugins.github|Version Controls
+org.jetbrains.plugins.gitlab|Version Controls
+org.jetbrains.plugins.less|Style Sheets
+org.jetbrains.plugins.localization|Languages
+org.jetbrains.plugins.node-remote-interpreter|JavaScript Frameworks and Tools
+org.jetbrains.plugins.remote-run|Remote Development
+org.jetbrains.plugins.rest|null
+org.jetbrains.plugins.sass|Style Sheets
+org.jetbrains.plugins.terminal|Other Tools
+org.jetbrains.plugins.textmate|Languages
+org.jetbrains.plugins.vue|JavaScript Frameworks and Tools
+org.jetbrains.plugins.yaml|Languages
+org.toml.lang|Languages
+ru.adelf.idea.dotenv|null
+tanvd.grazi|Languages
+training|null
+tslint|JavaScript Frameworks and Tools
