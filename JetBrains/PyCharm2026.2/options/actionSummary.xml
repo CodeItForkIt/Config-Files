@@ -9,8 +9,26 @@
     <e n="Register">
       <i c="1" l="1789234590131" />
     </e>
+    <e n="Run">
+      <i c="1" l="1789234682357" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="1" l="1789234667370" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1789234704792" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1789234698622" />
+    </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="2" l="1789234601405" />
+      <i c="3" l="1789234702448" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="1" l="1789234693935" />
+    </e>
+    <e n="com.jetbrains.python.sdk.AddLocalInterpreterAction">
+      <i c="1" l="1789234711176" />
     </e>
   </component>
 </application>

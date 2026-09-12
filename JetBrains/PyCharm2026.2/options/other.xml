@@ -1,9 +1,10 @@
 <application>
-  <component name="FileEditorProviderManager"><![CDATA[{}]]></component>
+  <component name="FileEditorProviderManager">{}</component>
   <component name="LangManager">
     <option name="languageName" value="Python" />
   </component>
   <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="13.0" />
     <option name="presentationModeIdeScale" value="1.75" />
   </component>
   <component name="PropertyService"><![CDATA[{
@@ -18,23 +19,29 @@
     "PyCharm.InitialConfiguration.V7": "true",
     "PyCharm.InitialConfiguration.V8": "true",
     "RunOnceActivity.AIPromoWindowAdvisorPreheat": "true",
+    "RunOnceActivity.TerminalOptionsProvider.TerminalEngineMigration.2026.1": "true",
+    "RunOnceActivity.TerminalOptionsProvider.appTitleMigration.2026.1.1": "true",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
     "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.llm.onboarding.window.launcher.v7": "true",
     "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
     "ask.about.ctrl.y.shortcut.v2": "true",
+    "evlsprt3.262": "7",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.switch": "true",
     "experimentalFeature.terminal.shell.command.handling": "false",
-    "fileTypeChangedCounter": "2",
+    "fileTypeChangedCounter": "3",
     "fontSizeToResetConsole": "13.0",
     "fontSizeToResetEditor": "13.0",
     "ide.islands.ab3": "true",
+    "ide.islands.new.darcula": "true",
     "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
     "migrated.non.roamable.values.from.general.settings": "true",
     "previousColorScheme": "_@user_Islands Dark",
     "pycharm.welcome.free.mode.override": "true",
     "python.packages.toolwindow.migrated.to.right.top.v2": "true",
     "registry.to.advanced.settings.migration.build": "PY-262.10315.174",
+    "settings.new.badge.shown.count.configurable.group.editor": "1",
     "trial.state.free.trial.expiration.date": "1791788400000",
     "trial.state.last.availability.check": "1789234588567",
     "trial.state.last.availability.state": "true",
@@ -46,14 +53,17 @@
       "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
       "com.intellij.docker.dockerFile.DockerFileTypeDetector",
       "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
       "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
     ]
   }
 }]]></component>
-  <component name="ReworkedTerminalUsage"><![CDATA[{
-  "firstIdeSessionMoment": {
-    "type": "org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.Version",
-    "build": "PY-262.10315.174"
+  <component name="ReworkedTerminalUsage">{
+  &quot;firstIdeSessionMoment&quot;: {
+    &quot;type&quot;: &quot;org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.Version&quot;,
+    &quot;build&quot;: &quot;PY-262.10315.174&quot;
   }
-}]]></component>
+}</component>
 </application>
