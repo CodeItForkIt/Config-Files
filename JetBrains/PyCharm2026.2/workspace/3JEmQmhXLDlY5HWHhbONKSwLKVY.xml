@@ -113,14 +113,30 @@
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1838" height="308" key="GridCell.Tab.0.bottom" timestamp="1789235183966">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
+    <state width="1838" height="308" key="GridCell.Tab.0.center" timestamp="1789235183966">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="308" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
+    <state width="1838" height="308" key="GridCell.Tab.0.left" timestamp="1789235183966">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="308" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
+    <state width="1838" height="308" key="GridCell.Tab.0.right" timestamp="1789235183966">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="308" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
     <state x="0" y="0" width="900" height="700" key="SettingsEditor" timestamp="1789234735138">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="0" width="900" height="700" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1789234735138" />
-    <state x="0" y="0" key="UniversalFileChooserDialog" timestamp="1789234728847">
+    <state x="0" y="0" key="UniversalFileChooserDialog" timestamp="1789234853476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" key="UniversalFileChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1789234728847" />
+    <state x="0" y="0" key="UniversalFileChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1789234853476" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/slope.py">
