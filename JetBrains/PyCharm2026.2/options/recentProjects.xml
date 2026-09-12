@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/WelcomeScreen">
+          <value>
+            <RecentProjectMetaInfo frameTitle="WelcomeScreen – Welcome to PyCharm" opened="true" projectWorkspaceId="3JEmQmhXLDlY5HWHhbONKSwLKVY">
+              <option name="activationTimestamp" value="1789234612975" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-262.10315.174" />
+              <option name="buildTimestamp" value="1788772800000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="0" y="0" width="956" height="1078" extendedState="6" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1789234589693" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/PycharmProjects/WelcomeScreen" />
+  </component>
+</application>

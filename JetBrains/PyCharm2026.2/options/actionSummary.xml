@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="CreateDesktopEntry">
+      <i c="1" l="1789234595317" />
+    </e>
+    <e n="CreateLauncherScript">
+      <i c="1" l="1789234603953" />
+    </e>
+    <e n="Register">
+      <i c="1" l="1789234590131" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1789234601405" />
+    </e>
+  </component>
+</application>
