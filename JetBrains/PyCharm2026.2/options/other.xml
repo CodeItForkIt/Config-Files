@@ -1,4 +1,7 @@
 <application>
+  <component name="AipLicense">
+    <option name="forciblyLoggedOut" value="true" />
+  </component>
   <component name="FileEditorProviderManager">{}</component>
   <component name="LangManager">
     <option name="languageName" value="Python" />
@@ -24,23 +27,23 @@
       <entry key="W1" value="0.0" />
     </decayedBetweenFilesMoves>
     <decayedWithinFileMoves>
-      <entry key="MS100" value="3.166347076839034" />
-      <entry key="MS500" value="5.8780779866661605" />
-      <entry key="S2" value="7.468061860219296" />
-      <entry key="S5" value="9.46389002779983" />
-      <entry key="S10" value="11.773338747738636" />
-      <entry key="S30" value="24.77555228120201" />
-      <entry key="S60" value="47.38763530302568" />
-      <entry key="M2" value="79.64203332067011" />
-      <entry key="M5" value="120.81704190715855" />
-      <entry key="M10" value="141.99511788232607" />
-      <entry key="M15" value="150.2645056619729" />
-      <entry key="M30" value="159.2420451929716" />
-      <entry key="H1" value="164.01865012177532" />
-      <entry key="H2" value="166.4831011231295" />
-      <entry key="H4" value="167.7349138854966" />
-      <entry key="D1" value="168.78822361751358" />
-      <entry key="W1" value="168.96972339643833" />
+      <entry key="MS100" value="1.7321599134662984" />
+      <entry key="MS500" value="5.701566589160214" />
+      <entry key="S2" value="16.7401878996548" />
+      <entry key="S5" value="26.181536477517625" />
+      <entry key="S10" value="31.670733597425027" />
+      <entry key="S30" value="38.89011075382621" />
+      <entry key="S60" value="52.73557500585213" />
+      <entry key="M2" value="93.20662127603353" />
+      <entry key="M5" value="178.77585969227022" />
+      <entry key="M10" value="236.9904375359541" />
+      <entry key="M15" value="262.3048676831558" />
+      <entry key="M30" value="291.4230797475643" />
+      <entry key="H1" value="307.6086684423381" />
+      <entry key="H2" value="316.14747994308516" />
+      <entry key="H4" value="320.53372957483595" />
+      <entry key="D1" value="324.2499955293663" />
+      <entry key="W1" value="324.8927178125162" />
     </decayedWithinFileMoves>
   </component>
   <component name="NextEditInlineCompletionFeaturesState">
@@ -104,42 +107,42 @@
   </component>
   <component name="NextEditTypingFeaturesState">
     <decayedRemovalEvents>
-      <entry key="MS100" value="1.0603710262435615" />
-      <entry key="MS500" value="1.5928184909127028" />
-      <entry key="S2" value="2.2560686783411823" />
-      <entry key="S5" value="2.629471706889739" />
-      <entry key="S10" value="2.8111499136973963" />
-      <entry key="S30" value="4.840818662462265" />
-      <entry key="S60" value="10.076454974023466" />
-      <entry key="M2" value="16.92859304167875" />
-      <entry key="M5" value="24.095895996824467" />
-      <entry key="M10" value="27.28499875073802" />
-      <entry key="M15" value="28.46031077592608" />
-      <entry key="M30" value="29.69739490317304" />
-      <entry key="H1" value="30.3402625053025" />
-      <entry key="H2" value="30.667990948622464" />
-      <entry key="H4" value="30.833456390149294" />
-      <entry key="D1" value="30.972167515751924" />
-      <entry key="W1" value="30.996022084304226" />
+      <entry key="MS100" value="4.160144968639384E-19" />
+      <entry key="MS500" value="2.10776259417581E-4" />
+      <entry key="S2" value="0.12049122596758048" />
+      <entry key="S5" value="0.4289257993509292" />
+      <entry key="S10" value="0.6549249765561223" />
+      <entry key="S30" value="0.9220880828926111" />
+      <entry key="S60" value="2.091120359661144" />
+      <entry key="M2" value="7.377370379616593" />
+      <entry key="M5" value="20.364944712647237" />
+      <entry key="M10" value="29.41769220781105" />
+      <entry key="M15" value="33.34414135937295" />
+      <entry key="M30" value="37.84243854408255" />
+      <entry key="H1" value="40.33282823781547" />
+      <entry key="H2" value="41.64351909927077" />
+      <entry key="H4" value="42.31593286992949" />
+      <entry key="D1" value="42.8851706582109" />
+      <entry key="W1" value="42.98357565488022" />
     </decayedRemovalEvents>
     <decayedTypingEvents>
-      <entry key="MS100" value="2.9802322387695326E-8" />
-      <entry key="MS500" value="0.031249999999999997" />
-      <entry key="S2" value="0.4204482091924944" />
-      <entry key="S5" value="0.708674438096739" />
-      <entry key="S10" value="1.0164167209177848" />
-      <entry key="S30" value="6.535724690078339" />
-      <entry key="S60" value="17.718948805407614" />
-      <entry key="M2" value="34.07459271714403" />
-      <entry key="M5" value="54.89578553669907" />
-      <entry key="M10" value="65.52558405027621" />
-      <entry key="M15" value="69.66099513562109" />
-      <entry key="M30" value="74.14115733401857" />
-      <entry key="H1" value="76.52098523134653" />
-      <entry key="H2" value="77.74779918508099" />
-      <entry key="H4" value="78.37068852032598" />
-      <entry key="D1" value="78.8946655306371" />
-      <entry key="W1" value="78.98494117476505" />
+      <entry key="MS100" value="1.7329189029912506" />
+      <entry key="MS500" value="5.703179331378284" />
+      <entry key="S2" value="16.556122803013587" />
+      <entry key="S5" value="25.416906295002985" />
+      <entry key="S10" value="30.42649662811639" />
+      <entry key="S30" value="36.687102795692084" />
+      <entry key="S60" value="45.860179045051424" />
+      <entry key="M2" value="68.81815794060097" />
+      <entry key="M5" value="114.47084298278304" />
+      <entry key="M10" value="145.02214334174195" />
+      <entry key="M15" value="158.26298007317737" />
+      <entry key="M30" value="173.47484408831565" />
+      <entry key="H1" value="181.92443845385176" />
+      <entry key="H2" value="186.3807603468086" />
+      <entry key="H4" value="188.66959807673126" />
+      <entry key="D1" value="190.60867709219687" />
+      <entry key="W1" value="190.94402467683747" />
     </decayedTypingEvents>
   </component>
   <component name="NotRoamableUiSettings">
@@ -148,6 +151,7 @@
   </component>
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
+    "AIHubNotificationManager.lastUsedLicenseType": "ACP",
     "LAST_CALCULATED_COLOR_INDEX_KEY": "5",
     "PyCharm.InitialConfiguration": "true",
     "PyCharm.InitialConfiguration.V2": "true",
@@ -158,14 +162,16 @@
     "PyCharm.InitialConfiguration.V7": "true",
     "PyCharm.InitialConfiguration.V8": "true",
     "RunOnceActivity.AIPromoWindowAdvisorPreheat": "true",
+    "RunOnceActivity.MCP settings loaded": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
     "RunOnceActivity.TerminalOptionsProvider.TerminalEngineMigration.2026.1": "true",
     "RunOnceActivity.TerminalOptionsProvider.appTitleMigration.2026.1.1": "true",
     "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
     "RunOnceActivity.git.modal.commit.toggle": "true",
     "RunOnceActivity.llm.onboarding.window.launcher.v7": "true",
     "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "ai.assistant.toolwindow.was.shown": "true",
     "ask.about.ctrl.y.shortcut.v2": "true",
-    "cef_cleanup_temporary_cache_folder": "/home/autometalogolex/.cache/JetBrains/PyCharm2026.2/jcef_cache_temp",
     "cef_version_last_used": "144",
     "enter_selection_count": "1",
     "evlsprt3.262": "7",
@@ -183,7 +189,7 @@
     "pycharm.welcome.free.mode.override": "true",
     "python.packages.toolwindow.migrated.to.right.top.v2": "true",
     "registry.to.advanced.settings.migration.build": "PY-262.10315.174",
-    "settings.new.badge.shown.count.configurable.group.editor": "2",
+    "settings.new.badge.shown.count.configurable.group.editor": "3",
     "trial.state.free.trial.expiration.date": "1791788400000",
     "trial.state.last.availability.check": "1789234588567",
     "trial.state.last.availability.state": "true",
@@ -212,4 +218,5 @@
     &quot;build&quot;: &quot;PY-262.10315.174&quot;
   }
 }</component>
+  <component name="TerminalAgentsState"><![CDATA[{}]]></component>
 </application>

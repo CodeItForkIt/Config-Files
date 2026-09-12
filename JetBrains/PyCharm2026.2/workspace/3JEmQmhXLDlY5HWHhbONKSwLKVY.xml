@@ -6,6 +6,87 @@
       </GroupState>
     </option>
   </component>
+  <component name="ChatSessionStateTemp">
+    <option name="chats">
+      <list>
+        <SerializedChat>
+          <option name="chatContext">
+            <SerializedChatContext />
+          </option>
+          <option name="chatModelId" value="agent_acp.registry.claude-acp" />
+          <option name="messages">
+            <list>
+              <SerializedChatMessage>
+                <option name="attachments">
+                  <list>
+                    <SerializedChatAttachment>
+                      <option name="name" value="CustomSystemPromptAttachment" />
+                    </SerializedChatAttachment>
+                  </list>
+                </option>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=8c15ddcc-105a-46a4-9338-bd2ebf9824e7)" />
+                <option name="displayContent" value="how do i call the function calculate in this script?" />
+                <option name="internalContent" value="how do i call the function calculate in this script?" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="4ca99c72-3175-4aee-a7d4-af3d6afb31ab" />
+              </SerializedChatMessage>
+            </list>
+          </option>
+          <option name="modifiedAt" value="1789235168734" />
+          <option name="statisticInformation">
+            <ChatStatisticInformation>
+              <option name="sourceActionType" value="NEW_CHAT" />
+              <option name="timestamp" value="1789235168734" />
+            </ChatStatisticInformation>
+          </option>
+          <option name="title">
+            <SerializedChatTitle>
+              <option name="custom" value="true" />
+              <option name="text" value="how do i call the function calculate in this script?" />
+            </SerializedChatTitle>
+          </option>
+          <option name="uid" value="2e7ef7f8-8bae-44c3-9f09-d01e9db5b10c" />
+        </SerializedChat>
+        <SerializedChat>
+          <option name="chatContext">
+            <SerializedChatContext />
+          </option>
+          <option name="chatModelId" value="agent_acp.registry.claude-acp" />
+          <option name="messages">
+            <list>
+              <SerializedChatMessage>
+                <option name="markupLanguageID" value="ChatInput" />
+                <option name="uid" value="UUID(uuid=1cbc4856-a176-4211-8b4e-7988de80ff9a)" />
+                <option name="displayContent" value="hello" />
+                <option name="internalContent" value="hello" />
+              </SerializedChatMessage>
+              <SerializedChatMessage>
+                <option name="author" value="Assistant" />
+                <option name="uid" value="37bf9bc8-6f14-43a7-a1af-c262ef86ca3e" />
+              </SerializedChatMessage>
+            </list>
+          </option>
+          <option name="modifiedAt" value="1789235320014" />
+          <option name="statisticInformation">
+            <ChatStatisticInformation>
+              <option name="sourceActionType" value="NEW_CHAT" />
+              <option name="timestamp" value="1789235320014" />
+            </ChatStatisticInformation>
+          </option>
+          <option name="title">
+            <SerializedChatTitle>
+              <option name="custom" value="true" />
+              <option name="text" value="hello" />
+            </SerializedChatTitle>
+          </option>
+          <option name="uid" value="79e33a9c-c072-4607-b546-574449d2c88f" />
+        </SerializedChat>
+      </list>
+    </option>
+  </component>
   <component name="FileEditorManager">
     <leaf ideFingerprint="3ff1mheuaaumz" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
@@ -27,8 +108,8 @@
       <file current-in-tab="true">
         <entry file="file://$USER_HOME$/Distancespeedtime.py" file-id="543" managing-fs="1789234581494">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="220">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="396">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -49,9 +130,25 @@
     "WebPreview": {
       "usageCount": 1,
       "lastUsed": 1789234743227
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1789235177228
+    },
+    "AIAToolWindowTab": {
+      "usageCount": 2,
+      "lastUsed": 1789235345800
     }
   }
 }]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory"><![CDATA[{
   "changedPaths": [
     "/home/autometalogolex/slope.py",
@@ -66,6 +163,9 @@
     </option>
   </component>
   <component name="LanguageUsageStatistics">
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1789235177228" />
+    </language>
     <language id="Python">
       <summary usageCount="3" lastUsage="1789234853577" />
     </language>
@@ -83,7 +183,7 @@
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="477000" />
+    <option name="totallyTimeSpent" value="967000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
@@ -93,46 +193,48 @@
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32916665" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32916665" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32916665" />
+      <window_info anchor="bottom" id="Run" order="6" show_stripe_button="false" weight="0.32916665" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
-      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" id="AIAssistant" order="1" visible="true" weight="0.32994792" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Plots" order="5" weight="0.1" />
       <window_info anchor="right" id="Python Packages" order="6" weight="0.25" />
-      <unified_weights bottom="0.32916665" left="0.08203125" />
+      <unified_weights bottom="0.32916665" left="0.08203125" right="0.32994792" />
     </layoutV2>
     <recentWindows>
+      <value>AIAssistant</value>
+      <value>Terminal</value>
       <value>Run</value>
       <value>Python Console</value>
       <value>Project</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1838" height="308" key="GridCell.Tab.0.bottom" timestamp="1789235183966">
+    <state width="1838" height="308" key="GridCell.Tab.0.bottom" timestamp="1789235592412">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1838" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
-    <state width="1838" height="308" key="GridCell.Tab.0.center" timestamp="1789235183966">
+    <state width="1838" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1789235592412" />
+    <state width="1838" height="308" key="GridCell.Tab.0.center" timestamp="1789235592412">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1838" height="308" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
-    <state width="1838" height="308" key="GridCell.Tab.0.left" timestamp="1789235183966">
+    <state width="1838" height="308" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1789235592412" />
+    <state width="1838" height="308" key="GridCell.Tab.0.left" timestamp="1789235592412">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1838" height="308" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
-    <state width="1838" height="308" key="GridCell.Tab.0.right" timestamp="1789235183966">
+    <state width="1838" height="308" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1789235592412" />
+    <state width="1838" height="308" key="GridCell.Tab.0.right" timestamp="1789235592412">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1838" height="308" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1789235183966" />
-    <state x="0" y="0" width="900" height="700" key="SettingsEditor" timestamp="1789234735138">
+    <state width="1838" height="308" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1789235592412" />
+    <state x="0" y="0" width="900" height="700" key="SettingsEditor" timestamp="1789235337142">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" width="900" height="700" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1789234735138" />
+    <state x="0" y="0" width="900" height="700" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1789235337142" />
     <state x="0" y="0" key="UniversalFileChooserDialog" timestamp="1789234853476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -148,8 +250,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Distancespeedtime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="396">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
