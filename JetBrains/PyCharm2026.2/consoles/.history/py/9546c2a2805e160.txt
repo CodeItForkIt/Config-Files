@@ -1,0 +1,5 @@
+print("hello")
+-. . -..- - / . -. - .-. -.--
+from typing import cast
+
+cast(, print("hello")..)
