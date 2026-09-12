@@ -3,6 +3,86 @@
   <component name="LangManager">
     <option name="languageName" value="Python" />
   </component>
+  <component name="NextEditCaretFeaturesState">
+    <decayedBetweenFilesMoves>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedBetweenFilesMoves>
+    <decayedWithinFileMoves>
+      <entry key="MS100" value="3.166347076839034" />
+      <entry key="MS500" value="5.8780779866661605" />
+      <entry key="S2" value="7.468061860219296" />
+      <entry key="S5" value="9.46389002779983" />
+      <entry key="S10" value="11.773338747738636" />
+      <entry key="S30" value="24.77555228120201" />
+      <entry key="S60" value="47.38763530302568" />
+      <entry key="M2" value="79.64203332067011" />
+      <entry key="M5" value="120.81704190715855" />
+      <entry key="M10" value="141.99511788232607" />
+      <entry key="M15" value="150.2645056619729" />
+      <entry key="M30" value="159.2420451929716" />
+      <entry key="H1" value="164.01865012177532" />
+      <entry key="H2" value="166.4831011231295" />
+      <entry key="H4" value="167.7349138854966" />
+      <entry key="D1" value="168.78822361751358" />
+      <entry key="W1" value="168.96972339643833" />
+    </decayedWithinFileMoves>
+  </component>
+  <component name="NextEditTypingFeaturesState">
+    <decayedRemovalEvents>
+      <entry key="MS100" value="1.0603710262435615" />
+      <entry key="MS500" value="1.5928184909127028" />
+      <entry key="S2" value="2.2560686783411823" />
+      <entry key="S5" value="2.629471706889739" />
+      <entry key="S10" value="2.8111499136973963" />
+      <entry key="S30" value="4.840818662462265" />
+      <entry key="S60" value="10.076454974023466" />
+      <entry key="M2" value="16.92859304167875" />
+      <entry key="M5" value="24.095895996824467" />
+      <entry key="M10" value="27.28499875073802" />
+      <entry key="M15" value="28.46031077592608" />
+      <entry key="M30" value="29.69739490317304" />
+      <entry key="H1" value="30.3402625053025" />
+      <entry key="H2" value="30.667990948622464" />
+      <entry key="H4" value="30.833456390149294" />
+      <entry key="D1" value="30.972167515751924" />
+      <entry key="W1" value="30.996022084304226" />
+    </decayedRemovalEvents>
+    <decayedTypingEvents>
+      <entry key="MS100" value="2.9802322387695326E-8" />
+      <entry key="MS500" value="0.031249999999999997" />
+      <entry key="S2" value="0.4204482091924944" />
+      <entry key="S5" value="0.708674438096739" />
+      <entry key="S10" value="1.0164167209177848" />
+      <entry key="S30" value="6.535724690078339" />
+      <entry key="S60" value="17.718948805407614" />
+      <entry key="M2" value="34.07459271714403" />
+      <entry key="M5" value="54.89578553669907" />
+      <entry key="M10" value="65.52558405027621" />
+      <entry key="M15" value="69.66099513562109" />
+      <entry key="M30" value="74.14115733401857" />
+      <entry key="H1" value="76.52098523134653" />
+      <entry key="H2" value="77.74779918508099" />
+      <entry key="H4" value="78.37068852032598" />
+      <entry key="D1" value="78.8946655306371" />
+      <entry key="W1" value="78.98494117476505" />
+    </decayedTypingEvents>
+  </component>
   <component name="NotRoamableUiSettings">
     <option name="fontSize" value="13.0" />
     <option name="presentationModeIdeScale" value="1.75" />
@@ -28,6 +108,7 @@
     "ask.about.ctrl.y.shortcut.v2": "true",
     "cef_cleanup_temporary_cache_folder": "/home/autometalogolex/.cache/JetBrains/PyCharm2026.2/jcef_cache_temp",
     "cef_version_last_used": "144",
+    "enter_selection_count": "1",
     "evlsprt3.262": "7",
     "experimental.ui.on.first.startup": "true",
     "experimentalFeature.terminal.shell.command.handling": "false",
@@ -37,7 +118,7 @@
     "got.it.tooltip.Plugins Auto-Update": "1",
     "ide.islands.ab3": "true",
     "ide.islands.new.darcula": "true",
-    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "llm.installer.last.toolwindow.state": "AI_ASSISTANT",
     "migrated.non.roamable.values.from.general.settings": "true",
     "previousColorScheme": "_@user_Islands Dark",
     "pycharm.welcome.free.mode.override": "true",
@@ -52,6 +133,9 @@
     "ts.lib.d.ts.version": "6.0.3"
   },
   "keyToStringList": {
+    "AIHubNotificationManager.lastAllNotifications": [],
+    "AIHubNotificationManager.notifications": [],
+    "AIHubNotificationManager.seenNotifications": [],
     "fileTypeDetectors": [
       "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
       "com.intellij.docker.dockerFile.DockerFileTypeDetector",
