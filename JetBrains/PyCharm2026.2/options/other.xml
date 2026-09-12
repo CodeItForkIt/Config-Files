@@ -43,6 +43,65 @@
       <entry key="W1" value="168.96972339643833" />
     </decayedWithinFileMoves>
   </component>
+  <component name="NextEditInlineCompletionFeaturesState">
+    <decayedAccepted>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.591697076768558E-102" />
+      <entry key="S2" value="4.3533634360876335E-26" />
+      <entry key="S5" value="7.170178543807365E-11" />
+      <entry key="S10" value="8.467690679168313E-6" />
+      <entry key="S30" value="0.020382384735377703" />
+      <entry key="S60" value="0.14276688949254895" />
+      <entry key="M2" value="0.37784506016692726" />
+      <entry key="M5" value="0.6775252724247165" />
+      <entry key="M10" value="0.8231192334192635" />
+      <entry key="M15" value="0.8782978773637499" />
+      <entry key="M30" value="0.9371754784263981" />
+      <entry key="H1" value="0.9680782398269269" />
+      <entry key="H2" value="0.9839096705627642" />
+      <entry key="H4" value="0.9919222099352165" />
+      <entry key="D1" value="0.9986491478605833" />
+      <entry key="W1" value="0.9998069093068831" />
+    </decayedAccepted>
+    <decayedRejected>
+      <entry key="MS100" value="1.000013025154593" />
+      <entry key="MS500" value="1.181932860462017" />
+      <entry key="S2" value="2.2204772623323388" />
+      <entry key="S5" value="3.7576718048463427" />
+      <entry key="S10" value="5.896949816653481" />
+      <entry key="S30" value="10.75440866667974" />
+      <entry key="S60" value="17.607088728397674" />
+      <entry key="M2" value="27.857937250748435" />
+      <entry key="M5" value="40.09575796204072" />
+      <entry key="M10" value="45.93877350771428" />
+      <entry key="M15" value="48.14482951924242" />
+      <entry key="M30" value="50.49521446489293" />
+      <entry key="H1" value="51.7276498364447" />
+      <entry key="H2" value="52.35875087034813" />
+      <entry key="H4" value="52.67809617320631" />
+      <entry key="D1" value="52.94617076683879" />
+      <entry key="W1" value="52.992305723734574" />
+    </decayedRejected>
+    <decayedShown>
+      <entry key="MS100" value="0.07762265120636651" />
+      <entry key="MS500" value="11.77424564548101" />
+      <entry key="S2" value="36.889336397863595" />
+      <entry key="S5" value="46.82657669677551" />
+      <entry key="S10" value="50.801390796454655" />
+      <entry key="S30" value="64.85580785615095" />
+      <entry key="S60" value="99.90654100324662" />
+      <entry key="M2" value="149.28692679039094" />
+      <entry key="M5" value="203.4538730664975" />
+      <entry key="M10" value="228.06729604774526" />
+      <entry key="M15" value="237.19449878464883" />
+      <entry key="M30" value="246.82873985425044" />
+      <entry key="H1" value="251.84529688323258" />
+      <entry key="H2" value="254.40513046298852" />
+      <entry key="H4" value="255.69815410546857" />
+      <entry key="D1" value="256.78241032348234" />
+      <entry key="W1" value="256.9689006550404" />
+    </decayedShown>
+  </component>
   <component name="NextEditTypingFeaturesState">
     <decayedRemovalEvents>
       <entry key="MS100" value="1.0603710262435615" />
